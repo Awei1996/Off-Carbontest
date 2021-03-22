@@ -1,0 +1,348 @@
+@charset "utf-8";
+@font-face {
+	font-family: Gen Jyuu Gothic ;
+    src: url(../../font/GenJyuuGothic-Normal.ttf);
+
+}
+html{
+	overflow: hidden;
+	font-family: Gen Jyuu Gothic ;
+
+}
+body{
+	overflow-x: hidden;
+	font-family: Gen Jyuu Gothic ;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+video{
+	width: 100%;
+	height: 100%;
+	outline:none;
+
+}
+
+.allpg{
+	font-family: Gen Jyuu Gothic ;
+	font-weight: normal;
+	width: 1920px;
+	height: 8640px;
+	overflow: hidden;
+}
+
+
+
+
+
+.bar{
+	position: absolute;
+	z-index: 3;
+	font-size: 28px;
+	left: 535px;
+	top: 40px;
+	
+}
+
+.active:hover{
+	
+	border-bottom: solid 5px transparent;
+	border-image: linear-gradient(90deg, rgba(255, 255, 255, 1)10%, rgba(255, 255, 255, 0)95%);
+	border-image-slice: 1;
+	
+}
+button{
+	font-family: Gen Jyuu Gothic ;
+	
+}
+
+.view1{
+	width: 1920px;
+	height: 100%;
+	overflow: hidden;
+}
+.bg1{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	left: 0px;
+	top: 0px;
+}
+
+.P1Title{
+	position: absolute;
+	left: 500px;
+	top: 500px;
+	font-size: 140px;
+	color: #004A5F;
+	font-weight: bold;
+	line-height: 1.2;
+}
+.P1MidLine{
+	position: relative;
+	left: 840px;
+	top: 665px;
+	width: 10px;
+	height: 290px;
+	background-color: #004A5F;
+	border-radius: 5px;
+}
+.P1Content{
+	position: relative;
+	z-index: 1;
+	left: 890px;
+	top: 360px;
+	width: 600px;
+	height: 600px;
+	font-size: 24px;
+	color: #001820;	
+	line-height: 1.2;
+}
+
+.view2{
+	width: 1920px;
+	height: 100%;
+	
+	
+	overflow: hidden;
+}
+.bg2{
+	position: absolute;
+	z-index: 0;
+	left: 0px;
+	top: 1080px;
+	
+}
+.TeamMember{
+	position: absolute;
+	top: 1020px;
+	width: 1920px;
+	height: 200px;
+	z-index: 2;
+	font-size: 84px;
+	color: #005934;
+	font-weight: bold;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.TMLine{
+	position: absolute;
+	z-index: -1;
+	top: 210px;
+	height: 6px;
+	width: 400px;
+	background-color: #005934;
+	border-radius: 3px;
+}
+.Teacher{
+	position: absolute;
+	z-index: 1;
+	left: 950px;
+	top: 1320px;
+	width: 250px;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.TeacherImg{
+	position: absolute;
+	left: -300px;
+}
+.TeaName{
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	font-size: 56px;
+	color: #00627E;
+	font-weight: bold;
+}
+.TeaLine{
+	position: absolute;
+	z-index: 1;
+	top: 150px;
+	width: 250px;
+	height: 6px;
+	border-radius: 3px;
+	background-color: #ff8100;
+}
+.TeaJob{
+	position: absolute;
+	z-index: 2;
+	top: 120px;
+	font-size: 48px;
+	color: #00627E;
+}
+.Wei{
+	position: absolute;
+	z-index: 1;
+	left: 260px;
+	top: 1940px;
+	width: 250px;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.WeiImg{
+	position: absolute;
+	top: -230px;
+}
+.WeiName{
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	font-size: 40px;
+	color: #00627E;
+	font-weight: bold;
+}
+
+.WeiLine{
+	position: absolute;
+	z-index: 1;
+	top: 100px;
+	width: 200px;
+	height: 6px;
+	border-radius: 3px;
+	background-color: #ff8100;
+}
+.WeiJob{
+	position: absolute;
+	z-index: 2;
+	top: 80px;
+	font-size: 28px;
+	color: #00627E;
+}
+
+.Guan{
+	position: absolute;
+	z-index: 1;
+	left: 640px;
+	top: 1940px;
+	width: 250px;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.GuanImg{
+	position: absolute;
+	top: -232px;
+}
+.GuanName{
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	font-size: 40px;
+	color: #00627E;
+	font-weight: bold;
+}
+
+.GuanLine{
+	position: absolute;
+	z-index: 1;
+	top: 100px;
+	width: 200px;
+	height: 6px;
+	border-radius: 3px;
+	background-color: #ff8100;
+}
+.GuanJob{
+	position: absolute;
+	z-index: 2;
+	top: 80px;
+	font-size: 28px;
+	color: #00627E;
+}
+.Chang{
+	position: absolute;
+	z-index: 1;
+	left: 1020px;
+	top: 1940px;
+	width: 250px;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.ChangImg{
+	position: absolute;
+	top: -227px;
+}
+.ChangName{
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	font-size: 40px;
+	color: #00627E;
+	font-weight: bold;
+}
+
+.ChangLine{
+	position: absolute;
+	z-index: 1;
+	top: 100px;
+	width: 200px;
+	height: 6px;
+	border-radius: 3px;
+	background-color: #ff8100;
+}
+.ChangJob{
+	position: absolute;
+	z-index: 2;
+	top: 80px;
+	font-size: 28px;
+	color: #00627E;
+	text-align: center;
+	
+}
+.Tseng{
+	position: absolute;
+	z-index: 1;
+	left: 1400px;
+	top: 1940px;
+	width: 250px;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.TsengImg{
+	position: absolute;
+	top: -225px;
+}
+.TsengName{
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	font-size: 40px;
+	color: #00627E;
+	font-weight: bold;
+}
+
+.TsengLine{
+	position: absolute;
+	z-index: 1;
+	top: 100px;
+	width: 200px;
+	height: 6px;
+	border-radius: 3px;
+	background-color: #ff8100;
+}
+.TsengJob{
+	position: absolute;
+	z-index: 2;
+	top: 80px;
+	font-size: 28px;
+	color: #00627E;
+}

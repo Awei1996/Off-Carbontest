@@ -1,0 +1,366 @@
+@charset "utf-8";
+
+.view3{
+	position: absolute;
+	z-index: 5;
+	margin-top: 112%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	overflow: hidden;
+	opacity: 1;
+	
+}
+.bg3{
+	position: absolute;
+	z-index: -1;
+	left: 0%;
+	width: 100%;
+	opacity: 1;
+	margin-top: 112%;
+	padding-bottom: 56%;
+}
+/*.rectangle{
+	position: absolute;
+	z-index: 8;
+	width: 1.71%;
+	height: 20.37%;
+	margin-left: 3.49%;
+	margin-top: 7.4%;
+	background-color: red;
+}*/
+.subtitle3{
+	position: absolute;
+	z-index: 3;
+	margin-left: 7.4%;
+	magin-top: 1.85%;
+	color: #e98c24;
+	font-size: 9.38rem;
+	font-weight: bold;
+}
+.burn{
+	position: absolute;
+	z-index: 3;
+	background-color: transparent;
+	outline: none;
+	font-family: Gen Jyuu Gothic;
+	font-weight: bold;
+	font-size: 12.5rem;
+	margin-left: 7%;
+	margin-top: 15%;
+	color: #ffffff;
+	width: 450px;
+	height: 300px;
+}
+.burninfor{
+	position: absolute;
+	z-index: 3;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 2rem;
+	outline: none;
+	width: 25%;
+	height: 10%;
+	margin-left: 5%;
+	margin-top: 30%;
+	opacity: 1;
+	font-weight: normal;
+	text-align: center;
+	-webkit-text-size-adjust:none;
+	
+	
+}
+
+.breath{
+	position: absolute;
+	z-index: 3;
+	background-color: transparent;
+	font-weight: bold;
+	outline: none;
+	border: 0px;
+	font-family: Gen Jyuu Gothic;
+	font-size: 12.5rem;
+	margin-left: 38%;
+	margin-top: 15%;
+	color: #ffffff;
+	
+}
+.breathinfor{
+	position: absolute;
+	z-index: 1;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 2rem;
+	outline: none;
+	width: 25%;
+	height: 10%;
+	margin-left: 35%;
+	margin-top: 30%;
+	opacity: 1;
+	font-weight: normal;
+	text-align: center;
+	-webkit-text-size-adjust:none;
+
+	
+}
+
+.fermentation{
+	position: absolute;
+	z-index: 3;
+	font-weight: bold;
+	background-color: transparent;
+	outline: none;
+	border: 0px;
+	font-family: Gen Jyuu Gothic;
+	font-size: 12.5rem;
+	margin-left: 70%;
+	margin-top: 15%;
+	color: #ffffff;
+}
+.fermentationinfor{
+	position: absolute;
+	z-index: 3;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 2rem;
+	outline: none;
+	width: 25%;
+	height: 10%;
+	margin-left: 68%;
+	margin-top: 30%;
+	opacity: 1;
+	font-weight: normal;
+	text-align: center;
+	-webkit-text-size-adjust:none;
+
+	
+}
+
+
+@media (min-width: 1280px) and (max-width: 1500px){
+	
+	.subtitle3{
+		
+		font-size: 140px;
+		
+	}
+	.burn{
+	
+	
+	font-size: 160px;
+	
+	}
+	.burninfor{
+		
+		font-size: 26px;
+		
+	}
+
+	.breath{
+		
+		font-size: 160px;
+		
+	}
+	.breathinfor{
+		
+		font-size: 26px;
+		
+	}
+
+	.fermentation{
+		
+		font-size: 160px;
+		
+	}
+	.fermentationinfor{
+		
+		font-size: 26px;
+		
+
+	}
+	
+	
+}
+
+@media (min-width: 960px) and (max-width: 1280px){
+	
+	.subtitle3{
+		
+		font-size: 96px;
+		
+	}
+	
+	.burn{
+	
+	
+		font-size: 120px;
+	
+	}
+	.burninfor{
+		
+		font-size: 20px;
+		margin-left: 6%;
+		
+	}
+
+	.breath{
+		
+		font-size: 120px;
+		
+	}
+	.breathinfor{
+		
+		font-size: 20px;
+		margin-left: 38%;
+		
+	}
+
+	.fermentation{
+		
+		font-size: 120px;
+		
+	}
+	.fermentationinfor{
+		
+		font-size: 20px;
+		margin-left: 69%;
+		
+
+	}
+	
+}
+@media (min-width: 600px) and (max-width: 960px){
+	
+	.subtitle3{
+		
+		font-size: 72px;
+		
+	}
+	
+	.burn{	
+		font-size: 84px;
+	}
+	.burninfor{
+		
+		font-size: 16px;
+		
+	}
+
+	.breath{
+		
+		font-size: 84px;
+		
+	}
+	.breathinfor{
+		
+		font-size: 16px;
+		
+	}
+
+	.fermentation{
+		
+		font-size: 84px;
+		
+	}
+	.fermentationinfor{
+		
+		font-size: 16px;
+		
+
+	}
+	
+	
+}
+
+@media (min-width: 376px) and (max-width: 600px){
+	
+	.subtitle3{
+		
+		font-size: 36px;
+		
+	}
+	
+	.burn{
+	
+	
+		font-size: 48px;
+	
+	}
+	.burninfor{
+		
+		font-size: 8px;
+		margin-left: 6%;
+		
+	}
+
+	.breath{
+		
+		font-size: 48px;
+		
+	}
+	.breathinfor{
+		
+		font-size: 8px;
+		margin-left: 38%;
+		
+	}
+
+	.fermentation{
+		
+		font-size: 48px;
+		
+	}
+	.fermentationinfor{
+		
+		font-size: 8px;
+		margin-left: 69%;
+
+	}
+	
+	
+}
+
+@media (min-width: 100px) and (max-width: 375px){
+	
+	.subtitle3{
+		
+		font-size: 28px;
+		
+	}
+	
+	.burn{
+	
+	
+		font-size: 40px;
+	
+	}
+	.burninfor{
+		
+		font-size: 6px;
+		
+	}
+
+	.breath{
+		
+		font-size: 40px;
+		
+	}
+	.breathinfor{
+		
+		font-size: 6px;
+		
+	}
+
+	.fermentation{
+		
+		font-size: 40px;		
+	
+	}
+	.fermentationinfor{
+		
+		font-size: 6px;
+		
+	}
+		
+}

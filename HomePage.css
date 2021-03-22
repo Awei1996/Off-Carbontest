@@ -1,0 +1,723 @@
+@charset "utf-8";
+@import url("part3.css");
+@import url("part4.css");
+@import url("part5.css");
+
+@font-face {
+	font-family: Gen Jyuu Gothic ;
+    src: url(font/GenJyuuGothic-Normal.ttf);
+}
+
+
+html{
+	font-family: Gen Jyuu Gothic ;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	
+
+
+}
+body{
+	font-family: Gen Jyuu Gothic ;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    width: 100%;
+    height: 500%;
+	overflow-x: hidden;
+
+	
+
+}
+
+h3,p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+
+.myBtn {
+  	
+  	position: fixed; /* Fixed/sticky position */
+  	margin-top: 2%; /* Place the button at the bottom of the page */
+  	margin-left: 95%; /* Place the button 30px from the right */
+  	z-index: 30; /* Make sure it does not overlap */
+	width: 4%;
+	padding-bottom: 4%;
+	border-radius: 50%;
+  	border: none; /* Remove borders */
+  	outline: none; /* Remove outline */
+  	background-color: #fff; /* Set a background color */
+	opacity: 0;
+  
+	transition: background-color 200ms,transform 1s; 
+	
+	
+}
+
+.myBtn.open{
+	background-color: #f0a550;
+	transform: scale(120);
+	user-select: none;	
+	
+}
+
+
+
+.MenuContent{
+	z-index: 0;
+	position: fixed;
+	margin-left: 55%;
+	margin-top: 5%;
+	width: 30%;
+	padding-bottom: 30%;
+	opacity: 0;
+	text-align: right;
+	transition: 1s;
+}
+.MenuContent.open{
+	
+	opacity: 1;
+}
+.MenuBtn{
+	
+	font-size: 92px;
+	font-weight: bolder;
+	color: #CE7E24;
+	-webkit-text-size-adjust:none;
+	
+	
+}
+.MenuBtn:hover{
+	color: #184557;
+	
+}
+.MenuBtn.open{
+
+}
+.Ab{
+	font-size: 72px;
+}
+.AllCross{
+	position: fixed;
+	z-index: 35;
+	width: 4%;
+	padding-bottom: 4%;
+	margin-left: 95%;
+	margin-top: 2%;
+	border-radius: 50%;
+	opacity: 0;
+	
+	
+}
+.Cross1{
+	position: fixed;
+	z-index: 40;
+	margin-top: 1.3%;
+	margin-left: 0.70%;
+	width: 2.6%;
+	padding-bottom: 0.25%;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #296177;
+	box-shadow: 0px 3px 6px #00000029;
+	transition: 0.5s; 
+
+}
+.Cross1.open{
+	margin-top: 1.8%;
+	transform: rotate(45deg);
+}
+.Cross2{
+	position: fixed;	
+	margin-top: 1.8%;
+	margin-left: 0.70%;
+	width: 2.6%;
+	padding-bottom: 0.25%;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #296177;
+	box-shadow: 0px 3px 6px #00000029;
+	transition: 0.5s; 
+}
+.Cross2.open{
+	opacity: 0;
+}
+.Cross3{
+	position: fixed;	
+	margin-top: 2.3%;
+	margin-left: 0.70%;
+	width: 2.6%;
+	padding-bottom: 0.25%;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #296177;
+	box-shadow: 0px 3px 6px #00000029;
+	transition: 0.5s; 
+}
+.Cross3.open{
+	margin-top: 1.8%;
+	transform: rotate(-45deg);
+}
+.allpg{
+	font-family: Gen Jyuu Gothic ;
+	position: relative;
+	font-weight: 800;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 280%;
+	overflow: hidden;
+}
+
+.iceberg{
+	position: absolute;
+	z-index: 2;
+	margin-left: -6%;
+	margin-top: 15%;	
+	width: 57.76%;
+	height: 335.56%;
+	background-color: transparent;
+	animation-name: i1,i2;
+	animation-duration: 0.8s,2s;
+	animation-iteration-count:  1,infinite;
+	animation-delay: 0s,0s;
+	
+	
+}
+@keyframes i1{
+	0%{margin-left:-32%;opacity:1;}
+	100%{margin-left: -6%;opacity:1;}
+}
+@keyframes i2{
+	0%{margin-top: 15%}
+	50%{margin-top: 15.93%;}
+	100%{margin-top: 15%}
+}
+.penguin{
+	position: absolute;
+	z-index: 3;
+	margin-top: -312%;
+	left: 45%;
+	width: 7.21%;
+	height: 2.76%;
+	animation-name: p1;
+	animation-duration: 16s;
+	animation-iteration-count:  infinite;
+	animation-delay: 1s;
+	
+}
+@keyframes p1{
+	0%{margin-top: -312%;left: 45%;}
+	49.99%{margin-top:-313%; left: 55%; transform: scaleX(1);}
+	50%{margin-top:-313%; left: 55%;  transform: scaleX(-1);}
+	100%{margin-top:-312%; left: 45%; transform: scaleX(-1);}
+	
+}
+.watermark1{
+	position: absolute;
+	z-index: 2;
+	width: 46.2%;
+	left: -2.29%;
+	margin-top: 40.5%;	
+	animation-name:h1,wm1;
+	animation-duration: 0.8s,2s;
+	animation-iteration-count: 1,infinite;
+	
+}
+@keyframes wm1{
+	0%{opacity:0%;}
+	50%{opacity:80%;}
+	100%{opacity:0%;}
+}
+@keyframes h1{
+	0%{opacity:0%;}
+	100%{opacity:0%;}
+}
+.cliff{
+	position: absolute;
+	margin-top: 18%;
+	margin-left: 77%;
+	z-index: 2;
+	width: 23.49%;
+	animation-name:c1;
+	animation-duration: 0.8s ;
+	animation-iteration-count:  1;
+	animation-delay: 0s;
+}
+@keyframes c1{
+	0%{left: 100%;}
+	100%{left:76.65;}
+}
+
+.watermask1{
+	
+	position: absolute;
+	z-index: 2;
+	width: 52.14%;
+	left: -0.1%;
+	margin-top: 52%;
+}
+.watermask2{
+	position: absolute;
+	width: 18.54%;
+	z-index: 3;
+	margin-left: 81.74%;
+	margin-top: 56.35%;
+}
+.fish2{
+	position: absolute;
+	z-index: 4;
+	width: 8.64%;
+	margin-left: 0%;
+	margin-top: 160%;
+	animation-name:f2;
+	animation-duration:24s;
+	animation-iteration-count: infinite;
+	overflow: hidden;
+	opacity: 0.6;
+}
+@keyframes f2{
+	0%{	margin-left: -8%;}
+	49.99%{margin-left: 100%; margin-top: 158%; transform: scaleX(1);opacity: 0.6;}
+	50%{opacity: 0;transform: scaleX(-1)}
+	50.01%{margin-left: 100%; margin-top: 158%;transform: scaleX(-1);opacity: 0.6;}
+	100%{margin-left: -8%; margin-top: 160%; transform: scaleX(-1)}
+}
+
+.LoadingAnimate{
+	position: fixed;
+	z-index: 20;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: #fff;
+	
+}
+
+.loadingwrap {
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+
+.l-word {
+    position: absolute;
+    top: 55%;
+    font-size: 28px;
+    letter-spacing: 12px;
+	text-align: center;
+   
+}
+
+.circle {
+    width: 1%;
+    left: 45%;
+    top: 45%; 
+    background-color: #999;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    transform-origin: 50%;
+    animation: circle .5s alternate infinite ease ;
+	animation-delay: 0.5s;		
+}
+
+
+
+.circle:nth-child(2) {
+    left: 50%;
+    animation-delay: .2s
+}
+
+.circle:nth-child(3) {
+    left: 55%;
+    animation-delay: .3s
+}
+
+@keyframes circle {
+    0% {
+        top: 45%;
+        height: 5px;
+        border-radius: 50px 50px 25px 25px;
+        transform: scaleX(1.7);
+    }
+    40% {
+        height: 20px;
+        border-radius: 50%;
+        transform: scaleX(1);
+    }
+    100% {
+        top: 30%;
+    }
+}
+
+.shadow {
+    width: 20px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .125);
+    position: absolute;
+    top: 60px;
+    animation: shadow .5s alternate infinite ease;
+}
+
+
+
+.shadow:nth-child(4) {
+    left: 35%;
+    animation-delay: .2s
+}
+
+.shadow:nth-child(5) {
+    left: 70%;
+    animation-delay: .3s
+}
+
+@keyframes shadow {
+    0% {
+        transform: scaleX(1.5);
+    }
+    40% {
+        transform: scaleX(1);
+        opacity: .7;
+    }
+    100% {
+        transform: scaleX(.2);
+        opacity: .4;
+    }
+}
+
+.CountTo100{
+	color: #000;
+	width: 500px;
+	height: 100px;
+	font-size: 32px;
+}
+
+.view1{
+	position: absolute;
+	z-index: 5;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: transparent;
+}
+.bar{
+	position: absolute;
+	z-index: 2;
+	font-size: 1.75rem;
+	margin-left: 27.86%;
+	margin-top: 2%;
+	font-weight: normal;
+	-webkit-text-size-adjust:none;
+	
+}
+
+
+.act:hover{
+	border-bottom: solid 5px transparent;
+	border-image: linear-gradient(90deg, rgba(255, 255, 255, 1)10%, rgba(255, 255, 255, 0)95%);
+	border-image-slice: 1;
+	
+}
+.bg1{
+	position: absolute;
+	width: 100%;
+	top: 0%;
+	left: 0%;
+	z-index: -1;
+	
+}
+
+.wave{
+	position: absolute;
+	margin-top: 39%;
+	margin-left: -2.52%;
+	opacity: 80%;
+	z-index: 1;
+	/*animation-name:w1;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;*/
+}
+.wave1{
+	position: absolute;
+	z-index: 10;
+	margin-left: -0.73%;
+	margin-top: 40.48%;
+	width: 100%;
+	height: 25.93%;
+	background-color: #fff;
+	opacity: 0.5;
+	overflow: hidden;
+}
+.wave2{
+	position: absolute;
+	z-index: -2;
+	left: -14px;
+	top: 770px;
+	width: 1920px;
+	height: 300px;
+	background-color: #53a3b2;
+	opacity: 0.6;
+	overflow: hidden;
+}
+.wave1:before,.wave1:after{
+	content: "";
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    width: 1800%;
+    height: 2250%;
+    border-radius: 100%;
+	background: #59a3b2;  
+    transform: translateX(-50%);
+	animation: rotate 4s linear infinite;
+
+}
+.wave1:before{
+	top: 20%;
+    opacity: 0.5;
+    border-radius: 47%;
+}
+@keyframes rotate {
+  	0% {
+    	transform: translateX(-50%) rotateZ(180deg);
+	}
+	
+  	100% {
+  		transform: translateX(-50%) rotateZ(360deg);
+  	}
+}
+
+@keyframes w1{
+	0%{left: -50px;top: 757px;}
+	25%{left: -40px;top: 757px;}
+	50%{left: -50px;top: 757px;}
+	75%{left: -60px;top: 757px;}
+	100%{left:-50px;top: 757px;}
+}
+.littleIce{
+	position: absolute;
+	z-index: 1;
+	margin-top: 51.36%;
+	left: 64.46%;
+	width: 14.63%;
+	animation-name:li1;
+	animation-duration: 2s;
+	animation-delay: 0.5s;
+	animation-iteration-count: infinite;
+}
+@keyframes li1{
+	0%{margin-top:51.36%;}
+	50%{margin-top:51.48%;}
+	100%{margin-top:51.36%;}
+}
+.watermark2{
+	position: absolute;
+	z-index: 3;
+	width: 16.46%;
+	margin-top: 51%;
+	margin-left: 63%;
+	animation-name:wm2;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes wm2{
+	0%{opacity: 0;}
+	50%{opacity: 100%;}
+	100%{opacity: 0;}
+}
+.title{
+	position: absolute;
+	z-index:  1;
+	width: 52.66%;
+	margin-left: 26.56%;
+	margin-top: 12.8%;
+	filter:drop-shadow(0px 0px 10px rgba(0,0,0,.5));    
+}
+
+@media (min-width: 1280px) and (max-width: 1500px){
+	
+	.bar{
+		font-size: 28px;
+	}
+	.MenuBtn{
+	
+		font-size: 80px;
+		
+
+
+	}
+	
+}
+
+@media (min-width: 960px) and (max-width: 1280px){
+	
+	.bar{
+		font-size: 20px;
+		margin-left: 25%;
+	}
+	.MenuBtn{
+	
+		font-size: 64px;
+	}
+	
+}
+
+@media (min-width: 600px) and (max-width: 960px){
+	
+	.bar{
+		font-size: 16px;
+		margin-left: 20%;
+	}
+	
+	.MenuBtn{
+	
+		font-size: 48px;
+	}
+	
+}
+
+@media (min-width: 377px) and (max-width: 600px){
+	
+	.bar{
+		font-size: 10px;
+		margin-left: 15%;
+	}
+	.MenuBtn{
+	
+		font-size: 16px;
+	}
+	.myBtn{
+		width: 12%;
+		padding-bottom: 12%;
+		margin-left: 85%;
+		margin-top: 6%;
+	}
+	
+	.MenuContent{
+		margin-top: 15%;
+	}
+	.AllCross{
+		
+		width: 12%;
+		padding-bottom: 12%;
+		margin-left: 85%;
+		margin-top: 6%;
+		border-radius: 50%;
+		opacity: 0;
+		
+	}
+	
+	.Cross1{
+		
+		margin-top: 4.4%;
+		margin-left: 2.5%;
+		width: 7.5%;
+		padding-bottom: 0.8%;
+		
+
+	}
+	.Cross1.open{
+		margin-top: 5.6%;
+		transform: rotate(45deg);
+	}
+	.Cross2{
+		margin-top: 5.6%;
+		margin-left: 2.5%;
+		width: 7.5%;
+		padding-bottom: 0.8%;
+	}
+	.Cross2.open{
+		margin-top: 5.6%;
+		opacity: 0;
+	}
+	.Cross3{
+		
+		margin-top: 7%;
+		margin-left: 2.5%;
+		width: 7.5%;
+		padding-bottom: 0.8%;
+		
+	}
+	.Cross3.open{
+		margin-top: 5.6%;
+		transform: rotate(-45deg);
+	}
+	
+}
+
+@media (min-width: 100px) and (max-width: 376px){
+	
+	.bar{
+		margin-left: 10%;
+		font-size: 10px;
+	}
+	.myBtn{
+		width: 20%;
+		padding-bottom: 20%;
+		margin-left: 85%;
+		margin-top: 6%;
+	}
+	.MenuBtn{
+		font-size: 12px;
+	}
+	.MenuContent{
+		margin-top: 12%;
+	}
+	.AllCross{
+		
+		width: 12%;
+		padding-bottom: 12%;
+		margin-left: 85%;
+		margin-top: 6%;
+		border-radius: 50%;
+		opacity: 0;
+		
+	}
+	
+	.Cross1{
+		
+		margin-top: 4.4%;
+		margin-left: 2.5%;
+		width: 7.5%;
+		padding-bottom: 0.8%;
+		
+
+	}
+	.Cross1.open{
+		margin-top: 5.6%;
+		transform: rotate(45deg);
+	}
+	.Cross2{
+		margin-top: 5.6%;
+		margin-left: 2.5%;
+		width: 7.5%;
+		padding-bottom: 0.8%;
+	}
+	.Cross2.open{
+		margin-top: 5.6%;
+		opacity: 0;
+	}
+	.Cross3{
+		
+		margin-top: 7%;
+		margin-left: 2.5%;
+		width: 7.5%;
+		padding-bottom: 0.8%;
+		
+	}
+	.Cross3.open{
+		margin-top: 5.6%;
+		transform: rotate(-45deg);
+	}
+	
+}

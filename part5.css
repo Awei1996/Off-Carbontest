@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+.view5{
+	position: absolute;
+	z-index: 5;
+	margin-top: 224.2%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	overflow: hidden;
+	opacity: 1;
+	-webkit-text-size-adjust:none;
+
+}
+.bg5{
+	position: absolute;
+	z-index: -1;
+	left: 0%;
+	width: 100%;
+	margin-top: 224%;
+	padding-bottom: 56%;
+    background: transparent linear-gradient(180deg, #3d4650 0%, #121212 100%) 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+.references{
+	position: absolute;
+	z-index: 1;
+	font-size: 60px;
+	margin-top: 8%;
+	margin-left: 0%;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	text-shadow: 2px 3px 6px #FFFFFF22;
+	opacity: 1;
+}
+.rectangle{
+	position: absolute;
+	background-color: transparent;
+	z-index: 1;
+	margin-top: 15%;
+	margin-left: 8.44%;
+	width: 83%;
+	height: 62%;
+	border: 1px solid #D1D9E4;
+	opacity: 1;
+}
+.CO2pro{
+	position: absolute;
+	margin-top: 5%;
+	font-size: 28px;
+	margin-left: 12%;
+	width: 16%;
+	height: 5%;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #ACD3D2;
+	opacity: 1;
+}
+.inforfrom{
+	position: absolute;
+	z-index: 5;
+	font-size: 20px;
+	magin-top: 25%;
+	margin-left: 2%;
+	text-align: left;
+}
+.CO2cause{
+	position: absolute;
+	margin-top: 20%;
+	font-size: 28px;
+	margin-left: 12%;
+	width: 16%;
+	height: 5%;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #ACD3D2;
+	opacity: 1;
+}
+	
+
+.CO2role{
+	position: absolute;
+	margin-top: 5%;
+	font-size: 28px;
+	margin-left: 60%;
+	width: 30%;
+	height: 5%;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #ACD3D2;
+	opacity: 1;
+	
+}
+@media (min-width: 1280px) and (max-width: 1800px){
+	
+	.references{
+		font-size: 54px;
+	}
+	.CO2pro{
+		font-size: 24px;
+	}
+	.CO2cause{
+		font-size: 24px;
+	}
+	.CO2role{
+		font-size: 24px;
+	}
+	.inforfrom{
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 960px) and (max-width: 1280px){
+	
+	.references{
+		font-size: 48px;
+	}
+	.CO2pro{
+		font-size: 18px;
+	}
+	.CO2cause{
+		font-size: 18px;
+	}
+	.CO2role{
+		font-size: 18px;
+	}
+	.inforfrom{
+		font-size: 14px;
+	}
+	
+	
+}
+@media (min-width: 601px) and (max-width: 960px){
+	.references{
+		font-size: 36px;
+	}
+	.CO2pro{
+		font-size: 14px;
+	}
+	.CO2cause{
+		font-size: 14px;
+	}
+	.CO2role{
+		font-size: 14px;
+	}
+	.inforfrom{
+		font-size: 12px;
+	}
+	
+}
+
+@media (min-width: 376px) and (max-width: 600px){
+	
+	.references{
+		font-size: 24px;
+	}
+	.CO2pro{
+		font-size: 6px;
+	}
+	.CO2cause{
+		font-size: 6px;
+	}
+	.CO2role{
+		font-size: 6px;
+	}
+	.inforfrom{
+		font-size: 4px;
+	}
+		
+}
+
+@media (min-width: 100px) and (max-width: 375px){
+	
+	.references{
+		font-size: 12px;
+	}
+	.CO2pro{
+		font-size: 3px;
+	}
+	.CO2cause{
+		font-size: 3px;
+	}
+	.CO2role{
+		font-size: 3px;
+	}
+	.inforfrom{
+		font-size: 2px;
+	}
+	
+}
