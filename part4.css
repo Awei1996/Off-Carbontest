@@ -117,6 +117,7 @@
   	transition: transform 2s;
   	transform-style: preserve-3d;
   	cursor: pointer;
+	
 }
 
 .gasfront, .gasback {
