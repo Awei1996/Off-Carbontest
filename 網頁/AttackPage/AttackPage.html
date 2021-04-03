@@ -12,35 +12,52 @@
 	<link href="AtackPagePart4.css" rel="stylesheet" type="text/css">
 	<link href="AtackPagePart5.css" rel="stylesheet" type="text/css">
 	<link href="aos.css" rel="stylesheet" type="text/css">
-	<script src="jquery.fullPage.min.js"></script>
 	<script src="jquery-1.8.3.min.js"></script>
-	<script src="jquery.fullPage.js"></script>
 
 
-	<script>
-		$(function(){
-			$('#dowebok').fullpage({
-				anchors: ['page1', 'page2', 'page3', 'page4'],
-				afterLoad(_, index) {
-					if (index === 1) {
-					  return
-					}
-					const $section = $('.section').eq(index - 1)
-					$section.find('[data-aos]').addClass('aos-animate')
-
-			  	},
-			});
-		});
-	</script>
+	
 </head>
 
 <body>
 	<div id="dowebok">
 		<div class="section">
+			<div class="LoadingAnimate">
+				<div class="loadingwrap">
+					<div class="circle"> </div>
+					<div class="circle"> </div>
+					<div class="circle"> </div>
+					<div class="shadow"> </div>
+					<div class="shadow"> </div>
+					<div class="shadow"> </div>
+					<div class="l-word">						
+						<div class="CountTo100"></div>				
+					</div>
+    			</div>
+			</div>
+			<div class="myBtn" onclick="topFunction()" id="myBtn">
+							
+			</div>
+			<span class="AllCross" onclick="topFunction()" >
+					<span class="Cross1"></span>
+					<span class="Cross2"></span>
+					<span class="Cross3"></span>
+			</span>
+			<span class="MenuContent">
+					<a class="MenuBtn" href="index.html" style="text-decoration: none; ">成因</a>
+						<br>
+				  	<a class="MenuBtn" href="網頁/AttackPage/AttackPage.html" style="text-decoration: none">威脅</a>
+						<br>
+					<a class="MenuBtn" href="網頁/ConvertPage/ConvertPage.html" style="text-decoration: none">換算</a>
+						<br>
+					<a class="MenuBtn" href="網頁/WayPage/WayPage.html" style="text-decoration: none ">方法</a>
+						<br>
+					<a class="MenuBtn" href="網頁/MonitorPage/MonitorPage.html" style="text-decoration: none">環境監測儀</a>
+						<br>
+					<a class="MenuBtn Ab" href="網頁/AboutUsPage/AboutUsPage.html" style="text-decoration: none ; ">關於我們</a>	
+					
+			</span>	
 			<div class="view1">
-				<div class="bg1">
-			    	<img src="../../Animation/flood-2.gif" width="1920" height="1080" alt=""/> 
-				</div>
+				
 				<div class="P2Title">
 					<p>二氧化碳的攻擊</p>
 					<div class="P2SubTitle">
@@ -67,53 +84,49 @@
 		</div>
 		<div class="section">
 			<div class="view2">
-				<div class="bg2">
-					<img src="../../webpng/Attackpage/Part2BG.png" width="1920" height="1076" alt=""/> 
-				</div>
+				
 				<div class="SecondFloor">
-					<img src="../../webpng/Attackpage/SecondFloor.png" width="1918" height="743" alt=""/> 
+					<img src="../../webpng/Attackpage/SecondFloor.png" width="100%" alt=""/> 
 				</div>
 				<div class="LEDRed">
-			    	<img src="../../webpng/Attackpage/RedLight.png" width="54" height="35" alt=""/> 
+			    	<img src="../../webpng/Attackpage/RedLight.png" width="100%"  alt=""/> 
 				</div>
 				<div class="LightRed"></div>
 				<div class="LEDGreen">
-			    	<img src="../../webpng/Attackpage/GreenLight.png" width="54" height="35" alt=""/> 
+			    	<img src="../../webpng/Attackpage/GreenLight.png" width="100%" alt=""/> 
 				</div>
 				<div class="LightGreen"></div>
 				<div class="Conveyor">
-					<img src="../../webpng/Attackpage/Conveyor.png" width="1236" height="516" alt=""/> 
+					<img src="../../webpng/Attackpage/Conveyor.png" width="100%"  alt=""/> 
 				</div>
-			  <div class="CO2">
+			  	<div class="CO2">
 					<div class="Logo">
-						<img src="../../webpng/Attackpage/logo.png" width="49" height="52" alt=""/>
-						<img src="../../webpng/Attackpage/Logo2.png" width="49" height="52" alt=""/> 
-						<img src="../../webpng/Attackpage/Logo3.png" width="49" height="52" alt=""/> 
+				    	<img src="../../webpng/Attackpage/Alllogo.png" width="100%"  alt=""/> 
 					</div>
 				</div>
 
 				<div class="Hand">
-					<div class="HandBase"><img src="../../webpng/Attackpage/HandAll/HandBase.png" width="89" height="52" alt=""/></div>
-					<div class="HandB"><img src="../../webpng/Attackpage/HandAll/HandB.png" width="48" height="170" alt=""/></div>
-					<div class="HandS"><img src="../../webpng/Attackpage/HandAll/HandS.png" width="47" height="141" alt=""/>
-						<div class="HandL"><img src="../../webpng/Attackpage/HandAll/HandL.png" width="31" height="49" alt=""/></div>
-						<div class="HandR"><img src="../../webpng/Attackpage/HandAll/HandR.png" width="30" height="49" alt=""/></div>
+					<div class="HandBase"><img src="../../webpng/Attackpage/HandAll/HandBase.png" width="100%" alt=""/></div>
+					<div class="HandB"><img src="../../webpng/Attackpage/HandAll/HandB.png" width="100%"  alt=""/></div>
+					<div class="HandS"><img src="../../webpng/Attackpage/HandAll/HandS.png" width="100%" alt=""/>
+						<div class="HandL"><img src="../../webpng/Attackpage/HandAll/HandL.png" width="90%"  alt=""/></div>
+						<div class="HandR"><img src="../../webpng/Attackpage/HandAll/HandR.png" width="100%"  alt=""/></div>
 					</div>
 
 				</div>
 
 			  <div class="Machine">
-					<img src="../../webpng/Attackpage/Machine.png" width="1040" height="269" alt=""/> 
+					<img src="../../webpng/Attackpage/Machine.png" width="100%"  alt=""/> 
 				</div>
 			  <a href="#menu" class="Boxoutside" id="outside">
-					<img src="../../webpng/Attackpage/Box.png" width="446" height="591" alt=""/> 
+					<img src="../../webpng/Attackpage/Box.png" width="100%"  alt=""/> 
 					<div class="Outsidetitle">
 						<h1>大環境</h1>
 						<p>Environment</p>
 					</div>
 				</a>
 				<a href="#Inside" class="Boxinside">
-					<img src="../../webpng/Attackpage/Box.png" width="446" height="591" alt=""/> 
+					<img src="../../webpng/Attackpage/Box.png" width="100%"  alt=""/> 
 				<div class="Insidetitle">
 						<h1>室內</h1>
 						<h4>&thinsp;&thinsp;&thinsp;Indoor</h4>
@@ -131,11 +144,9 @@
 		</div>
 		<div class="section">
 			<div class="view3">
-				<div class="bg3">
-					<img src="../../webpng/Attackpage/Part3BG.png" width="1920" height="1076" alt=""/> 
-				</div>
+				
 				<div class="tube" id="Inside">
-						<img src="../../webpng/Attackpage/tube.png" width="1920" height="185" alt=""/> 
+						<img src="../../webpng/Attackpage/tube.png" width="100%"  alt=""/> 
 					</div>
 				<div class="indoor" >
 					<h1>室內</h1>
@@ -147,45 +158,58 @@
 				<div class="Barchart">
 					<div class="Bar350" data-aos="slide-right" data-aos-once="true" data-aos-duration="3000"></div>
 					<div class="Bar350content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
-						<p>350~1000ppm</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;空氣清新，呼吸順暢</p>
+						<div class="Bar350value" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+							<p>350~1000ppm</p>						
+						</div>
+						<p>空氣清新，呼吸順暢</p>
 					</div>
 					<div class="Bar1000" data-aos="slide-right" data-aos-once="true" data-aos-duration="3500"></div>
 					<div class="Bar1000content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
-						<p>1000~2000ppm</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人會感覺空氣混濁，並開始覺得昏昏欲睡</p>
+						<div class="Bar1000value" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+							<p>1000~2000ppm</p>
+						</div>
+						<p>人會感覺空氣混濁，並開始覺得昏昏欲睡</p>
 					</div>
 					<div class="Bar2000" data-aos="slide-right" data-aos-once="true" data-aos-duration="3000"></div>
 					<div class="Bar2000content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
-						<p>2000~5000ppm</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人會感覺頭痛、嗜睡、呆滯、注意力無法集中、心跳加速、輕度噁心</p>
+						<div class="Bar2000value" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+							<p>2000~5000ppm</p>
+						</div>
+						<p>人會感覺頭痛、嗜睡、呆滯、注意力無法集中、心跳加速、輕度噁心</p>
 					</div>
 					<div class="Bar5000" data-aos="slide-right" data-aos-once="true" data-aos-duration="2500"></div>
 					<div class="Bar5000content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
-						<p>5000~10000ppm</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;對健康相當不利</p>
+						<div class="Bar5000value" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+							<p>5000~10000ppm</p>
+						</div>
+						<p>對健康相當不利</p>
 					</div>
 					<div class="Bar10000" data-aos="slide-right" data-aos-once="true" data-aos-duration="2000"></div>
-				  <div class="Bar10000content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
-						<p>10,000~70,000ppm (1-7%)</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;呼吸急促、心跳加快</p>
+				  	<div class="Bar10000content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+						<div class="Bar10000value" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+							<p>10,000~70,000ppm (1-7%)</p>
+						</div>
+						<p>呼吸急促、心跳加快</p>
 					</div>
 					<div class="Bar10000mark" >
 						<p>≈</p>
 					</div>
 					<div class="Bar70000" data-aos="slide-right" data-aos-once="true" data-aos-duration="2000"></div>
 					<div class="Bar70000content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
-						<p>&gt;70,000ppm (&gt;7%)</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;暈眩、頭痛、噁心</p>
+						<div class="Bar70000value" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+							<p>&gt;70,000ppm (&gt;7%)</p>	
+						</div>
+						<p>暈眩、頭痛、噁心</p>
 					</div>
 					<div class="Bar70000mark" >
 						<p>≈</p>
 					</div>
 					<div class="Bar100000" data-aos="slide-right" data-aos-once="true" data-aos-duration="3000"></div>
-				  <div class="Bar100000content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
-						<p>&gt;100,000ppm (&gt;10%)
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可能會導致嚴重缺氧</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;造成永久性腦損傷、昏迷、甚至死亡</p>
+				  	<div class="Bar100000content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+						<div class="Bar100000value" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+							<p>&gt;100,000ppm (&gt;10%)</p>
+						</div>
+						<p>可能會導致嚴重缺氧<br>造成永久性腦損傷、昏迷、甚至死亡</p>
 					</div>
 				  <div class="Bar100000mark">
 						<p>≈</p>
@@ -200,27 +224,21 @@
 							<br>小孩和孕婦由於長期待在室內，所以是最容易受到二氧化碳的危害。
 						</p>
 				</div>
-				<div class="LongtimeShapeR">
-					<img src="../../webpng/Attackpage/mask/Lontime.png" width="448" height="178" alt=""/> 
+				<div class="LongtimeShapeRT">
+					<img src="../../webpng/Attackpage/mask/LongtimeCover.png" width="100%"  alt=""/> 
 				</div>
-				<div class="LongtimeShapeT"></div>
-
 
 			</div>
 		</div>
 		<div class="section">
 			<div class="view4" >
-				<div class="bg4">
-					<img src="../../webpng/Attackpage/Part4BG.png" width="1920" height="1078" alt=""/> 
-			  </div>
-
+				
 				<div class="Disaster" >
 					<h1>工業革命至今帶來的災難</h1>
 				</div>
 				<div class="MainMenu" >
 					<div class="Backbutton">
-						<div class="Rectangle"></div>
-						<div class="Triangle"></div>
+				    	<img src="../../webpng/Attackpage/Backbutton.png" width="100%"  alt=""/> 
 					</div>
 					
 					<div class="Menu" data-aos="slide-right" data-aos-duration="500" id="menu" >
@@ -259,7 +277,7 @@
 							</div>	
 							<div class="SDCpart2Content">
 								<div class="SDCpart2Contenttext" data-aos="fade right">
-									<p>2016年James Kerry進行空拍調查<br>從大堡礁南端往北到巴布亞紐幾內亞約2300公里長的海域<br>飛行總距離超過9,000公里<br>檢視超過911座珊瑚礁體，只有7％ (68座) 礁體躲過一劫<br>其餘 93％ 的礁體都受到不同程度的白化事件影響<br>絕大多數的珊瑚礁 (316座)  都因為有 60~100％ 的珊瑚發生白化<br>而被評為  嚴重白化</p>	
+									<p>2016年James Kerry進行空拍調查<br>從大堡礁南端往北到巴布亞紐幾內亞約2300公里長的海域<br>飛行總距離超過9,000公里<br>檢視超過911座珊瑚礁體，只有7％ (68座) 礁體躲過一劫<br>其餘 93％ 的礁體都受到不同程度的白化事件影響<br>絕大多數的珊瑚礁 (316座)  都因為有 60~100％ 的珊瑚發生白化<br>而被評為嚴重白化</p>	
 								</div>
 								<div class="SDC2BA">
 					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
@@ -449,7 +467,9 @@
 						</button>
 						<div class="FireForestContent">
 							<div class="FFCBG">
-						    	<img src="../../webpng/Attackpage/FFCWorldMap-n-n.png" width="1060" height="517" alt=""/> 
+								<div class="WorldMap">
+									<img src="../../webpng/Attackpage/FFCWorldMap-n-n.png" width="100%"  alt=""/> 
+								</div>
 							</div>
 					  		<div class="FFCMain">
 								<h1>森林野火頻率增加</h1>
@@ -461,34 +481,32 @@
 			   				  <img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
 							</div>
 							<div class="FFCAmazon">
-						    	<img src="../../webpng/Attackpage/Amazon.png" width="138" height="134" alt=""/> 
+						    	<img src="../../webpng/Attackpage/Amazon.png" width="100%"  alt=""/> 
 							</div>
 							<div class="FFCAmazonContent">
 
 								<div class="FFCAmazonContenttext" data-aos="fade right">
-									<!---<div class="FFCAmazonTitle">
-										<h1>亞馬遜雨林</h1>
-									</div>--->
+									
 									<p>炎熱乾燥的氣候條件下容易自然發生野火，<br>有些森林通過野火清理出較大空間，<br>使得樹木長得更高更壯。<br>但先前亞馬遜雨林的大火不是這種『良性』大火。<br>英國牛津大學生態系統科學教授馬利（Yadvinder Malhi）<br>說道：「亞馬遜雨林起火不是大自然的自我清理機制，<br>只會對森林造成嚴重破壞。 <br>潮濕的雨林起火，幾乎都是人禍，極少是天災。<br>2016年，亞馬遜雨林多處起火，部分原因是乾旱導致，<br>因為那一年被認為是『旱災年』，降雨少，森林更容易著火。<br>但2019年雨水充沛，並不乾旱。因此，那麼多森林火災，<br>
 									更可能是因為有人點火。」</p>	
 								</div>
 							</div>
 
 							<div class="FFCNAEUJP">
-								<img src="../../webpng/Attackpage/EUNA.png" width="632" height="262" alt=""/>
+								<img src="../../webpng/Attackpage/EUNA.png" width="100%" height="262" alt=""/>
 								<div class="FFCJapan">
-							    	<img src="../../webpng/Attackpage/Japan.png" width="47" height="48" alt=""/> 
+							    	<img src="../../webpng/Attackpage/Japan.png" width="100%" height="48" alt=""/> 
 								</div>
 					  	  </div>
 							<div class="FFCNAEUJPContent">
 
 								<div class="FFCNAEUJPContenttext" data-aos="fade right">
 
-									<p>自 2018 年底起至 2019 年， <br>全球副熱帶地區可以說隨時都在燃燒，<br>從北半球步入春夏之際，溫帶地區的歐洲、日本、北美洲，<br>甚至西伯利東北（俄羅斯西伯利亞針葉林）都出現野火。<br>北半球仲夏，<br>全世界除了沒有植被的沙漠地區和我們的寶島台灣，<br>可以說是都深陷火海，<br>調查顯示，美國森林大火燃燒面積自1980年開始有逐漸增加的現象，<br>2017與2018年更有驚人成長。<br>其中非洲草原北部因為迎來雨季而火勢稍緩。</p>	
+									<p>自 2018 年底起至 2019 年， <br>全球副熱帶地區可以說隨時都在燃燒，<br>從北半球步入春夏之際，溫帶地區的歐洲、日本、北美洲，<br>甚至西伯利東北（俄羅斯西伯利亞針葉林）都出現野火。<br>北半球仲夏，<br>全世界除了沒有植被的沙漠地區和我們的寶島台灣，<br>可以說是都深陷火海，<br>調查顯示，美國森林大火燃燒面積自1980年開始有漸增的現象，<br>2017與2018年更有驚人成長。<br>其中非洲草原北部因為迎來雨季而火勢稍緩。</p>	
 								</div>
 							</div>
 							<div class="FFCSBL">
-							    <img src="../../webpng/Attackpage/Silberia.png" width="479" height="166" alt=""/> 
+							    <img src="../../webpng/Attackpage/Silberia.png" width="100%"  alt=""/> 
 							</div>
 							<div class="FFCSBLContent">
 
@@ -499,19 +517,16 @@
 							</div>
 
 							<div class="FFCAus">
-						    	<img src="../../webpng/Attackpage/Australia.png" width="119" height="105" alt=""/> 
+						    	<img src="../../webpng/Attackpage/Australia.png" width="100%" alt=""/> 
 							</div>
 							<div class="FFCAusContent">
 
 								<div class="FFCAusContenttext" data-aos="fade right">
-									<div class="FFCAusTitle">
-										<h1>澳洲東部</h1>
-									</div>
 									<p>澳洲當地的消防員也表示叢林野火（bushfires）<br>發生的頻率愈來愈高。<br>根據研究顯示，許多發生野火的地區1月至8月的降雨量，<br>低於平均水平的50%，<br>部分地區更是遇上有史以來最乾旱的八個月，<br>使土壤、草、植物都極為乾燥，為今年火季提供了充分「燃料」。</p>	
 								</div>
 							</div>
 							<div class="FFCIcon">
-						    	<img src="../../webpng/Attackpage/FFCICON.png" width="150" height="150" alt=""/> 
+						    	<img src="../../webpng/Attackpage/FFCICON.png" width="100%"  alt=""/> 
 							</div>
 							<div class="FFCIconContent">
 								<div class="FFCIconContenttext" data-aos="fade right">
@@ -526,7 +541,9 @@
 						</button>
 						<div class="HeatWaveContent">
 							<div class="HWCBG">
-						    <img src="../../webpng/Attackpage/HWCWorldMap-n.png" width="1048" height="657" alt=""/> 
+						    	<div class="WorldMap">
+							    	<img src="../../webpng/Attackpage/HWCWorldMap-n.png" width="100%"  alt=""/> 
+								</div>
 							</div>
 							<div class="HWCMain">
 								<h1>熱浪肆虐</h1>
@@ -544,7 +561,7 @@
 								</div>
 							</div>
 							<div class="HWCpart1">
-						    	<img src="../../webpng/Attackpage/FRSPGRIT.png" width="137" height="120" alt=""/> 
+						    	<img src="../../webpng/Attackpage/FRSPGRIT.png" width="100%" alt=""/> 
 							</div>
 							<div class="HWCpart1Content">
 								<div class="HWCpart1Contenttext" data-aos="fade right">
@@ -553,7 +570,7 @@
 							</div>
 
 							<div class="HWCpart2">
-						    	<img src="../../webpng/Attackpage/ENNL.png" width="64" height="59" alt=""/> 
+						    	<img src="../../webpng/Attackpage/ENNL.png" width="100%"  alt=""/> 
 							</div>
 							<div class="HWCpart2Content">
 								<div class="HWCpart2Contenttext" data-aos="fade right">
@@ -561,7 +578,7 @@
 								</div>
 							</div>
 							<div class="HWCpart3">
-								<img src="../../webpng/Attackpage/SWE.png" width="63" height="107" alt=""/>
+								<img src="../../webpng/Attackpage/SWE.png" width="100%"  alt=""/>
 								<div class="HWCSWL">
 							    	<img src="../../webpng/Attackpage/SWL.png" width="20" height="14" alt=""/> 
 								</div>
@@ -589,8 +606,10 @@
 						</button>
 						<div class="ExtremeClimateContent">
 							<div class="ECCBG">
-						    	<img src="../../webpng/Attackpage/ECCWorldMap-n.png" width="1060" height="517" alt=""/> 
-							</div>
+						    	<div class="WorldMap">
+							    	<img src="../../webpng/Attackpage/ECCWorldMap-n.png" width="100%" alt=""/> 
+								</div>
+						  </div>
 							<div class="ECCMain">
 								<h1>極端氣候</h1>
 							</div>
@@ -601,12 +620,12 @@
 			   				  <img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
 							</div>
 							<div class="ECCALLContent">
-								<div class="HWCALLContenttext" data-aos="fade right">
+								<div class="ECCALLContenttext" data-aos="fade right">
 									<p>2018年全球多處出現極端天氣，<br>中國多處出現汛情，日本經歷暴雨和酷熱，奪去多人性命，<br>原本多雨水的英國卻正在經歷有紀錄以來最乾旱的夏季，<br>南半球澳洲也在經歷特別寒冷的冬天。<br>墨西哥7月下冰雹，美國佛羅里達颶風侵襲總統坐鎮，<br>印度水災、日本九州暑假每個月水災，頻率過高。</p>	
 								</div>
 							</div>
 							<div class="ECCIcon">
-						    	<img src="../../webpng/Attackpage/Earth.png" width="150" height="150" alt=""/> 
+						    	<img src="../../webpng/Attackpage/Earth.png" width="100%"  alt=""/> 
 							</div>
 							<div class="ECCIconContent">
 								<div class="ECCIconContenttext" data-aos="fade right">
@@ -627,7 +646,7 @@
 							</div>
 
 							<div class="ECCpart2">
-						    	<img src="../../webpng/Attackpage/CN.png" width="180" height="120" alt=""/> 
+						    	<img src="../../webpng/Attackpage/CN.png" width="100%"  alt=""/> 
 							</div>
 							<div class="ECCpart2Content">
 								<div class="ECCpart2Contenttext" data-aos="fade right">
@@ -636,7 +655,7 @@
 								
 							</div>
 							<div class="ECCpart3">
-						    	<img src="../../webpng/Attackpage/Australia.png" width="119" height="105" alt=""/> 
+						    	<img src="../../webpng/Attackpage/Australia.png" width="100%"  alt=""/> 
 							</div>
 							<div class="ECCpart3Content">
 								<div class="ECCpart3Contenttext" data-aos="fade right">
@@ -655,9 +674,9 @@
 								
 							</div>
 					  	  	<div class="ECCpart5">
-							  	<img src="../../webpng/Attackpage/USA.png" width="169" height="81" alt=""/>
+							  	<img src="../../webpng/Attackpage/USA.png" width="100%"  alt=""/>
 								<div class="ECCAlaska">
-							  		<img src="../../webpng/Attackpage/Alaska.png" width="110" height="80" alt=""/> 
+							  		<img src="../../webpng/Attackpage/Alaska.png" width="100%"  alt=""/> 
 							  	</div>
 							</div>
 						  	<div class="ECCpart5Content">
@@ -887,7 +906,7 @@
 
 				</div>
 				<div class="Steam">
-					<img src="../../Animation/wheel.gif" width="1050" height="940" alt=""/> 
+					<img src="../../Animation/wheel.gif" width="100%"  alt=""/> 
 				</div>
 
 
@@ -895,9 +914,7 @@
 		</div>
 		<div class="section">
 			<div class="view5">
-				<div class="bg5">
-					<img src="../../webpng/Attackpage/Part5BG.png" width="1920" height="1080" alt=""/>
-				</div>
+				
 				
 				
 				<div class="references">
@@ -946,7 +963,7 @@
 						</div>
 						<div class="Other">
 							<p>其它<br><a href="https://anntw.com/articles/20191008-2UNs" style="text-decoration:none; color:#FFFFFF;"  >台灣醒報</a><br><a href="http://www.swan.org.tw/docdir/O9AWLRS5C6.pdf" style="text-decoration:none; color:#FFFFFF;"  >環境變遷下的生物多樣性保育
-</a></p>
+							</a></p>
 						</div>
 					</div>
 
@@ -955,9 +972,22 @@
 		</div>
 	</div>
 		<div class="allpg">
-			<button onclick="topFunction()" id="myBtn" title="Go to top">
-				<img src="../../webpng/Attackpage/ArrowUp.png" width="100%" height="100%" alt=""/>
-			</button>
+			<div class="bg1">
+			    <img src="../../Animation/flood-2.gif" width="100%" alt=""/> 
+			</div>
+			<div class="bg2">
+				<img src="../../webpng/Attackpage/Part2BG.png" width="100%"  alt=""/> 
+			</div>
+			<div class="bg3">
+				<img src="../../webpng/Attackpage/Part3BG.png" width="100%"  alt=""/> 
+			</div>
+			<div class="bg4">
+				<img src="../../webpng/Attackpage/Part4BG.png" width="100%" alt=""/> 
+			</div>
+			<div class="bg5">
+					<img src="../../webpng/Attackpage/Part5BG.png" width="100%" alt=""/>
+			</div>
+
 		</div>
 	
 	<script src="aos.js"></script>
@@ -968,8 +998,8 @@
 	
 	</script>
 	<script src="pullupcard.js"></script>
-	<script src="ScrollPage.js"></script>
-	
+	<script src="littleMenu.js"></script>
+	<script src="LoadingAnimation.jquery.min.js"></script>	
 	<script>
 		AOS.init({
 			
