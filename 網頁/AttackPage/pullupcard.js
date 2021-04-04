@@ -30,7 +30,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 	
 	var SDCpart1Control = document.getElementsByClassName('SDCpart1')[0];
 	var SDCpart1TitleControl = document.getElementsByClassName('SDCpart1Title')[0];
-  	var SDCpart1ContenttextControl = document.getElementsByClassName('SDCpart1Contenttext')[0];
+	var SDCpart1ContenttextControl = document.getElementsByClassName('SDCpart1Contenttext')[0];
 	var SDCpart1ContentControl = document.getElementsByClassName('SDCpart1Content')[0];
 	var SDC1BAControl = document.getElementsByClassName('SDC1BA')[0];
 

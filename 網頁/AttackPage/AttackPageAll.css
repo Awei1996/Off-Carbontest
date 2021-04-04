@@ -9,6 +9,7 @@ html{
 	scroll-behavior: smooth;
 	font-family: Gen Jyuu Gothic ;
 	font-size: 12px;
+	
 
 }
 body{
@@ -20,6 +21,8 @@ body{
     width: 100%;
     height: 500%;
 	overflow-x: hidden;
+	background-color: #000;
+	
 	
 	
 
@@ -46,6 +49,7 @@ body{
 	margin-top: 2%;
 	font-weight: normal;
 	-webkit-text-size-adjust:none;
+	
 	
 }
 .active:hover{
@@ -110,6 +114,7 @@ button{
 	width: 100%;
 	padding-bottom: 56%;
 	background-color: transparent;
+	
 
 }
 
@@ -127,6 +132,7 @@ button{
   	background-color: #fff; /* Set a background color */
 	opacity: 0;
 	transition: background-color 200ms,transform 1s; 
+	
 	
 	
 }
@@ -150,10 +156,13 @@ button{
 	opacity: 0;
 	text-align: right;
 	transition: 1s;
+	display: none;
+	
 }
 .MenuContent.open{
 	
 	opacity: 1;
+	display: block;
 }
 .MenuBtn{
 	
@@ -250,6 +259,7 @@ button{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 
 
 }

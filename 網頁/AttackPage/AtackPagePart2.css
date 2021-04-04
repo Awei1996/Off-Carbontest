@@ -326,8 +326,8 @@
 	position: absolute;
 	z-index: 9;
 	color: #ffffff;
-	line-height: 40px;
-	font-size: 40px;
+	line-height: 3.3;
+	font-size: 3.3rem;
 	font-weight: bold;
 	
 }
@@ -350,8 +350,8 @@
 	position: absolute;
 	z-index: 9;
 	color: #ffffff;
-	font-size: 40px;
-	line-height: 40px;
+	line-height: 3.3;
+	font-size: 3.3rem;
 	font-weight: bold;
 	
 	
