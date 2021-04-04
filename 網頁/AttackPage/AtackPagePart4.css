@@ -250,7 +250,7 @@
 	margin-left: -0.1%;
 	width: 32.19%;
 	margin-top: 0%;
-	padding-bottom: 0%;
+	padding-bottom: 56%;
 	background-color: transparent;
 	outline: none;
 
@@ -260,10 +260,10 @@
 	position: absolute;
 	margin-left: 0%;
 	width: 100%;
-	padding-bottom: 0%;
+	height: 100%;
 	background-color: transparent;
 	outline: none;
-	border: 2px solid red;
+	opacity: 1;
 	
 }
 .MainMenu.close{
@@ -319,12 +319,13 @@
 .SpeciesDiversity{
 	width: 100%;
 	background-color: #6B8898 ;
-	padding-bottom: 0%;
+	height: 11.1%;
 	font-size: 2.2rem;
 	line-height: 0;
 	text-align:left;
 	color: #ffffff;
 	outline: none;
+
 	
 }
 
@@ -341,7 +342,6 @@
 	margin-left: -310%;
 	width: 309%;
 	padding-bottom: 172.5%;
-	border: 2px solid #00FFFF;
 
 }
 .SpeciesDiversityContent.open{
@@ -371,7 +371,6 @@
 	padding-bottom: 56%;
 	background-color: #163C4B;
 	opacity: 1;
-	border: 2px solid #FF00FF;
 
 }
 .SDCBG.open{
@@ -704,7 +703,7 @@
 	z-index: 19;
 	margin-top: 41.5%;
 	margin-left: 10.42%;
-	font-size: 20px;
+	font-size: 1.66rem;
 	width: 39.06%;
 	background-color: #1E3239;
 	color: #fff;
@@ -895,7 +894,7 @@
 .OceanAcidification{
 	width: 100%;
 	background-color: #9AA5B0 ;
-	padding-bottom: 0%;
+	height: 11.1%;
 	font-size: 2.2rem;
 	line-height: 0;
 	text-align:left;
@@ -917,7 +916,6 @@
 	margin-left: -310%;
 	width: 309%;
 	padding-bottom: 172.5%;
-	border: 2px solid #00FFFF;
 
 }
 .OceanAcidificationContent.open{
@@ -947,7 +945,6 @@
 	padding-bottom: 56%;
 	background-color: #163C4B;
 	opacity: 1;
-	border: 2px solid #FF00FF;
 
 }
 .OACBG.open{
@@ -1279,7 +1276,7 @@
 	z-index: 19;
 	margin-top: 41.5%;
 	margin-left: 10.42%;
-	font-size: 20px;
+	font-size: 1.66rem;
 	width: 39.06%;
 	background-color: #1E3239;
 	color: #fff;
@@ -1472,7 +1469,7 @@
 .MeltingIce{
 	width: 100%;
 	background-color: #6B8898 ;
-	padding-bottom: 0%;
+	height: 11.1%;
 	font-size: 2.2rem;
 	line-height: 0;
 	text-align:left;
@@ -1494,7 +1491,6 @@
 	margin-left: -310%;
 	width: 309%;
 	padding-bottom: 172.5%;
-	border: 2px solid #00FFFF;
 
 }
 .MeltingIceContent.open{
@@ -1524,7 +1520,6 @@
 	padding-bottom: 56%;
 	background-color: #163C4B;
 	opacity: 1;
-	border: 2px solid #FF00FF;
 
 }
 .MICBG.open{
@@ -1854,7 +1849,7 @@
 	z-index: 19;
 	margin-top: 41.5%;
 	margin-left: 10.42%;
-	font-size: 20px;
+	font-size: 1.66rem;
 	width: 39.06%;
 	background-color: #1E3239;
 	color: #fff;
@@ -2048,7 +2043,7 @@
 .FireForest{
 	width: 100%;
 	background-color: #6B8898 ;
-	padding-bottom: 0%;
+	height: 11.1%;
 	font-size: 2.2rem;
 	line-height: 0;
 	text-align:left;
@@ -2070,7 +2065,6 @@
 	margin-left: -310%;
 	width: 309%;
 	padding-bottom: 172.5%;
-	border: 2px solid #00FFFF;
 
 }
 .FireForestContent.open{
@@ -2104,7 +2098,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	border: 2px solid white;
 
 }
 .FFCBG.open{
@@ -2152,7 +2145,7 @@
 	width: 7.18%;
 	color: #ffffff;
 	opacity: 0;
-	font-size: 26px;
+	font-size: 2.2rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -2495,6 +2488,7 @@
 .HeatWave{
 	width: 100%;
 	background-color: #6B8898 ;
+	height: 11.1%;
 	font-size: 2.2rem;
 	line-height: 0;
 	text-align:left;
@@ -2514,7 +2508,6 @@
 	margin-left: -310%;
 	width: 309%;
 	padding-bottom: 172.5%;
-	border: 2px solid #00FFFF;
 }
 .HeatWaveContent.open{
 	-webkit-transition: 2s;
@@ -2547,7 +2540,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	border: 2px solid yellow;
 
 }
 
@@ -2707,7 +2699,7 @@
 	width: 3.34%;
 	opacity: 0;
 	color: #ffffff;
-	font-size: 26px;
+	font-size: 2.2rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -2907,6 +2899,7 @@
 }
 .ExtremeClimate{
 	width: 100%;
+	height: 11.1%;
 	background-color: #9AA5B0;
 	font-size: 2.2rem;
 	line-height: 0;
@@ -2926,7 +2919,6 @@
 	margin-left: -310%;
 	width: 309%;
 	padding-bottom: 172.5%;
-	border: 2px solid #00FFFF;
 }
 .ExtremeClimateContent.open{
 	-webkit-transition: 2s;
@@ -3099,7 +3091,6 @@
 	justify-content: flex-start;
 	line-height: 2;
 	opacity: 0;
-	border: 2px solid red;
 	 
 }
 .ECCIconContenttext.open{
@@ -3454,7 +3445,7 @@
 .Disease{
 	width: 100%;
 	background-color: #6B8898 ;
-	padding-bottom: 0%;
+	height: 11.1%;
 	font-size: 2.2rem;
 	line-height: 0;
 	text-align:left;
@@ -3476,7 +3467,6 @@
 	margin-left: -310%;
 	width: 309%;
 	padding-bottom: 172.5%;
-	border: 2px solid #00FFFF;
 
 }
 .DiseaseContent.open{
@@ -3507,7 +3497,6 @@
 	padding-bottom: 56%;
 	background-color: #163C4B;
 	opacity: 1;
-	border: 2px solid #FF00FF;
 
 }
 .DSCBG.open{
@@ -4032,6 +4021,7 @@
 }
 .FoodShortage{
 	width: 100%;
+	height: 11.1%;
 	background-color: #9AA5B0 ;
 	font-size: 2.2rem;
 	line-height: 0;
@@ -4056,7 +4046,6 @@
 	margin-left: -310%;
 	width: 309%;
 	padding-bottom: 172.5%;
-	border: 2px solid #00FFFF;
 
 }
 .FoodShortageContent.open{
@@ -4086,7 +4075,6 @@
 	padding-bottom: 56%;
 	background-color: #163C4B;
 	opacity: 1;
-	border: 2px solid #FF00FF;
 
 }
 .FSCBG.open{
@@ -4612,6 +4600,7 @@
 }
 .EconomicShock{
 	width: 100%;
+	height: 11.1%;
 	background-color: #6B8898 ;
 	padding-bottom: 0%;
 	font-size: 2.2rem;
@@ -4635,7 +4624,6 @@
 	margin-left: -310%;
 	width: 309%;
 	padding-bottom: 172.5%;
-	border: 2px solid #00FFFF;
 
 }
 .EconomicShockContent.open{
@@ -4666,7 +4654,6 @@
 	padding-bottom: 56%;
 	background-color: #163C4B;
 	opacity: 1;
-	border: 2px solid #FF00FF;
 
 }
 .ESCBG.open{
