@@ -25,6 +25,7 @@
 	margin-top: 10%;
 	width:4.79%;	
 	opacity: 0;
+
 }
 .SDC3BA{
 	position: absolute;
@@ -314,8 +315,19 @@
 	transition: 1s;
 	opacity: 0.5;
 }
-
-
+.ButtonTitle{
+	position: absolute;
+	margin-left: 5%;
+	margin-top: -5%;
+}
+.ButtonSub{
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 7.5%;
+	color: #085439 ;
+	font-size: 1.33rem;
+	font-weight: bold;
+}
 .SpeciesDiversity{
 	width: 100%;
 	background-color: #6B8898 ;
@@ -372,6 +384,8 @@
 	background-color: #163C4B;
 	opacity: 1;
 
+	
+
 }
 .SDCBG.open{
 	-webkit-transition: 2s;
@@ -380,7 +394,7 @@
     -o-transition: 2s;
     transition: 0.01s,opacity 2s;
 	opacity: 0.9;
-	margin-left: 100%;
+	margin-left: 0%;
 }
 .SDCMain{
 	position: absolute;
@@ -496,6 +510,9 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 .SDCpart1Content.open{
 	position: absolute;
@@ -506,13 +523,14 @@
 	background-color: #1E3239;
 	opacity: 0.95;
 	display: flex;
+	
 	color: #ffffff;
 	
 }
 
 .SDCpart1Contenttext{
 	position: absolute;
-	margin-top: 18%;
+	margin-top: 54%;
 	margin-left: 55.21%;
 	width: 44.79%;
 	background-color: transparent;
@@ -520,7 +538,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	line-height: 50px;
+	line-height: 1.8;
 }
 .SDCpart1Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -954,7 +972,7 @@
     -o-transition: 2s;
     transition: 0.01s,opacity 2s;
 	opacity: 0.9;
-	margin-left: 100%;
+	margin-left: 0%;
 }
 .OACMain{
 	position: absolute;
@@ -1070,6 +1088,9 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 .OACpart1Content.open{
 	position: absolute;
@@ -1086,7 +1107,7 @@
 
 .OACpart1Contenttext{
 	position: absolute;
-	margin-top: 18%;
+	margin-top: 54%;
 	margin-left: 55.21%;
 	width: 44.79%;
 	background-color: transparent;
@@ -1094,7 +1115,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	line-height: 50px;
+	line-height: 1.8;
 }
 .OACpart1Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -1529,7 +1550,7 @@
     -o-transition: 2s;
     transition: 0.01s,opacity 2s;
 	opacity: 0.9;
-	margin-left: 100%;
+	margin-left: 0%;
 }
 .MICMain{
 	position: absolute;
@@ -1644,6 +1665,9 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 .MICpart1Content.open{
 	position: absolute;
@@ -1660,7 +1684,7 @@
 
 .MICpart1Contenttext{
 	position: absolute;
-	margin-top: 12.5%;
+	margin-top: 54%;
 	margin-left: 55.21%;
 	width: 44.79%;
 	background-color: transparent;
@@ -1668,7 +1692,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	line-height: 50px;
+	line-height: 2;
 }
 .MICpart1Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -1909,6 +1933,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	line-height: 2;
 }
 .MICpart3Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -2191,8 +2216,8 @@
 	width: 100%;
 	padding-bottom: 20%;
 	background-color: transparent;
-	font-size: 2.2rem;
-	display: flex;
+	font-size: 0rem;
+	display: none;
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
@@ -2201,21 +2226,23 @@
 	 
 }
 .FFCAmazonContenttext.open{
+	display: flex;
+	font-size: 2.2rem;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
 .FFCAmazonContenttext.close{
+	display: none;
 	transition: 1s opacity  0.5s;
-	opacity: 0;
+	opacity: 1;
 }
 
 .FFCNAEUJP{
 	position: absolute;
 	z-index: 17;
-	margin-top: 20.28%;
+	margin-top: 15%;
 	margin-left: 44.8%;
 	width: 32.92%;
-	height: 60px;
 	font-size: 2.2rem;
 	opacity: 0;
 	display: flex;
@@ -2272,7 +2299,7 @@
 	padding-bottom: 20%;
 	background-color: transparent;
 	font-size: 2.2rem;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
@@ -2280,6 +2307,7 @@
 	 
 }
 .FFCNAEUJPContenttext.open{
+	display: flex;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
@@ -2340,7 +2368,7 @@
 	padding-bottom: 20%;
 	background-color: transparent;
 	font-size: 2.2rem;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
@@ -2349,6 +2377,7 @@
 	 
 }
 .FFCSBLContenttext.open{
+	display: flex;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
@@ -2409,7 +2438,7 @@
 	padding-bottom: 20%;
 	background-color: transparent;
 	font-size: 2.2rem;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
@@ -2417,6 +2446,7 @@
 	 
 }
 .FFCAusContenttext.open{
+	display: flex;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
@@ -2474,7 +2504,7 @@
 	padding-bottom: 20%;
 	background-color: transparent;
 	font-size: 2.2rem;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
@@ -2482,6 +2512,7 @@
 	 
 }
 .FFCIconContenttext.open{
+	display: flex;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
@@ -2657,6 +2688,7 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	
 }
 .HWCpart1Content.open{
 	position: absolute;
@@ -2673,13 +2705,13 @@
 
 .HWCpart1Contenttext{
 	position: absolute;
-	margin-top: 35%;
+	margin-top: 25%;
 	margin-left: 12.5%;
 	width: 100%;
 	padding-bottom: 20%;
 	background-color: transparent;
 	font-size: 2.2rem;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
@@ -2687,6 +2719,7 @@
 	 
 }
 .HWCpart1Contenttext.open{
+	display: flex;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
@@ -2740,13 +2773,13 @@
 
 .HWCpart2Contenttext{
 	position: absolute;
-	margin-top: 35%;
+	margin-top: 25%;
 	margin-left: 12.5%;
 	width: 100%;
 	padding-bottom: 20%;
 	background-color: transparent;
 	font-size: 2.2rem;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
@@ -2754,6 +2787,7 @@
 	 
 }
 .HWCpart2Contenttext.open{
+	display: flex;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
@@ -2817,7 +2851,7 @@
 	padding-bottom: 20%;
 	background-color: transparent;
 	font-size: 2.2rem;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
@@ -2825,6 +2859,7 @@
 	 
 }
 .HWCpart3Contenttext.open{
+	display: flex;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
@@ -2834,8 +2869,8 @@
 	position: absolute;
 	z-index: 17;
 	margin-top: 30.7%;
-	margin-left: 84.5%;
-	width: 3.29%;
+	margin-left: 84%;
+	width: 4.29%;
 	color: #ffffff;
 	font-size: 2.2rem;
 	opacity: 0;
@@ -2886,7 +2921,7 @@
 	padding-bottom: 20%;
 	background-color: transparent;
 	font-size: 2.2rem;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
@@ -2894,6 +2929,7 @@
 	 
 }
 .HWCpart4Contenttext.open{
+	display: flex;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
@@ -3086,7 +3122,7 @@
 	padding-bottom: 20%;
 	background-color: transparent;
 	font-size: 2rem;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
@@ -3094,6 +3130,7 @@
 	 
 }
 .ECCIconContenttext.open{
+	display: flex;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
@@ -3131,6 +3168,7 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	
 }
 .ECCpart1Content.open{
 	position: absolute;
@@ -3153,7 +3191,7 @@
 	padding-bottom: 20%;
 	background-color: transparent;
 	font-size: 2.2rem;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
@@ -3161,6 +3199,7 @@
 	 
 }
 .ECCpart1Contenttext.open{
+	display: flex;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
@@ -3223,7 +3262,7 @@
 	padding-bottom: 20%;
 	background-color: transparent;
 	font-size: 2.2rem;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
@@ -3231,6 +3270,7 @@
 	 
 }
 .ECCpart2Contenttext.open{
+	display: flex;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
@@ -3290,7 +3330,7 @@
 	padding-bottom: 20%;
 	background-color: transparent;
 	font-size: 2.2rem;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
@@ -3298,6 +3338,7 @@
 	 
 }
 .ECCpart3Contenttext.open{
+	display: flex;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
@@ -3357,7 +3398,7 @@
 	padding-bottom: 20%;
 	background-color: transparent;
 	font-size: 2.2rem;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
@@ -3365,6 +3406,7 @@
 	 
 }
 .ECCpart4Contenttext.open{
+	display: flex;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
@@ -3431,7 +3473,7 @@
 	padding-bottom: 20%;
 	background-color: transparent;
 	font-size: 2.2rem;
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
@@ -3439,6 +3481,7 @@
 	 
 }
 .ECCpart5Contenttext.open{
+	display: flex;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
@@ -3498,6 +3541,7 @@
 	background-color: #163C4B;
 	opacity: 1;
 
+
 }
 .DSCBG.open{
 	-webkit-transition: 2s;
@@ -3506,7 +3550,7 @@
     -o-transition: 2s;
     transition: 0.01s,opacity 2s;
 	opacity: 0.9;
-	margin-left: 100%;
+	margin-left: 0%;
 }
 .DSCMain{
 	position: absolute;
@@ -3622,6 +3666,9 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 .DSCpart1Content.open{
 	position: absolute;
@@ -3638,7 +3685,7 @@
 
 .DSCpart1Contenttext{
 	position: absolute;
-	margin-top: 12.5%;
+	margin-top: 54%;
 	margin-left: 55.21%;
 	width: 44.79%;
 	background-color: transparent;
@@ -3646,7 +3693,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	line-height: 50px;
+	line-height: 1.8;
 }
 .DSCpart1Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -3827,7 +3874,7 @@
 	z-index: 19;
 	margin-top: 41.5%;
 	margin-left: 10.42%;
-	font-size: 20px;
+	font-size: 1.66rem;
 	width: 39.06%;
 	background-color: #1E3239;
 	color: #fff;
@@ -3887,6 +3934,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	line-height: 2;
 }
 .DSCpart3Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -4084,7 +4132,7 @@
     -o-transition: 2s;
     transition: 0.01s,opacity 2s;
 	opacity: 0.9;
-	margin-left: 100%;
+	margin-left: 0%;
 }
 .FSCMain{
 	position: absolute;
@@ -4200,6 +4248,9 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 .FSCpart1Content.open{
 	position: absolute;
@@ -4216,7 +4267,7 @@
 
 .FSCpart1Contenttext{
 	position: absolute;
-	margin-top: 12.5%;
+	margin-top: 54%;
 	margin-left: 55.21%;
 	width: 44.79%;
 	background-color: transparent;
@@ -4224,7 +4275,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	line-height: 50px;
+	line-height: 2.1;
 }
 .FSCpart1Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -4406,7 +4457,7 @@
 	z-index: 19;
 	margin-top: 41.5%;
 	margin-left: 10.42%;
-	font-size: 20px;
+	font-size: 1.66rem;
 	width: 39.06%;
 	background-color: #1E3239;
 	color: #fff;
@@ -4663,7 +4714,7 @@
     -o-transition: 2s;
     transition: 0.01s,opacity 2s;
 	opacity: 0.9;
-	margin-left: 100%;
+	margin-left: 0%;
 }
 .ESCMain{
 	position: absolute;
@@ -4779,6 +4830,9 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 .ESCpart1Content.open{
 	position: absolute;
@@ -4795,7 +4849,7 @@
 
 .ESCpart1Contenttext{
 	position: absolute;
-	margin-top: 5%;
+	margin-top: 54%;
 	margin-left: 55.21%;
 	width: 44.79%;
 	background-color: transparent;
@@ -4803,7 +4857,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	line-height: 50px;
+	line-height: 2.1;
 }
 .ESCpart1Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -4915,7 +4969,7 @@
 
 .ESCpart2Contenttext{
 	position: absolute;
-	margin-top: 5%;
+	margin-top: 54%;
 	margin-left: 55.21%;
 	width: 44.79%;
 	background-color: transparent;
@@ -4985,7 +5039,7 @@
 	z-index: 19;
 	margin-top: 41.5%;
 	margin-left: 10.42%;
-	font-size: 20px;
+	font-size: 1.66rem;
 	width: 39.06%;
 	background-color: #1E3239;
 	color: #fff;
@@ -5045,6 +5099,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	line-height: 2;
 }
 .ESCpart3Contenttext.open{
 	transition: 1s opacity  0.5s;

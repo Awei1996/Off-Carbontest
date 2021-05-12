@@ -1,4 +1,3 @@
-///ㄍㄋㄋ跑不動Q
 var mybutton = document.getElementById("myBtn");
 var BtnControl = document.getElementsByClassName('myBtn')[0];
 var AllCrossControl = document.getElementsByClassName('AllCross')[0];
@@ -10,35 +9,41 @@ var MenuBtnControl = document.getElementsByClassName('MenuBtn')[0];
 
 var MenuValue = 0 ;
 
-var ShowRange = window.matchMedia("(max-width: 960px)") 
+var ShowRange = window.matchMedia("(max-width: 376px)") 
 
 
+window.matchMedia = function(){MenuShow();};
+window.onscroll = function() {MenuShow();};
 
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction();};
-
-function scrollFunction() {
-	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-		BtnControl.classList.add('show');
+function MenuShow(){
+	if (ShowRange.matches|| document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 ){
+		mybutton.style.display = "block"; 
 		mybutton.style.opacity = 0.98;
-		AllCrossControl.classList.add('open');
+		AllCrossControl.style.display = "block"; 
+		AllCrossControl.style.opacity = 1;
+		
+		
+	}
+	else{
+		
+		
+			mybutton.style.display = "none";
+			AllCrossControl.style.display = "none";
+			BtnControl.classList.remove('open');
+			Cross1Control.classList.remove('open');
+			Cross2Control.classList.remove('open');
+			Cross3Control.classList.remove('open');
+			MenuContentControl.classList.remove('open');
+			MenuValue = 0;
+		
 
 		
+	}
 	
-	
-	} 
-	else {
-		BtnControl.classList.remove('show');
-		AllCrossControl.classList.remove('open');
-		BtnControl.classList.remove('open');
-		Cross1Control.classList.remove('open');
-		Cross2Control.classList.remove('open');
-		Cross3Control.classList.remove('open');
-		MenuContentControl.classList.remove('open');
-		MenuValue = 0;
-  }
 }
+// When the user scrolls down 20px from the top of the document, show the button
+
+
 
 document.getElementsByClassName('AllCross')[0].onclick = function() {
 	MenuValue = MenuValue + 1 ;

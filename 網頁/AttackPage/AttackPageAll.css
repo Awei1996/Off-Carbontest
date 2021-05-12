@@ -1,9 +1,8 @@
 @charset "utf-8";
 @font-face {
 	font-family: Gen Jyuu Gothic ;
-    src: url(font/GenJyuuGothic-Normal.ttf) format('truetype');
-	src: url(font/GenJyuuGothic-Bold.ttf) format('truetype');
-	src: url(font/GenJyuuGothic-Bolder.ttf) format('truetype');
+    src: url(../../font/GenJyuuGothic-Normal.ttf) ;
+	
 }
 html{
 	scroll-behavior: smooth;
@@ -13,6 +12,7 @@ html{
 
 }
 body{
+	
 	font-family: Gen Jyuu Gothic ;
 	margin: 0;
     padding: 0;
@@ -23,9 +23,6 @@ body{
 	overflow-x: hidden;
 	background-color: #000;
 	
-	
-	
-
 }
 
 .allpg{
@@ -61,6 +58,8 @@ body{
 }
 button{
 	font-family: Gen Jyuu Gothic ;
+	display: flex;
+	align-items: center;
 }
 
 .view1{
@@ -82,6 +81,7 @@ button{
 	width: 100%;
 	padding-bottom: 56%;
 	background-color: transparent;
+	overflow-x: hidden;
 }
 .view3{
 	font-family: Gen Jyuu Gothic ;
@@ -92,7 +92,6 @@ button{
 	width: 100%;
 	padding-bottom: 56%;
 	background-color: transparent;
-	border: 2px solid white;
 	font-size: 1.33rem;
 }
 .view4{
@@ -168,7 +167,7 @@ button{
 }
 .MenuBtn{
 	
-	font-size: 92px;
+	font-size: 7.5rem;
 	font-weight: bolder;
 	color: #CE7E24;
 	-webkit-text-size-adjust:none;
@@ -181,7 +180,7 @@ button{
 }
 
 .Ab{
-	font-size: 72px;
+	font-size: 6rem;
 }
 .AllCross{
 	position: fixed;
