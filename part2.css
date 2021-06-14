@@ -10,6 +10,44 @@
 	opacity: 1;
 		
 }
+.view2-1Mobile{
+	position: absolute;
+	z-index: 5;
+	margin-top: 56%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	opacity: 1;
+	display:none;
+		
+}
+.view2-2Mobile{
+	position: absolute;
+	z-index: 5;
+	margin-top: 112%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	opacity: 1;
+	display:none;
+	border: 2px red solid;
+		
+}
+.view2-3Mobile{
+	position: absolute;
+	z-index: 5;
+	margin-top: 168%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	opacity: 1;
+	display:none;
+	border: 2px red solid;
+		
+}
 .bg2{
 	position: absolute;
 	z-index: -1;
@@ -20,7 +58,17 @@
 	padding-bottom: 56%;
 
 }
-
+.bg2-2Moblie{
+	position: absolute;
+	z-index: 1;
+	left: 0%;
+	width: 100%;
+	opacity: 1;
+	margin-top: 168%;
+	padding-bottom: 0%;
+	display: none;
+	border: 2px solid yellow;
+}
 .CO2{
 	color: #FFFFFF;
 	position: absolute;
@@ -35,6 +83,20 @@
 	margin-left: 4.17%;
 	font-weight: bold;
 }
+.CO2-Mobile{
+	color: #FFFFFF;
+	position: absolute;
+	background-color: transparent;
+	outline: none;
+	font-family: Gen Jyuu Gothic;
+	z-index: 2;
+	font-size: 33.34rem;
+	width: 20.83%;
+	height: 27.78%;
+	margin-top: 5.11%;
+	margin-left: 4.17%;
+	font-weight: bold;
+}
 .Carbon{
 	position: absolute;
 	margin-left: 0%;
@@ -42,7 +104,7 @@
 }
 .Two{
 	
-	color: #FFFFFF; 
+	color: #FFFFFF;
 	position: absolute;
 	z-index: 0;
 	font-size: 5rem;
@@ -50,6 +112,15 @@
 	margin-left: 75%;
 	font-weight: 600;
 
+}
+.Two-Mobile{
+	color: #FFFFFF;
+	position: absolute;
+	z-index: 0;
+	font-size: 12rem;
+	margin-top: 35%;
+	margin-left: 75%;
+	font-weight: 600;
 }
 
 .CO2infor{
@@ -68,6 +139,21 @@
 	-webkit-text-size-adjust: none;
 
 }
+.CO2infor-Mobile{
+	position: absolute;
+	z-index: 4;
+	margin-top: 20%;
+	font-size: 7.5rem;
+	color: #FFFFFF;
+	margin-left: 8.17%;
+	height: 27.78%;
+	width: 70%;
+	background-color: transparent;
+	opacity: 1;
+	line-height: 1;
+	font-weight: normal;
+	-webkit-text-size-adjust: none;
+}
 .CO2ani{
 	position: absolute;
 	margin-left: 55%;
@@ -75,9 +161,22 @@
 	width: 37.5%;
 	padding-bottom: 10%;
 }
+.CO2ani-Mobile{
+	position: absolute;
+	margin-left: 70%;
+	margin-top: -5%;
+	width: 37.5%;
+	padding-bottom: 10%;
+}
 .C,.O1,.O2,.price1,.price2{
 	position: absolute;
 	font-size: 3.125rem;
+	font-weight: 600;
+	color: #ffffff;
+}
+.C-Mobile,.O1-Mobile,.O2-Mobile,.price1-Mobile,.price2-Mobile{
+	position: absolute;
+	font-size: 15rem;
 	font-weight: 600;
 	color: #ffffff;
 }
@@ -89,15 +188,22 @@
 	animation-iteration-count: infinite;
 	
 }
-.O2{
+.O1-Mobile{
+	margin-left: -25%;
+	margin-top: 10%;
+	animation: Oa1;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	
+}
+.O2-Mobile{
 	margin-left: 25%;
 	margin-top: 10%;
 	animation: Oa2;
 	animation-duration: 6s;
 	animation-iteration-count: infinite;
 }
-.price1{
-	font-size: 3.75rem;
+.price1-Mobile{
 	margin-left: -10%;
 	margin-top: 5%;
 	transform: rotate(-30deg);
@@ -105,8 +211,7 @@
 	animation-duration: 6s;
 	animation-iteration-count: infinite;
 }
-.price2{
-	font-size: 3.75rem;
+.price2-Mobile{
 	margin-left: 10%;
 	margin-top: 5%;
 	transform: rotate(30deg);
@@ -144,6 +249,16 @@
 	margin-left: 28%;
 }
 
+.CO2coverline-Mobile{
+	z-index: 6;
+	position: absolute;
+	width: 0.5%;
+	height: 30.67%;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-top: 21%;
+	margin-left: 4.17%;
+}
 
 
 .Chemicalpro{
@@ -157,6 +272,20 @@
 	font-family: Gen Jyuu Gothic;
 	font-size: 10rem;
 	margin-top: 23%;
+	margin-left: 4.17%;
+	font-weight: bold;
+}
+.Chemicalpro-Mobile{
+	color: #FFFFFF;
+	position: absolute;
+	background-color: transparent;
+	outline: none;
+	font-family: Gen Jyuu Gothic;
+	z-index: 2;
+	font-size: 25rem;
+	width: 30.83%;
+	height: 27.78%;
+	margin-top: 5.11%;
 	margin-left: 4.17%;
 	font-weight: bold;
 }
@@ -177,7 +306,35 @@
 	-webkit-text-size-adjust: none ;
 
 }
+.Chemicalproinfor-Mobile{
+	position: absolute;
+	z-index: 4;
+	margin-top: 20%;
+	font-size: 7.5rem;
+	color: #FFFFFF;
+	margin-left: 8.17%;
+	height: 27.78%;
+	width: 70%;
+	background-color: transparent;
+	opacity: 1;
+	line-height: 1;
+	font-weight: normal;
+	-webkit-text-size-adjust: none;
+
+}
 .Chemicalproinfor2{
+	position: absolute;
+	width: 20%;
+	height: 15%;
+	margin-top: 0%;
+	margin-left: 65%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-text-size-adjust: none ;
+
+}
+.Chemicalproinfor2-Mobile{
 	position: absolute;
 	width: 20%;
 	height: 15%;
@@ -201,6 +358,18 @@
 	align-items: center;
 	
 }
+.nocolor-Mobile{
+	position: absolute;
+	z-index: 2;
+	margin-left: 20%;
+	margin-top: -7.5%;
+	width: 20.85%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
 .nocolortext{
 	position: absolute;
 	width: 100%;
@@ -214,10 +383,37 @@
 
 }
 
+.nocolortext{
+	position: absolute;
+	width: 100%;
+	height: 60%;
+	margin-top: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-text-size-adjust:none;
+
+
+}
 .noassist{
 	position: absolute;
 	z-index: 2;
 	margin-left: 30%;
+	margin-top: -7.5%;
+	width: 16.68%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-text-size-adjust:none;
+
+
+	
+}
+.noassist-Mobile{
+	position: absolute;
+	z-index: 2;
+	margin-left: 35%;
 	margin-top: -7.5%;
 	width: 16.68%;
 	height: 30%;
@@ -253,6 +449,18 @@
 	align-items: center;
 	
 }
+.noburn-Mobile{
+	position: absolute;
+	z-index: 2;
+	margin-left: 50%;
+	margin-top: -7.5%;
+	width: 16.68%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
 .noburntext{
 	position: absolute;
 	width: 100%;
@@ -273,6 +481,16 @@
 	margin-top: 25%;
 	margin-left: 40%;
 }
+.Chemicalcoverline-Mobile{
+	z-index: 6;
+	position: absolute;
+	width: 0.5%;
+	height: 30.67%;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-top: 21%;
+	margin-left: 4.17%;
+}
 .Proportion{
 	color: #ffffff;
 	position: absolute;
@@ -284,6 +502,21 @@
 	font-family: Gen Jyuu Gothic;
 	font-size: 16.67rem;
 	margin-top: 36%;
+	margin-left: 4.17%;
+	font-weight: bold;
+}
+
+.Proportion-Mobile{
+	color: #FFFFFF;
+	position: absolute;
+	background-color: transparent;
+	outline: none;
+	font-family: Gen Jyuu Gothic;
+	z-index: 2;
+	font-size: 25rem;
+	width: 30.83%;
+	height: 27.78%;
+	margin-top: 5.11%;
 	margin-left: 4.17%;
 	font-weight: bold;
 }
@@ -303,6 +536,23 @@
 
   	
 }
+.Proportioninfor-Mobile{
+	position: absolute;
+	z-index: 4;
+	margin-top: 20%;
+	font-size: 7.5rem;
+	color: #FFFFFF;
+	margin-left: 8.17%;
+	height: 27.78%;
+	width: 70%;
+	background-color: transparent;
+	opacity: 1;
+	line-height: 1;
+	font-weight: normal;
+	-webkit-text-size-adjust: none;
+
+  	
+}
 .Pieline{
 	position: absolute;
 	z-index: 2;
@@ -311,6 +561,17 @@
 	width: 2.8%;
 	height: 10%;
 	border: solid 2px transparent;
+	border-image: linear-gradient(143deg, #FFFFFF 50%, transparent 50%);
+	border-image-slice: 1;
+}
+.Pieline-Mobile{
+	position: absolute;
+	z-index: 2;
+	margin-top: 2.5%;
+	margin-left: 9%;
+	width: 2.8%;
+	height: 10%;
+	border: solid 1px transparent;
 	border-image: linear-gradient(143deg, #FFFFFF 50%, transparent 50%);
 	border-image-slice: 1;
 }
@@ -323,10 +584,21 @@
 	height: 15%;
 	font-size: 1.66rem;
 }
-.Two1{
-	font-size: 1.16rem;
+.Pietext-Mobile{
+	position: absolute;
+	z-index: 2;
+	margin-top: 2.5%;
+	margin-left: 12.5%;
+	width: 5%;
+	height: 15%;
+	font-size: 2.66rem;
 }
-
+.Two1{
+	font-size: 1.66rem;
+}
+.Two1-Mobile{
+	font-size: 1.66rem;
+}
 .Piechart{
 	margin-top:10%;
 	margin-left:-5%;
@@ -339,7 +611,18 @@
     animation-fill-mode: forwards;
 	
 }
-
+.Piechart-Mobile{
+	margin-top:5%;
+	margin-left:0%;
+	position:absolute;
+	z-index: 4;
+	width:20%;
+	overflow:hidden;
+	border-radius:0 80px 80px 0;
+	animation:a 3s linear;
+    animation-fill-mode: forwards;
+	
+}
 
 .Proportioncoverline{
 	z-index: 3;
@@ -351,7 +634,16 @@
 	top: 70%;
 	left: 40%;
 }
-
+.Proportioncoverline-Mobile{
+	z-index: 6;
+	position: absolute;
+	width: 0.5%;
+	height: 30.67%;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-top: 21%;
+	margin-left: 4.17%;
+}
 .fish1{
 	position: absolute;
 	z-index: 4;
@@ -371,4 +663,43 @@
 	100%{margin-left: 90%; margin-top: 50.16%;transform:  scaleX(-1);}
 }
 
+@media (min-width: 376px) and (max-width: 600px){
+	
+	.view2{
+		display: none;
+	}
+	.view2-1Mobile{
+		display: block;
+	}
+	
+	.view2-2Mobile{
+		display: block;
+	}
+	.bg2-2Moblie{
+		display: block;
+	}
+	.view2-3Mobile{
+		display: block;
+	}
+	
+}
 
+@media (min-width: 100px) and (max-width: 375px){
+	
+	.view2{
+		display: none;
+	}
+	.view2-1Mobile{
+		display: block;
+	}
+	.view2-2Mobile{
+		display: block;
+	}
+	.bg2-2Moblie{
+		display: block;
+	}
+	.view2-3Mobile{
+		display: block;
+	}
+	
+}

@@ -137,4 +137,20 @@
 	
 }
 
+@media (min-width: 376px) and (max-width: 600px){
+	
+	.view3{
+		display: none;
+	}
+	
+	
+}
 
+@media (min-width: 100px) and (max-width: 375px){
+	
+	.view3{
+		display: none;
+	}
+		
+	
+}
