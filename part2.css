@@ -196,6 +196,13 @@
 	animation-iteration-count: infinite;
 	
 }
+.O2{
+	margin-left: 25%;
+	margin-top: 10%;
+	animation: Oa2;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
 .O2-Mobile{
 	margin-left: 25%;
 	margin-top: 10%;
