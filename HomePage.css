@@ -583,5 +583,25 @@ h3,p{
 	html{
 		font-size: 1px;
 	}
-	
+	.view2{
+		display: none;
+	}
+	.view21Mobile{
+		display: block;
+	}
+	.view2-2Mobile{
+		display: block;
+	}
+	.bg2-2Moblie{
+		display: block;
+	}
+	.view2-3Mobile{
+		display: block;
+	}
+	.view3{
+		display: none;
+	}
+	.view4{
+		display: none;
+	}
 }
