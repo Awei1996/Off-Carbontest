@@ -10,7 +10,7 @@
 	opacity: 1;
 		
 }
-.view2-1Mobile{
+.view21Mobile{
 	position: absolute;
 	z-index: 5;
 	margin-top: 56%;
@@ -83,7 +83,7 @@
 	margin-left: 4.17%;
 	font-weight: bold;
 }
-.CO2-Mobile{
+.CO2Mobile{
 	color: #FFFFFF;
 	position: absolute;
 	background-color: transparent;
@@ -113,7 +113,7 @@
 	font-weight: 600;
 
 }
-.Two-Mobile{
+.TwoMobile{
 	color: #FFFFFF;
 	position: absolute;
 	z-index: 0;
@@ -139,7 +139,7 @@
 	-webkit-text-size-adjust: none;
 
 }
-.CO2infor-Mobile{
+.CO2inforMobile{
 	position: absolute;
 	z-index: 4;
 	margin-top: 20%;
@@ -161,7 +161,7 @@
 	width: 37.5%;
 	padding-bottom: 10%;
 }
-.CO2ani-Mobile{
+.CO2aniMobile{
 	position: absolute;
 	margin-left: 70%;
 	margin-top: -5%;
@@ -174,7 +174,7 @@
 	font-weight: 600;
 	color: #ffffff;
 }
-.C-Mobile,.O1-Mobile,.O2-Mobile,.price1-Mobile,.price2-Mobile{
+.CMobile,.O1Mobile,.O2Mobile,.price1Mobile,.price2Mobile{
 	position: absolute;
 	font-size: 15rem;
 	font-weight: 600;
@@ -188,7 +188,7 @@
 	animation-iteration-count: infinite;
 	
 }
-.O1-Mobile{
+.O1Mobile{
 	margin-left: -25%;
 	margin-top: 10%;
 	animation: Oa1;
@@ -203,14 +203,14 @@
 	animation-duration: 6s;
 	animation-iteration-count: infinite;
 }
-.O2-Mobile{
+.O2Mobile{
 	margin-left: 25%;
 	margin-top: 10%;
 	animation: Oa2;
 	animation-duration: 6s;
 	animation-iteration-count: infinite;
 }
-.price1-Mobile{
+.price1Mobile{
 	margin-left: -10%;
 	margin-top: 5%;
 	transform: rotate(-30deg);
@@ -218,7 +218,7 @@
 	animation-duration: 6s;
 	animation-iteration-count: infinite;
 }
-.price2-Mobile{
+.price2Mobile{
 	margin-left: 10%;
 	margin-top: 5%;
 	transform: rotate(30deg);
@@ -256,7 +256,7 @@
 	margin-left: 28%;
 }
 
-.CO2coverline-Mobile{
+.CO2coverlineMobile{
 	z-index: 6;
 	position: absolute;
 	width: 0.5%;
