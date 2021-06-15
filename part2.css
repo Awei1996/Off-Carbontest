@@ -12,7 +12,7 @@
 }
 .view21Mobile{
 	position: absolute;
-	z-index: 5;
+	z-index: 6;
 	margin-top: 56%;
 	left: 0%;
 	width: 100vw;
@@ -24,7 +24,7 @@
 }
 .view2-2Mobile{
 	position: absolute;
-	z-index: 5;
+	z-index: 6;
 	margin-top: 112%;
 	left: 0%;
 	width: 100vw;
@@ -37,7 +37,7 @@
 }
 .view2-3Mobile{
 	position: absolute;
-	z-index: 5;
+	z-index: 6;
 	margin-top: 168%;
 	left: 0%;
 	width: 100vw;
