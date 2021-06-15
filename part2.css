@@ -675,7 +675,7 @@
 	.view2{
 		display: none;
 	}
-	.view2-1Mobile{
+	.view21Mobile{
 		display: block;
 	}
 	
@@ -687,6 +687,12 @@
 	}
 	.view2-3Mobile{
 		display: block;
+	}
+	.view3{
+		display: none;
+	}
+	.view4{
+		display: none;
 	}
 	
 }
@@ -696,7 +702,7 @@
 	.view2{
 		display: none;
 	}
-	.view2-1Mobile{
+	.view21Mobile{
 		display: block;
 	}
 	.view2-2Mobile{
@@ -708,5 +714,10 @@
 	.view2-3Mobile{
 		display: block;
 	}
-	
+	.view3{
+		display: none;
+	}
+	.view4{
+		display: none;
+	}
 }
