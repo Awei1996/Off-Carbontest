@@ -22,7 +22,7 @@
 	display:none;
 		
 }
-.view2-2Mobile{
+.view22Mobile{
 	position: absolute;
 	z-index: 6;
 	margin-top: 112%;
@@ -35,7 +35,7 @@
 	border: 2px red solid;
 		
 }
-.view2-3Mobile{
+.view23Mobile{
 	position: absolute;
 	z-index: 6;
 	margin-top: 168%;
@@ -58,7 +58,7 @@
 	padding-bottom: 56%;
 
 }
-.bg2-2Moblie{
+.bg22Moblie{
 	position: absolute;
 	z-index: 1;
 	left: 0%;
