@@ -210,10 +210,26 @@
 	animation-duration: 6s;
 	animation-iteration-count: infinite;
 }
+.price1{
+	margin-left: -10%;
+	margin-top: 5%;
+	transform: rotate(-30deg);
+	animation: Pa;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
 .price1Mobile{
 	margin-left: -10%;
 	margin-top: 5%;
 	transform: rotate(-30deg);
+	animation: Pa;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+.price2{
+	margin-left: 10%;
+	margin-top: 5%;
+	transform: rotate(30deg);
 	animation: Pa;
 	animation-duration: 6s;
 	animation-iteration-count: infinite;
