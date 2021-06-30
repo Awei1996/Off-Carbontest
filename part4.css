@@ -430,18 +430,13 @@
 }
 @media (min-width: 376px) and (max-width: 600px){
 	
-	.view4{
-		display: none;
-	}
+	
 	
 	
 }
 
 @media (min-width: 100px) and (max-width: 375px){
 	
-	.view4{
-		display: none;
-	}
-		
+	
 	
 }
