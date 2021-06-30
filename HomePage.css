@@ -583,5 +583,8 @@ h3,p{
 	html{
 		font-size: 3px;
 	}
+	.bar{
+		font-size: 3rem;
+	}
 	
 }
