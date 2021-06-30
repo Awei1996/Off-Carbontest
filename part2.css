@@ -563,7 +563,7 @@
 	position: absolute;
 	z-index: 4;
 	margin-top: 20%;
-	font-size: 7.5rem;
+	font-size: 7.2rem;
 	color: #FFFFFF;
 	margin-left: 8.17%;
 	height: 27.78%;
@@ -616,11 +616,12 @@
 	height: 15%;
 	font-size: 3rem;
 }
+
 .Two1{
 	font-size: 1.66rem;
 }
 .Two1-Mobile{
-	font-size: 1.66rem;
+	font-size: 2rem;
 }
 .Piechart{
 	margin-top:10%;
