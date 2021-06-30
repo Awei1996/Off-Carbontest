@@ -573,7 +573,7 @@ h3,p{
 	
 	
 	html{
-		font-size: 2px;
+		font-size: 3px;
 	}
 	
 }
@@ -581,7 +581,7 @@ h3,p{
 @media (min-device-width: 100px) and (max-device-width: 375px){
 	
 	html{
-		font-size: 1px;
+		font-size: 2px;
 	}
 	
 }
