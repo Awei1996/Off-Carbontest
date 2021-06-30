@@ -578,7 +578,7 @@ h3,p{
 	
 }
 
-@media (min-device-width: 100px) and (max-device-width: 375px){
+@media (min-width: 100px) and (max-width: 375px){
 	
 	html{
 		font-size: 1px;
