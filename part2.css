@@ -579,7 +579,7 @@
 .Pieline{
 	position: absolute;
 	z-index: 2;
-	margin-top: 8%;
+	margin-top: 5%;
 	margin-left: 3.2%;
 	width: 2.8%;
 	height: 10%;
@@ -601,7 +601,7 @@
 .Pietext{
 	position: absolute;
 	z-index: 2;
-	margin-top: 5%;
+	margin-top: 2.5%;
 	margin-left: 7.5%;
 	width: 5%;
 	height: 15%;
