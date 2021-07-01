@@ -85,12 +85,16 @@
 	font-size: 8.33rem;
 	background-color: transparent;
 	outline: none;
-	margin-left: 2%;
+	margin-left: 0%;
 	margin-top: 19%;
 	width: 25%;
-	height: 46.3%;
+	height: 55.3%;
 	color: #acd3d2;
 	text-align: center;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	
 	
 }
 
@@ -98,10 +102,10 @@
 .textcardgas {
   	position: absolute;
 	z-index: 6;
-	margin-top: 0%;
-	margin-left: 3%;
+	margin-top: 30%;
+	margin-left: 0%;
 	width: 77%;
-	height: 90%;
+	height: 75%;
 	opacity: 1;
   	perspective: 1000px;
 
@@ -175,20 +179,23 @@
 	font-size: 8.33rem;
 	background-color: transparent;
 	outline: none;
-	margin-left: 27%;
+	margin-left: 25%;
 	margin-top: 19%;
 	width: 25%;
-	height: 46.3%;
+	height: 55.3%;
 	color: #acd3d2;
 	text-align: center;
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }
 .textcardsun {
   	position: absolute;
 	z-index: 6;
-	margin-top: 0%;
-	margin-left: 3%;
+	margin-top: 30%;
+	margin-left: 0%;
 	width: 77%;
-	height: 90%;
+	height: 75%;
 	opacity: 1;
   	perspective: 1000px;
 }
@@ -254,20 +261,23 @@
 	font-size: 8.33rem;
 	background-color: transparent;
 	outline: none;
-	margin-left: 52%;
+	margin-left: 50%;
 	margin-top: 19%;
 	width: 25%;
-	height: 46.3%;
+	height: 55.3%;
 	color: #acd3d2;
 	text-align: center;
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }
 .textcardoil {
   	position: absolute;
 	z-index: 6;
-	margin-top: 0%;
-	margin-left: 3%;
+	margin-top: 30%;
+	margin-left: 0%;
 	width: 77%;
-	height: 90%;
+	height: 75%;
 	opacity: 1;
   	perspective: 1000px;
 }
@@ -335,20 +345,23 @@
 	font-size: 8.33rem;
 	background-color: transparent;
 	outline: none;
-	margin-left: 77%;
+	margin-left: 75%;
 	margin-top: 19%;
 	width: 25%;
-	height: 46.3%;
+	height: 55.3%;
 	color: #acd3d2;
 	text-align: center;
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }
 .textcardlife {
   	position: absolute;
 	z-index: 6;
-	margin-top: 0%;
-	margin-left: 3%;
+	margin-top: 30%;
+	margin-left: 0%;
 	width: 77%;
-	height: 90%;
+	height: 75%;
 	opacity: 1;
   	perspective: 1000px;
 }
