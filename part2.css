@@ -126,7 +126,7 @@
 .CO2infor{
 	position: absolute;
 	z-index: 4;
-	margin-top: 8%;
+	margin-top: 10%;
 	font-size: 1.66rem;
 	color: #FFFFFF;
 	margin-left: 32.55%;
@@ -315,7 +315,7 @@
 .Chemicalproinfor{
 	position: absolute;
 	z-index: 2;
-	margin-top: 25%;
+	margin-top: 27.5%;
 	margin-left: 44.27%;
 	font-size: 1.66rem;
 	color: #ffffff;
