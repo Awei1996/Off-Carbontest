@@ -305,7 +305,7 @@
 	outline: none;
 	font-family: Gen Jyuu Gothic;
 	z-index: 2;
-	font-size: 25rem;
+	font-size: 20rem;
 	width: 30.83%;
 	height: 27.78%;
 	margin-top: 5.11%;
@@ -333,7 +333,7 @@
 	position: absolute;
 	z-index: 4;
 	margin-top: 20%;
-	font-size: 7.5rem;
+	font-size: 5rem;
 	color: #FFFFFF;
 	margin-left: 8.17%;
 	height: 27.78%;
@@ -511,7 +511,7 @@
 	height: 30.67%;
 	border-radius: 5px;
 	background-color: #fff;
-	margin-top: 21%;
+	margin-top: 30%;
 	margin-left: 4.17%;
 }
 .Proportion{
@@ -536,7 +536,7 @@
 	outline: none;
 	font-family: Gen Jyuu Gothic;
 	z-index: 2;
-	font-size: 25rem;
+	font-size: 20rem;
 	width: 30.83%;
 	height: 27.78%;
 	margin-top: 5.11%;
@@ -563,7 +563,7 @@
 	position: absolute;
 	z-index: 4;
 	margin-top: 20%;
-	font-size: 7.2rem;
+	font-size: 5rem;
 	color: #FFFFFF;
 	margin-left: 8.17%;
 	height: 27.78%;
