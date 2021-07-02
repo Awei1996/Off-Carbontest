@@ -687,7 +687,7 @@
 	100%{margin-left: 90%; margin-top: 50.16%;transform:  scaleX(-1);}
 }
 
-@media screen and (min-device-width: 376px) and (max-device-width: 600px){
+@media screen and (min-device-width: 375px) and (max-device-width: 600px){
 	
 	.view2{
 		display: none;
