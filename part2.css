@@ -58,7 +58,7 @@
 	padding-bottom: 56%;
 
 }
-.bg22Moblie{
+.bg2-2Moblie{
 	position: absolute;
 	z-index: 1;
 	left: 0%;
@@ -67,7 +67,7 @@
 	margin-top: 168%;
 	padding-bottom: 0%;
 	display: none;
-	border: 20px solid yellow;
+	border: 2px solid yellow;
 }
 .CO2{
 	color: #FFFFFF;
@@ -725,7 +725,7 @@
 	.view22Mobile{
 		display: block;
 	}
-	.bg22Moblie{
+	.bg2-2Moblie{
 		display: block;
 	}
 	.view23Mobile{
