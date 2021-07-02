@@ -557,9 +557,7 @@ h3,p{
 	html{
 		font-size: 6px;
 	}
-	.view4{
-		display: none;
-	}
+	
 }
 @media (min-device-width: 600px) and (max-device-width: 960px){
 	
@@ -567,13 +565,11 @@ h3,p{
 	html{
 		font-size: 5px;
 	}
-	.view4{
-		display: none;
-	}
+	
 	
 }
 
-@media (min-device-width: 376px) and (max-device-width: 600px){
+@media (min-device-width: 375px) and (max-device-width: 600px){
 	
 	
 	html{
