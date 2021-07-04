@@ -575,7 +575,9 @@ h3,p{
 	html{
 		font-size: 4px;
 	}
-	
+	body{
+		height: 1100%;
+	}
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
@@ -586,5 +588,7 @@ h3,p{
 	.bar{
 		font-size: 6rem;
 	}
-	
+	body{
+		height: 1100%;
+	}
 }
