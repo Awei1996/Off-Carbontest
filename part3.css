@@ -13,6 +13,19 @@
 	display: block;
 	
 }
+.view3-1Mobile{
+	position: absolute;
+	z-index: 5;
+	margin-top: 112%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	overflow: hidden;
+	opacity: 1;
+	display: block;
+	
+}
 .bg3{
 	position: absolute;
 	z-index: -1;
@@ -21,6 +34,18 @@
 	opacity: 1;
 	margin-top: 112%;
 	padding-bottom: 56%;
+}
+.bg3-1Moblie{
+	position: absolute;
+	z-index: 6;
+	margin-top: 224%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	opacity: 1;
+	display:none;
+	border: 2px red solid;
 }
 /*.rectangle{
 	position: absolute;
@@ -32,6 +57,15 @@
 	background-color: red;
 }*/
 .subtitle3{
+	position: absolute;
+	z-index: 3;
+	margin-left: 7.4%;
+	magin-top: 1.85%;
+	color: #e98c24;
+	font-size: 12.5rem;
+	font-weight: bold;
+}
+.subtitle3-Mobile{
 	position: absolute;
 	z-index: 3;
 	margin-left: 7.4%;
@@ -54,7 +88,39 @@
 	width: 450px;
 	height: 300px;
 }
+.burn-Mobile{
+	position: absolute;
+	z-index: 3;
+	background-color: transparent;
+	outline: none;
+	font-family: Gen Jyuu Gothic;
+	font-weight: bold;
+	font-size: 16.67rem;
+	margin-left: 9.5%;
+	margin-top: 15%;
+	color: #ffffff;
+	width: 450px;
+	height: 300px;
+}
 .burninfor{
+	position: absolute;
+	z-index: 3;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 2.67rem;
+	outline: none;
+	width: 25%;
+	height: 10%;
+	margin-left: 5%;
+	margin-top: 30%;
+	opacity: 1;
+	font-weight: normal;
+	text-align: center;
+	-webkit-text-size-adjust:none;
+	
+	
+}
+.burninfor-Mobile{
 	position: absolute;
 	z-index: 3;
 	background-color: transparent;
@@ -138,16 +204,34 @@
 	
 }
 
-@media (min-width: 376px) and (max-width: 600px){
+@media screen and (min-device-width: 375px) and (max-device-width: 600px){
 	
 	
+	
+	.view3-1Mobile{
+		display: block;
+	}
+	.bg2-2Moblie{
+		display: block;
+	}
+	
+	.view3{
+		display: none;
+	}
 	
 	
 }
 
-@media (min-width: 100px) and (max-width: 375px){
+@media screen and (min-device-width: 100px) and (max-device-width: 375px){
 	
+	.view3-1Mobile{
+		display: block;
+	}
+	.bg2-2Moblie{
+		display: block;
+	}
 	
-		
-	
+	.view3{
+		display: none;
+	}
 }
