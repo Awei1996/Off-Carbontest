@@ -69,7 +69,7 @@
 	position: absolute;
 	z-index: 3;
 	margin-left: 7.4%;
-	magin-top: 2.85%;
+	magin-top: 5%;
 	color: #e98c24;
 	font-size: 25rem;
 	font-weight: bold;
@@ -95,8 +95,8 @@
 	outline: none;
 	font-family: Gen Jyuu Gothic;
 	font-weight: bold;
-	font-size: 16.67rem;
-	margin-left: 9.5%;
+	font-size: 32rem;
+	margin-left: 40%;
 	margin-top: 15%;
 	color: #ffffff;
 	width: 450px;
@@ -125,11 +125,11 @@
 	z-index: 3;
 	background-color: transparent;
 	color: #ffffff;
-	font-size: 2.67rem;
+	font-size: 5rem;
 	outline: none;
 	width: 25%;
 	height: 10%;
-	margin-left: 5%;
+	margin-left: 35%;
 	margin-top: 30%;
 	opacity: 1;
 	font-weight: normal;
