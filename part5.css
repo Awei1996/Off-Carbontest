@@ -94,3 +94,23 @@
 	opacity: 1;
 	
 }
+@media screen and (min-device-width: 375px) and (max-device-width: 600px){
+	
+	
+	
+	
+	.view5{
+		display: none;
+	}
+	
+	
+}
+
+@media screen and (min-device-width: 100px) and (max-device-width: 375px){
+	
+	
+	
+	.view5{
+		display: none;
+	}
+}
