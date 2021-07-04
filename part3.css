@@ -45,7 +45,7 @@
 	background-color: transparent;
 	opacity: 1;
 	display:none;
-	border: 2px red solid;
+	border: 2px blue solid;
 }
 /*.rectangle{
 	position: absolute;
@@ -69,9 +69,9 @@
 	position: absolute;
 	z-index: 3;
 	margin-left: 7.4%;
-	magin-top: 1.85%;
+	magin-top: 2.85%;
 	color: #e98c24;
-	font-size: 12.5rem;
+	font-size: 25rem;
 	font-weight: bold;
 }
 .burn{
@@ -211,7 +211,7 @@
 	.view3-1Mobile{
 		display: block;
 	}
-	.bg2-2Moblie{
+	.bg3-1Moblie{
 		display: block;
 	}
 	
@@ -227,7 +227,7 @@
 	.view3-1Mobile{
 		display: block;
 	}
-	.bg2-2Moblie{
+	.bg3-1Moblie{
 		display: block;
 	}
 	
