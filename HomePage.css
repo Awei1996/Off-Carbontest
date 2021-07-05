@@ -577,6 +577,9 @@ h3,p{
 	body{
 		height: 1100%;
 	}
+	.allpg{
+		height: 200%;
+	}
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
@@ -589,5 +592,8 @@ h3,p{
 	}
 	body{
 		height: 1100%;
+	}
+	.allpg{
+		height: 200%;
 	}
 }
