@@ -13,6 +13,19 @@
 	-webkit-text-size-adjust:none;
 
 }
+.view5-Mobile{
+	position: absolute;
+	z-index: 5;
+	margin-top: 392%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	overflow: hidden;
+	opacity: 1;
+	-webkit-text-size-adjust:none;
+	display: none;
+}
 .bg5{
 	position: absolute;
 	z-index: -1;
@@ -96,11 +109,12 @@
 }
 @media screen and (min-device-width: 375px) and (max-device-width: 600px){
 	
-	
-	
-	
 	.view5{
 		display: none;
+	}
+	
+	.view5-Mobile{
+		display: block;
 	}
 	
 	
@@ -108,9 +122,11 @@
 
 @media screen and (min-device-width: 100px) and (max-device-width: 375px){
 	
-	
-	
 	.view5{
 		display: none;
+	}
+	
+	.view5-Mobile{
+		display: block;
 	}
 }

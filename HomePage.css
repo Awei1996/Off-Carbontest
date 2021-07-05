@@ -580,9 +580,7 @@ h3,p{
 		font-size: 4px;
 	}
 	
-	.allpg{
-		height: 1100%;
-	}
+	
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
@@ -594,7 +592,5 @@ h3,p{
 		font-size: 6rem;
 	}
 	
-	.allpg{
-		height: 1100%;
-	}
+	
 }
