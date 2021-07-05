@@ -76,6 +76,7 @@
 	color: #e98c24;
 	font-size: 25rem;
 	font-weight: bold;
+	border: 2px solid red;
 }
 .burn{
 	position: absolute;
