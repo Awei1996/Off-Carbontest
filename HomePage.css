@@ -37,7 +37,11 @@ h3,p{
 	margin-bottom: 5px;
 	font-weight: normal;
 }
-
+.allpg{
+	margin-top: 0%;
+	margin-left: 0%;
+	border: 5px solid purple;
+}
 .myBtn {
   	
   	position: fixed; /* Fixed/sticky position */
