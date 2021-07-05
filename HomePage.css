@@ -25,7 +25,7 @@ body{
     border: 0;
     display: block;
     width: 100%;
-    height: 500%;
+    height: 1100%;
 	overflow-x: hidden;
 
 	
@@ -579,9 +579,7 @@ h3,p{
 	html{
 		font-size: 4px;
 	}
-	body{
-		height: 1100%;
-	}
+	
 	.allpg{
 		height: 1100%;
 	}
@@ -595,9 +593,7 @@ h3,p{
 	.bar{
 		font-size: 6rem;
 	}
-	body{
-		height: 1100%;
-	}
+	
 	.allpg{
 		height: 1100%;
 	}
