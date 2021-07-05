@@ -24,6 +24,8 @@
 	overflow: hidden;
 	opacity: 1;
 	display: block;
+	justify-content: center;
+	align-content: center;
 	
 }
 .bg3{
