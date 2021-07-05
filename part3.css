@@ -68,9 +68,8 @@
 	z-index: 1;
 	margin-top: 224%;
 	left: 0%;
-	width: 100vw;
+	width: 100%;
 	padding-bottom: 56%;
-	background-color: transparent;
 	opacity: 1;
 	display:none;
 	border: 2px blue solid;
@@ -80,9 +79,8 @@
 	z-index: 1;
 	margin-top: 280%;
 	left: 0%;
-	width: 100vw;
+	width: 100%;
 	padding-bottom: 56%;
-	background-color: transparent;
 	opacity: 1;
 	display:none;
 	border: 2px orange solid;
@@ -92,9 +90,8 @@
 	z-index: 1;
 	margin-top: 336%;
 	left: 0%;
-	width: 100vw;
+	width: 100%;
 	padding-bottom: 56%;
-	background-color: #00FF00;
 	opacity: 1;
 	display:none;
 	border: 2px green solid;
