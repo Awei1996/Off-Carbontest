@@ -577,6 +577,7 @@ h3,p{
 	
 	html{
 		font-size: 4px;
+		height: 1100%;
 	}
 	
 	
@@ -586,6 +587,7 @@ h3,p{
 	
 	html{
 		font-size: 3px;
+		height: 1100%;
 	}
 	.bar{
 		font-size: 6rem;
