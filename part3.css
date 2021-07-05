@@ -23,7 +23,7 @@
 	background-color: transparent;
 	overflow: hidden;
 	opacity: 1;
-	display: block;
+	display: flex;
 	justify-content: center;
 	align-content: center;
 	
