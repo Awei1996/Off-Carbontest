@@ -69,11 +69,10 @@
 	position: absolute;
 	z-index: 3;
 	margin-left: 7.4%;
-	margin-top: 15%;
+	margin-top: 7.5%;
 	color: #e98c24;
 	font-size: 25rem;
 	font-weight: bold;
-	border: 2px solid red;
 }
 .burn{
 	position: absolute;
