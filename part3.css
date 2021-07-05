@@ -202,6 +202,20 @@
 	color: #ffffff;
 	
 }
+.breath-Mobile{
+	position: absolute;
+	z-index: 3;
+	background-color: transparent;
+	outline: none;
+	font-family: Gen Jyuu Gothic;
+	font-weight: bold;
+	font-size: 32rem;
+	margin-left: 37.5%;
+	margin-top: 17.5%;
+	color: #ffffff;
+	width: 100%;
+	height: 50%;
+}
 .breathinfor{
 	position: absolute;
 	z-index: 1;
@@ -220,6 +234,22 @@
 
 	
 }
+.breathinfor-Mobile{
+	position: absolute;
+	z-index: 3;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 6rem;
+	outline: none;
+	width: 25%;
+	height: 10%;
+	margin-left: 35%;
+	margin-top: 30%;
+	opacity: 1;
+	font-weight: normal;
+	text-align: center;
+	-webkit-text-size-adjust:none;
+}
 
 .fermentation{
 	position: absolute;
@@ -233,6 +263,22 @@
 	margin-left: 72%;
 	margin-top: 15%;
 	color: #ffffff;
+}
+.fermentation-Mobile{
+	position: absolute;
+	z-index: 3;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 6rem;
+	outline: none;
+	width: 25%;
+	height: 10%;
+	margin-left: 35%;
+	margin-top: 30%;
+	opacity: 1;
+	font-weight: normal;
+	text-align: center;
+	-webkit-text-size-adjust:none;
 }
 .fermentationinfor{
 	position: absolute;
@@ -252,7 +298,22 @@
 
 	
 }
-
+.fermentationinfor-Mobile{
+	position: absolute;
+	z-index: 3;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 2.67rem;
+	outline: none;
+	width: 25%;
+	height: 10%;
+	margin-left: 68%;
+	margin-top: 30%;
+	opacity: 1;
+	font-weight: normal;
+	text-align: center;
+	-webkit-text-size-adjust:none;
+}
 @media screen and (min-device-width: 375px) and (max-device-width: 600px){
 	
 	
