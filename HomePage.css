@@ -50,6 +50,7 @@ h3,p{
 	margin-top:  0%;
 	width: 100%;
 	height: 100%;
+	padding-bottom: 280%;
 	overflow: hidden;
 }
 .myBtn {
@@ -579,7 +580,9 @@ h3,p{
 		font-size: 4px;
 		height: 250%;
 	}
-	
+	.allpg{
+		padding-bottom: 560%;
+	}
 	
 }
 
@@ -592,6 +595,8 @@ h3,p{
 	.bar{
 		font-size: 6rem;
 	}
-	
+	.allpg{
+		padding-bottom: 560%;
+	}
 	
 }
