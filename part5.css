@@ -36,6 +36,16 @@
     background: transparent linear-gradient(180deg, #3d4650 0%, #121212 100%) 0% 0% no-repeat padding-box;
 	opacity: 1;
 }
+.bg5-Mobile{
+	position: absolute;
+	z-index: -1;
+	left: 0%;
+	width: 100%;
+	margin-top: 392%;
+	padding-bottom: 56%;
+    background: transparent linear-gradient(180deg, #3d4650 0%, #121212 100%) 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
 .references{
 	position: absolute;
 	z-index: 1;
