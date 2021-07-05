@@ -26,6 +26,33 @@
 	display: none;
 	
 }
+
+.view3-2Mobile{
+	position: absolute;
+	z-index: 5;
+	margin-top: 280%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	overflow: hidden;
+	opacity: 1;
+	display: none;
+	
+}
+.view3-2Mobile{
+	position: absolute;
+	z-index: 5;
+	margin-top: 336%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	overflow: hidden;
+	opacity: 1;
+	display: none;
+	
+}
 .bg3{
 	position: absolute;
 	z-index: -1;
@@ -39,6 +66,30 @@
 	position: absolute;
 	z-index: 1;
 	margin-top: 224%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	opacity: 1;
+	display:none;
+	border: 2px blue solid;
+}
+.bg3-2Moblie{
+	position: absolute;
+	z-index: 1;
+	margin-top: 280%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	opacity: 1;
+	display:none;
+	border: 2px blue solid;
+}
+.bg3-3Moblie{
+	position: absolute;
+	z-index: 1;
+	margin-top: 336%;
 	left: 0%;
 	width: 100vw;
 	padding-bottom: 56%;
