@@ -263,10 +263,21 @@
 	.view3-1Mobile{
 		display: block;
 	}
+	.view3-2Mobile{
+		display: block;
+	}
+	.view3-3Mobile{
+		display: block;
+	}
 	.bg3-1Moblie{
 		display: block;
 	}
-	
+	.bg3-2Moblie{
+		display: block;
+	}
+	.bg3-3Moblie{
+		display: block;
+	}
 	.view3{
 		display: none;
 	}
@@ -279,10 +290,24 @@
 	.view3-1Mobile{
 		display: block;
 	}
+	.view3-2Mobile{
+		display: block;
+	}
+	.view3-3Mobile{
+		display: block;
+	}
 	.bg3-1Moblie{
 		display: block;
 	}
-	
+	.bg3-1Moblie{
+		display: block;
+	}
+	.bg3-2Moblie{
+		display: block;
+	}
+	.bg3-3Moblie{
+		display: block;
+	}
 	.view3{
 		display: none;
 	}
