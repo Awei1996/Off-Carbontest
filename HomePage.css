@@ -580,9 +580,6 @@ h3,p{
 		font-size: 4px;
 		height: 250%;
 	}
-	body{
-		height: 150%;
-	}
 	.allpg{
 		padding-bottom: 676%;
 	}
@@ -594,9 +591,6 @@ h3,p{
 	html{
 		font-size: 3px;
 		height: 225%;
-	}
-	body{
-		height: 150%;
 	}
 	.bar{
 		font-size: 6rem;
