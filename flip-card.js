@@ -1,6 +1,6 @@
 function flip(event){
 	var element = event.currentTarget;
-	if (element.className === "gascard") {
+	if (element.className == "gascard") {
     if(element.style.webkitTransform == "rotateY(180deg)") {
       element.style.webkitTransform = "rotateY(0deg)";
     }
