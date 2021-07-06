@@ -478,6 +478,9 @@
 	.view4-1Mobile{
 		display: block;
 	}
+	.bg4-1Mobile{
+		display: block;
+	}
 	
 	
 }
@@ -488,6 +491,9 @@
 		display: none;
 	}
 	.view4-1Mobile{
+		display: block;
+	}
+	.bg4-1Mobile{
 		display: block;
 	}
 }
