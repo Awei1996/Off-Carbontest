@@ -475,7 +475,9 @@
 	.view4{
 		display: none;
 	}
-	
+	.view4-1Mobile{
+		display: block;
+	}
 	
 	
 }
@@ -485,5 +487,7 @@
 	.view4{
 		display: none;
 	}
-	
+	.view4-1Mobile{
+		display: block;
+	}
 }
