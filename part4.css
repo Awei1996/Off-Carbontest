@@ -164,7 +164,7 @@
 	
 }
 .gas-Mobile t{
-	font-size: 18rem;
+	font-size: 20rem;
 }
 
 .textcardgas {
@@ -172,7 +172,7 @@
 	z-index: 6;
 	margin-top: 30%;
 	margin-left: 0%;
-	width: 77%;
+	width: 85%;
 	height: 75%;
 	opacity: 1;
   	perspective: 1000px;
