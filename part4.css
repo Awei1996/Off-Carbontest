@@ -255,8 +255,19 @@
 	width: 100%;
 	margin-top: 10%;
 }
+.gasfimg-Mobile{
+	width: 100%;
+	margin-top: 10%;
+}
 
 .gasback {
+	
+  	transform: rotateY(180deg);
+	line-height: 1.2;
+	-webkit-text-size-adjust:none;	
+	
+}
+.gasback-Mobile {
 	
   	transform: rotateY(180deg);
 	line-height: 1.2;
