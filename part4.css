@@ -141,13 +141,16 @@
 
 
 }
-
-#gascardPC {
+.card {
 	width: 100%;
 	height: 100%;
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
   	cursor: pointer;
+	
+}
+#gascardPC {
+	
 	
 }
 #gascardMobile {
