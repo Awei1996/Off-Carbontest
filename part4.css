@@ -183,10 +183,10 @@
 .textcardgas-Mobile {
   	position: absolute;
 	z-index: 6;
-	margin-top: 25%;
+	margin-top: 22.5%;
 	margin-left: 0%;
-	width: 60%;
-	height: 80%;
+	width: 50%;
+	height: 90%;
 	opacity: 1;
   	perspective: 1000px;
 
