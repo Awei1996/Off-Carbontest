@@ -100,7 +100,7 @@
 	font-weight: bold;
 	text-align: center;
 }
-.subtitle4 Mobile{
+.subtitle4>.Mobile{
 	position: absolute;
 	z-index: 5;
 	width: 100%;
