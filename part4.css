@@ -154,7 +154,7 @@
 	margin-left: 0%;
 	margin-top: 15%;
 	width: 50%;
-	height: 75%;
+	height: 60%;
 	color: #acd3d2;
 	text-align: center;
 	display: flex;
@@ -164,7 +164,7 @@
 	
 }
 .gas-Mobile t{
-	font-size: 24rem;
+	font-size: 28rem;
 }
 
 .textcardgas {
@@ -245,7 +245,7 @@
 .gasfront-Mobile, .gasback-Mobile {
 	position: absolute;
 	display: flex;
-	font-size: 8rem;
+	font-size: 6rem;
 	color: #0B3140;
 	width: 100%;
 	height: 100%;
