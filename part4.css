@@ -20,7 +20,7 @@
 	margin-top: 392%;
 	left: 0%;
 	width: 100vw;
-	padding-bottom: 56%;
+	padding-bottom: 112%;
 	background-color: transparent;
 	overflow: hidden;
 	opacity: 1;
@@ -37,7 +37,17 @@
 	padding-bottom: 56%;
 
 }
-.bg4-1Mobile{
+.bg4-1-1Mobile{
+	position: absolute;
+	z-index: 1;
+	margin-top: 392%;
+	left: 0%;
+	width: 100%;
+	opacity: 1;
+	display:none;
+	border: 2px green solid;
+}
+.bg4-1-2Mobile{
 	position: absolute;
 	z-index: 1;
 	margin-top: 392%;
@@ -566,10 +576,12 @@
 	.view4-1Mobile{
 		display: block;
 	}
-	.bg4-1Mobile{
+	.bg4-1-1Mobile{
 		display: block;
 	}
-	
+	.bg4-1-2Mobile{
+		display: block;
+	}
 	
 }
 
@@ -581,7 +593,13 @@
 	.view4-1Mobile{
 		display: block;
 	}
-	.bg4-1Mobile{
+	.view4-1Mobile{
+		display: block;
+	}
+	.bg4-1-1Mobile{
+		display: block;
+	}
+	.bg4-1-2Mobile{
 		display: block;
 	}
 }
