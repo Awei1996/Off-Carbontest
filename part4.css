@@ -667,10 +667,19 @@
 	.view4-1Mobile{
 		display: block;
 	}
+	.view4-2Mobile{
+		display: block;
+	}
 	.bg4-1-1Mobile{
 		display: block;
 	}
 	.bg4-1-2Mobile{
+		display: block;
+	}
+	.bg4-2-1Mobile{
+		display: block;
+	}
+	.bg4-2-2Mobile{
 		display: block;
 	}
 	
@@ -684,13 +693,19 @@
 	.view4-1Mobile{
 		display: block;
 	}
-	.view4-1Mobile{
+	.view4-2Mobile{
 		display: block;
 	}
 	.bg4-1-1Mobile{
 		display: block;
 	}
 	.bg4-1-2Mobile{
+		display: block;
+	}
+	.bg4-2-1Mobile{
+		display: block;
+	}
+	.bg4-2-2Mobile{
 		display: block;
 	}
 }
