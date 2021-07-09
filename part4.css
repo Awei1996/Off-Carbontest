@@ -195,6 +195,48 @@
 	width: 6%;
 	background-color: transparent;
 }
+.grassleft-Mobile{
+	position: absolute;
+	z-index: 2;
+	margin-left: 9.38%;
+	margin-top: 98%;
+	width: 5%;
+	background-color: transparent;
+	
+}
+.grasscenterleft-Mobile{
+	position: absolute;
+	z-index: 2;
+	margin-left: 28%;
+	margin-top: 94%;
+	width: 10%;
+	background-color: transparent;
+	
+}
+.grasscenter-Mobile{
+	position: absolute;
+	z-index: 2;
+	margin-left: 55%;
+	margin-top: 98%;
+	width: 6%;
+	background-color: transparent;
+}
+.grasscenterrigt-Mobile{
+	position: absolute;
+	z-index: 2;
+	margin-left: 70%;
+	margin-top: 95%;
+	width: 6%;
+	background-color: transparent;
+}
+.grassright-Mobile{
+	position: absolute;
+	z-index: 2;
+	margin-left: 91%;
+	margin-top: 97%;
+	width: 6%;
+	background-color: transparent;
+}
 .subtitle4{
 	position: absolute;
 	z-index: 5;
@@ -891,6 +933,21 @@
 	z-index: 4;
 	margin-left: 80%;
 	margin-top: 38%;
+	width: 3.4%;
+	background-color: transparent;
+}
+.bottom-Mobile{
+	position: absolute;
+	z-index: 4;
+	width: 100%;
+	margin-top: 93%;
+	margin-left: 0%;
+}
+.bubble-Mobile{
+	position: absolute;
+	z-index: 4;
+	margin-left: 80%;
+	margin-top: 88%;
 	width: 3.4%;
 	background-color: transparent;
 }
