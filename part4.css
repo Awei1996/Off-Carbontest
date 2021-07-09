@@ -555,6 +555,9 @@
 	align-content: center;
 	justify-content: center;
 }
+.oil-Mobile t{
+	font-size: 30rem;
+}
 .textcardoil {
   	position: absolute;
 	z-index: 6;
@@ -568,10 +571,10 @@
 .textcardoil-Mobile {
   	position: absolute;
 	z-index: 6;
-	margin-top: 30%;
+	margin-top: 20%;
 	margin-left: 0%;
-	width: 77%;
-	height: 75%;
+	width: 50%;
+	height: 80%;
 	opacity: 1;
   	perspective: 1000px;
 }
@@ -673,8 +676,8 @@
 }
 
 .oilcontent-Mobile{
-	font-size: 1.33rem;
-	line-height: 1;
+	font-size: 6rem;
+	text-align: center;
 	-webkit-text-size-adjust:none;
 }
 
