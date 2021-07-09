@@ -191,7 +191,7 @@
 	position: absolute;
 	z-index: 2;
 	margin-left: 9.38%;
-	margin-top: 99%;
+	margin-top: 99.5%;
 	width: 5%;
 	background-color: transparent;
 	
@@ -200,7 +200,7 @@
 	position: absolute;
 	z-index: 2;
 	margin-left: 28%;
-	margin-top: 96%;
+	margin-top: 99%;
 	width: 10%;
 	background-color: transparent;
 	
@@ -209,7 +209,7 @@
 	position: absolute;
 	z-index: 2;
 	margin-left: 55%;
-	margin-top: 99%;
+	margin-top: 99.5%;
 	width: 6%;
 	background-color: transparent;
 }
@@ -217,7 +217,7 @@
 	position: absolute;
 	z-index: 2;
 	margin-left: 70%;
-	margin-top: 97%;
+	margin-top: 99%;
 	width: 6%;
 	background-color: transparent;
 }
@@ -225,7 +225,7 @@
 	position: absolute;
 	z-index: 2;
 	margin-left: 93%;
-	margin-top: 97%;
+	margin-top: 99%;
 	width: 6%;
 	background-color: transparent;
 }
@@ -932,7 +932,7 @@
 	position: absolute;
 	z-index: 4;
 	width: 100%;
-	margin-top: 99%;
+	margin-top: 99.5%;
 	margin-left: 0%;
 }
 .bubble-Mobile{
