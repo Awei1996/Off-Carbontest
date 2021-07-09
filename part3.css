@@ -71,7 +71,6 @@
 	width: 100%;
 	opacity: 1;
 	display:none;
-	border: 2px blue solid;
 }
 .bg3-2Moblie{
 	position: absolute;
@@ -81,7 +80,6 @@
 	width: 100%;
 	opacity: 1;
 	display:none;
-	border: 2px orange solid;
 }
 .bg3-3Moblie{
 	position: absolute;
@@ -91,7 +89,6 @@
 	width: 100%;
 	opacity: 1;
 	display:none;
-	border: 2px green solid;
 }
 /*.rectangle{
 	position: absolute;
