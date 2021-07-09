@@ -940,14 +940,14 @@
 	position: absolute;
 	z-index: 4;
 	width: 100%;
-	margin-top: 96.5%;
+	margin-top: 98.25%;
 	margin-left: 0%;
 }
 .bubble-Mobile{
 	position: absolute;
 	z-index: 4;
 	margin-left: 80%;
-	margin-top: 94%;
+	margin-top: 97%;
 	width: 3.4%;
 	background-color: transparent;
 }
