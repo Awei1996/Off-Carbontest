@@ -837,6 +837,9 @@
 	.view4-3Mobile{
 		display: block;
 	}
+	.view4-4Mobile{
+		display: block;
+	}
 	.bg4-1-1Mobile{
 		display: block;
 	}
@@ -853,6 +856,12 @@
 		display: block;
 	}
 	.bg4-3-2Mobile{
+		display: block;
+	}
+	.bg4-4-1Mobile{
+		display: block;
+	}
+	.bg4-4-2Mobile{
 		display: block;
 	}
 }
@@ -871,6 +880,9 @@
 	.view4-3Mobile{
 		display: block;
 	}
+	.view4-4Mobile{
+		display: block;
+	}
 	.bg4-1-1Mobile{
 		display: block;
 	}
@@ -887,6 +899,12 @@
 		display: block;
 	}
 	.bg4-3-2Mobile{
+		display: block;
+	}
+	.bg4-4-1Mobile{
+		display: block;
+	}
+	.bg4-4-2Mobile{
 		display: block;
 	}
 }
