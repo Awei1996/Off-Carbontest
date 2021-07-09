@@ -16,7 +16,7 @@
 .view5-Mobile{
 	position: absolute;
 	z-index: 5;
-	margin-top: 786%;
+	margin-top: 840%;
 	left: 0%;
 	width: 100vw;
 	padding-bottom: 56%;
@@ -41,7 +41,7 @@
 	z-index: -1;
 	left: 0%;
 	width: 100%;
-	margin-top: 786%;
+	margin-top: 840%;
 	padding-bottom: 56%;
     background: transparent linear-gradient(180deg, #3d4650 0%, #121212 100%) 0% 0% no-repeat padding-box;
 	opacity: 1;
