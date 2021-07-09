@@ -39,6 +39,18 @@
 	opacity: 1;
 	display: none;
 }
+.view4-3Mobile{
+	position: absolute;
+	z-index: 5;
+	margin-top: 616%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 112%;
+	background-color: transparent;
+	overflow: hidden;
+	opacity: 1;
+	display: none;
+}
 .bg4{
 	position: absolute;
 	z-index: -1;
@@ -83,6 +95,26 @@
 	position: absolute;
 	z-index: 1;
 	margin-top: 560%;
+	left: 0%;
+	width: 100%;
+	opacity: 1;
+	display:none;
+	border: 2px green solid;
+}
+.bg4-3-1Mobile{
+	position: absolute;
+	z-index: 1;
+	margin-top: 616%;
+	left: 0%;
+	width: 100%;
+	opacity: 1;
+	display:none;
+	border: 2px green solid;
+}
+.bg4-3-2Mobile{
+	position: absolute;
+	z-index: 1;
+	margin-top: 672%;
 	left: 0%;
 	width: 100%;
 	opacity: 1;
