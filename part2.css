@@ -559,7 +559,7 @@
 	position: absolute;
 	z-index: 4;
 	margin-top: 20%;
-	font-size: 5rem;
+	font-size: 6rem;
 	color: #FFFFFF;
 	margin-left: 8.17%;
 	height: 27.78%;
@@ -612,10 +612,10 @@
 	position: absolute;
 	z-index: 2;
 	margin-top: 2.5%;
-	margin-left: 15%;
+	margin-left: 10%;
 	width: 5%;
 	height: 15%;
-	font-size: 3rem;
+	font-size: 4rem;
 }
 
 .Two1{
