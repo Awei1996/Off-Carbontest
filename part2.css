@@ -301,7 +301,7 @@
 	outline: none;
 	font-family: Gen Jyuu Gothic;
 	z-index: 2;
-	font-size: 18rem;
+	font-size: 20rem;
 	width: 30.83%;
 	height: 27.78%;
 	margin-top: 5.11%;
@@ -309,11 +309,7 @@
 	font-weight: bold;
 }
 
-.Chemicalpro-Mobile h3{
-	
-	font-size: 22rem;
-	
-}
+
 .Chemicalproinfor{
 	position: absolute;
 	z-index: 2;
@@ -346,6 +342,11 @@
 	font-weight: 200;
 	-webkit-text-size-adjust: none;
 
+}
+.Chemicalproinfor-Mobile h3{
+	
+	font-size: 5.5rem;
+	
 }
 .Chemicalproinfor2{
 	position: absolute;
