@@ -591,6 +591,50 @@ h3,p{
 		border-radius: 50%;
   	
 	}
+	.AllCross{
+		
+		width: 8%;
+		padding-bottom: 8%;
+		margin-left: 90%;
+		margin-top: 4%;
+
+	}
+	.Cross1{	
+		margin-top: 1.7%;
+		margin-left: 1.125%;
+		width: 3.5%;
+		padding-bottom: 0.4%;
+	
+		
+
+	}
+	.Cross1.open{
+		margin-top: 2.3%;
+		transform: rotate(45deg);
+	}
+	.Cross2{
+		
+		margin-top: 2.3%;
+		margin-left: 1.125%;
+		width: 3.5%;
+		padding-bottom: 0.4%;
+		
+	}
+	.Cross2.open{
+		opacity: 0;
+	}
+	.Cross3{
+		
+		margin-top: 2.9%;
+		margin-left: 1.125%;
+		width: 3.5%;
+		padding-bottom: 0.4%;
+		
+	}
+	.Cross3.open{
+		margin-top: 2.3%;
+		transform: rotate(-45deg);
+	}
 
 }
 
@@ -614,5 +658,49 @@ h3,p{
 		padding-bottom: 8%;
 		border-radius: 50%;
   	
+	}
+	.AllCross{
+		
+		width: 8%;
+		padding-bottom: 8%;
+		margin-left: 90%;
+		margin-top: 4%;
+
+	}
+	.Cross1{	
+		margin-top: 1.7%;
+		margin-left: 1.125%;
+		width: 3.5%;
+		padding-bottom: 0.4%;
+	
+		
+
+	}
+	.Cross1.open{
+		margin-top: 2.3%;
+		transform: rotate(45deg);
+	}
+	.Cross2{
+		
+		margin-top: 2.3%;
+		margin-left: 1.125%;
+		width: 3.5%;
+		padding-bottom: 0.4%;
+		
+	}
+	.Cross2.open{
+		opacity: 0;
+	}
+	.Cross3{
+		
+		margin-top: 2.9%;
+		margin-left: 1.125%;
+		width: 3.5%;
+		padding-bottom: 0.4%;
+		
+	}
+	.Cross3.open{
+		margin-top: 2.3%;
+		transform: rotate(-45deg);
 	}
 }
