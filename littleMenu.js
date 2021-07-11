@@ -9,22 +9,14 @@ var MenuBtnControl = document.getElementsByClassName('MenuBtn')[0];
 
 var MenuValue = 0 ;
 
-var ShowRange = window.matchMedia("(max-width: 960px)") 
+var ShowRange = window.matchMedia("(max-device-width: 960px)") 
 
 
 window.matchMedia = function(){MenuShow();};
 window.onscroll = function() {MenuShow();};
 
 function MenuShow(){
-	while(ShowRange.matches)
-		{
-			mybutton.style.display = "block"; 
-			mybutton.style.opacity = 0.98;
-			AllCrossControl.style.display = "block"; 
-			AllCrossControl.style.opacity = 1;
-			
-		}
-	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 ){
+	if (ShowRange.matches|| document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 ){
 		mybutton.style.display = "block"; 
 		mybutton.style.opacity = 0.98;
 		AllCrossControl.style.display = "block"; 
