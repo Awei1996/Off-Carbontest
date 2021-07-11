@@ -635,6 +635,12 @@ h3,p{
 		margin-top: 3.8%;
 		transform: rotate(-45deg);
 	}
+	.MenuBtn{
+		font-size: 15rem;
+	}
+	.Ab{
+		font-size: 12rem;
+	}
 
 }
 
@@ -702,5 +708,11 @@ h3,p{
 	.Cross3.open{
 		margin-top: 3.8%;
 		transform: rotate(-45deg);
+	}
+	.MenuBtn{
+		font-size: 15rem;
+	}
+	.Ab{
+		font-size: 12rem;
 	}
 }
