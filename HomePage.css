@@ -85,7 +85,7 @@ h3,p{
 	position: fixed;
 	margin-left: 45%;
 	margin-top: 5%;
-	width: 50%;
+	width: 40%;
 	padding-bottom: 30%;
 	opacity: 0;
 	text-align: right;
@@ -641,10 +641,10 @@ h3,p{
 		
 	}
 	.MenuBtn{
-		font-size: 24rem;
+		font-size: 20rem;
 	}
 	.Ab{
-		font-size: 20rem;
+		font-size: 18rem;
 	}
 }
 
@@ -719,9 +719,9 @@ h3,p{
 		
 	}
 	.MenuBtn{
-		font-size: 24rem;
+		font-size: 20rem;
 	}
 	.Ab{
-		font-size: 20rem;
+		font-size: 18rem;
 	}
 }
