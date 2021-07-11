@@ -16,7 +16,15 @@ window.matchMedia = function(){MenuShow();};
 window.onscroll = function() {MenuShow();};
 
 function MenuShow(){
-	if (ShowRange.matches|| document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 ){
+	while(ShowRange.matches)
+		{
+			mybutton.style.display = "block"; 
+			mybutton.style.opacity = 0.98;
+			AllCrossControl.style.display = "block"; 
+			AllCrossControl.style.opacity = 1;
+			
+		}
+	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 ){
 		mybutton.style.display = "block"; 
 		mybutton.style.opacity = 0.98;
 		AllCrossControl.style.display = "block"; 
