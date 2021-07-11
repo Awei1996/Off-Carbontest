@@ -635,13 +635,17 @@ h3,p{
 		margin-top: 3.8%;
 		transform: rotate(-45deg);
 	}
+	.MenuContent{
+		
+		margin-top: 15%;
+		
+	}
 	.MenuBtn{
-		font-size: 15rem;
+		font-size: 30rem;
 	}
 	.Ab{
-		font-size: 12rem;
+		font-size: 26rem;
 	}
-
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
@@ -709,10 +713,15 @@ h3,p{
 		margin-top: 3.8%;
 		transform: rotate(-45deg);
 	}
+	.MenuContent{
+		
+		margin-top: 15%;
+		
+	}
 	.MenuBtn{
-		font-size: 15rem;
+		font-size: 30rem;
 	}
 	.Ab{
-		font-size: 12rem;
+		font-size: 26rem;
 	}
 }
