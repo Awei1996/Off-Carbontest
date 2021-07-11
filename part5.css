@@ -26,6 +26,9 @@
 	-webkit-text-size-adjust:none;
 	display: none;
 }
+.view5-Mobile a{
+	font-size:  5rem
+}
 .bg5{
 	position: absolute;
 	z-index: -1;
