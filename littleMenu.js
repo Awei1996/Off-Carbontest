@@ -16,7 +16,7 @@ window.matchMedia = function(){MenuShow();};
 window.onscroll = function() {MenuShow();};
 
 function MenuShow(){
-	if(ShowRange.matches){
+	if (ShowRange.matches|| document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 ){
 		mybutton.style.display = "block"; 
 		mybutton.style.opacity = 0.98;
 		AllCrossControl.style.display = "block"; 
@@ -25,14 +25,8 @@ function MenuShow(){
 		
 	}
 	else{
-		if (document.body.scrollTop > 100 ){
-			mybutton.style.display = "block"; 
-			mybutton.style.opacity = 0.98;
-			AllCrossControl.style.display = "block"; 
-			AllCrossControl.style.opacity = 1;
 		
-		}
-		else{
+		
 			mybutton.style.display = "none";
 			AllCrossControl.style.display = "none";
 			BtnControl.classList.remove('open');
@@ -41,10 +35,10 @@ function MenuShow(){
 			Cross3Control.classList.remove('open');
 			MenuContentControl.classList.remove('open');
 			MenuValue = 0;
-		}
+		
+
+		
 	}
-	
-	
 	
 }
 // When the user scrolls down 20px from the top of the document, show the button
