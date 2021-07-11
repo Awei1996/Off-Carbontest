@@ -13,6 +13,9 @@
 	-webkit-text-size-adjust:none;
 
 }
+.view5 a{
+	font-size:  2rem
+}
 .view5-Mobile{
 	position: absolute;
 	z-index: 5;
@@ -27,7 +30,7 @@
 	display: none;
 }
 .view5-Mobile a{
-	font-size:  5rem
+	font-size:  4rem
 }
 .bg5{
 	position: absolute;
