@@ -87,13 +87,13 @@ h3,p{
 	margin-top: 5%;
 	width: 40%;
 	padding-bottom: 30%;
-	opacity: 0;
 	text-align: right;
 	transition: 1s;
+	display: none
 }
 .MenuContent.open{
 	
-	opacity: 1;
+	display: block;
 }
 .MenuBtn{
 	
