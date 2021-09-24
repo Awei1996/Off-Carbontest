@@ -128,7 +128,7 @@ h3,p{
 .Cross1{
 	position: fixed;
 	z-index: 40;
-	margin-top: 1%;
+	margin-top: 0.9%;
 	margin-left: 0.5%;
 	width: 2%;
 	padding-bottom: 0.25%;
@@ -139,12 +139,12 @@ h3,p{
 
 }
 .Cross1.open{
-	margin-top: 1.5%;
+	margin-top: 1.4%;
 	transform: rotate(45deg);
 }
 .Cross2{
 	position: fixed;	
-	margin-top: 1.5%;
+	margin-top: 1.4%;
 	margin-left: 0.5%;
 	width: 2%;
 	padding-bottom: 0.25%;
@@ -158,7 +158,7 @@ h3,p{
 }
 .Cross3{
 	position: fixed;	
-	margin-top: 2%;
+	margin-top: 1.9%;
 	margin-left: 0.5%;
 	width: 2%;
 	padding-bottom: 0.25%;
@@ -168,7 +168,7 @@ h3,p{
 	transition: 0.5s; 
 }
 .Cross3.open{
-	margin-top: 1.5%;
+	margin-top: 1.4%;
 	transform: rotate(-45deg);
 }
 
