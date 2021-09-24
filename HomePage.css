@@ -97,7 +97,7 @@ h3,p{
 }
 .MenuBtn{
 	
-	font-size: 5rem;
+	font-size: 6rem;
 	font-weight: bolder;
 	color: #CE7E24;
 	-webkit-text-size-adjust:none;
@@ -110,7 +110,7 @@ h3,p{
 }
 
 .Ab{
-	font-size: 4rem;
+	font-size: 5rem;
 }
 .AllCross{
 	position: fixed;
@@ -121,7 +121,6 @@ h3,p{
 	margin-top: 2%;
 	border-radius: 50%;
 	opacity: 0;
-	border: solid 2px red;
 	
 	
 }
