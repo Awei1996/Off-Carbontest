@@ -121,6 +121,7 @@ h3,p{
 	margin-top: 2%;
 	border-radius: 50%;
 	opacity: 0;
+	border: solid 2px red;
 	
 	
 }
