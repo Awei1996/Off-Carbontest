@@ -127,9 +127,9 @@ h3,p{
 .Cross1{
 	position: fixed;
 	z-index: 40;
-	margin-top: 1.7%;
-	margin-left: 1.125%;
-	width: 2.6%;
+	margin-top: 1.5%;
+	margin-left: 1%;
+	width: 2%;
 	padding-bottom: 0.25%;
 	border-radius: 3px 3px 3px 3px;
 	background-color: #296177;
@@ -138,14 +138,14 @@ h3,p{
 
 }
 .Cross1.open{
-	margin-top: 2.3%;
+	margin-top: 1.7%;
 	transform: rotate(45deg);
 }
 .Cross2{
 	position: fixed;	
-	margin-top: 2.3%;
-	margin-left: 1.125%;
-	width: 2.6%;
+	margin-top: 1.7%;
+	margin-left: 1%;
+	width: 2%;
 	padding-bottom: 0.25%;
 	border-radius: 3px 3px 3px 3px;
 	background-color: #296177;
@@ -157,9 +157,9 @@ h3,p{
 }
 .Cross3{
 	position: fixed;	
-	margin-top: 2.9%;
-	margin-left: 1.125%;
-	width: 2.6%;
+	margin-top: 1.9%;
+	margin-left: 1%;
+	width: 2%;
 	padding-bottom: 0.25%;
 	border-radius: 3px 3px 3px 3px;
 	background-color: #296177;
@@ -167,7 +167,7 @@ h3,p{
 	transition: 0.5s; 
 }
 .Cross3.open{
-	margin-top: 2.3%;
+	margin-top: 1.7%;
 	transform: rotate(-45deg);
 }
 
