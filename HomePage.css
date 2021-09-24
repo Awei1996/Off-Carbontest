@@ -56,10 +56,10 @@ h3,p{
   	
   	position: fixed; /* Fixed/sticky position */
   	margin-top: 2%; /* Place the button at the bottom of the page */
-  	margin-left: 92.5%; /* Place the button 30px from the right */
+  	margin-left: 95%; /* Place the button 30px from the right */
   	z-index: 30; /* Make sure it does not overlap */
-	width: 5%;
-	padding-bottom: 5%;
+	width: 3%;
+	padding-bottom: 3%;
 	border-radius: 50%;
   	border: none; /* Remove borders */
   	outline: none; /* Remove outline */
@@ -83,8 +83,8 @@ h3,p{
 .MenuContent{
 	z-index: 0;
 	position: fixed;
-	margin-left: 45%;
-	margin-top: 5%;
+	margin-left: 47%;
+	margin-top: 3%;
 	width: 40%;
 	padding-bottom: 30%;
 	text-align: right;
@@ -97,7 +97,7 @@ h3,p{
 }
 .MenuBtn{
 	
-	font-size: 7.5rem;
+	font-size: 5rem;
 	font-weight: bolder;
 	color: #CE7E24;
 	-webkit-text-size-adjust:none;
@@ -110,14 +110,14 @@ h3,p{
 }
 
 .Ab{
-	font-size: 6rem;
+	font-size: 4rem;
 }
 .AllCross{
 	position: fixed;
 	z-index: 35;
-	width: 5%;
-	padding-bottom: 5%;
-	margin-left: 92.5%;
+	width: 3%;
+	padding-bottom: 3%;
+	margin-left: 95%;
 	margin-top: 2%;
 	border-radius: 50%;
 	opacity: 0;
