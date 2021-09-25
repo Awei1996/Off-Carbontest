@@ -442,6 +442,7 @@ h3,p{
 
 .wave{
 	position: absolute;
+	width: 100%;
 	margin-top: 39%;
 	margin-left: -2.52%;
 	opacity: 80%;
