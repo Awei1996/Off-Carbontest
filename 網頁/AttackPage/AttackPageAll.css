@@ -386,7 +386,7 @@ button{
 	
 	
 	html{
-		font-size: 4px;
+		font-size: 6px;
 	}
 	.myBtn {
   	
@@ -448,17 +448,17 @@ button{
 		
 	}
 	.MenuBtn{
-		font-size: 18rem;
+		font-size: 16rem;
 	}
 	.Ab{
-		font-size: 16rem;
+		font-size: 14rem;
 	}
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
 	
 	html{
-		font-size: 3px;
+		font-size: 5px;
 	}
 	.myBtn {
   	
@@ -520,9 +520,9 @@ button{
 		
 	}
 	.MenuBtn{
-		font-size: 18rem;
+		font-size: 16rem;
 	}
 	.Ab{
-		font-size: 16rem;
+		font-size: 14rem;
 	}	
 }
