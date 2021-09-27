@@ -388,7 +388,71 @@ button{
 	html{
 		font-size: 6px;
 	}
+	.myBtn {
+  	
+  	
+		margin-top: 4%; /* Place the button at the bottom of the page */
+		margin-left: 90%; /* Place the button 30px from the right */
+		width: 8%;
+		padding-bottom: 8%;
+		border-radius: 50%;
+  	
+	}
+	.AllCross{
+		
+		width: 8%;
+		padding-bottom: 8%;
+		margin-left: 90%;
+		margin-top: 4%;
+
+	}
+	.Cross1{	
+		margin-top: 2.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
 	
+		
+
+	}
+	.Cross1.open{
+		margin-top: 3.8%;
+		transform: rotate(45deg);
+	}
+	.Cross2{
+		
+		margin-top: 3.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
+		
+	}
+	.Cross2.open{
+		opacity: 0;
+	}
+	.Cross3{
+		
+		margin-top: 4.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
+		
+	}
+	.Cross3.open{
+		margin-top: 3.8%;
+		transform: rotate(-45deg);
+	}
+	.MenuContent{
+		
+		margin-top: 15%;
+		
+	}
+	.MenuBtn{
+		font-size: 18rem;
+	}
+	.Ab{
+		font-size: 16rem;
+	}
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
@@ -396,5 +460,69 @@ button{
 	html{
 		font-size: 5px;
 	}
+	.myBtn {
+  	
+  	
+		margin-top: 4%; /* Place the button at the bottom of the page */
+		margin-left: 90%; /* Place the button 30px from the right */
+		width: 8%;
+		padding-bottom: 8%;
+		border-radius: 50%;
+  	
+	}
+	.AllCross{
 		
+		width: 8%;
+		padding-bottom: 8%;
+		margin-left: 90%;
+		margin-top: 4%;
+
+	}
+	.Cross1{	
+		margin-top: 2.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
+	
+		
+
+	}
+	.Cross1.open{
+		margin-top: 3.8%;
+		transform: rotate(45deg);
+	}
+	.Cross2{
+		
+		margin-top: 3.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
+		
+	}
+	.Cross2.open{
+		opacity: 0;
+	}
+	.Cross3{
+		
+		margin-top: 4.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
+		
+	}
+	.Cross3.open{
+		margin-top: 3.8%;
+		transform: rotate(-45deg);
+	}
+	.MenuContent{
+		
+		margin-top: 15%;
+		
+	}
+	.MenuBtn{
+		font-size: 18rem;
+	}
+	.Ab{
+		font-size: 16rem;
+	}	
 }
