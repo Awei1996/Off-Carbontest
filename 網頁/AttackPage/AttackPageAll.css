@@ -386,7 +386,7 @@ button{
 	
 	
 	html{
-		font-size: 6px;
+		font-size: 4px;
 	}
 	.myBtn {
   	
@@ -458,7 +458,7 @@ button{
 @media (min-device-width: 100px) and (max-device-width: 375px){
 	
 	html{
-		font-size: 5px;
+		font-size: 3px;
 	}
 	.myBtn {
   	
