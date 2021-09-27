@@ -361,3 +361,32 @@
 	
 	
 }
+
+@media (min-device-width: 376px) and (max-device-width: 600px){
+	
+	.Outsidetitle{
+		font-size: 4rem;
+	
+	
+	}
+	.Insidetitle{
+		font-size: 4rem;
+	
+	
+	}
+	
+}
+
+@media (min-device-width: 100px) and (max-device-width: 375px){
+	
+	.Outsidetitle{
+		font-size: 4rem;
+	
+	
+	}
+	.Insidetitle{
+		font-size: 4rem;
+	
+	
+	}
+}
