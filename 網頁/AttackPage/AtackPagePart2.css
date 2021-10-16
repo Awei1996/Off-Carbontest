@@ -351,7 +351,7 @@
 	justify-content: center;
 	
 }
-.Boxoutside-Mobile{
+#outside{
 	position: absolute;
 	z-index: 8;
 	background-color: transparent;
@@ -364,7 +364,7 @@
 	justify-content: center;
 	display: none;
 }
-.Boxinside-Mobile{
+#inside{
 	position: absolute;
 	z-index: 8;
 	background-color: transparent;
