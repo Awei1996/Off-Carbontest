@@ -326,6 +326,19 @@
 	align-items: center;
 	justify-content: center;
 }
+.boxoutside{
+	position: absolute;
+	z-index: 8;
+	background-color: transparent;
+	margin-left: 24.84%;
+	margin-top: 12%;
+	width: 23.23%;
+	border: none;
+	outline: none;
+	align-items: center;
+	justify-content: center;
+	display: none;
+}
 .Outsidetitle{
 	font-family: Gen Jyuu Gothic;
 	position: absolute;
@@ -348,6 +361,20 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	
+}
+.boxinside{
+	position: absolute;
+	z-index: 8;
+	background-color: transparent;
+	margin-left: 55%;
+	margin-top: 12%;
+	width: 23.23%;
+	border: none;
+	outline: none;
+	align-items: center;
+	justify-content: center;
+	display: none;
 	
 }
 .Insidetitle{
@@ -374,7 +401,36 @@
 	
 	
 	}
+	.boxinside{
+		position: absolute;
+		z-index: 8;
+		background-color: transparent;
+		margin-left: 55%;
+		margin-top: 12%;
+		width: 23.23%;
+		border: none;
+		outline: none;
+		align-items: center;
+		justify-content: center;
+		display: none;
 	
+	}
+	.Boxoutside{
+		
+		display: none;
+	
+	}
+	.boxoutside{
+		
+		display: block;
+	}
+	.Boxinside{
+	
+		display: none;
+	}
+	.boxinside{
+		display: block;
+	}
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
@@ -388,5 +444,21 @@
 		font-size: 4rem;
 	
 	
+	}
+	.Boxoutside{
+		
+		display: none;
+	
+	}
+	.boxoutside{
+		
+		display: block;
+	}
+	.Boxinside{
+	
+		display: none;
+	}
+	.boxinside{
+		display: block;
 	}
 }
