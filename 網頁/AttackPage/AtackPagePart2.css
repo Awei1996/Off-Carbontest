@@ -320,9 +320,9 @@
 	margin-left: 24.84%;
 	margin-top: 12%;
 	width: 23.23%;
-	border: flex;
+	border: none;
 	outline: none;
-	display: block;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 }
