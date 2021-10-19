@@ -358,7 +358,7 @@
 	margin-left: 24.84%;
 	margin-top: 12%;
 	width: 23.23%;
-	border: 2px solid red;
+	border: none;
 	outline: none;
 	align-items: center;
 	justify-content: center;
@@ -371,7 +371,7 @@
 	margin-left: 55%;
 	margin-top: 12%;
 	width: 23.23%;
-	border: 2px solid yellow;
+	border: none;
 	outline: none;
 	align-items: center;
 	justify-content: center;
