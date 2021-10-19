@@ -379,7 +379,7 @@
 .Outsidetitle-Mobile{
 	font-family: Gen Jyuu Gothic;
 	position: absolute;
-	z-index: 9;
+	z-index: 10;
 	color: #ffffff;
 	line-height: 3.3;
 	font-size: 3.3rem;
@@ -404,7 +404,7 @@
 .Insidetitle-Mobile{
 	font-family: Gen Jyuu Gothic;
 	position: absolute;
-	z-index: 9;
+	z-index: 10;
 	color: #ffffff;
 	line-height: 3.3;
 	font-size: 3.3rem;
