@@ -450,10 +450,10 @@
 	}
 	.Boxoutside-Mobile{
 		
-		display: block;
+		display: flex;
 	}
 	.Boxinside-Mobile{
-		display: block;
+		display: flex;
 	}
 }
 
@@ -481,9 +481,9 @@
 	}
 	.Boxoutside-Mobile{
 		
-		display: block;
+		display: flex;
 	}
 	.Boxinside-Mobile{
-		display: block;
+		display: flex;
 	}
 }
