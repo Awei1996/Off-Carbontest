@@ -84,7 +84,6 @@
 	margin-left: 0%;
 	width: 100%;
 	padding-bottom: 35%;
-	border: 2px solid yellow;
 }
 .Bar350{
 	position: absolute;
@@ -429,7 +428,7 @@
 .Bar350-Mobile:before{
 	position: absolute;
 	content: "";
-	margin-top: 225%;
+	margin-top: 200%;
 	width: 285%;
 	padding-bottom: 440%;
 	background-color: rgba(28,98,63,0.5);
