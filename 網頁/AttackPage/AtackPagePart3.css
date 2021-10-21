@@ -428,7 +428,7 @@
 .Bar350-Mobile:before{
 	position: absolute;
 	content: "";
-	margin-top: 200%;
+	margin-top: 250%;
 	width: 285%;
 	padding-bottom: 440%;
 	background-color: rgba(28,98,63,0.5);
