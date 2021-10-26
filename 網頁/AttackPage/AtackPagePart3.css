@@ -505,3 +505,47 @@
 .Bar2000value-Mobile{
 	margin-left: -25%;
 }
+@media (min-device-width: 1280px) and (max-device-width: 1500px){
+	
+	.indoor{
+		
+		font-size: 3.6rem;
+		
+	}
+	
+	.indoorpra{
+		
+		font-size: 1.8rem;
+		
+
+	}
+	
+}
+
+@media (min-device-width: 960px) and (max-device-width: 1280px){
+	
+	.indoor{
+		font-size: 3.6rem;
+	}
+	
+	.indoorpra{
+		font-size: 1.8rem;
+	
+	}
+	
+}
+@media (min-device-width: 600px) and (max-device-width: 960px){
+	
+		
+}
+
+@media (min-device-width: 376px) and (max-device-width: 600px){
+	
+	
+	
+}
+
+@media (min-device-width: 100px) and (max-device-width: 375px){
+	
+	
+}
