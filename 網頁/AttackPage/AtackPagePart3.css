@@ -536,19 +536,19 @@
 }
 @media (min-device-width: 600px) and (max-device-width: 960px){
 	
-		
+	.indoor{
+		font-size: 3.6rem;
+	}
+	
+	.indoorpra{
+		font-size: 1.8rem;
+	
+	}
 }
 
 @media (min-device-width: 376px) and (max-device-width: 600px){
 	
-	.indoor{
-		font-size: 4.2rem;
-	}
 	
-	.indoorpra{
-		font-size: 2rem;
-	
-	}
 	
 }
 
