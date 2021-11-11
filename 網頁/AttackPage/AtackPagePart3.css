@@ -541,7 +541,14 @@
 
 @media (min-device-width: 376px) and (max-device-width: 600px){
 	
+	.indoor{
+		font-size: 4.2rem;
+	}
 	
+	.indoorpra{
+		font-size: 2.4rem;
+	
+	}
 	
 }
 
