@@ -542,11 +542,11 @@
 @media (min-device-width: 376px) and (max-device-width: 600px){
 	
 	.indoor-Mobile{
-		margin-top: 1%;
+		margin-top: 0.8%;
 	}
 	.indoorline-Mobile{
-		margin-top: -60%;
-		padding-bottom: 100%;
+		margin-top: -75%;
+		height: 100%;
 	}
 	
 	.indoorpra-Mobile{
