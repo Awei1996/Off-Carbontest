@@ -406,18 +406,10 @@
 	
 }
 
-.Barchart-Mobile{
-	position: absolute;
-	z-index: 12;
-	margin-top: 22.5%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 35%;
-	border:2px solid red;
-}
+
 .Bar350-Mobile{
 	position: absolute;
-	margin-top: 0%;
+	margin-top: 22.5%;
 	margin-left: 0%;
 	width: 0.7%;
 	padding-bottom: 3%;
