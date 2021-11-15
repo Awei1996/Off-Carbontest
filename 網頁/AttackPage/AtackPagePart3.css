@@ -442,10 +442,10 @@
 }
 .Bar1000-Mobile{
 	position: absolute;
-	margin-top: 4.5%;
+	margin-top: 30%;
 	margin-left: 0%;
 	width: 2%;
-	padding-bottom: 1.5%;
+	padding-bottom: 3%;
 	background: #518551 0% 0% no-repeat padding-box;
 	opacity: 1;
 	
@@ -454,7 +454,7 @@
 	position: absolute;
 	content: "";
 	width: 200%;
-	padding-bottom: 75%;
+	padding-bottom: 150%;
 	background-color: rgba(81,136,81,0.2);
 	
 }
