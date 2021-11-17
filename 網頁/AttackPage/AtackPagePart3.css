@@ -439,7 +439,7 @@
 }
 .Bar350value-Mobile{
 	margin-left: -20%;
-	margin-top: -25%;
+	margin-top: -10%;
 }
 .Bar1000-Mobile{
 	position: absolute;
@@ -470,7 +470,7 @@
 }
 .Bar1000value-Mobile{
 	margin-left: -15%;
-	margin-top: -25%;
+	margin-top: -10%;
 }
 .Bar2000-Mobile{
 	position: absolute;
@@ -501,7 +501,7 @@
 }
 .Bar2000value-Mobile{
 	margin-left: -25%;
-	margin-top: -25%;
+	margin-top: -10%;
 }
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
 	
