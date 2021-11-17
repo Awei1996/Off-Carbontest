@@ -378,7 +378,7 @@
 }
 .Longtime-Mobile{
 	position: absolute;
-	z-index: 12;
+	z-index: 11;
 	margin-top: 17.5%;
 	margin-left: 55%;
 	color: #ffffff;
@@ -398,7 +398,7 @@
 }
 .LongtimeShapeRT-Mobile{
 	position: absolute;
-	z-index: 13;
+	z-index: 11;
 	margin-top: 20%;
 	margin-left: 32%;
 	width: 25%;
