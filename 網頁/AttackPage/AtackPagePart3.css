@@ -433,12 +433,13 @@
 	z-index: 12;
 	color: #ffffff;
 	margin-left: 5%;
-	margin-top: 20.5%;
+	margin-top: 21%;
 	line-height: 0.8;
 	font-size: 3.5rem;
 }
 .Bar350value-Mobile{
 	margin-left: -20%;
+	margin-top: -25%;
 }
 .Bar1000-Mobile{
 	position: absolute;
@@ -463,12 +464,13 @@
 	z-index: 12;
 	color: #ffffff;
 	margin-left: 7.5%;
-	margin-top: 30.5%;
+	margin-top: 31%;
 	line-height: 0.8;
 	font-size: 3.5rem;
 }
 .Bar1000value-Mobile{
 	margin-left: -15%;
+	margin-top: -25%;
 }
 .Bar2000-Mobile{
 	position: absolute;
@@ -493,12 +495,13 @@
 	z-index: 12;
 	color: #ffffff;
 	margin-left: 17.5%;
-	margin-top: 40.5%;
+	margin-top: 41%;
 	line-height: 0.8;
 	font-size: 3.5rem;
 }
 .Bar2000value-Mobile{
 	margin-left: -25%;
+	margin-top: -25%;
 }
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
 	
