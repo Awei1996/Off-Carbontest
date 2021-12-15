@@ -583,6 +583,9 @@
 
 @media (min-device-width: 376px) and (max-device-width: 600px){
 	
+	.view3-1Mobile{
+		display: block;
+	}
 	.bg3-1Mobile{
 		display: block;
 	}
@@ -618,6 +621,9 @@
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
+	.view3-1Mobile{
+		display: block;
+	}
 	.bg3-1Mobile{
 		display: block;
 	}
