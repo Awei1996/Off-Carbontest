@@ -5257,3 +5257,38 @@
 	margin-left: 43.33%;
 	opacity: 1;
 }
+
+@media (min-device-width: 1280px) and (max-device-width: 1500px){
+	
+	
+}
+
+@media (min-device-width: 960px) and (max-device-width: 1280px){
+	
+	
+}
+@media (min-device-width: 600px) and (max-device-width: 960px){
+	
+		
+}
+
+@media (min-device-width: 376px) and (max-device-width: 600px){
+	
+	.view4{
+		display: none;
+	}
+	.bg4{
+		display: none;
+	}
+	
+}
+
+@media (min-device-width: 100px) and (max-device-width: 375px){
+	
+	.view4{
+		display: none;
+	}
+	.bg4{
+		display: none;
+	}
+}
