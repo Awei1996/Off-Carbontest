@@ -16,6 +16,7 @@
 	opacity: 1;
 	margin-top: 168%;
 	padding-bottom: 56%;
+	display: none;
 }
 .tube{
 	position: absolute;
@@ -550,6 +551,10 @@
 
 @media (min-device-width: 376px) and (max-device-width: 600px){
 	
+	.bg3-1Mobile{
+		display: block;
+	}
+	
 	.indoor-Mobile{
 		margin-top: 0.8%;
 	}
@@ -581,6 +586,8 @@
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
-	
+	.bg3-1Mobile{
+		display: block;
+	}
 	
 }
