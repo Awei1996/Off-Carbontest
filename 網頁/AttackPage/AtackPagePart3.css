@@ -515,6 +515,38 @@
 	margin-left: -17.5%;
 	margin-top: -5%;
 }
+
+.Bar5000-Mobile{
+	position: absolute;
+	margin-top: 13.5%;
+	margin-left: 0%;
+	width: 10%;
+	padding-bottom: 3%;
+	background: #B9CA70 0% 0% no-repeat padding-box;
+	opacity: 1;
+	
+}
+.Bar5000-Mobile:before{
+	position: absolute;
+	content: "";
+	width: 200%;
+	padding-bottom: 30%;
+	opacity: 0.2;
+	background-color: #B9CA70;
+	
+}
+.Bar5000content-Mobile{
+	position: absolute;
+	z-index: 12;
+	color: #ffffff;
+	margin-left: 20.5%;
+	margin-top: 11.5%;
+	line-height: 0.8;
+	
+}
+.Bar5000value-Mobile{
+	margin-left: -135%;
+}
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
 	
 	.indoor{
