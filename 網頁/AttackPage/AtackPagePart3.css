@@ -542,6 +542,7 @@
 	margin-left: 20.5%;
 	margin-top: 11.5%;
 	line-height: 0.8;
+	font-size: 3.5rem;
 	
 }
 .Bar5000value-Mobile{
@@ -621,6 +622,7 @@
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
+	
 	.view3-1Mobile{
 		display: block;
 	}
