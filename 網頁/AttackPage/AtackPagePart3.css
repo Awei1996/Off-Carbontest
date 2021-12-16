@@ -573,7 +573,7 @@
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
-	margin-left: 40%;
+	margin-left: 42.5%;
 	margin-top: 7%;
 	line-height: 0.8;
 	font-size: 3.5rem;
@@ -587,7 +587,7 @@
 	z-index: 13;
 	margin-top: 7.5%;
 	height: 10%;
-	margin-left: 160%;
+	margin-left: 170%;
 	font-size: 8rem;
 	font-weight: lighter;
 	transform: rotate(90deg);
