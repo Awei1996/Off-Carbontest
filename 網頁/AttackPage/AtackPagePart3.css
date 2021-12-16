@@ -548,6 +548,135 @@
 .Bar5000value-Mobile{
 	margin-left: -135%;
 }
+
+.Bar10000-Mobile{
+	position: absolute;
+	margin-top: 18%;
+	margin-left: 0%;
+	width: 20%;
+	padding-bottom: 1.5%;
+	background: #C8B557 0% 0% no-repeat padding-box;
+	opacity: 1;
+	
+}
+
+.Bar10000-Mobile:before{
+	position: absolute;
+	content: "";
+	width: 200%;
+	padding-bottom: 7.5%;
+	opacity: 0.2;
+	background-color: #C8B557;
+	
+}
+.Bar10000content-Mobile{
+	position: absolute;
+	z-index: 12;
+	color: #ffffff;
+	margin-left: 40.5%;
+	margin-top: 16%;
+	line-height: 0.8;
+	
+}
+.Bar10000value-Mobile{
+	margin-left: -75%;
+}
+.Bar10000mark-Mobile{
+	position: absolute;
+	z-index: 13;
+	margin-top: 3%;
+	height: 10%;
+	margin-left: 160%;
+	font-size: 4rem;
+	transform: rotate(90deg);
+	color: #ffffff;
+	
+}
+
+.Bar70000-Mobile{
+	position: absolute;
+	margin-top: 22.5%;
+	margin-left: 0%;
+	width: 36%;
+	padding-bottom: 1.5%;
+	background: #D7A23F 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.Bar70000-Mobile:before{
+	position: absolute;
+	content: "";
+	width: 150%;
+	padding-bottom: 4.5%;
+	opacity: 0.3;
+	background-color: #D7A23F;
+	
+}
+.Bar70000content-Mobile{
+	position: absolute;
+	z-index: 12;
+	color: #ffffff;
+	margin-left: 54.5%;
+	margin-top: 20.5%;
+	line-height: 0.8;
+	
+}
+.Bar70000value-Mobile{
+	margin-left: -100%;
+}
+.Bar70000mark-Mobile{
+	position: absolute;
+	z-index: 13;
+	margin-top: 2%;
+	height: 10%;
+	margin-left: 145%;
+	font-size: 4rem;
+	transform: rotate(90deg);
+	color: #ffffff;
+	
+}
+.Bar100000-Mobile{
+	position: absolute;
+	margin-top: 27%;
+	margin-left: 0%;
+	width: 54%;
+	padding-bottom: 1.5%;
+	background: #E4912B 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.Bar100000-Mobile:before{
+	position: absolute;
+	content: "";
+	width: 135%;
+	padding-bottom: 2.75%;
+	opacity: 0.3;
+	background-color: #E4912B;
+	
+}
+.Bar100000content-Mobile{
+	position: absolute;
+	z-index: 12;
+	color: #ffffff;
+	margin-left: 73.5%;
+	margin-top: 24%;
+	line-height: 1.2;
+	
+}
+.Bar100000value-Mobile{
+	margin-left: -65%;
+}
+.Bar100000mark-Mobile{
+	position: absolute;
+	z-index: 13;
+	margin-top: 1%;
+	height: 10%;
+	margin-left: 130%;
+	font-size: 4rem;
+	transform: rotate(90deg);
+	color: #ffffff;
+	
+}
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
 	
 	.indoor{
