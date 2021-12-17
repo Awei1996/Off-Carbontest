@@ -141,7 +141,8 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 		
 		
 			SDCContentControl.style.zIndex = 15;
-			SDCpart1Control.style.zIndex = 19;		
+			SDCpart1Control.style.zIndex = 19;
+			SDCpart1TitleControl.style.zIndex = 19;
 			SDCpart2Control.style.zIndex = 19;
 			SDCpart2TitleControl.style.zIndex = 19;
 			SDCpart3Control.style.zIndex = 19;
