@@ -1,4 +1,4 @@
-var textcardSDC = document.getElementsByClassName('SpeciesDiversityContent')[0];
+var textcard = document.getElementsByClassName('SpeciesDiversityContent')[0];
 var textcardOAC = document.getElementsByClassName('OceanAcidificationContent')[0];
 var textcardMIC = document.getElementsByClassName('MeltingIceContent')[0];
 var textcardFFC = document.getElementsByClassName('FireForestContent')[0];
@@ -10,7 +10,7 @@ var textcardESC = document.getElementsByClassName('EconomicShockContent')[0];
 var MainMenuControl = document.getElementsByClassName('MainMenu')[0];
 var SteamControl = document.getElementsByClassName('Steam')[0];
 var DisasterControl = document.getElementsByClassName('Disaster')[0];
-var SDCBGControl = document.getElementsByClassName('SDCBG')[0];
+var BGControl = document.getElementsByClassName('BG')[0];
 var OACBGControl = document.getElementsByClassName('OACBG')[0];
 var MICBGControl = document.getElementsByClassName('MICBG')[0];
 var FFCBGControl = document.getElementsByClassName('FFCBG')[0];
@@ -28,74 +28,74 @@ var BbtnControl = document.getElementsByClassName('Backbutton')[0];
 
 document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 	
-	var SDCpart1Control = document.getElementsByClassName('SDCpart1')[0];
-	var SDCpart1TitleControl = document.getElementsByClassName('SDCpart1Title')[0];
-	var SDCpart1ContenttextControl = document.getElementsByClassName('SDCpart1Contenttext')[0];
-	var SDCpart1ContentControl = document.getElementsByClassName('SDCpart1Content')[0];
-	var SDC1BAControl = document.getElementsByClassName('SDC1BA')[0];
+	var part1Control = document.getElementsByClassName('part1')[0];
+	var part1TitleControl = document.getElementsByClassName('part1Title')[0];
+	var part1ContenttextControl = document.getElementsByClassName('part1Contenttext')[0];
+	var part1ContentControl = document.getElementsByClassName('part1Content')[0];
+	var OneBAControl = document.getElementsByClassName('OneBA')[0];
 
 	
-	var SDCpart2Control = document.getElementsByClassName('SDCpart2')[0];
-	var SDCpart2TitleControl = document.getElementsByClassName('SDCpart2Title')[0];
-  	var SDCpart2ContenttextControl = document.getElementsByClassName('SDCpart2Contenttext')[0];
-	var SDCpart2ContentControl = document.getElementsByClassName('SDCpart2Content')[0];
-	var SDC2BAControl = document.getElementsByClassName('SDC2BA')[0];
+	var part2Control = document.getElementsByClassName('part2')[0];
+	var part2TitleControl = document.getElementsByClassName('part2Title')[0];
+  	var part2ContenttextControl = document.getElementsByClassName('part2Contenttext')[0];
+	var part2ContentControl = document.getElementsByClassName('part2Content')[0];
+	var TwoBAControl = document.getElementsByClassName('TwoBA')[0];
 
 	
-	var SDCpart3Control = document.getElementsByClassName('SDCpart3')[0];
-	var SDCpart3TitleControl = document.getElementsByClassName('SDCpart3Title')[0];
-  	var SDCpart3ContenttextControl = document.getElementsByClassName('SDCpart3Contenttext')[0];
-	var SDCpart3ContentControl = document.getElementsByClassName('SDCpart3Content')[0];
-	var SDC3BAControl = document.getElementsByClassName('SDC3BA')[0];
+	var part3Control = document.getElementsByClassName('part3')[0];
+	var part3TitleControl = document.getElementsByClassName('part3Title')[0];
+  	var part3ContenttextControl = document.getElementsByClassName('part3Contenttext')[0];
+	var part3ContentControl = document.getElementsByClassName('part3Content')[0];
+	var ThreeBAControl = document.getElementsByClassName('ThreeBA')[0];
 
 	
-	var SDCpart4Control = document.getElementsByClassName('SDCpart4')[0];
-	var SDCpart4TitleControl = document.getElementsByClassName('SDCpart4Title')[0];
-  	var SDCpart4ContenttextControl = document.getElementsByClassName('SDCpart4Contenttext')[0];
-	var SDCpart4ContentControl = document.getElementsByClassName('SDCpart4Content')[0];
-	var SDC4BAControl = document.getElementsByClassName('SDC4BA')[0];
+	var part4Control = document.getElementsByClassName('part4')[0];
+	var part4TitleControl = document.getElementsByClassName('part4Title')[0];
+  	var part4ContenttextControl = document.getElementsByClassName('part4Contenttext')[0];
+	var part4ContentControl = document.getElementsByClassName('part4Content')[0];
+	var FourBAControl = document.getElementsByClassName('FourBA')[0];
 
 
   	if(this.value === 'close') 
   	{ 
     	this.value = 'open';
-		textcardSDC.classList.remove('close'); 
-    	textcardSDC.classList.add('open');
+		textcard.classList.remove('close'); 
+    	textcard.classList.add('open');
 		MainMenuControl.classList.add('close');
 		MainMenuControl.classList.remove('open');
 		SteamControl.classList.add('open');
 		SteamControl.classList.remove('close');
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
-		SDCBGControl.classList.add('open');
+		BGControl.classList.add('open');
 		BbtnControl.classList.add('open');
   
 	  
-		document.getElementsByClassName('SDCpart1')[0].onclick =function()
+		document.getElementsByClassName('part1')[0].onclick =function()
 		{
 		
-			SDCpart1ContentControl.classList.add('open');
-			SDCpart1Control.classList.add('open');
-			SDCpart1TitleControl.classList.add('open');
-			SDCpart1ContenttextControl.classList.add('open');
+			part1ContentControl.classList.add('open');
+			part1Control.classList.add('open');
+			part1TitleControl.classList.add('open');
+			part1ContenttextControl.classList.add('open');
 		
-			SDCpart1ContentControl.classList.remove('close');
-			SDCpart1Control.classList.remove('close');
-			SDCpart1TitleControl.classList.remove('close');
-			SDCpart1ContenttextControl.classList.remove('close');
+			part1ContentControl.classList.remove('close');
+			part1Control.classList.remove('close');
+			part1TitleControl.classList.remove('close');
+			part1ContenttextControl.classList.remove('close');
 			
 
-			SDCpart1ContentControl.style.zIndex = 18;
-			SDCpart1Control.style.zIndex = 19;
-			SDCpart1ContentControl.style.opacity = 0.99;
-			SDCpart1ContenttextControl.style.opacity = 1;
-			SDCpart2Control.style.zIndex = 16;
-			SDCpart2TitleControl.style.zIndex = 16;
-			SDCpart3Control.style.zIndex = 16;
-			SDCpart3TitleControl.style.zIndex = 16;
-			SDCpart4Control.style.zIndex = 16;
-			SDCpart4TitleControl.style.zIndex = 16;
-			SDC1BAControl.style.opacity = 1;
+			part1ContentControl.style.zIndex = 18;
+			part1Control.style.zIndex = 19;
+			part1ContentControl.style.opacity = 0.99;
+			part1ContenttextControl.style.opacity = 1;
+			part2Control.style.zIndex = 16;
+			part2TitleControl.style.zIndex = 16;
+			part3Control.style.zIndex = 16;
+			part3TitleControl.style.zIndex = 16;
+			part4Control.style.zIndex = 16;
+			part4TitleControl.style.zIndex = 16;
+			OneBAControl.style.opacity = 1;
 
 
 
@@ -103,197 +103,197 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 		
 		}; 
 	  
-		document.getElementsByClassName('SDC1BA')[0].onclick =function()
+		document.getElementsByClassName('OneBA')[0].onclick =function()
 		{
-			SDCpart1ContentControl.classList.remove('open');
-			SDCpart1Control.classList.remove('open');
-			SDCpart1TitleControl.classList.remove('open');
-			SDCpart1ContenttextControl.classList.remove('open');
+			part1ContentControl.classList.remove('open');
+			part1Control.classList.remove('open');
+			part1TitleControl.classList.remove('open');
+			part1ContenttextControl.classList.remove('open');
 		
-			SDCpart1ContentControl.classList.add('close');
-			SDCpart1Control.classList.add('close');
-			SDCpart1TitleControl.classList.add('close');
-			SDCpart1ContenttextControl.classList.add('close');
+			part1ContentControl.classList.add('close');
+			part1Control.classList.add('close');
+			part1TitleControl.classList.add('close');
+			part1ContenttextControl.classList.add('close');
 
-			SDCpart1ContentControl.style.zIndex = 15;
-			SDCpart1Control.style.zIndex = 19;		
-			SDCpart2Control.style.zIndex = 19;
-			SDCpart2TitleControl.style.zIndex = 19;
-			SDCpart3Control.style.zIndex = 19;
-			SDCpart3TitleControl.style.zIndex = 19;
-			SDCpart4Control.style.zIndex = 19;
-			SDCpart4TitleControl.style.zIndex = 19;
-			SDC1BAControl.style.opacity = 0;
+			part1ContentControl.style.zIndex = 15;
+			part1Control.style.zIndex = 19;		
+			part2Control.style.zIndex = 19;
+			part2TitleControl.style.zIndex = 19;
+			part3Control.style.zIndex = 19;
+			part3TitleControl.style.zIndex = 19;
+			part4Control.style.zIndex = 19;
+			part4TitleControl.style.zIndex = 19;
+			OneBAControl.style.opacity = 0;
 
 
 
 		
 		}; 
 		
-		document.getElementsByClassName('SDCpart2')[0].onclick =function()
+		document.getElementsByClassName('part2')[0].onclick =function()
 		{
 		
-			SDCpart2ContentControl.classList.add('open');
-			SDCpart2Control.classList.add('open');
-			SDCpart2TitleControl.classList.add('open');
-			SDCpart2ContenttextControl.classList.add('open');
+			part2ContentControl.classList.add('open');
+			part2Control.classList.add('open');
+			part2TitleControl.classList.add('open');
+			part2ContenttextControl.classList.add('open');
 		
-			SDCpart2ContentControl.classList.remove('close');
-			SDCpart2Control.classList.remove('close');
-			SDCpart2TitleControl.classList.remove('close');
-			SDCpart2ContenttextControl.classList.remove('close');
+			part2ContentControl.classList.remove('close');
+			part2Control.classList.remove('close');
+			part2TitleControl.classList.remove('close');
+			part2ContenttextControl.classList.remove('close');
 
-			SDCpart2ContentControl.style.zIndex = 18;
-			SDCpart2Control.style.zIndex = 19;
-			SDCpart2ContentControl.style.opacity = 0.99;
-			SDCpart2ContenttextControl.style.opacity = 1;
-			SDCpart1Control.style.zIndex = 16;
-			SDCpart1TitleControl.style.zIndex = 16;
-			SDCpart3Control.style.zIndex = 16;
-			SDCpart3TitleControl.style.zIndex = 16;
-			SDCpart4Control.style.zIndex = 16;
-			SDCpart4TitleControl.style.zIndex = 16;
-			SDC2BAControl.style.opacity = 1;
+			part2ContentControl.style.zIndex = 18;
+			part2Control.style.zIndex = 19;
+			part2ContentControl.style.opacity = 0.99;
+			part2ContenttextControl.style.opacity = 1;
+			part1Control.style.zIndex = 16;
+			part1TitleControl.style.zIndex = 16;
+			part3Control.style.zIndex = 16;
+			part3TitleControl.style.zIndex = 16;
+			part4Control.style.zIndex = 16;
+			part4TitleControl.style.zIndex = 16;
+			TwoBAControl.style.opacity = 1;
 
-
-
-		
-		}; 
-	  
-		document.getElementsByClassName('SDC2BA')[0].onclick =function()
-		{
-			SDCpart2ContentControl.classList.remove('open');
-			SDCpart2Control.classList.remove('open');
-			SDCpart2TitleControl.classList.remove('open');
-			SDCpart2ContenttextControl.classList.remove('open');
-		
-			SDCpart2ContentControl.classList.add('close');
-			SDCpart2Control.classList.add('close');
-			SDCpart2TitleControl.classList.add('close');
-			SDCpart2ContenttextControl.classList.add('close');
-
-			SDCpart2ContentControl.style.zIndex = 15;
-			SDCpart2Control.style.zIndex = 19;		
-			SDCpart2ContenttextControl.style.opacity = 0;
-			SDCpart1Control.style.zIndex = 19;
-			SDCpart1TitleControl.style.zIndex = 19;
-			SDCpart3Control.style.zIndex = 19;
-			SDCpart3TitleControl.style.zIndex = 19;
-			SDCpart4Control.style.zIndex = 19;
-			SDCpart4TitleControl.style.zIndex = 19;
-			SDC2BAControl.style.opacity = 0;
-
-
-		
-		}; 
-		document.getElementsByClassName('SDCpart3')[0].onclick =function()
-		{
-		
-			SDCpart3ContentControl.classList.add('open');
-			SDCpart3Control.classList.add('open');
-			SDCpart3TitleControl.classList.add('open');
-			SDCpart3ContenttextControl.classList.add('open');
-		
-			SDCpart3ContentControl.classList.remove('close');
-			SDCpart3Control.classList.remove('close');
-			SDCpart3TitleControl.classList.remove('close');
-			SDCpart3ContenttextControl.classList.remove('close');
-
-			SDCpart3ContentControl.style.zIndex = 18;
-			SDCpart3Control.style.zIndex = 19;
-			SDCpart3ContentControl.style.opacity = 0.99;
-			SDCpart3ContenttextControl.style.opacity = 1;
-			SDCpart1Control.style.zIndex = 16;
-			SDCpart1TitleControl.style.zIndex = 16;
-			SDCpart2Control.style.zIndex = 16;
-			SDCpart2TitleControl.style.zIndex = 16;
-			SDCpart4Control.style.zIndex = 16;
-			SDCpart4TitleControl.style.zIndex = 16;
-			SDC3BAControl.style.opacity = 1;
 
 
 		
 		}; 
 	  
-		document.getElementsByClassName('SDC3BA')[0].onclick =function()
+		document.getElementsByClassName('TwoBA')[0].onclick =function()
 		{
-			SDCpart3ContentControl.classList.remove('open');
-			SDCpart3Control.classList.remove('open');
-			SDCpart3TitleControl.classList.remove('open');
-			SDCpart3ContenttextControl.classList.remove('open');
+			part2ContentControl.classList.remove('open');
+			part2Control.classList.remove('open');
+			part2TitleControl.classList.remove('open');
+			part2ContenttextControl.classList.remove('open');
 		
-			SDCpart3ContentControl.classList.add('close');
-			SDCpart3Control.classList.add('close');
-			SDCpart3TitleControl.classList.add('close');
-			SDCpart3ContenttextControl.classList.add('close');
+			part2ContentControl.classList.add('close');
+			part2Control.classList.add('close');
+			part2TitleControl.classList.add('close');
+			part2ContenttextControl.classList.add('close');
 
-			SDCpart3ContentControl.style.zIndex = 15;
-			SDCpart3Control.style.zIndex = 19;		
-			SDCpart3ContenttextControl.style.opacity = 0;
-			SDCpart1Control.style.zIndex = 19;
-			SDCpart1TitleControl.style.zIndex = 19;
-			SDCpart2Control.style.zIndex = 19;
-			SDCpart2TitleControl.style.zIndex = 19;
-			SDCpart4Control.style.zIndex = 19;
-			SDCpart4TitleControl.style.zIndex = 19;
-			SDC3BAControl.style.opacity = 0;
-
+			part2ContentControl.style.zIndex = 15;
+			part2Control.style.zIndex = 19;		
+			part2ContenttextControl.style.opacity = 0;
+			part1Control.style.zIndex = 19;
+			part1TitleControl.style.zIndex = 19;
+			part3Control.style.zIndex = 19;
+			part3TitleControl.style.zIndex = 19;
+			part4Control.style.zIndex = 19;
+			part4TitleControl.style.zIndex = 19;
+			TwoBAControl.style.opacity = 0;
 
 
 		
 		}; 
-		
-		document.getElementsByClassName('SDCpart4')[0].onclick =function()
+		document.getElementsByClassName('part3')[0].onclick =function()
 		{
 		
-			SDCpart4ContentControl.classList.add('open');
-			SDCpart4Control.classList.add('open');
-			SDCpart4TitleControl.classList.add('open');
-			SDCpart4ContenttextControl.classList.add('open');
+			part3ContentControl.classList.add('open');
+			part3Control.classList.add('open');
+			part3TitleControl.classList.add('open');
+			part3ContenttextControl.classList.add('open');
 		
-			SDCpart4ContentControl.classList.remove('close');
-			SDCpart4Control.classList.remove('close');
-			SDCpart4TitleControl.classList.remove('close');
-			SDCpart4ContenttextControl.classList.remove('close');
+			part3ContentControl.classList.remove('close');
+			part3Control.classList.remove('close');
+			part3TitleControl.classList.remove('close');
+			part3ContenttextControl.classList.remove('close');
 
-			SDCpart4ContentControl.style.zIndex = 18;
-			SDCpart4Control.style.zIndex = 19;
-			SDCpart4ContentControl.style.opacity = 0.99;
-			SDCpart4ContenttextControl.style.opacity = 1;
-			SDCpart1Control.style.zIndex = 16;
-			SDCpart1TitleControl.style.zIndex = 16;
-			SDCpart2Control.style.zIndex = 16;
-			SDCpart2TitleControl.style.zIndex = 16;
-			SDCpart3Control.style.zIndex = 16;
-			SDCpart3TitleControl.style.zIndex = 16;
-			SDC4BAControl.style.opacity = 1;
+			part3ContentControl.style.zIndex = 18;
+			part3Control.style.zIndex = 19;
+			part3ContentControl.style.opacity = 0.99;
+			part3ContenttextControl.style.opacity = 1;
+			part1Control.style.zIndex = 16;
+			part1TitleControl.style.zIndex = 16;
+			part2Control.style.zIndex = 16;
+			part2TitleControl.style.zIndex = 16;
+			part4Control.style.zIndex = 16;
+			part4TitleControl.style.zIndex = 16;
+			ThreeBAControl.style.opacity = 1;
 
 
 		
 		}; 
 	  
-		document.getElementsByClassName('SDC4BA')[0].onclick =function()
+		document.getElementsByClassName('ThreeBA')[0].onclick =function()
 		{
-			SDCpart4ContentControl.classList.remove('open');
-			SDCpart4Control.classList.remove('open');
-			SDCpart4TitleControl.classList.remove('open');
-			SDCpart4ContenttextControl.classList.remove('open');
+			part3ContentControl.classList.remove('open');
+			part3Control.classList.remove('open');
+			part3TitleControl.classList.remove('open');
+			part3ContenttextControl.classList.remove('open');
 		
-			SDCpart4ContentControl.classList.add('close');
-			SDCpart4Control.classList.add('close');
-			SDCpart4TitleControl.classList.add('close');
-			SDCpart4ContenttextControl.classList.add('close');
+			part3ContentControl.classList.add('close');
+			part3Control.classList.add('close');
+			part3TitleControl.classList.add('close');
+			part3ContenttextControl.classList.add('close');
 
-			SDCpart4ContentControl.style.zIndex = 15;
-			SDCpart4Control.style.zIndex = 19;		
-			SDCpart4ContenttextControl.style.opacity = 0;
-			SDCpart1Control.style.zIndex = 19;
-			SDCpart1TitleControl.style.zIndex = 19;
-			SDCpart2Control.style.zIndex = 19;
-			SDCpart2TitleControl.style.zIndex = 19;
-			SDCpart3Control.style.zIndex = 19;
-			SDCpart3TitleControl.style.zIndex = 19;
-			SDC4BAControl.style.opacity = 0;
+			part3ContentControl.style.zIndex = 15;
+			part3Control.style.zIndex = 19;		
+			part3ContenttextControl.style.opacity = 0;
+			part1Control.style.zIndex = 19;
+			part1TitleControl.style.zIndex = 19;
+			part2Control.style.zIndex = 19;
+			part2TitleControl.style.zIndex = 19;
+			part4Control.style.zIndex = 19;
+			part4TitleControl.style.zIndex = 19;
+			ThreeBAControl.style.opacity = 0;
+
+
+
+		
+		}; 
+		
+		document.getElementsByClassName('part4')[0].onclick =function()
+		{
+		
+			part4ContentControl.classList.add('open');
+			part4Control.classList.add('open');
+			part4TitleControl.classList.add('open');
+			part4ContenttextControl.classList.add('open');
+		
+			part4ContentControl.classList.remove('close');
+			part4Control.classList.remove('close');
+			part4TitleControl.classList.remove('close');
+			part4ContenttextControl.classList.remove('close');
+
+			part4ContentControl.style.zIndex = 18;
+			part4Control.style.zIndex = 19;
+			part4ContentControl.style.opacity = 0.99;
+			part4ContenttextControl.style.opacity = 1;
+			part1Control.style.zIndex = 16;
+			part1TitleControl.style.zIndex = 16;
+			part2Control.style.zIndex = 16;
+			part2TitleControl.style.zIndex = 16;
+			part3Control.style.zIndex = 16;
+			part3TitleControl.style.zIndex = 16;
+			FourBAControl.style.opacity = 1;
+
+
+		
+		}; 
+	  
+		document.getElementsByClassName('FourBA')[0].onclick =function()
+		{
+			part4ContentControl.classList.remove('open');
+			part4Control.classList.remove('open');
+			part4TitleControl.classList.remove('open');
+			part4ContenttextControl.classList.remove('open');
+		
+			part4ContentControl.classList.add('close');
+			part4Control.classList.add('close');
+			part4TitleControl.classList.add('close');
+			part4ContenttextControl.classList.add('close');
+
+			part4ContentControl.style.zIndex = 15;
+			part4Control.style.zIndex = 19;		
+			part4ContenttextControl.style.opacity = 0;
+			part1Control.style.zIndex = 19;
+			part1TitleControl.style.zIndex = 19;
+			part2Control.style.zIndex = 19;
+			part2TitleControl.style.zIndex = 19;
+			part3Control.style.zIndex = 19;
+			part3TitleControl.style.zIndex = 19;
+			FourBAControl.style.opacity = 0;
 
 
 		
