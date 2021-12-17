@@ -28,11 +28,13 @@ var BbtnControl = document.getElementsByClassName('Backbutton')[0];
 
 document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 	
+	var SDCContentControl = document.getElementsByClassName('SDCContent')[0];
+	var SDCBAControl = document.getElementsByClassName('SDCBA')[0];
+	
 	var SDCpart1Control = document.getElementsByClassName('SDCpart1')[0];
 	var SDCpart1TitleControl = document.getElementsByClassName('SDCpart1Title')[0];
 	var SDCpart1ContenttextControl = document.getElementsByClassName('SDCpart1Contenttext')[0];
-	var SDCContentControl = document.getElementsByClassName('SDCContent')[0];
-	var SDCBAControl = document.getElementsByClassName('SDCBA')[0];
+	
 
 	
 	var SDCpart2Control = document.getElementsByClassName('SDCpart2')[0];
@@ -75,6 +77,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart1Control.classList.add('open');
 			SDCpart1TitleControl.classList.add('open');
 			SDCpart1ContenttextControl.classList.add('open');
+			
 		
 			SDCContentControl.classList.remove('close');
 			SDCpart1Control.classList.remove('close');
@@ -92,6 +95,11 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart4Control.style.zIndex = 16;
 			SDCpart4TitleControl.style.zIndex = 16;
 			SDCBAControl.style.opacity = 1;
+			
+			SDCpart2ContenttextControl.style.opacity = 0;
+			SDCpart3ContenttextControl.style.opacity = 0;
+			SDCpart4ContenttextControl.style.opacity = 0;
+			
 
 
 
@@ -167,8 +175,10 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart4Control.style.zIndex = 16;
 			SDCpart4TitleControl.style.zIndex = 16;
 			SDCBAControl.style.opacity = 1;
-
-
+			
+			SDCpart1ContenttextControl.style.opacity = 0;
+			SDCpart3ContenttextControl.style.opacity = 0;
+			SDCpart4ContenttextControl.style.opacity = 0;
 
 		
 		}; 
@@ -197,6 +207,10 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart4Control.style.zIndex = 16;
 			SDCpart4TitleControl.style.zIndex = 16;
 			SDCBAControl.style.opacity = 1;
+			
+			SDCpart1ContenttextControl.style.opacity = 0;
+			SDCpart2ContenttextControl.style.opacity = 0;
+			SDCpart4ContenttextControl.style.opacity = 0;
 
 
 		
@@ -227,6 +241,10 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart3Control.style.zIndex = 16;
 			SDCpart3TitleControl.style.zIndex = 16;
 			SDCBAControl.style.opacity = 1;
+			
+			SDCpart1ContenttextControl.style.opacity = 0;
+			SDCpart2ContenttextControl.style.opacity = 0;
+			SDCpart3ContenttextControl.style.opacity = 0;
 
 
 		
