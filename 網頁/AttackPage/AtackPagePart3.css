@@ -641,10 +641,10 @@
 }
 .Bar100000-Mobile{
 	position: absolute;
-	margin-top: 27%;
+	margin-top: 34%;
 	margin-left: 0%;
 	width: 54%;
-	padding-bottom: 1.5%;
+	padding-bottom: 3%;
 	background: #E4912B 0% 0% no-repeat padding-box;
 	opacity: 1;
 }
@@ -653,7 +653,7 @@
 	position: absolute;
 	content: "";
 	width: 135%;
-	padding-bottom: 2.75%;
+	padding-bottom: 5.5%;
 	opacity: 0.3;
 	background-color: #E4912B;
 	
@@ -665,6 +665,7 @@
 	margin-left: 73.5%;
 	margin-top: 24%;
 	line-height: 1.2;
+	font-size: 3.5rem;
 	
 }
 .Bar100000value-Mobile{
