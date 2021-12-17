@@ -500,50 +500,6 @@
 	margin-top: 17.5%;
 	background-color: #1E3239;
 }
-.SDCpart1Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	opacity: 0;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-}
-.SDCpart1Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	
-	color: #ffffff;
-	
-}
-
-.SDCpart1Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 1.8;
-}
-.SDCpart1Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
 
 .SDCpart2{
 	position: absolute;
@@ -623,7 +579,7 @@
 	margin-top: 17.5%;
 	background-color: #1E3239;
 }
-.SDCpart2Content{
+.SDCContent{
 	position: absolute;
 	z-index: -1;
 	margin-top: 0%;
@@ -632,41 +588,11 @@
 	background-color: transparent;
 	color: transparent;
 	font-size: 2.2rem;
+	opacity: 0;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	opacity: 0;
 }
-.SDCpart2Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-}
-
-.SDCpart2Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 2;
-	
-}
-.SDCpart2Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
-
 .SDCpart3{
 	position: absolute;
 	z-index: 17;
@@ -744,49 +670,6 @@
 	margin-top: 41.5%;
 	background-color: #1E3239;
 }
-.SDCpart3Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	opacity: 0;
-}
-.SDCpart3Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-	
-}
-
-.SDCpart3Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-}
-.SDCpart3Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
-
 
 .SDCpart4{
 	position: absolute;
@@ -866,7 +749,39 @@
 	margin-top: 41.5%;
 	background-color: #1E3239;
 }
-.SDCpart4Content{
+.SDCContent.open{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	
+	color: #ffffff;
+	
+}
+
+.SDCpart1Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 1.8;
+}
+.SDCpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+
+.SDCpart2Content{
 	position: absolute;
 	z-index: -1;
 	margin-top: 0%;
@@ -880,7 +795,7 @@
 	justify-content: flex-end;
 	opacity: 0;
 }
-.SDCpart4Content.open{
+.SDCpart2Content.open{
 	position: absolute;
 	margin-top: 0%;
 	margin-left: 0%;
@@ -890,7 +805,40 @@
 	opacity: 0.95;
 	display: flex;
 	color: #ffffff;
+}
+
+.SDCpart2Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
 	
+}
+.SDCpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.SDCpart3Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.SDCpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
 }
 
 .SDCpart4Contenttext{

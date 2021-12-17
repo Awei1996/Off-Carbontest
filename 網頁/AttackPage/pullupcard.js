@@ -31,29 +31,26 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 	var SDCpart1Control = document.getElementsByClassName('SDCpart1')[0];
 	var SDCpart1TitleControl = document.getElementsByClassName('SDCpart1Title')[0];
 	var SDCpart1ContenttextControl = document.getElementsByClassName('SDCpart1Contenttext')[0];
-	var SDCpart1ContentControl = document.getElementsByClassName('SDCpart1Content')[0];
-	var SDC1BAControl = document.getElementsByClassName('SDC1BA')[0];
+	var SDCContentControl = document.getElementsByClassName('SDCContent')[0];
+	var SDCBAControl = document.getElementsByClassName('SDCBA')[0];
 
 	
 	var SDCpart2Control = document.getElementsByClassName('SDCpart2')[0];
 	var SDCpart2TitleControl = document.getElementsByClassName('SDCpart2Title')[0];
   	var SDCpart2ContenttextControl = document.getElementsByClassName('SDCpart2Contenttext')[0];
-	var SDCpart2ContentControl = document.getElementsByClassName('SDCpart2Content')[0];
-	var SDC2BAControl = document.getElementsByClassName('SDC2BA')[0];
+	
 
 	
 	var SDCpart3Control = document.getElementsByClassName('SDCpart3')[0];
 	var SDCpart3TitleControl = document.getElementsByClassName('SDCpart3Title')[0];
   	var SDCpart3ContenttextControl = document.getElementsByClassName('SDCpart3Contenttext')[0];
-	var SDCpart3ContentControl = document.getElementsByClassName('SDCpart3Content')[0];
-	var SDC3BAControl = document.getElementsByClassName('SDC3BA')[0];
+	
 
 	
 	var SDCpart4Control = document.getElementsByClassName('SDCpart4')[0];
 	var SDCpart4TitleControl = document.getElementsByClassName('SDCpart4Title')[0];
   	var SDCpart4ContenttextControl = document.getElementsByClassName('SDCpart4Contenttext')[0];
-	var SDCpart4ContentControl = document.getElementsByClassName('SDCpart4Content')[0];
-	var SDC4BAControl = document.getElementsByClassName('SDC4BA')[0];
+	
 
 
   	if(this.value === 'close') 
@@ -74,20 +71,20 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 		document.getElementsByClassName('SDCpart1')[0].onclick =function()
 		{
 		
-			SDCpart1ContentControl.classList.add('open');
+			SDCContentControl.classList.add('open');
 			SDCpart1Control.classList.add('open');
 			SDCpart1TitleControl.classList.add('open');
 			SDCpart1ContenttextControl.classList.add('open');
 		
-			SDCpart1ContentControl.classList.remove('close');
+			SDCContentControl.classList.remove('close');
 			SDCpart1Control.classList.remove('close');
 			SDCpart1TitleControl.classList.remove('close');
 			SDCpart1ContenttextControl.classList.remove('close');
 			
 
-			SDCpart1ContentControl.style.zIndex = 18;
+			SDCContentControl.style.zIndex = 18;
 			SDCpart1Control.style.zIndex = 19;
-			SDCpart1ContentControl.style.opacity = 0.99;
+			SDCContentControl.style.opacity = 0.99;
 			SDCpart1ContenttextControl.style.opacity = 1;
 			SDCpart2Control.style.zIndex = 16;
 			SDCpart2TitleControl.style.zIndex = 16;
@@ -95,7 +92,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart3TitleControl.style.zIndex = 16;
 			SDCpart4Control.style.zIndex = 16;
 			SDCpart4TitleControl.style.zIndex = 16;
-			SDC1BAControl.style.opacity = 1;
+			SDCBAControl.style.opacity = 1;
 
 
 
@@ -103,19 +100,19 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 		
 		}; 
 	  
-		document.getElementsByClassName('SDC1BA')[0].onclick =function()
+		document.getElementsByClassName('SDCBA')[0].onclick =function()
 		{
-			SDCpart1ContentControl.classList.remove('open');
+			SDCContentControl.classList.remove('open');
 			SDCpart1Control.classList.remove('open');
 			SDCpart1TitleControl.classList.remove('open');
 			SDCpart1ContenttextControl.classList.remove('open');
 		
-			SDCpart1ContentControl.classList.add('close');
+			SDCContentControl.classList.add('close');
 			SDCpart1Control.classList.add('close');
 			SDCpart1TitleControl.classList.add('close');
 			SDCpart1ContenttextControl.classList.add('close');
 
-			SDCpart1ContentControl.style.zIndex = 15;
+			SDCContentControl.style.zIndex = 15;
 			SDCpart1Control.style.zIndex = 19;		
 			SDCpart2Control.style.zIndex = 19;
 			SDCpart2TitleControl.style.zIndex = 19;
@@ -123,7 +120,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart3TitleControl.style.zIndex = 19;
 			SDCpart4Control.style.zIndex = 19;
 			SDCpart4TitleControl.style.zIndex = 19;
-			SDC1BAControl.style.opacity = 0;
+			SDCBAControl.style.opacity = 0;
 
 
 
@@ -133,19 +130,19 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 		document.getElementsByClassName('SDCpart2')[0].onclick =function()
 		{
 		
-			SDCpart2ContentControl.classList.add('open');
+			SDCContentControl.classList.add('open');
 			SDCpart2Control.classList.add('open');
 			SDCpart2TitleControl.classList.add('open');
 			SDCpart2ContenttextControl.classList.add('open');
 		
-			SDCpart2ContentControl.classList.remove('close');
+			SDCContentControl.classList.remove('close');
 			SDCpart2Control.classList.remove('close');
 			SDCpart2TitleControl.classList.remove('close');
 			SDCpart2ContenttextControl.classList.remove('close');
 
-			SDCpart2ContentControl.style.zIndex = 18;
+			SDCContentControl.style.zIndex = 18;
 			SDCpart2Control.style.zIndex = 19;
-			SDCpart2ContentControl.style.opacity = 0.99;
+			SDCContentControl.style.opacity = 0.99;
 			SDCpart2ContenttextControl.style.opacity = 1;
 			SDCpart1Control.style.zIndex = 16;
 			SDCpart1TitleControl.style.zIndex = 16;
@@ -153,26 +150,26 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart3TitleControl.style.zIndex = 16;
 			SDCpart4Control.style.zIndex = 16;
 			SDCpart4TitleControl.style.zIndex = 16;
-			SDC2BAControl.style.opacity = 1;
+			SDCBAControl.style.opacity = 1;
 
 
 
 		
 		}; 
 	  
-		document.getElementsByClassName('SDC2BA')[0].onclick =function()
+		document.getElementsByClassName('SDCBA')[0].onclick =function()
 		{
-			SDCpart2ContentControl.classList.remove('open');
+			SDCContentControl.classList.remove('open');
 			SDCpart2Control.classList.remove('open');
 			SDCpart2TitleControl.classList.remove('open');
 			SDCpart2ContenttextControl.classList.remove('open');
 		
-			SDCpart2ContentControl.classList.add('close');
+			SDCContentControl.classList.add('close');
 			SDCpart2Control.classList.add('close');
 			SDCpart2TitleControl.classList.add('close');
 			SDCpart2ContenttextControl.classList.add('close');
 
-			SDCpart2ContentControl.style.zIndex = 15;
+			SDCContentControl.style.zIndex = 15;
 			SDCpart2Control.style.zIndex = 19;		
 			SDCpart2ContenttextControl.style.opacity = 0;
 			SDCpart1Control.style.zIndex = 19;
@@ -181,7 +178,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart3TitleControl.style.zIndex = 19;
 			SDCpart4Control.style.zIndex = 19;
 			SDCpart4TitleControl.style.zIndex = 19;
-			SDC2BAControl.style.opacity = 0;
+			SDCBAControl.style.opacity = 0;
 
 
 		
@@ -189,19 +186,19 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 		document.getElementsByClassName('SDCpart3')[0].onclick =function()
 		{
 		
-			SDCpart3ContentControl.classList.add('open');
+			SDCContentControl.classList.add('open');
 			SDCpart3Control.classList.add('open');
 			SDCpart3TitleControl.classList.add('open');
 			SDCpart3ContenttextControl.classList.add('open');
 		
-			SDCpart3ContentControl.classList.remove('close');
+			SDCContentControl.classList.remove('close');
 			SDCpart3Control.classList.remove('close');
 			SDCpart3TitleControl.classList.remove('close');
 			SDCpart3ContenttextControl.classList.remove('close');
 
-			SDCpart3ContentControl.style.zIndex = 18;
+			SDCContentControl.style.zIndex = 18;
 			SDCpart3Control.style.zIndex = 19;
-			SDCpart3ContentControl.style.opacity = 0.99;
+			SDCContentControl.style.opacity = 0.99;
 			SDCpart3ContenttextControl.style.opacity = 1;
 			SDCpart1Control.style.zIndex = 16;
 			SDCpart1TitleControl.style.zIndex = 16;
@@ -209,25 +206,25 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart2TitleControl.style.zIndex = 16;
 			SDCpart4Control.style.zIndex = 16;
 			SDCpart4TitleControl.style.zIndex = 16;
-			SDC3BAControl.style.opacity = 1;
+			SDCBAControl.style.opacity = 1;
 
 
 		
 		}; 
 	  
-		document.getElementsByClassName('SDC3BA')[0].onclick =function()
+		document.getElementsByClassName('SDCBA')[0].onclick =function()
 		{
-			SDCpart3ContentControl.classList.remove('open');
+			SDCContentControl.classList.remove('open');
 			SDCpart3Control.classList.remove('open');
 			SDCpart3TitleControl.classList.remove('open');
 			SDCpart3ContenttextControl.classList.remove('open');
 		
-			SDCpart3ContentControl.classList.add('close');
+			SDCContentControl.classList.add('close');
 			SDCpart3Control.classList.add('close');
 			SDCpart3TitleControl.classList.add('close');
 			SDCpart3ContenttextControl.classList.add('close');
 
-			SDCpart3ContentControl.style.zIndex = 15;
+			SDCContentControl.style.zIndex = 15;
 			SDCpart3Control.style.zIndex = 19;		
 			SDCpart3ContenttextControl.style.opacity = 0;
 			SDCpart1Control.style.zIndex = 19;
@@ -236,7 +233,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart2TitleControl.style.zIndex = 19;
 			SDCpart4Control.style.zIndex = 19;
 			SDCpart4TitleControl.style.zIndex = 19;
-			SDC3BAControl.style.opacity = 0;
+			SDCBAControl.style.opacity = 0;
 
 
 
@@ -246,19 +243,19 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 		document.getElementsByClassName('SDCpart4')[0].onclick =function()
 		{
 		
-			SDCpart4ContentControl.classList.add('open');
+			SDCContentControl.classList.add('open');
 			SDCpart4Control.classList.add('open');
 			SDCpart4TitleControl.classList.add('open');
 			SDCpart4ContenttextControl.classList.add('open');
 		
-			SDCpart4ContentControl.classList.remove('close');
+			SDCContentControl.classList.remove('close');
 			SDCpart4Control.classList.remove('close');
 			SDCpart4TitleControl.classList.remove('close');
 			SDCpart4ContenttextControl.classList.remove('close');
 
-			SDCpart4ContentControl.style.zIndex = 18;
+			SDCContentControl.style.zIndex = 18;
 			SDCpart4Control.style.zIndex = 19;
-			SDCpart4ContentControl.style.opacity = 0.99;
+			SDCContentControl.style.opacity = 0.99;
 			SDCpart4ContenttextControl.style.opacity = 1;
 			SDCpart1Control.style.zIndex = 16;
 			SDCpart1TitleControl.style.zIndex = 16;
@@ -266,25 +263,25 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart2TitleControl.style.zIndex = 16;
 			SDCpart3Control.style.zIndex = 16;
 			SDCpart3TitleControl.style.zIndex = 16;
-			SDC4BAControl.style.opacity = 1;
+			SDCBAControl.style.opacity = 1;
 
 
 		
 		}; 
 	  
-		document.getElementsByClassName('SDC4BA')[0].onclick =function()
+		document.getElementsByClassName('SDCBA')[0].onclick =function()
 		{
-			SDCpart4ContentControl.classList.remove('open');
+			SDCContentControl.classList.remove('open');
 			SDCpart4Control.classList.remove('open');
 			SDCpart4TitleControl.classList.remove('open');
 			SDCpart4ContenttextControl.classList.remove('open');
 		
-			SDCpart4ContentControl.classList.add('close');
+			SDCContentControl.classList.add('close');
 			SDCpart4Control.classList.add('close');
 			SDCpart4TitleControl.classList.add('close');
 			SDCpart4ContenttextControl.classList.add('close');
 
-			SDCpart4ContentControl.style.zIndex = 15;
+			SDCContentControl.style.zIndex = 15;
 			SDCpart4Control.style.zIndex = 19;		
 			SDCpart4ContenttextControl.style.opacity = 0;
 			SDCpart1Control.style.zIndex = 19;
@@ -293,7 +290,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart2TitleControl.style.zIndex = 19;
 			SDCpart3Control.style.zIndex = 19;
 			SDCpart3TitleControl.style.zIndex = 19;
-			SDC4BAControl.style.opacity = 0;
+			SDCBAControl.style.opacity = 0;
 
 
 		
