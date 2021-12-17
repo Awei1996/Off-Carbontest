@@ -79,7 +79,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCContentControl.classList.remove('close');
 			SDCpart1Control.classList.remove('close');
 			SDCpart1TitleControl.classList.remove('close');
-			SDCpart1ContenttextControl.classList.remove('close');
+			
 			
 
 			SDCContentControl.style.zIndex = 18;
@@ -155,7 +155,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCContentControl.classList.remove('close');
 			SDCpart2Control.classList.remove('close');
 			SDCpart2TitleControl.classList.remove('close');
-			SDCpart2ContenttextControl.classList.remove('close');
+			
 
 			SDCContentControl.style.zIndex = 18;
 			SDCpart2Control.style.zIndex = 19;
@@ -185,7 +185,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCContentControl.classList.remove('close');
 			SDCpart3Control.classList.remove('close');
 			SDCpart3TitleControl.classList.remove('close');
-			SDCpart3ContenttextControl.classList.remove('close');
+			
 
 			SDCContentControl.style.zIndex = 18;
 			SDCpart3Control.style.zIndex = 19;
@@ -215,7 +215,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCContentControl.classList.remove('close');
 			SDCpart4Control.classList.remove('close');
 			SDCpart4TitleControl.classList.remove('close');
-			SDCpart4ContenttextControl.classList.remove('close');
+			
 
 			SDCContentControl.style.zIndex = 18;
 			SDCpart4Control.style.zIndex = 19;
