@@ -618,14 +618,14 @@
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
-	margin-left: 59%;
-	margin-top: 18%;
+	margin-left: 57.5%;
+	margin-top: 18.5%;
 	line-height: 0.8;
 	font-size: 3.5rem;
 	
 }
 .Bar70000value-Mobile{
-	margin-left: -80%;
+	margin-left: -75%;
 }
 .Bar70000mark-Mobile{
 	position: absolute;
@@ -663,7 +663,7 @@
 	z-index: 12;
 	color: #ffffff;
 	margin-left: 77%;
-	margin-top: 28.5%;
+	margin-top: 28%;
 	line-height: 1.2;
 	font-size: 3.5rem;
 	
