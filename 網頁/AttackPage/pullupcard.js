@@ -120,16 +120,16 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			
 			SDCpart1Control.classList.add('close');
 			SDCpart1TitleControl.classList.add('close');
-			SDCpart1ContenttextControl.classList.add('close');
+			
 			SDCpart2Control.classList.add('close');
 			SDCpart2TitleControl.classList.add('close');
-			SDCpart2ContenttextControl.classList.add('close');
+			
 			SDCpart3Control.classList.add('close');
 			SDCpart3TitleControl.classList.add('close');
-			SDCpart3ContenttextControl.classList.add('close');
+		
 			SDCpart4Control.classList.add('close');
 			SDCpart4TitleControl.classList.add('close');
-			SDCpart4ContenttextControl.classList.add('close');
+		
 		
 			SDCContentControl.style.zIndex = 15;
 			SDCpart1Control.style.zIndex = 19;		
