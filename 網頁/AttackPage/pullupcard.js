@@ -304,8 +304,8 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
 			document.getElementsByClassName('SpeciesDiversity')[0].value = 'close';
-    		textcardSDC.classList.remove('open'); 
-			textcardSDC.classList.add('close');
+    		textcard.classList.remove('open'); 
+			textcard.classList.add('close');
 			MainMenuControl.classList.remove('close');
 			MainMenuControl.classList.add('open');
 			SteamControl.classList.remove('open');
