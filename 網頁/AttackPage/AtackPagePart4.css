@@ -558,20 +558,7 @@
 	margin-top: 17.5%;
 	background-color: #1E3239;
 }
-.SDCContent{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	opacity: 0;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-}
+
 .SDCpart3{
 	position: absolute;
 	z-index: 17;
@@ -741,7 +728,20 @@
 	color: #ffffff;
 	
 }
-
+.SDCContent{
+	position: absolute;
+	z-index: -1;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 0%;
+	background-color: transparent;
+	color: transparent;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
 .SDCpart1Contenttext{
 	position: absolute;
 	margin-top: 54%;
@@ -753,6 +753,7 @@
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 1.8;
+	opacity: 0;
 }
 .SDCpart1Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -760,31 +761,7 @@
 }
 
 
-.SDCpart2Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	opacity: 0;
-}
-.SDCpart2Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-}
+
 
 .SDCpart2Contenttext{
 	position: absolute;
@@ -797,6 +774,7 @@
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
+	opacity: 0;
 	
 }
 .SDCpart2Contenttext.open{
@@ -814,6 +792,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	opacity: 0;
 }
 .SDCpart3Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -830,6 +809,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	opacity: 0;
 	 
 }
 .SDCpart4Contenttext.open{
