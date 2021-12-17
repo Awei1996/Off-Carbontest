@@ -471,12 +471,15 @@
 	margin-top: 4.5%;
 	color: #E98C24;
 	background-color: transparent;
+	
 
 }
 
 .SDCpart1Title.close{
-    transition: 1s;
+	width: 39.06%;
 	margin-top: 17.5%;
+	margin-left: 10.42%;
+    transition: 1s;
 	background-color: #1E3239;
 }
 
@@ -554,8 +557,10 @@
 }
 
 .SDCpart2Title.close{
-    transition: 1s;
 	margin-top: 17.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+    transition: 1s;
 	background-color: #1E3239;
 }
 
@@ -634,6 +639,8 @@
 .SDCpart3Title.close{
 	transition: 1s;
 	margin-top: 41.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
 	background-color: #1E3239;
 }
 
@@ -713,6 +720,8 @@
 .SDCpart4Title.close{
 	transition: 1s;
 	margin-top: 41.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
 	background-color: #1E3239;
 }
 .SDCContent.open{
@@ -759,9 +768,6 @@
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
-
-
-
 
 .SDCpart2Contenttext{
 	position: absolute;
