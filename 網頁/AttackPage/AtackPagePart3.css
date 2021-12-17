@@ -618,7 +618,7 @@
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
-	margin-left: 62%;
+	margin-left: 60%;
 	margin-top: 18%;
 	line-height: 0.8;
 	font-size: 3.5rem;
@@ -662,8 +662,8 @@
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
-	margin-left: 73.5%;
-	margin-top: 32%;
+	margin-left: 75%;
+	margin-top: 30%;
 	line-height: 1.2;
 	font-size: 3.5rem;
 	
@@ -674,7 +674,7 @@
 .Bar100000mark-Mobile{
 	position: absolute;
 	z-index: 13;
-	margin-top: 1%;
+	margin-top: 2.5%;
 	height: 10%;
 	margin-left: 130%;
 	font-size: 8rem;
