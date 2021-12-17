@@ -68,6 +68,11 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 		DisasterControl.classList.remove('close');
 		SDCBGControl.classList.add('open');
 		BbtnControl.classList.add('open');
+		
+		SDCpart1ContenttextControl.style.opacity = 0;
+		SDCpart2ContenttextControl.style.opacity = 0;
+		SDCpart3ContenttextControl.style.opacity = 0;
+		SDCpart4ContenttextControl.style.opacity = 0;
   
 	  
 		document.getElementsByClassName('SDCpart1')[0].onclick =function()
