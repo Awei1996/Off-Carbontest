@@ -102,7 +102,9 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCBAControl.style.opacity = 1;
 
 			SDCpart1ContenttextControl.style.opacity = 1;
-			
+			SDCpart2ContenttextControl.style.opacity = 0;
+			SDCpart3ContenttextControl.style.opacity = 0;
+			SDCpart4ContenttextControl.style.opacity = 0;
 			
 
 
@@ -136,7 +138,10 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCBAControl.style.opacity = 1;
 			
 			
+			SDCpart1ContenttextControl.style.opacity = 0;
 			SDCpart2ContenttextControl.style.opacity = 1;
+			SDCpart3ContenttextControl.style.opacity = 0;
+			SDCpart4ContenttextControl.style.opacity = 0;
 			
 
 		
@@ -166,7 +171,10 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart4TitleControl.style.zIndex = 16;
 			SDCBAControl.style.opacity = 1;
 	
+			SDCpart1ContenttextControl.style.opacity = 0;
+			SDCpart2ContenttextControl.style.opacity = 0;
 			SDCpart3ContenttextControl.style.opacity = 1;
+			SDCpart4ContenttextControl.style.opacity = 0;
 		
 		}; 
 	  
@@ -197,6 +205,9 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCBAControl.style.opacity = 1;
 			
 			
+			SDCpart1ContenttextControl.style.opacity = 0;
+			SDCpart2ContenttextControl.style.opacity = 0;
+			SDCpart3ContenttextControl.style.opacity = 0;
 			SDCpart4ContenttextControl.style.opacity = 1;
 
 
