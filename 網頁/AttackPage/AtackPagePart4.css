@@ -3368,6 +3368,8 @@
 .DSCpart1Title.close{
     transition: 1s;
 	margin-top: 17.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
 	background-color: #1E3239;
 }
 
@@ -3446,6 +3448,8 @@
 .DSCpart2Title.close{
     transition: 1s;
 	margin-top: 17.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
 	background-color: #1E3239;
 }
 
@@ -3523,6 +3527,8 @@
 .DSCpart3Title.close{
 	transition: 1s;
 	margin-top: 41.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
 	background-color: #1E3239;
 }
 
@@ -3601,6 +3607,8 @@
 .DSCpart4Title.close{
 	transition: 1s;
 	margin-top: 41.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
 	background-color: #1E3239;
 }
 
