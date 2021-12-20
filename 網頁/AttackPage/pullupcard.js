@@ -2443,34 +2443,28 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 };
 document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 	
+	var FSCContentControl = document.getElementsByClassName('FSCContent')[0];
+	var FSCBAControl = document.getElementsByClassName('FSCBA')[0];
+	
 	var FSCpart1Control = document.getElementsByClassName('FSCpart1')[0];
 	var FSCpart1TitleControl = document.getElementsByClassName('FSCpart1Title')[0];
-  	var FSCpart1ContenttextControl = document.getElementsByClassName('FSCpart1Contenttext')[0];
-	var FSCpart1ContentControl = document.getElementsByClassName('FSCpart1Content')[0];
-	
+	var FSCpart1ContenttextControl = document.getElementsByClassName('FSCpart1Contenttext')[0];
+
 	var FSCpart2Control = document.getElementsByClassName('FSCpart2')[0];
 	var FSCpart2TitleControl = document.getElementsByClassName('FSCpart2Title')[0];
   	var FSCpart2ContenttextControl = document.getElementsByClassName('FSCpart2Contenttext')[0];
-	var FSCpart2ContentControl = document.getElementsByClassName('FSCpart2Content')[0];
 	
 	var FSCpart3Control = document.getElementsByClassName('FSCpart3')[0];
 	var FSCpart3TitleControl = document.getElementsByClassName('FSCpart3Title')[0];
   	var FSCpart3ContenttextControl = document.getElementsByClassName('FSCpart3Contenttext')[0];
-	var FSCpart3ContentControl = document.getElementsByClassName('FSCpart3Content')[0];
 	
 	var FSCpart4Control = document.getElementsByClassName('FSCpart4')[0];
 	var FSCpart4TitleControl = document.getElementsByClassName('FSCpart4Title')[0];
   	var FSCpart4ContenttextControl = document.getElementsByClassName('FSCpart4Contenttext')[0];
-	var FSCpart4ContentControl = document.getElementsByClassName('FSCpart4Content')[0];
-	
-	var FSC1BAControl = document.getElementsByClassName('FSC1BA')[0];
-	var FSC2BAControl = document.getElementsByClassName('FSC2BA')[0];
-	var FSC3BAControl = document.getElementsByClassName('FSC3BA')[0];
-	var FSC4BAControl = document.getElementsByClassName('FSC4BA')[0];
-	
-	if(this.value === 'close') 
-	{ 
-		this.value = 'open';
+
+  	if(this.value === 'close') 
+  	{ 
+    	this.value = 'open';
 		textcardFSC.classList.remove('close'); 
     	textcardFSC.classList.add('open');
 		MainMenuControl.classList.add('close');
@@ -2480,232 +2474,215 @@ document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
 		FSCBGControl.classList.add('open');
-  		BbtnControl.classList.add('open');
-
-	  
+		BbtnControl.classList.add('open');
+		
+		FSCpart1ContenttextControl.style.opacity = 0;
+		FSCpart2ContenttextControl.style.opacity = 0;
+		FSCpart3ContenttextControl.style.opacity = 0;
+		FSCpart4ContenttextControl.style.opacity = 0;
+  
 		document.getElementsByClassName('FSCpart1')[0].onclick =function()
 		{
-		
-			FSCpart1ContentControl.classList.add('open');
+							
+			FSCContentControl.classList.add('open');
 			FSCpart1Control.classList.add('open');
 			FSCpart1TitleControl.classList.add('open');
 			FSCpart1ContenttextControl.classList.add('open');
-		
-			FSCpart1ContentControl.classList.remove('close');
+
+			FSCContentControl.classList.remove('close');
 			FSCpart1Control.classList.remove('close');
 			FSCpart1TitleControl.classList.remove('close');
-			FSCpart1ContenttextControl.classList.remove('close');
 
-			FSCpart1ContentControl.style.zIndex = 18;
+			FSCContentControl.style.zIndex = 18;
 			FSCpart1Control.style.zIndex = 19;
-			FSCpart1ContentControl.style.opacity = 0.99;
-			FSCpart1ContenttextControl.style.opacity = 1;
+			FSCpart1TitleControl.style.zIndex = 19;
+			FSCpart1ContenttextControl.style.zIndex = 19;
+			FSCContentControl.style.opacity = 0.99;
 			FSCpart2Control.style.zIndex = 16;
 			FSCpart2TitleControl.style.zIndex = 16;
+			FSCpart2ContenttextControl.style.zIndex = 16;
 			FSCpart3Control.style.zIndex = 16;
 			FSCpart3TitleControl.style.zIndex = 16;
+			FSCpart3ContenttextControl.style.zIndex = 16;
 			FSCpart4Control.style.zIndex = 16;
 			FSCpart4TitleControl.style.zIndex = 16;
-			FSC1BAControl.style.opacity = 1;
+			FSCpart4ContenttextControl.style.zIndex = 16;
+			FSCBAControl.style.opacity = 1;
 
-
-
-		
+			FSCpart1ContenttextControl.style.opacity = 1;
+			
+			FSCpart1ContenttextControl.style.display = 'flex';
+			FSCpart2ContenttextControl.style.display = 'none';
+			FSCpart3ContenttextControl.style.display = 'none';
+			FSCpart4ContenttextControl.style.display = 'none';
+	
 		}; 
 	  
-		document.getElementsByClassName('FSC1BA')[0].onclick =function()
-		{
-			FSCpart1ContentControl.classList.remove('open');
-			FSCpart1Control.classList.remove('open');
-			FSCpart1TitleControl.classList.remove('open');
-			FSCpart1ContenttextControl.classList.remove('open');
-		
-			FSCpart1ContentControl.classList.add('close');
-			FSCpart1Control.classList.add('close');
-			FSCpart1TitleControl.classList.add('close');
-			FSCpart1ContenttextControl.classList.add('close');
-
-			FSCpart1ContentControl.style.zIndex = 15;
-			FSCpart1Control.style.zIndex = 19;		
-			FSCpart2Control.style.zIndex = 19;
-			FSCpart2TitleControl.style.zIndex = 19;
-			FSCpart3Control.style.zIndex = 19;
-			FSCpart3TitleControl.style.zIndex = 19;
-			FSCpart4Control.style.zIndex = 19;
-			FSCpart4TitleControl.style.zIndex = 19;
-			FSC1BAControl.style.opacity = 0;
-
-
-		
-		}; 
-		
 		document.getElementsByClassName('FSCpart2')[0].onclick =function()
 		{
 		
-			FSCpart2ContentControl.classList.add('open');
+			FSCContentControl.classList.add('open');
 			FSCpart2Control.classList.add('open');
 			FSCpart2TitleControl.classList.add('open');
 			FSCpart2ContenttextControl.classList.add('open');
 		
-			FSCpart2ContentControl.classList.remove('close');
+			FSCContentControl.classList.remove('close');
 			FSCpart2Control.classList.remove('close');
 			FSCpart2TitleControl.classList.remove('close');
-			FSCpart2ContenttextControl.classList.remove('close');
-
-			FSCpart2ContentControl.style.zIndex = 18;
-			FSCpart2Control.style.zIndex = 19;
-			FSCpart2ContentControl.style.opacity = 0.99;
-			FSCpart2ContenttextControl.style.opacity = 1;
+			
+			FSCContentControl.style.zIndex = 18;
 			FSCpart1Control.style.zIndex = 16;
 			FSCpart1TitleControl.style.zIndex = 16;
+			FSCpart1ContenttextControl.style.zIndex = 16;
+			FSCContentControl.style.opacity = 0.99;
+			FSCpart2Control.style.zIndex = 19;
+			FSCpart2TitleControl.style.zIndex = 19;
+			FSCpart2ContenttextControl.style.zIndex = 19;
 			FSCpart3Control.style.zIndex = 16;
 			FSCpart3TitleControl.style.zIndex = 16;
+			FSCpart3ContenttextControl.style.zIndex = 16;
 			FSCpart4Control.style.zIndex = 16;
 			FSCpart4TitleControl.style.zIndex = 16;
-			FSC2BAControl.style.opacity = 1;
+			FSCpart4ContenttextControl.style.zIndex = 16;
+			FSCBAControl.style.opacity = 1;
+			
+			FSCpart2ContenttextControl.style.opacity = 1;
+			
+			FSCpart1ContenttextControl.style.display = 'none';
+			FSCpart2ContenttextControl.style.display = 'flex';
+			FSCpart3ContenttextControl.style.display = 'none';
+			FSCpart4ContenttextControl.style.display = 'none';
 
-
-		
 		}; 
 	  
-		document.getElementsByClassName('FSC2BA')[0].onclick =function()
-		{
-			FSCpart2ContentControl.classList.remove('open');
-			FSCpart2Control.classList.remove('open');
-			FSCpart2TitleControl.classList.remove('open');
-			FSCpart2ContenttextControl.classList.remove('open');
-		
-			FSCpart2ContentControl.classList.add('close');
-			FSCpart2Control.classList.add('close');
-			FSCpart2TitleControl.classList.add('close');
-			FSCpart2ContenttextControl.classList.add('close');
-
-			FSCpart2ContentControl.style.zIndex = 15;
-			FSCpart2Control.style.zIndex = 19;		
-			FSCpart2ContenttextControl.style.opacity = 0;
-			FSCpart1Control.style.zIndex = 19;
-			FSCpart1TitleControl.style.zIndex = 19;
-			FSCpart3Control.style.zIndex = 19;
-			FSCpart3TitleControl.style.zIndex = 19;
-			FSCpart4Control.style.zIndex = 19;
-			FSCpart4TitleControl.style.zIndex = 19;
-			FSC2BAControl.style.opacity = 0;
-
-		
-		}; 
 		document.getElementsByClassName('FSCpart3')[0].onclick =function()
 		{
 		
-			FSCpart3ContentControl.classList.add('open');
+			FSCContentControl.classList.add('open');
 			FSCpart3Control.classList.add('open');
 			FSCpart3TitleControl.classList.add('open');
 			FSCpart3ContenttextControl.classList.add('open');
 		
-			FSCpart3ContentControl.classList.remove('close');
+			FSCContentControl.classList.remove('close');
 			FSCpart3Control.classList.remove('close');
 			FSCpart3TitleControl.classList.remove('close');
-			FSCpart3ContenttextControl.classList.remove('close');
 
-			FSCpart3ContentControl.style.zIndex = 18;
-			FSCpart3Control.style.zIndex = 19;
-			FSCpart3ContentControl.style.opacity = 0.99;
-			FSCpart3ContenttextControl.style.opacity = 1;
+			FSCContentControl.style.zIndex = 18;
 			FSCpart1Control.style.zIndex = 16;
 			FSCpart1TitleControl.style.zIndex = 16;
+			FSCpart1ContenttextControl.style.zIndex = 16;
+			FSCContentControl.style.opacity = 0.99;
 			FSCpart2Control.style.zIndex = 16;
 			FSCpart2TitleControl.style.zIndex = 16;
+			FSCpart2ContenttextControl.style.zIndex = 16;
+			FSCpart3Control.style.zIndex = 19;
+			FSCpart3TitleControl.style.zIndex = 19;
+			FSCpart3ContenttextControl.style.zIndex = 19;
 			FSCpart4Control.style.zIndex = 16;
 			FSCpart4TitleControl.style.zIndex = 16;
-			FSC3BAControl.style.opacity = 1;
-
+			FSCpart4ContenttextControl.style.zIndex = 16;
+			FSCBAControl.style.opacity = 1;
+	
+			FSCpart3ContenttextControl.style.opacity = 1;
+			
+			FSCpart1ContenttextControl.style.display = 'none';
+			FSCpart2ContenttextControl.style.display = 'none';
+			FSCpart3ContenttextControl.style.display = 'flex';
+			FSCpart4ContenttextControl.style.display = 'none';	
 		
 		}; 
 	  
-		document.getElementsByClassName('FSC3BA')[0].onclick =function()
-		{
-			FSCpart3ContentControl.classList.remove('open');
-			FSCpart3Control.classList.remove('open');
-			FSCpart3TitleControl.classList.remove('open');
-			FSCpart3ContenttextControl.classList.remove('open');
-		
-			FSCpart3ContentControl.classList.add('close');
-			FSCpart3Control.classList.add('close');
-			FSCpart3TitleControl.classList.add('close');
-			FSCpart3ContenttextControl.classList.add('close');
-
-			FSCpart3ContentControl.style.zIndex = 15;
-			FSCpart3Control.style.zIndex = 19;		
-			FSCpart3ContenttextControl.style.opacity = 0;
-			FSCpart1Control.style.zIndex = 19;
-			FSCpart1TitleControl.style.zIndex = 19;
-			FSCpart2Control.style.zIndex = 19;
-			FSCpart2TitleControl.style.zIndex = 19;
-			FSCpart4Control.style.zIndex = 19;
-			FSCpart4TitleControl.style.zIndex = 19;
-			FSC3BAControl.style.opacity = 0;
-
-
-		
-		}; 
-		
 		document.getElementsByClassName('FSCpart4')[0].onclick =function()
 		{
 		
-			FSCpart4ContentControl.classList.add('open');
+			FSCContentControl.classList.add('open');
 			FSCpart4Control.classList.add('open');
 			FSCpart4TitleControl.classList.add('open');
 			FSCpart4ContenttextControl.classList.add('open');
 		
-			FSCpart4ContentControl.classList.remove('close');
+			FSCContentControl.classList.remove('close');
 			FSCpart4Control.classList.remove('close');
 			FSCpart4TitleControl.classList.remove('close');
-			FSCpart4ContenttextControl.classList.remove('close');
-
-			FSCpart4ContentControl.style.zIndex = 18;
-			FSCpart4Control.style.zIndex = 19;
-			FSCpart4ContentControl.style.opacity = 0.99;
-			FSCpart4ContenttextControl.style.opacity = 1;
+			
+			FSCContentControl.style.zIndex = 18;
 			FSCpart1Control.style.zIndex = 16;
 			FSCpart1TitleControl.style.zIndex = 16;
+			FSCpart1ContenttextControl.style.zIndex = 16;
+			FSCContentControl.style.opacity = 0.99;
 			FSCpart2Control.style.zIndex = 16;
 			FSCpart2TitleControl.style.zIndex = 16;
+			FSCpart2ContenttextControl.style.zIndex = 16;
 			FSCpart3Control.style.zIndex = 16;
 			FSCpart3TitleControl.style.zIndex = 16;
-			FSC4BAControl.style.opacity = 1;
-
-		
+			FSCpart3ContenttextControl.style.zIndex = 16;
+			FSCpart4Control.style.zIndex = 19;
+			FSCpart4TitleControl.style.zIndex = 19;
+			FSCpart4ContenttextControl.style.zIndex = 19;
+			FSCBAControl.style.opacity = 1;
+			
+			FSCpart4ContenttextControl.style.opacity = 1;
+			
+			FSCpart1ContenttextControl.style.display = 'none';
+			FSCpart2ContenttextControl.style.display = 'none';
+			FSCpart3ContenttextControl.style.display = 'none';
+			FSCpart4ContenttextControl.style.display = 'flex';
+			
 		}; 
-	  
-		document.getElementsByClassName('FSC4BA')[0].onclick =function()
+		
+		document.getElementsByClassName('FSCBA')[0].onclick =function()
 		{
-			FSCpart4ContentControl.classList.remove('open');
+			FSCContentControl.classList.remove('open');
+			
+			FSCpart1Control.classList.remove('open');
+			FSCpart1TitleControl.classList.remove('open');
+			FSCpart1ContenttextControl.classList.remove('open');
+			FSCpart2Control.classList.remove('open');
+			FSCpart2TitleControl.classList.remove('open');
+			FSCpart2ContenttextControl.classList.remove('open');
+			FSCpart3Control.classList.remove('open');
+			FSCpart3TitleControl.classList.remove('open');
+			FSCpart3ContenttextControl.classList.remove('open');
 			FSCpart4Control.classList.remove('open');
 			FSCpart4TitleControl.classList.remove('open');
 			FSCpart4ContenttextControl.classList.remove('open');
+			
+			FSCContentControl.classList.add('close');
+			
+			FSCpart1Control.classList.add('close');
+			FSCpart1TitleControl.classList.add('close');
+			
+			FSCpart2Control.classList.add('close');
+			FSCpart2TitleControl.classList.add('close');
+			
+			FSCpart3Control.classList.add('close');
+			FSCpart3TitleControl.classList.add('close');
 		
-			FSCpart4ContentControl.classList.add('close');
 			FSCpart4Control.classList.add('close');
 			FSCpart4TitleControl.classList.add('close');
-			FSCpart4ContenttextControl.classList.add('close');
-
-			FSCpart4ContentControl.style.zIndex = 15;
-			FSCpart4Control.style.zIndex = 19;		
-			FSCpart4ContenttextControl.style.opacity = 0;
+		
+			FSCContentControl.style.zIndex = 15;
 			FSCpart1Control.style.zIndex = 19;
 			FSCpart1TitleControl.style.zIndex = 19;
 			FSCpart2Control.style.zIndex = 19;
 			FSCpart2TitleControl.style.zIndex = 19;
 			FSCpart3Control.style.zIndex = 19;
 			FSCpart3TitleControl.style.zIndex = 19;
-			FSC4BAControl.style.opacity = 0;
-
-
-		
+			FSCpart4Control.style.zIndex = 19;
+			FSCpart4TitleControl.style.zIndex = 19;
+			FSCBAControl.style.opacity = 0;
+			
+			FSCpart1ContenttextControl.style.opacity = 0;
+			FSCpart2ContenttextControl.style.opacity = 0;
+			FSCpart3ContenttextControl.style.opacity = 0;
+			FSCpart4ContenttextControl.style.opacity = 0;
+			
+			FSCpart1ContenttextControl.style.display = 'flex';
+			FSCpart2ContenttextControl.style.display = 'flex';
+			FSCpart3ContenttextControl.style.display = 'flex';
+			FSCpart4ContenttextControl.style.display = 'flex';
+			
 		}; 
 
-
-
-	  
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
 			document.getElementsByClassName('FoodShortage')[0].value = 'close';
@@ -2718,10 +2695,35 @@ document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 			DisasterControl.classList.add('close');
 			DisasterControl.classList.remove('open');
 			BbtnControl.classList.remove('open');
+
+			FSCContentControl.classList.remove('open');
+			FSCpart1Control.classList.remove('open');
+			FSCpart1TitleControl.classList.remove('open');
+			FSCpart2Control.classList.remove('open');
+			FSCpart2TitleControl.classList.remove('open');	
+			FSCpart3Control.classList.remove('open');
+			FSCpart3TitleControl.classList.remove('open');
+			FSCpart4Control.classList.remove('open');
+			FSCpart4TitleControl.classList.remove('open');
 			
-		};
+			FSCContentControl.style.zIndex = 15;
+			FSCpart1Control.style.zIndex = 19;
+			FSCpart1TitleControl.style.zIndex = 19;
+			FSCpart2Control.style.zIndex = 19;
+			FSCpart2TitleControl.style.zIndex = 19;
+			FSCpart3Control.style.zIndex = 19;
+			FSCpart3TitleControl.style.zIndex = 19;
+			FSCpart4Control.style.zIndex = 19;
+			FSCpart4TitleControl.style.zIndex = 19;
+			FSCBAControl.style.opacity = 0;
+			
+			FSCpart1ContenttextControl.style.display = 'flex';
+			FSCpart2ContenttextControl.style.display = 'flex';
+			FSCpart3ContenttextControl.style.display = 'flex';
+			FSCpart4ContenttextControl.style.display = 'flex';
+		};	
 	
-	} 
+  	}
   
 };
 document.getElementsByClassName('EconomicShock')[0].onclick = function() {
