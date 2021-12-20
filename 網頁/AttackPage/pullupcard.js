@@ -514,7 +514,7 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 	  
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
-			document.getElementsByClassName('SpeciesDiversity')[0].value = 'close';
+			document.getElementsByClassName('OceanAcidification')[0].value = 'close';
     		textcardOAC.classList.remove('open'); 
 			textcardOAC.classList.add('close');
 			MainMenuControl.classList.remove('close');
