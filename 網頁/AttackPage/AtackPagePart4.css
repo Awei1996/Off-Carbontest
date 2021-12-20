@@ -3627,6 +3627,18 @@
 	justify-content: flex-end;
 }
 
+.DSCContent.open{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
 .DSCpart1Contenttext{
 	position: absolute;
 	margin-top: 54%;
