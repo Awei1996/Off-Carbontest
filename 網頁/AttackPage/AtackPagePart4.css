@@ -451,8 +451,6 @@
 	margin-top: 4.5%;
 	color: #E98C24;
 	background-color: transparent;
-	
-
 }
 
 .SDCpart1Title.close{
@@ -909,6 +907,7 @@
 	justify-content: center;
 	-webkit-background-size: contain;
 }
+
 .OACpart1:hover{
 	-webkit-filter:brightness(1.2);
 	background-image: url( "../../Animation/WorldDamage/公式.gif");
@@ -967,8 +966,10 @@
 }
 
 .OACpart1Title.close{
+	width: 39.06%;
     transition: 1s;
 	margin-top: 17.5%;
+	margin-left: 10.42%;
 	background-color: #1E3239;
 }
 
