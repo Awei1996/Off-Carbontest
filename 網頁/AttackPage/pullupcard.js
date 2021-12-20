@@ -528,32 +528,27 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 
 document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 	
+	var MICContentControl = document.getElementsByClassName('MICContent')[0];
+	var MICBAControl = document.getElementsByClassName('MICBA')[0];
+	
 	var MICpart1Control = document.getElementsByClassName('MICpart1')[0];
 	var MICpart1TitleControl = document.getElementsByClassName('MICpart1Title')[0];
-  	var MICpart1ContenttextControl = document.getElementsByClassName('MICpart1Contenttext')[0];
-	var MICpart1ContentControl = document.getElementsByClassName('MICpart1Content')[0];
+	var MICpart1ContenttextControl = document.getElementsByClassName('MICpart1Contenttext')[0];
 	
 	var MICpart2Control = document.getElementsByClassName('MICpart2')[0];
 	var MICpart2TitleControl = document.getElementsByClassName('MICpart2Title')[0];
   	var MICpart2ContenttextControl = document.getElementsByClassName('MICpart2Contenttext')[0];
-	var MICpart2ContentControl = document.getElementsByClassName('MICpart2Content')[0];
 	
 	var MICpart3Control = document.getElementsByClassName('MICpart3')[0];
 	var MICpart3TitleControl = document.getElementsByClassName('MICpart3Title')[0];
   	var MICpart3ContenttextControl = document.getElementsByClassName('MICpart3Contenttext')[0];
-	var MICpart3ContentControl = document.getElementsByClassName('MICpart3Content')[0];
 	
 	var MICpart4Control = document.getElementsByClassName('MICpart4')[0];
 	var MICpart4TitleControl = document.getElementsByClassName('MICpart4Title')[0];
   	var MICpart4ContenttextControl = document.getElementsByClassName('MICpart4Contenttext')[0];
-	var MICpart4ContentControl = document.getElementsByClassName('MICpart4Content')[0];
-	
-	var MIC1BAControl = document.getElementsByClassName('MIC1BA')[0];
-	var MIC2BAControl = document.getElementsByClassName('MIC2BA')[0];
-	var MIC3BAControl = document.getElementsByClassName('MIC3BA')[0];
-	var MIC4BAControl = document.getElementsByClassName('MIC4BA')[0];
-	
-	if(this.value === 'close') 
+
+
+  	if(this.value === 'close') 
   	{ 
     	this.value = 'open';
 		textcardMIC.classList.remove('close'); 
@@ -566,229 +561,181 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 		DisasterControl.classList.remove('close');
 		MICBGControl.classList.add('open');
 		BbtnControl.classList.add('open');
+		
+		MICpart1ContenttextControl.style.opacity = 0;
+		MICpart2ContenttextControl.style.opacity = 0;
+		MICpart3ContenttextControl.style.opacity = 0;
+		MICpart4ContenttextControl.style.opacity = 0;
   
 	  
 		document.getElementsByClassName('MICpart1')[0].onclick =function()
 		{
-		
-			MICpart1ContentControl.classList.add('open');
+							
+			MICContentControl.classList.add('open');
 			MICpart1Control.classList.add('open');
 			MICpart1TitleControl.classList.add('open');
 			MICpart1ContenttextControl.classList.add('open');
-		
-			MICpart1ContentControl.classList.remove('close');
+
+
+			MICContentControl.classList.remove('close');
 			MICpart1Control.classList.remove('close');
 			MICpart1TitleControl.classList.remove('close');
-			MICpart1ContenttextControl.classList.remove('close');
 
-			MICpart1ContentControl.style.zIndex = 18;
+
+
+			MICContentControl.style.zIndex = 18;
 			MICpart1Control.style.zIndex = 19;
-			MICpart1ContentControl.style.opacity = 0.99;
-			MICpart1ContenttextControl.style.opacity = 1;
+			MICContentControl.style.opacity = 0.99;
 			MICpart2Control.style.zIndex = 16;
 			MICpart2TitleControl.style.zIndex = 16;
 			MICpart3Control.style.zIndex = 16;
 			MICpart3TitleControl.style.zIndex = 16;
 			MICpart4Control.style.zIndex = 16;
 			MICpart4TitleControl.style.zIndex = 16;
-			MIC1BAControl.style.opacity = 1;			
+			MICBAControl.style.opacity = 1;
 
-
-
+			MICpart1ContenttextControl.style.opacity = 1;
+			
 
 		
 		}; 
 	  
-		document.getElementsByClassName('MIC1BA')[0].onclick =function()
-		{
-			MICpart1ContentControl.classList.remove('open');
-			MICpart1Control.classList.remove('open');
-			MICpart1TitleControl.classList.remove('open');
-			MICpart1ContenttextControl.classList.remove('open');
-		
-			MICpart1ContentControl.classList.add('close');
-			MICpart1Control.classList.add('close');
-			MICpart1TitleControl.classList.add('close');
-			MICpart1ContenttextControl.classList.add('close');
-
-			MICpart1ContentControl.style.zIndex = 15;
-			MICpart1Control.style.zIndex = 19;		
-			MICpart2Control.style.zIndex = 19;
-			MICpart2TitleControl.style.zIndex = 19;
-			MICpart3Control.style.zIndex = 19;
-			MICpart3TitleControl.style.zIndex = 19;
-			MICpart4Control.style.zIndex = 19;
-			MICpart4TitleControl.style.zIndex = 19;
-			MIC1BAControl.style.opacity = 0;
-
-
-		
-		}; 
-		
 		document.getElementsByClassName('MICpart2')[0].onclick =function()
 		{
 		
-			MICpart2ContentControl.classList.add('open');
+			MICContentControl.classList.add('open');
 			MICpart2Control.classList.add('open');
 			MICpart2TitleControl.classList.add('open');
 			MICpart2ContenttextControl.classList.add('open');
 		
-			MICpart2ContentControl.classList.remove('close');
+			MICContentControl.classList.remove('close');
 			MICpart2Control.classList.remove('close');
 			MICpart2TitleControl.classList.remove('close');
-			MICpart2ContenttextControl.classList.remove('close');
-
-			MICpart2ContentControl.style.zIndex = 18;
+			
+			MICContentControl.style.zIndex = 18;
 			MICpart2Control.style.zIndex = 19;
-			MICpart2ContentControl.style.opacity = 0.99;
-			MICpart2ContenttextControl.style.opacity = 1;
+			MICContentControl.style.opacity = 0.99;
 			MICpart1Control.style.zIndex = 16;
 			MICpart1TitleControl.style.zIndex = 16;
 			MICpart3Control.style.zIndex = 16;
 			MICpart3TitleControl.style.zIndex = 16;
 			MICpart4Control.style.zIndex = 16;
 			MICpart4TitleControl.style.zIndex = 16;
-			MIC2BAControl.style.opacity = 1;
+			MICBAControl.style.opacity = 1;
+			
+			MICpart2ContenttextControl.style.opacity = 1;
 
-
-		
 		}; 
 	  
-		document.getElementsByClassName('MIC2BA')[0].onclick =function()
-		{
-			MICpart2ContentControl.classList.remove('open');
-			MICpart2Control.classList.remove('open');
-			MICpart2TitleControl.classList.remove('open');
-			MICpart2ContenttextControl.classList.remove('open');
 		
-			MICpart2ContentControl.classList.add('close');
-			MICpart2Control.classList.add('close');
-			MICpart2TitleControl.classList.add('close');
-			MICpart2ContenttextControl.classList.add('close');
-
-			MICpart2ContentControl.style.zIndex = 15;
-			MICpart2Control.style.zIndex = 19;		
-			MICpart2ContenttextControl.style.opacity = 0;
-			MICpart1Control.style.zIndex = 19;
-			MICpart1TitleControl.style.zIndex = 19;
-			MICpart3Control.style.zIndex = 19;
-			MICpart3TitleControl.style.zIndex = 19;
-			MICpart4Control.style.zIndex = 19;
-			MICpart4TitleControl.style.zIndex = 19;
-			MIC2BAControl.style.opacity = 0;
-
-		
-		}; 
 		document.getElementsByClassName('MICpart3')[0].onclick =function()
 		{
-		
-			MICpart3ContentControl.classList.add('open');
+			MICContentControl.classList.add('open');
 			MICpart3Control.classList.add('open');
 			MICpart3TitleControl.classList.add('open');
 			MICpart3ContenttextControl.classList.add('open');
 		
-			MICpart3ContentControl.classList.remove('close');
+			MICContentControl.classList.remove('close');
 			MICpart3Control.classList.remove('close');
 			MICpart3TitleControl.classList.remove('close');
-			MICpart3ContenttextControl.classList.remove('close');
 
-			MICpart3ContentControl.style.zIndex = 18;
+			MICContentControl.style.zIndex = 18;
 			MICpart3Control.style.zIndex = 19;
-			MICpart3ContentControl.style.opacity = 0.99;
-			MICpart3ContenttextControl.style.opacity = 1;
+			MICContentControl.style.opacity = 0.99;
 			MICpart1Control.style.zIndex = 16;
 			MICpart1TitleControl.style.zIndex = 16;
 			MICpart2Control.style.zIndex = 16;
 			MICpart2TitleControl.style.zIndex = 16;
 			MICpart4Control.style.zIndex = 16;
 			MICpart4TitleControl.style.zIndex = 16;
-			MIC3BAControl.style.opacity = 1;
-
+			MICBAControl.style.opacity = 1;
+	
+			MICpart3ContenttextControl.style.opacity = 1;
 		
 		}; 
 	  
-		document.getElementsByClassName('MIC3BA')[0].onclick =function()
-		{
-			MICpart3ContentControl.classList.remove('open');
-			MICpart3Control.classList.remove('open');
-			MICpart3TitleControl.classList.remove('open');
-			MICpart3ContenttextControl.classList.remove('open');
 		
-			MICpart3ContentControl.classList.add('close');
-			MICpart3Control.classList.add('close');
-			MICpart3TitleControl.classList.add('close');
-			MICpart3ContenttextControl.classList.add('close');
-
-			MICpart3ContentControl.style.zIndex = 15;
-			MICpart3Control.style.zIndex = 19;		
-			MICpart3ContenttextControl.style.opacity = 0;
-			MICpart1Control.style.zIndex = 19;
-			MICpart1TitleControl.style.zIndex = 19;
-			MICpart2Control.style.zIndex = 19;
-			MICpart2TitleControl.style.zIndex = 19;
-			MICpart4Control.style.zIndex = 19;
-			MICpart4TitleControl.style.zIndex = 19;
-			MIC3BAControl.style.opacity = 0;
-
-
-		
-		}; 
 		
 		document.getElementsByClassName('MICpart4')[0].onclick =function()
 		{
 		
-			MICpart4ContentControl.classList.add('open');
+			MICContentControl.classList.add('open');
 			MICpart4Control.classList.add('open');
 			MICpart4TitleControl.classList.add('open');
 			MICpart4ContenttextControl.classList.add('open');
 		
-			MICpart4ContentControl.classList.remove('close');
+			MICContentControl.classList.remove('close');
 			MICpart4Control.classList.remove('close');
 			MICpart4TitleControl.classList.remove('close');
-			MICpart4ContenttextControl.classList.remove('close');
+			
 
-			MICpart4ContentControl.style.zIndex = 18;
+			MICContentControl.style.zIndex = 18;
 			MICpart4Control.style.zIndex = 19;
-			MICpart4ContentControl.style.opacity = 0.99;
-			MICpart4ContenttextControl.style.opacity = 1;
+			MICContentControl.style.opacity = 0.99;
 			MICpart1Control.style.zIndex = 16;
 			MICpart1TitleControl.style.zIndex = 16;
 			MICpart2Control.style.zIndex = 16;
 			MICpart2TitleControl.style.zIndex = 16;
 			MICpart3Control.style.zIndex = 16;
 			MICpart3TitleControl.style.zIndex = 16;
-			MIC4BAControl.style.opacity = 1;
+			MICBAControl.style.opacity = 1;
+			
+			
+			MICpart4ContenttextControl.style.opacity = 1;
+
 
 		
 		}; 
-	  
-		document.getElementsByClassName('MIC4BA')[0].onclick =function()
+		
+		document.getElementsByClassName('MICBA')[0].onclick =function()
 		{
-			MICpart4ContentControl.classList.remove('open');
+			MICContentControl.classList.remove('open');
+			
+			MICpart1Control.classList.remove('open');
+			MICpart1TitleControl.classList.remove('open');
+			MICpart1ContenttextControl.classList.remove('open');
+			MICpart2Control.classList.remove('open');
+			MICpart2TitleControl.classList.remove('open');
+			MICpart2ContenttextControl.classList.remove('open');
+			MICpart3Control.classList.remove('open');
+			MICpart3TitleControl.classList.remove('open');
+			MICpart3ContenttextControl.classList.remove('open');
 			MICpart4Control.classList.remove('open');
 			MICpart4TitleControl.classList.remove('open');
 			MICpart4ContenttextControl.classList.remove('open');
+			
+			MICContentControl.classList.add('close');
+			
+			MICpart1Control.classList.add('close');
+			MICpart1TitleControl.classList.add('close');
+			
+			MICpart2Control.classList.add('close');
+			MICpart2TitleControl.classList.add('close');
+			
+			MICpart3Control.classList.add('close');
+			MICpart3TitleControl.classList.add('close');
 		
-			MICpart4ContentControl.classList.add('close');
 			MICpart4Control.classList.add('close');
 			MICpart4TitleControl.classList.add('close');
-			MICpart4ContenttextControl.classList.add('close');
-
-			MICpart4ContentControl.style.zIndex = 15;
-			MICpart4Control.style.zIndex = 19;		
-			MICpart4ContenttextControl.style.opacity = 0;
+		
+			MICContentControl.style.zIndex = 15;
 			MICpart1Control.style.zIndex = 19;
 			MICpart1TitleControl.style.zIndex = 19;
 			MICpart2Control.style.zIndex = 19;
 			MICpart2TitleControl.style.zIndex = 19;
 			MICpart3Control.style.zIndex = 19;
 			MICpart3TitleControl.style.zIndex = 19;
-			MIC4BAControl.style.opacity = 0;
-
-
-		
+			MICpart4Control.style.zIndex = 19;
+			MICpart4TitleControl.style.zIndex = 19;
+			MICBAControl.style.opacity = 0;
+			
+			MICpart1ContenttextControl.style.opacity = 0;
+			MICpart2ContenttextControl.style.opacity = 0;
+			MICpart3ContenttextControl.style.opacity = 0;
+			MICpart4ContenttextControl.style.opacity = 0;
+			
+			
 		}; 
-
 
 
 	  
@@ -804,10 +751,20 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			DisasterControl.classList.add('close');
 			DisasterControl.classList.remove('open');
 			BbtnControl.classList.remove('open');
-			
+
+			MICContentControl.classList.remove('open');
+			MICpart1Control.classList.remove('open');
+			MICpart1TitleControl.classList.remove('open');
+			MICpart2Control.classList.remove('open');
+			MICpart2TitleControl.classList.remove('open');	
+			MICpart3Control.classList.remove('open');
+			MICpart3TitleControl.classList.remove('open');
+			MICpart4Control.classList.remove('open');
+			MICpart4TitleControl.classList.remove('open');
 		};	
 	
   	} 
+  
 };
 
 document.getElementsByClassName('FireForest')[0].onclick = function() {
