@@ -353,14 +353,10 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 
 			OACpart1ContenttextControl.style.opacity = 1;
 			
-			
-
 
 		
 		}; 
 	  
-		
-		
 		document.getElementsByClassName('OACpart2')[0].onclick =function()
 		{
 		
@@ -373,7 +369,6 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart2Control.classList.remove('close');
 			OACpart2TitleControl.classList.remove('close');
 			
-
 			OACContentControl.style.zIndex = 18;
 			OACpart2Control.style.zIndex = 19;
 			OACContentControl.style.opacity = 0.99;
@@ -385,17 +380,13 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart4TitleControl.style.zIndex = 16;
 			OACBAControl.style.opacity = 1;
 			
-			
 			OACpart2ContenttextControl.style.opacity = 1;
-			
 
-		
 		}; 
 	  
 		
 		document.getElementsByClassName('OACpart3')[0].onclick =function()
 		{
-		
 			OACContentControl.classList.add('open');
 			OACpart3Control.classList.add('open');
 			OACpart3TitleControl.classList.add('open');
