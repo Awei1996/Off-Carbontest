@@ -77,7 +77,12 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 	  
 		document.getElementsByClassName('SDCpart1')[0].onclick =function()
 		{
-		
+			if(SDCpart1ContenttextControl.classList == SDCpart1ContenttextControl.open )
+			{
+				SDCContentControl.classList.remove('open');
+				SDCpart1Control.classList.remove('open');
+				SDCpart1TitleControl.classList.remove('open');
+			}
 			SDCContentControl.classList.add('open');
 			SDCpart1Control.classList.add('open');
 			SDCpart1TitleControl.classList.add('open');
