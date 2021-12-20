@@ -94,7 +94,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart1Control.style.zIndex = 19;
 			SDCpart1TitleControl.style.zIndex = 19;
 			SDCpart1ContenttextControl.style.zIndex = 19;
-			SDCContentControl.style.opacity = 0.99;
+			SDCContentControl.style.opacity = 1;
 			SDCpart2Control.style.zIndex = 16;
 			SDCpart2TitleControl.style.zIndex = 16;
 			SDCpart2ContenttextControl.style.zIndex = 16;
@@ -133,7 +133,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart1Control.style.zIndex = 16;
 			SDCpart1TitleControl.style.zIndex = 16;
 			SDCpart1ContenttextControl.style.zIndex = 16;
-			SDCContentControl.style.opacity = 0.99;
+			SDCContentControl.style.opacity = 1;
 			SDCpart2Control.style.zIndex = 19;
 			SDCpart2TitleControl.style.zIndex = 19;
 			SDCpart2ContenttextControl.style.zIndex = 19;
@@ -169,7 +169,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart1Control.style.zIndex = 16;
 			SDCpart1TitleControl.style.zIndex = 16;
 			SDCpart1ContenttextControl.style.zIndex = 16;
-			SDCContentControl.style.opacity = 0.99;
+			SDCContentControl.style.opacity = 1;
 			SDCpart2Control.style.zIndex = 16;
 			SDCpart2TitleControl.style.zIndex = 16;
 			SDCpart2ContenttextControl.style.zIndex = 16;
@@ -204,7 +204,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart1Control.style.zIndex = 16;
 			SDCpart1TitleControl.style.zIndex = 16;
 			SDCpart1ContenttextControl.style.zIndex = 16;
-			SDCContentControl.style.opacity = 0.99;
+			SDCContentControl.style.opacity = 1;
 			SDCpart2Control.style.zIndex = 16;
 			SDCpart2TitleControl.style.zIndex = 16;
 			SDCpart2ContenttextControl.style.zIndex = 16;
@@ -361,7 +361,7 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 
 			OACContentControl.style.zIndex = 18;
 			OACpart1Control.style.zIndex = 19;
-			OACContentControl.style.opacity = 0.99;
+			OACContentControl.style.opacity = 1;
 			OACpart2Control.style.zIndex = 16;
 			OACpart2TitleControl.style.zIndex = 16;
 			OACpart3Control.style.zIndex = 16;
@@ -393,7 +393,7 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			
 			OACContentControl.style.zIndex = 18;
 			OACpart2Control.style.zIndex = 19;
-			OACContentControl.style.opacity = 0.99;
+			OACContentControl.style.opacity = 1;
 			OACpart1Control.style.zIndex = 16;
 			OACpart1TitleControl.style.zIndex = 16;
 			OACpart3Control.style.zIndex = 16;
@@ -423,7 +423,7 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 
 			OACContentControl.style.zIndex = 18;
 			OACpart3Control.style.zIndex = 19;
-			OACContentControl.style.opacity = 0.99;
+			OACContentControl.style.opacity = 1;
 			OACpart1Control.style.zIndex = 16;
 			OACpart1TitleControl.style.zIndex = 16;
 			OACpart2Control.style.zIndex = 16;
@@ -456,7 +456,7 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 
 			OACContentControl.style.zIndex = 18;
 			OACpart4Control.style.zIndex = 19;
-			OACContentControl.style.opacity = 0.99;
+			OACContentControl.style.opacity = 1;
 			OACpart1Control.style.zIndex = 16;
 			OACpart1TitleControl.style.zIndex = 16;
 			OACpart2Control.style.zIndex = 16;
@@ -616,7 +616,7 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 
 			MICContentControl.style.zIndex = 18;
 			MICpart1Control.style.zIndex = 19;
-			MICContentControl.style.opacity = 0.99;
+			MICContentControl.style.opacity = 1;
 			MICpart2Control.style.zIndex = 16;
 			MICpart2TitleControl.style.zIndex = 16;
 			MICpart3Control.style.zIndex = 16;
@@ -648,7 +648,7 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			
 			MICContentControl.style.zIndex = 18;
 			MICpart2Control.style.zIndex = 19;
-			MICContentControl.style.opacity = 0.99;
+			MICContentControl.style.opacity = 1;
 			MICpart1Control.style.zIndex = 16;
 			MICpart1TitleControl.style.zIndex = 16;
 			MICpart3Control.style.zIndex = 16;
@@ -678,7 +678,7 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 
 			MICContentControl.style.zIndex = 18;
 			MICpart3Control.style.zIndex = 19;
-			MICContentControl.style.opacity = 0.99;
+			MICContentControl.style.opacity = 1;
 			MICpart1Control.style.zIndex = 16;
 			MICpart1TitleControl.style.zIndex = 16;
 			MICpart2Control.style.zIndex = 16;
@@ -711,7 +711,7 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 
 			MICContentControl.style.zIndex = 18;
 			MICpart4Control.style.zIndex = 19;
-			MICContentControl.style.opacity = 0.99;
+			MICContentControl.style.opacity = 1;
 			MICpart1Control.style.zIndex = 16;
 			MICpart1TitleControl.style.zIndex = 16;
 			MICpart2Control.style.zIndex = 16;
@@ -885,7 +885,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 
 			FFCAmazonContentControl.style.zIndex = 18;
 			FFCAmazonControl.style.zIndex = 19;
-			FFCAmazonContentControl.style.opacity = 0.99;
+			FFCAmazonContentControl.style.opacity = 1;
 			FFCAmazonContenttextControl.style.opacity = 1;
 			FFCNAEUJPControl.style.zIndex = 16;
 			FFCSBLControl.style.zIndex = 16;
@@ -947,7 +947,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 
 			FFCNAEUJPContentControl.style.zIndex = 18;
 			FFCNAEUJPControl.style.zIndex = 19;
-			FFCNAEUJPContentControl.style.opacity = 0.99;
+			FFCNAEUJPContentControl.style.opacity = 1;
 			FFCNAEUJPContenttextControl.style.opacity = 1;
 			FFCAmazonControl.style.zIndex = 16;
 			FFCSBLControl.style.zIndex = 16;
@@ -1004,7 +1004,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 
 			FFCSBLContentControl.style.zIndex = 18;
 			FFCSBLControl.style.zIndex = 19;
-			FFCSBLContentControl.style.opacity = 0.99;
+			FFCSBLContentControl.style.opacity = 1;
 			FFCSBLContenttextControl.style.opacity = 1;
 			FFCAmazonControl.style.zIndex = 16;
 			FFCNAEUJPControl.style.zIndex = 16;
@@ -1060,7 +1060,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 
 			FFCAusContentControl.style.zIndex = 18;
 			FFCAusControl.style.zIndex = 19;
-			FFCAusContentControl.style.opacity = 0.99;
+			FFCAusContentControl.style.opacity = 1;
 			FFCAusContenttextControl.style.opacity = 1;
 			FFCAmazonControl.style.zIndex = 16;
 			FFCNAEUJPControl.style.zIndex = 16;
@@ -1116,7 +1116,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 
 			FFCIconContentControl.style.zIndex = 18;
 			FFCIconControl.style.zIndex = 19;
-			FFCIconContentControl.style.opacity = 0.99;
+			FFCIconContentControl.style.opacity = 1;
 			FFCIconContenttextControl.style.opacity = 1;
 			FFCAmazonControl.style.zIndex = 16;
 			FFCNAEUJPControl.style.zIndex = 16;
@@ -1279,7 +1279,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 
 			HWCpart1ContentControl.style.zIndex = 18;
 			HWCpart1Control.style.zIndex = 19;
-			HWCpart1ContentControl.style.opacity = 0.99;
+			HWCpart1ContentControl.style.opacity = 1;
 			HWCpart1ContenttextControl.style.opacity = 1;
 			HWCpart2Control.style.zIndex = 16;
 			HWCpart3Control.style.zIndex = 16;
@@ -1333,7 +1333,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 
 			HWCpart2ContentControl.style.zIndex = 18;
 			HWCpart2Control.style.zIndex = 19;
-			HWCpart2ContentControl.style.opacity = 0.99;
+			HWCpart2ContentControl.style.opacity = 1;
 			HWCpart2ContenttextControl.style.opacity = 1;
 			HWCpart1Control.style.zIndex = 16;
 			HWCpart3Control.style.zIndex = 16;
@@ -1384,7 +1384,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 
 			HWCpart3ContentControl.style.zIndex = 18;
 			HWCpart3Control.style.zIndex = 19;
-			HWCpart3ContentControl.style.opacity = 0.99;
+			HWCpart3ContentControl.style.opacity = 1;
 			HWCpart3ContenttextControl.style.opacity = 1;
 			HWCpart1Control.style.zIndex = 16;
 			HWCpart2Control.style.zIndex = 16;
@@ -1435,7 +1435,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 
 			HWCpart4ContentControl.style.zIndex = 18;
 			HWCpart4Control.style.zIndex = 19;
-			HWCpart4ContentControl.style.opacity = 0.99;
+			HWCpart4ContentControl.style.opacity = 1;
 			HWCpart4ContenttextControl.style.opacity = 1;
 			HWCpart1Control.style.zIndex = 16;
 			HWCpart2Control.style.zIndex = 16;
@@ -1614,7 +1614,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 
 			ECCpart1ContentControl.style.zIndex = 18;
 			ECCpart1Control.style.zIndex = 19;
-			ECCpart1ContentControl.style.opacity = 0.99;
+			ECCpart1ContentControl.style.opacity = 1;
 			ECCpart1ContenttextControl.style.opacity = 1;
 			ECCpart2Control.style.zIndex = 16;
 			ECCpart3Control.style.zIndex = 16;
@@ -1677,7 +1677,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 
 			ECCpart2ContentControl.style.zIndex = 18;
 			ECCpart2Control.style.zIndex = 19;
-			ECCpart2ContentControl.style.opacity = 0.99;
+			ECCpart2ContentControl.style.opacity = 1;
 			ECCpart2ContenttextControl.style.opacity = 1;
 			ECCpart1Control.style.zIndex = 16;
 			ECCpart3Control.style.zIndex = 16;
@@ -1740,7 +1740,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 
 			ECCpart3ContentControl.style.zIndex = 18;
 			ECCpart3Control.style.zIndex = 19;
-			ECCpart3ContentControl.style.opacity = 0.99;
+			ECCpart3ContentControl.style.opacity = 1;
 			ECCpart3ContenttextControl.style.opacity = 1;
 			ECCpart1Control.style.zIndex = 16;
 			ECCpart2Control.style.zIndex = 16;
@@ -1801,7 +1801,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 
 			ECCpart4ContentControl.style.zIndex = 18;
 			ECCpart4Control.style.zIndex = 19;
-			ECCpart4ContentControl.style.opacity = 0.99;
+			ECCpart4ContentControl.style.opacity = 1;
 			ECCpart4ContenttextControl.style.opacity = 1;
 			ECCpart1Control.style.zIndex = 16;
 			ECCpart2Control.style.zIndex = 16;
@@ -1863,7 +1863,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 
 			ECCpart5ContentControl.style.zIndex = 18;
 			ECCpart5Control.style.zIndex = 19;
-			ECCpart5ContentControl.style.opacity = 0.99;
+			ECCpart5ContentControl.style.opacity = 1;
 			ECCpart5ContenttextControl.style.opacity = 1;
 			ECCpart2Control.style.zIndex = 16;
 			ECCpart3Control.style.zIndex = 16;
@@ -1932,7 +1932,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 
 			ECCIconContentControl.style.zIndex = 18;
 			ECCIconControl.style.zIndex = 19;
-			ECCIconContentControl.style.opacity = 0.99;
+			ECCIconContentControl.style.opacity = 1;
 			ECCIconContenttextControl.style.opacity = 1;
 			ECCpart2Control.style.zIndex = 16;
 			ECCpart3Control.style.zIndex = 16;
@@ -2122,7 +2122,7 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 
 			DSCpart1ContentControl.style.zIndex = 18;
 			DSCpart1Control.style.zIndex = 19;
-			DSCpart1ContentControl.style.opacity = 0.99;
+			DSCpart1ContentControl.style.opacity = 1;
 			DSCpart1ContenttextControl.style.opacity = 1;
 			DSCpart2Control.style.zIndex = 16;
 			DSCpart2TitleControl.style.zIndex = 16;
@@ -2178,7 +2178,7 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 
 			DSCpart2ContentControl.style.zIndex = 18;
 			DSCpart2Control.style.zIndex = 19;
-			DSCpart2ContentControl.style.opacity = 0.99;
+			DSCpart2ContentControl.style.opacity = 1;
 			DSCpart2ContenttextControl.style.opacity = 1;
 			DSCpart1Control.style.zIndex = 16;
 			DSCpart1TitleControl.style.zIndex = 16;
@@ -2232,7 +2232,7 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 
 			DSCpart3ContentControl.style.zIndex = 18;
 			DSCpart3Control.style.zIndex = 19;
-			DSCpart3ContentControl.style.opacity = 0.99;
+			DSCpart3ContentControl.style.opacity = 1;
 			DSCpart3ContenttextControl.style.opacity = 1;
 			DSCpart1Control.style.zIndex = 16;
 			DSCpart1TitleControl.style.zIndex = 16;
@@ -2287,7 +2287,7 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 
 			DSCpart4ContentControl.style.zIndex = 18;
 			DSCpart4Control.style.zIndex = 19;
-			DSCpart4ContentControl.style.opacity = 0.99;
+			DSCpart4ContentControl.style.opacity = 1;
 			DSCpart4ContenttextControl.style.opacity = 1;
 			DSCpart1Control.style.zIndex = 16;
 			DSCpart1TitleControl.style.zIndex = 16;
@@ -2405,7 +2405,7 @@ document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 
 			FSCpart1ContentControl.style.zIndex = 18;
 			FSCpart1Control.style.zIndex = 19;
-			FSCpart1ContentControl.style.opacity = 0.99;
+			FSCpart1ContentControl.style.opacity = 1;
 			FSCpart1ContenttextControl.style.opacity = 1;
 			FSCpart2Control.style.zIndex = 16;
 			FSCpart2TitleControl.style.zIndex = 16;
@@ -2461,7 +2461,7 @@ document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 
 			FSCpart2ContentControl.style.zIndex = 18;
 			FSCpart2Control.style.zIndex = 19;
-			FSCpart2ContentControl.style.opacity = 0.99;
+			FSCpart2ContentControl.style.opacity = 1;
 			FSCpart2ContenttextControl.style.opacity = 1;
 			FSCpart1Control.style.zIndex = 16;
 			FSCpart1TitleControl.style.zIndex = 16;
@@ -2515,7 +2515,7 @@ document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 
 			FSCpart3ContentControl.style.zIndex = 18;
 			FSCpart3Control.style.zIndex = 19;
-			FSCpart3ContentControl.style.opacity = 0.99;
+			FSCpart3ContentControl.style.opacity = 1;
 			FSCpart3ContenttextControl.style.opacity = 1;
 			FSCpart1Control.style.zIndex = 16;
 			FSCpart1TitleControl.style.zIndex = 16;
@@ -2570,7 +2570,7 @@ document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 
 			FSCpart4ContentControl.style.zIndex = 18;
 			FSCpart4Control.style.zIndex = 19;
-			FSCpart4ContentControl.style.opacity = 0.99;
+			FSCpart4ContentControl.style.opacity = 1;
 			FSCpart4ContenttextControl.style.opacity = 1;
 			FSCpart1Control.style.zIndex = 16;
 			FSCpart1TitleControl.style.zIndex = 16;
@@ -2689,7 +2689,7 @@ document.getElementsByClassName('EconomicShock')[0].onclick = function() {
 
 			ESCpart1ContentControl.style.zIndex = 18;
 			ESCpart1Control.style.zIndex = 19;
-			ESCpart1ContentControl.style.opacity = 0.99;
+			ESCpart1ContentControl.style.opacity = 1;
 			ESCpart1ContenttextControl.style.opacity = 1;
 			ESCpart2Control.style.zIndex = 16;
 			ESCpart2TitleControl.style.zIndex = 16;
@@ -2745,7 +2745,7 @@ document.getElementsByClassName('EconomicShock')[0].onclick = function() {
 
 			ESCpart2ContentControl.style.zIndex = 18;
 			ESCpart2Control.style.zIndex = 19;
-			ESCpart2ContentControl.style.opacity = 0.99;
+			ESCpart2ContentControl.style.opacity = 1;
 			ESCpart2ContenttextControl.style.opacity = 1;
 			ESCpart1Control.style.zIndex = 16;
 			ESCpart1TitleControl.style.zIndex = 16;
@@ -2799,7 +2799,7 @@ document.getElementsByClassName('EconomicShock')[0].onclick = function() {
 
 			ESCpart3ContentControl.style.zIndex = 18;
 			ESCpart3Control.style.zIndex = 19;
-			ESCpart3ContentControl.style.opacity = 0.99;
+			ESCpart3ContentControl.style.opacity = 1;
 			ESCpart3ContenttextControl.style.opacity = 1;
 			ESCpart1Control.style.zIndex = 16;
 			ESCpart1TitleControl.style.zIndex = 16;
@@ -2854,7 +2854,7 @@ document.getElementsByClassName('EconomicShock')[0].onclick = function() {
 
 			ESCpart4ContentControl.style.zIndex = 18;
 			ESCpart4Control.style.zIndex = 19;
-			ESCpart4ContentControl.style.opacity = 0.99;
+			ESCpart4ContentControl.style.opacity = 1;
 			ESCpart4ContenttextControl.style.opacity = 1;
 			ESCpart1Control.style.zIndex = 16;
 			ESCpart1TitleControl.style.zIndex = 16;
