@@ -2750,8 +2750,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-
-	
 	
 }
 .ECCALLContent.close{
@@ -2871,7 +2869,6 @@
 	opacity: 1;	
 }
 
-
 .ECCpart1Content{
 	position: absolute;
 	z-index: -1;
@@ -2931,8 +2928,8 @@
 	align-items: center;
 	justify-content: center;
 	
-
 }
+
 .ECCpart2:hover{
 	transition: 1s;
 	opacity: 1;
@@ -2941,8 +2938,6 @@
 	
 	opacity: 1;	
 }
-
-
 
 .ECCpart2Content{
 	position: absolute;
@@ -2955,6 +2950,7 @@
 	font-size: 2.2rem;
 	opacity: 0;
 }
+
 .ECCpart2Content.open{
 	position: absolute;
 	margin-top: 0%;
@@ -2983,6 +2979,7 @@
 	opacity: 0;
 	 
 }
+
 .ECCpart2Contenttext.open{
 	display: flex;
 	transition: 1s opacity  0.5s;
@@ -3882,49 +3879,7 @@
 	margin-top: 17.5%;
 	background-color: #1E3239;
 }
-.FSCpart1Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	opacity: 0;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-}
-.FSCpart1Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-	
-}
 
-.FSCpart1Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 2.1;
-}
-.FSCpart1Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
 
 .FSCpart2{
 	position: absolute;
@@ -4002,49 +3957,6 @@
     transition: 1s;
 	margin-top: 17.5%;
 	background-color: #1E3239;
-}
-.FSCpart2Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	opacity: 0;
-}
-.FSCpart2Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-}
-
-.FSCpart2Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 2;
-	
-}
-.FSCpart2Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
 }
 
 .FSCpart3{
@@ -4124,49 +4036,6 @@
 	margin-top: 41.5%;
 	background-color: #1E3239;
 }
-.FSCpart3Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	opacity: 0;
-}
-.FSCpart3Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-	
-}
-
-.FSCpart3Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-}
-.FSCpart3Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
-
 
 .FSCpart4{
 	position: absolute;
@@ -4246,7 +4115,8 @@
 	margin-top: 41.5%;
 	background-color: #1E3239;
 }
-.FSCpart4Content{
+
+.FSCContent{
 	position: absolute;
 	z-index: -1;
 	margin-top: 0%;
@@ -4255,12 +4125,12 @@
 	background-color: transparent;
 	color: transparent;
 	font-size: 2.2rem;
+	opacity: 0;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	opacity: 0;
 }
-.FSCpart4Content.open{
+.FSCContent.open{
 	position: absolute;
 	margin-top: 0%;
 	margin-left: 0%;
@@ -4271,6 +4141,57 @@
 	display: flex;
 	color: #ffffff;
 	
+}
+
+.FSCpart1Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2.1;
+}
+.FSCpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.FSCpart2Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+	
+}
+.FSCpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.FSCpart3Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.FSCpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
 }
 
 .FSCpart4Contenttext{
@@ -4289,10 +4210,8 @@
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
-.FSCpart4Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
+
+
 .EconomicShock{
 	width: 100%;
 	height: 11.1%;
