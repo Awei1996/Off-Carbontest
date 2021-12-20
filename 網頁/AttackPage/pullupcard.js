@@ -305,8 +305,7 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 	var OACpart4Control = document.getElementsByClassName('OACpart4')[0];
 	var OACpart4TitleControl = document.getElementsByClassName('OACpart4Title')[0];
   	var OACpart4ContenttextControl = document.getElementsByClassName('OACpart4Contenttext')[0];
-
-
+	
   	if(this.value === 'close') 
   	{ 
     	this.value = 'open';
@@ -326,7 +325,6 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 		OACpart3ContenttextControl.style.opacity = 0;
 		OACpart4ContenttextControl.style.opacity = 0;
   
-	  
 		document.getElementsByClassName('OACpart1')[0].onclick =function()
 		{
 							
@@ -335,33 +333,35 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart1TitleControl.classList.add('open');
 			OACpart1ContenttextControl.classList.add('open');
 
-
 			OACContentControl.classList.remove('close');
 			OACpart1Control.classList.remove('close');
 			OACpart1TitleControl.classList.remove('close');
 
 
-
 			OACContentControl.style.zIndex = 18;
 			OACpart1Control.style.zIndex = 19;
+			OACpart1TitleControl.style.zIndex = 19;
+			OACpart1ContenttextControl.style.zIndex = 19;
 			OACContentControl.style.opacity = 1;
 			OACpart2Control.style.zIndex = 16;
 			OACpart2TitleControl.style.zIndex = 16;
+			OACpart2ContenttextControl.style.zIndex = 16;
 			OACpart3Control.style.zIndex = 16;
 			OACpart3TitleControl.style.zIndex = 16;
+			OACpart3ContenttextControl.style.zIndex = 16;
 			OACpart4Control.style.zIndex = 16;
 			OACpart4TitleControl.style.zIndex = 16;
+			OACpart4ContenttextControl.style.zIndex = 16;
 			OACBAControl.style.opacity = 1;
 
 			OACpart1ContenttextControl.style.opacity = 1;
 			OACpart2ContenttextControl.style.opacity = 0;
 			OACpart3ContenttextControl.style.opacity = 0;
 			OACpart4ContenttextControl.style.opacity = 0;
-			
-
 		
 		}; 
 	  
+		
 		document.getElementsByClassName('OACpart2')[0].onclick =function()
 		{
 		
@@ -373,28 +373,34 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACContentControl.classList.remove('close');
 			OACpart2Control.classList.remove('close');
 			OACpart2TitleControl.classList.remove('close');
-			
+
 			OACContentControl.style.zIndex = 18;
-			OACpart2Control.style.zIndex = 19;
-			OACContentControl.style.opacity = 1;
 			OACpart1Control.style.zIndex = 16;
 			OACpart1TitleControl.style.zIndex = 16;
+			OACpart1ContenttextControl.style.zIndex = 16;
+			OACContentControl.style.opacity = 1;
+			OACpart2Control.style.zIndex = 19;
+			OACpart2TitleControl.style.zIndex = 19;
+			OACpart2ContenttextControl.style.zIndex = 19;
 			OACpart3Control.style.zIndex = 16;
 			OACpart3TitleControl.style.zIndex = 16;
+			OACpart3ContenttextControl.style.zIndex = 16;
 			OACpart4Control.style.zIndex = 16;
 			OACpart4TitleControl.style.zIndex = 16;
+			OACpart4ContenttextControl.style.zIndex = 16;
 			OACBAControl.style.opacity = 1;
 			
 			OACpart1ContenttextControl.style.opacity = 0;
 			OACpart2ContenttextControl.style.opacity = 1;
 			OACpart3ContenttextControl.style.opacity = 0;
-			OACpart4ContenttextControl.style.opacity = 0;
+			OACpart4ContenttextControl.style.opacity = 0;	
 
 		}; 
 	  
 		
 		document.getElementsByClassName('OACpart3')[0].onclick =function()
 		{
+		
 			OACContentControl.classList.add('open');
 			OACpart3Control.classList.add('open');
 			OACpart3TitleControl.classList.add('open');
@@ -405,14 +411,19 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart3TitleControl.classList.remove('close');
 
 			OACContentControl.style.zIndex = 18;
-			OACpart3Control.style.zIndex = 19;
-			OACContentControl.style.opacity = 1;
 			OACpart1Control.style.zIndex = 16;
 			OACpart1TitleControl.style.zIndex = 16;
+			OACpart1ContenttextControl.style.zIndex = 16;
+			OACContentControl.style.opacity = 1;
 			OACpart2Control.style.zIndex = 16;
 			OACpart2TitleControl.style.zIndex = 16;
+			OACpart2ContenttextControl.style.zIndex = 16;
+			OACpart3Control.style.zIndex = 19;
+			OACpart3TitleControl.style.zIndex = 19;
+			OACpart3ContenttextControl.style.zIndex = 19;
 			OACpart4Control.style.zIndex = 16;
 			OACpart4TitleControl.style.zIndex = 16;
+			OACpart4ContenttextControl.style.zIndex = 16;
 			OACBAControl.style.opacity = 1;
 	
 			OACpart1ContenttextControl.style.opacity = 0;
@@ -422,7 +433,6 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 		
 		}; 
 	  
-		
 		
 		document.getElementsByClassName('OACpart4')[0].onclick =function()
 		{
@@ -436,26 +446,27 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart4Control.classList.remove('close');
 			OACpart4TitleControl.classList.remove('close');
 			
-
 			OACContentControl.style.zIndex = 18;
-			OACpart4Control.style.zIndex = 19;
-			OACContentControl.style.opacity = 1;
 			OACpart1Control.style.zIndex = 16;
 			OACpart1TitleControl.style.zIndex = 16;
+			OACpart1ContenttextControl.style.zIndex = 16;
+			OACContentControl.style.opacity = 1;
 			OACpart2Control.style.zIndex = 16;
 			OACpart2TitleControl.style.zIndex = 16;
+			OACpart2ContenttextControl.style.zIndex = 16;
 			OACpart3Control.style.zIndex = 16;
 			OACpart3TitleControl.style.zIndex = 16;
+			OACpart3ContenttextControl.style.zIndex = 16;
+			OACpart4Control.style.zIndex = 19;
+			OACpart4TitleControl.style.zIndex = 19;
+			OACpart4ContenttextControl.style.zIndex = 19;
 			OACBAControl.style.opacity = 1;
-			
 			
 			OACpart1ContenttextControl.style.opacity = 0;
 			OACpart2ContenttextControl.style.opacity = 0;
 			OACpart3ContenttextControl.style.opacity = 0;
 			OACpart4ContenttextControl.style.opacity = 1;
 
-
-		
 		}; 
 		
 		document.getElementsByClassName('OACBA')[0].onclick =function()
@@ -504,8 +515,7 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart2ContenttextControl.style.opacity = 0;
 			OACpart3ContenttextControl.style.opacity = 0;
 			OACpart4ContenttextControl.style.opacity = 0;
-			
-			
+				
 		}; 
 
 
@@ -560,8 +570,7 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 	var MICpart4Control = document.getElementsByClassName('MICpart4')[0];
 	var MICpart4TitleControl = document.getElementsByClassName('MICpart4Title')[0];
   	var MICpart4ContenttextControl = document.getElementsByClassName('MICpart4Contenttext')[0];
-
-
+	
   	if(this.value === 'close') 
   	{ 
     	this.value = 'open';
@@ -581,7 +590,6 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 		MICpart3ContenttextControl.style.opacity = 0;
 		MICpart4ContenttextControl.style.opacity = 0;
   
-	  
 		document.getElementsByClassName('MICpart1')[0].onclick =function()
 		{
 							
@@ -590,33 +598,35 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart1TitleControl.classList.add('open');
 			MICpart1ContenttextControl.classList.add('open');
 
-
 			MICContentControl.classList.remove('close');
 			MICpart1Control.classList.remove('close');
 			MICpart1TitleControl.classList.remove('close');
 
 
-
 			MICContentControl.style.zIndex = 18;
 			MICpart1Control.style.zIndex = 19;
+			MICpart1TitleControl.style.zIndex = 19;
+			MICpart1ContenttextControl.style.zIndex = 19;
 			MICContentControl.style.opacity = 1;
 			MICpart2Control.style.zIndex = 16;
 			MICpart2TitleControl.style.zIndex = 16;
+			MICpart2ContenttextControl.style.zIndex = 16;
 			MICpart3Control.style.zIndex = 16;
 			MICpart3TitleControl.style.zIndex = 16;
+			MICpart3ContenttextControl.style.zIndex = 16;
 			MICpart4Control.style.zIndex = 16;
 			MICpart4TitleControl.style.zIndex = 16;
+			MICpart4ContenttextControl.style.zIndex = 16;
 			MICBAControl.style.opacity = 1;
 
 			MICpart1ContenttextControl.style.opacity = 1;
 			MICpart2ContenttextControl.style.opacity = 0;
 			MICpart3ContenttextControl.style.opacity = 0;
 			MICpart4ContenttextControl.style.opacity = 0;
-			
-
 		
 		}; 
 	  
+		
 		document.getElementsByClassName('MICpart2')[0].onclick =function()
 		{
 		
@@ -628,28 +638,34 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICContentControl.classList.remove('close');
 			MICpart2Control.classList.remove('close');
 			MICpart2TitleControl.classList.remove('close');
-			
+
 			MICContentControl.style.zIndex = 18;
-			MICpart2Control.style.zIndex = 19;
-			MICContentControl.style.opacity = 1;
 			MICpart1Control.style.zIndex = 16;
 			MICpart1TitleControl.style.zIndex = 16;
+			MICpart1ContenttextControl.style.zIndex = 16;
+			MICContentControl.style.opacity = 1;
+			MICpart2Control.style.zIndex = 19;
+			MICpart2TitleControl.style.zIndex = 19;
+			MICpart2ContenttextControl.style.zIndex = 19;
 			MICpart3Control.style.zIndex = 16;
 			MICpart3TitleControl.style.zIndex = 16;
+			MICpart3ContenttextControl.style.zIndex = 16;
 			MICpart4Control.style.zIndex = 16;
 			MICpart4TitleControl.style.zIndex = 16;
+			MICpart4ContenttextControl.style.zIndex = 16;
 			MICBAControl.style.opacity = 1;
 			
 			MICpart1ContenttextControl.style.opacity = 0;
 			MICpart2ContenttextControl.style.opacity = 1;
 			MICpart3ContenttextControl.style.opacity = 0;
-			MICpart4ContenttextControl.style.opacity = 0;
+			MICpart4ContenttextControl.style.opacity = 0;	
 
 		}; 
 	  
 		
 		document.getElementsByClassName('MICpart3')[0].onclick =function()
 		{
+		
 			MICContentControl.classList.add('open');
 			MICpart3Control.classList.add('open');
 			MICpart3TitleControl.classList.add('open');
@@ -660,14 +676,19 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart3TitleControl.classList.remove('close');
 
 			MICContentControl.style.zIndex = 18;
-			MICpart3Control.style.zIndex = 19;
-			MICContentControl.style.opacity = 1;
 			MICpart1Control.style.zIndex = 16;
 			MICpart1TitleControl.style.zIndex = 16;
+			MICpart1ContenttextControl.style.zIndex = 16;
+			MICContentControl.style.opacity = 1;
 			MICpart2Control.style.zIndex = 16;
 			MICpart2TitleControl.style.zIndex = 16;
+			MICpart2ContenttextControl.style.zIndex = 16;
+			MICpart3Control.style.zIndex = 19;
+			MICpart3TitleControl.style.zIndex = 19;
+			MICpart3ContenttextControl.style.zIndex = 19;
 			MICpart4Control.style.zIndex = 16;
 			MICpart4TitleControl.style.zIndex = 16;
+			MICpart4ContenttextControl.style.zIndex = 16;
 			MICBAControl.style.opacity = 1;
 	
 			MICpart1ContenttextControl.style.opacity = 0;
@@ -677,7 +698,6 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 		
 		}; 
 	  
-		
 		
 		document.getElementsByClassName('MICpart4')[0].onclick =function()
 		{
@@ -691,26 +711,27 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart4Control.classList.remove('close');
 			MICpart4TitleControl.classList.remove('close');
 			
-
 			MICContentControl.style.zIndex = 18;
-			MICpart4Control.style.zIndex = 19;
-			MICContentControl.style.opacity = 1;
 			MICpart1Control.style.zIndex = 16;
 			MICpart1TitleControl.style.zIndex = 16;
+			MICpart1ContenttextControl.style.zIndex = 16;
+			MICContentControl.style.opacity = 1;
 			MICpart2Control.style.zIndex = 16;
 			MICpart2TitleControl.style.zIndex = 16;
+			MICpart2ContenttextControl.style.zIndex = 16;
 			MICpart3Control.style.zIndex = 16;
 			MICpart3TitleControl.style.zIndex = 16;
+			MICpart3ContenttextControl.style.zIndex = 16;
+			MICpart4Control.style.zIndex = 19;
+			MICpart4TitleControl.style.zIndex = 19;
+			MICpart4ContenttextControl.style.zIndex = 19;
 			MICBAControl.style.opacity = 1;
-			
 			
 			MICpart1ContenttextControl.style.opacity = 0;
 			MICpart2ContenttextControl.style.opacity = 0;
 			MICpart3ContenttextControl.style.opacity = 0;
 			MICpart4ContenttextControl.style.opacity = 1;
 
-
-		
 		}; 
 		
 		document.getElementsByClassName('MICBA')[0].onclick =function()
@@ -759,8 +780,7 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart2ContenttextControl.style.opacity = 0;
 			MICpart3ContenttextControl.style.opacity = 0;
 			MICpart4ContenttextControl.style.opacity = 0;
-			
-			
+				
 		}; 
 
 
