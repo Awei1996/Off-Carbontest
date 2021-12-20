@@ -28,34 +28,14 @@
 	opacity: 0;
 }
 
-.MIC1BA{
+.MICBA{
 	position: absolute;
 	margin-left: 93%;
 	margin-top: 10%;
 	width:4.79%;	
 	opacity: 0;
 }
-.MIC2BA{
-	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
-	opacity: 0;
-}
-.MIC3BA{
-	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
-	opacity: 0;
-}
-.MIC4BA{
-	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
-	opacity: 0;
-}
+
 .FFCBA{
 	position: absolute;
 	z-index: 20;
