@@ -61,34 +61,14 @@
 	width:4.79%;	
 	opacity: 0;
 }
-.DSC1BA{
+.DSCBA{
 	position: absolute;
 	margin-left: 93%;
 	margin-top: 10%;
 	width:4.79%;	
 	opacity: 0;
 }
-.DSC2BA{
-	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
-	opacity: 0;
-}
-.DSC3BA{
-	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
-	opacity: 0;
-}
-.DSC4BA{
-	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
-	opacity: 0;
-}
+
 .FSC1BA{
 	position: absolute;
 	margin-left: 93%;
@@ -3650,6 +3630,7 @@
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 1.8;
+	opacity: 0;
 }
 .DSCpart1Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -3667,6 +3648,7 @@
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
+	opacity: 0;
 	
 }
 .DSCpart2Contenttext.open{
@@ -3685,6 +3667,7 @@
 	align-items: center;
 	justify-content: flex-start;
 	line-height: 2;
+	opacity: 0;
 }
 .DSCpart3Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -3701,7 +3684,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	 
+	opacity: 0; 
 }
 .DSCpart4Contenttext.open{
 	transition: 1s opacity  0.5s;
