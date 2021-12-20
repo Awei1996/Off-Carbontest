@@ -285,277 +285,238 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 
 document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 	
-	var OACpart1Control = document.getElementsByClassName('OACpart1')[0];
-	var OACpart1TitleControl = document.getElementsByClassName('OACpart1Title')[0];
-  	var OACpart1ContenttextControl = document.getElementsByClassName('OACpart1Contenttext')[0];
-	var OACpart1ContentControl = document.getElementsByClassName('OACpart1Content')[0];
+	var SDCContentControl = document.getElementsByClassName('SDCContent')[0];
+	var SDCBAControl = document.getElementsByClassName('SDCBA')[0];
 	
-	var OACpart2Control = document.getElementsByClassName('OACpart2')[0];
-	var OACpart2TitleControl = document.getElementsByClassName('OACpart2Title')[0];
-  	var OACpart2ContenttextControl = document.getElementsByClassName('OACpart2Contenttext')[0];
-	var OACpart2ContentControl = document.getElementsByClassName('OACpart2Content')[0];
+	var SDCpart1Control = document.getElementsByClassName('SDCpart1')[0];
+	var SDCpart1TitleControl = document.getElementsByClassName('SDCpart1Title')[0];
+	var SDCpart1ContenttextControl = document.getElementsByClassName('SDCpart1Contenttext')[0];
 	
-	var OACpart3Control = document.getElementsByClassName('OACpart3')[0];
-	var OACpart3TitleControl = document.getElementsByClassName('OACpart3Title')[0];
-  	var OACpart3ContenttextControl = document.getElementsByClassName('OACpart3Contenttext')[0];
-	var OACpart3ContentControl = document.getElementsByClassName('OACpart3Content')[0];
-	
-	var OACpart4Control = document.getElementsByClassName('OACpart4')[0];
-	var OACpart4TitleControl = document.getElementsByClassName('OACpart4Title')[0];
-  	var OACpart4ContenttextControl = document.getElementsByClassName('OACpart4Contenttext')[0];
-	var OACpart4ContentControl = document.getElementsByClassName('OACpart4Content')[0];
-	
-	var OAC1BAControl = document.getElementsByClassName('OAC1BA')[0];
-	var OAC2BAControl = document.getElementsByClassName('OAC2BA')[0];
-	var OAC3BAControl = document.getElementsByClassName('OAC3BA')[0];
-	var OAC4BAControl = document.getElementsByClassName('OAC4BA')[0];
-
 
 	
-	if(this.value === 'close') 
+	var SDCpart2Control = document.getElementsByClassName('SDCpart2')[0];
+	var SDCpart2TitleControl = document.getElementsByClassName('SDCpart2Title')[0];
+  	var SDCpart2ContenttextControl = document.getElementsByClassName('SDCpart2Contenttext')[0];
+	
+
+	
+	var SDCpart3Control = document.getElementsByClassName('SDCpart3')[0];
+	var SDCpart3TitleControl = document.getElementsByClassName('SDCpart3Title')[0];
+  	var SDCpart3ContenttextControl = document.getElementsByClassName('SDCpart3Contenttext')[0];
+	
+
+	
+	var SDCpart4Control = document.getElementsByClassName('SDCpart4')[0];
+	var SDCpart4TitleControl = document.getElementsByClassName('SDCpart4Title')[0];
+  	var SDCpart4ContenttextControl = document.getElementsByClassName('SDCpart4Contenttext')[0];
+	
+
+
+  	if(this.value === 'close') 
   	{ 
     	this.value = 'open';
-		textcardOAC.classList.remove('close'); 
-    	textcardOAC.classList.add('open');
+		textcardSDC.classList.remove('close'); 
+    	textcardSDC.classList.add('open');
 		MainMenuControl.classList.add('close');
 		MainMenuControl.classList.remove('open');
 		SteamControl.classList.add('open');
 		SteamControl.classList.remove('close');
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
-		OACBGControl.classList.add('open');
+		SDCBGControl.classList.add('open');
 		BbtnControl.classList.add('open');
-
+		
+		SDCpart1ContenttextControl.style.opacity = 0;
+		SDCpart2ContenttextControl.style.opacity = 0;
+		SDCpart3ContenttextControl.style.opacity = 0;
+		SDCpart4ContenttextControl.style.opacity = 0;
   
 	  
-		document.getElementsByClassName('OACpart1')[0].onclick =function()
+		document.getElementsByClassName('SDCpart1')[0].onclick =function()
 		{
-		
-			OACpart1ContentControl.classList.add('open');
-			OACpart1Control.classList.add('open');
-			OACpart1TitleControl.classList.add('open');
-			OACpart1ContenttextControl.classList.add('open');
-		
-			OACpart1ContentControl.classList.remove('close');
-			OACpart1Control.classList.remove('close');
-			OACpart1TitleControl.classList.remove('close');
-			OACpart1ContenttextControl.classList.remove('close');
-
-			OACpart1ContentControl.style.zIndex = 18;
-			OACpart1Control.style.zIndex = 19;
-			OACpart1ContentControl.style.opacity = 0.99;
-			OACpart1ContenttextControl.style.opacity = 1;
-			OACpart2Control.style.zIndex = 16;
-			OACpart2TitleControl.style.zIndex = 16;
-			OACpart3Control.style.zIndex = 16;
-			OACpart3TitleControl.style.zIndex = 16;
-			OACpart4Control.style.zIndex = 16;
-			OACpart4TitleControl.style.zIndex = 16;
-			OAC1BAControl.style.opacity = 1;
+							
+			SDCContentControl.classList.add('open');
+			SDCpart1Control.classList.add('open');
+			SDCpart1TitleControl.classList.add('open');
+			SDCpart1ContenttextControl.classList.add('open');
 
 
+			SDCContentControl.classList.remove('close');
+			SDCpart1Control.classList.remove('close');
+			SDCpart1TitleControl.classList.remove('close');
+
+
+
+			SDCContentControl.style.zIndex = 18;
+			SDCpart1Control.style.zIndex = 19;
+			SDCContentControl.style.opacity = 0.99;
+			SDCpart2Control.style.zIndex = 16;
+			SDCpart2TitleControl.style.zIndex = 16;
+			SDCpart3Control.style.zIndex = 16;
+			SDCpart3TitleControl.style.zIndex = 16;
+			SDCpart4Control.style.zIndex = 16;
+			SDCpart4TitleControl.style.zIndex = 16;
+			SDCBAControl.style.opacity = 1;
+
+			SDCpart1ContenttextControl.style.opacity = 1;
+			
+			
 
 
 		
 		}; 
 	  
-		document.getElementsByClassName('OAC1BA')[0].onclick =function()
-		{
-			OACpart1ContentControl.classList.remove('open');
-			OACpart1Control.classList.remove('open');
-			OACpart1TitleControl.classList.remove('open');
-			OACpart1ContenttextControl.classList.remove('open');
 		
-			OACpart1ContentControl.classList.add('close');
-			OACpart1Control.classList.add('close');
-			OACpart1TitleControl.classList.add('close');
-			OACpart1ContenttextControl.classList.add('close');
-
-			OACpart1ContentControl.style.zIndex = 15;
-			OACpart1Control.style.zIndex = 19;		
-			OACpart2Control.style.zIndex = 19;
-			OACpart2TitleControl.style.zIndex = 19;
-			OACpart3Control.style.zIndex = 19;
-			OACpart3TitleControl.style.zIndex = 19;
-			OACpart4Control.style.zIndex = 19;
-			OACpart4TitleControl.style.zIndex = 19;
-			OAC1BAControl.style.opacity = 0;
-
-
 		
-		}; 
-		
-		document.getElementsByClassName('OACpart2')[0].onclick =function()
+		document.getElementsByClassName('SDCpart2')[0].onclick =function()
 		{
 		
-			OACpart2ContentControl.classList.add('open');
-			OACpart2Control.classList.add('open');
-			OACpart2TitleControl.classList.add('open');
-			OACpart2ContenttextControl.classList.add('open');
+			SDCContentControl.classList.add('open');
+			SDCpart2Control.classList.add('open');
+			SDCpart2TitleControl.classList.add('open');
+			SDCpart2ContenttextControl.classList.add('open');
 		
-			OACpart2ContentControl.classList.remove('close');
-			OACpart2Control.classList.remove('close');
-			OACpart2TitleControl.classList.remove('close');
-			OACpart2ContenttextControl.classList.remove('close');
+			SDCContentControl.classList.remove('close');
+			SDCpart2Control.classList.remove('close');
+			SDCpart2TitleControl.classList.remove('close');
+			
 
-			OACpart2ContentControl.style.zIndex = 18;
-			OACpart2Control.style.zIndex = 19;
-			OACpart2ContentControl.style.opacity = 0.99;
-			OACpart2ContenttextControl.style.opacity = 1;
-			OACpart1Control.style.zIndex = 16;
-			OACpart1TitleControl.style.zIndex = 16;
-			OACpart3Control.style.zIndex = 16;
-			OACpart3TitleControl.style.zIndex = 16;
-			OACpart4Control.style.zIndex = 16;
-			OACpart4TitleControl.style.zIndex = 16;
-			OAC2BAControl.style.opacity = 1;
-
+			SDCContentControl.style.zIndex = 18;
+			SDCpart2Control.style.zIndex = 19;
+			SDCContentControl.style.opacity = 0.99;
+			SDCpart1Control.style.zIndex = 16;
+			SDCpart1TitleControl.style.zIndex = 16;
+			SDCpart3Control.style.zIndex = 16;
+			SDCpart3TitleControl.style.zIndex = 16;
+			SDCpart4Control.style.zIndex = 16;
+			SDCpart4TitleControl.style.zIndex = 16;
+			SDCBAControl.style.opacity = 1;
+			
+			
+			SDCpart2ContenttextControl.style.opacity = 1;
+			
 
 		
 		}; 
 	  
-		document.getElementsByClassName('OAC2BA')[0].onclick =function()
-		{
-			OACpart2ContentControl.classList.remove('open');
-			OACpart2Control.classList.remove('open');
-			OACpart2TitleControl.classList.remove('open');
-			OACpart2ContenttextControl.classList.remove('open');
 		
-			OACpart2ContentControl.classList.add('close');
-			OACpart2Control.classList.add('close');
-			OACpart2TitleControl.classList.add('close');
-			OACpart2ContenttextControl.classList.add('close');
-
-			OACpart2ContentControl.style.zIndex = 15;
-			OACpart2Control.style.zIndex = 19;		
-			OACpart2ContenttextControl.style.opacity = 0;
-			OACpart1Control.style.zIndex = 19;
-			OACpart1TitleControl.style.zIndex = 19;
-			OACpart3Control.style.zIndex = 19;
-			OACpart3TitleControl.style.zIndex = 19;
-			OACpart4Control.style.zIndex = 19;
-			OACpart4TitleControl.style.zIndex = 19;
-			OAC2BAControl.style.opacity = 0;
-
-		
-		}; 
-		document.getElementsByClassName('OACpart3')[0].onclick =function()
+		document.getElementsByClassName('SDCpart3')[0].onclick =function()
 		{
 		
-			OACpart3ContentControl.classList.add('open');
-			OACpart3Control.classList.add('open');
-			OACpart3TitleControl.classList.add('open');
-			OACpart3ContenttextControl.classList.add('open');
+			SDCContentControl.classList.add('open');
+			SDCpart3Control.classList.add('open');
+			SDCpart3TitleControl.classList.add('open');
+			SDCpart3ContenttextControl.classList.add('open');
 		
-			OACpart3ContentControl.classList.remove('close');
-			OACpart3Control.classList.remove('close');
-			OACpart3TitleControl.classList.remove('close');
-			OACpart3ContenttextControl.classList.remove('close');
+			SDCContentControl.classList.remove('close');
+			SDCpart3Control.classList.remove('close');
+			SDCpart3TitleControl.classList.remove('close');
 
-			OACpart3ContentControl.style.zIndex = 18;
-			OACpart3Control.style.zIndex = 19;
-			OACpart3ContentControl.style.opacity = 0.99;
-			OACpart3ContenttextControl.style.opacity = 1;
-			OACpart1Control.style.zIndex = 16;
-			OACpart1TitleControl.style.zIndex = 16;
-			OACpart2Control.style.zIndex = 16;
-			OACpart2TitleControl.style.zIndex = 16;
-			OACpart4Control.style.zIndex = 16;
-			OACpart4TitleControl.style.zIndex = 16;
-			OAC3BAControl.style.opacity = 1;
-
+			SDCContentControl.style.zIndex = 18;
+			SDCpart3Control.style.zIndex = 19;
+			SDCContentControl.style.opacity = 0.99;
+			SDCpart1Control.style.zIndex = 16;
+			SDCpart1TitleControl.style.zIndex = 16;
+			SDCpart2Control.style.zIndex = 16;
+			SDCpart2TitleControl.style.zIndex = 16;
+			SDCpart4Control.style.zIndex = 16;
+			SDCpart4TitleControl.style.zIndex = 16;
+			SDCBAControl.style.opacity = 1;
+	
+			SDCpart3ContenttextControl.style.opacity = 1;
 		
 		}; 
 	  
-		document.getElementsByClassName('OAC3BA')[0].onclick =function()
-		{
-			OACpart3ContentControl.classList.remove('open');
-			OACpart3Control.classList.remove('open');
-			OACpart3TitleControl.classList.remove('open');
-			OACpart3ContenttextControl.classList.remove('open');
 		
-			OACpart3ContentControl.classList.add('close');
-			OACpart3Control.classList.add('close');
-			OACpart3TitleControl.classList.add('close');
-			OACpart3ContenttextControl.classList.add('close');
+		
+		document.getElementsByClassName('SDCpart4')[0].onclick =function()
+		{
+		
+			SDCContentControl.classList.add('open');
+			SDCpart4Control.classList.add('open');
+			SDCpart4TitleControl.classList.add('open');
+			SDCpart4ContenttextControl.classList.add('open');
+		
+			SDCContentControl.classList.remove('close');
+			SDCpart4Control.classList.remove('close');
+			SDCpart4TitleControl.classList.remove('close');
+			
 
-			OACpart3ContentControl.style.zIndex = 15;
-			OACpart3Control.style.zIndex = 19;		
-			OACpart3ContenttextControl.style.opacity = 0;
-			OACpart1Control.style.zIndex = 19;
-			OACpart1TitleControl.style.zIndex = 19;
-			OACpart2Control.style.zIndex = 19;
-			OACpart2TitleControl.style.zIndex = 19;
-			OACpart4Control.style.zIndex = 19;
-			OACpart4TitleControl.style.zIndex = 19;
-			OAC3BAControl.style.opacity = 0;
+			SDCContentControl.style.zIndex = 18;
+			SDCpart4Control.style.zIndex = 19;
+			SDCContentControl.style.opacity = 0.99;
+			SDCpart1Control.style.zIndex = 16;
+			SDCpart1TitleControl.style.zIndex = 16;
+			SDCpart2Control.style.zIndex = 16;
+			SDCpart2TitleControl.style.zIndex = 16;
+			SDCpart3Control.style.zIndex = 16;
+			SDCpart3TitleControl.style.zIndex = 16;
+			SDCBAControl.style.opacity = 1;
+			
+			
+			SDCpart4ContenttextControl.style.opacity = 1;
 
 
 		
 		}; 
 		
-		document.getElementsByClassName('OACpart4')[0].onclick =function()
+		document.getElementsByClassName('SDCBA')[0].onclick =function()
 		{
+			SDCContentControl.classList.remove('open');
+			
+			SDCpart1Control.classList.remove('open');
+			SDCpart1TitleControl.classList.remove('open');
+			SDCpart1ContenttextControl.classList.remove('open');
+			SDCpart2Control.classList.remove('open');
+			SDCpart2TitleControl.classList.remove('open');
+			SDCpart2ContenttextControl.classList.remove('open');
+			SDCpart3Control.classList.remove('open');
+			SDCpart3TitleControl.classList.remove('open');
+			SDCpart3ContenttextControl.classList.remove('open');
+			SDCpart4Control.classList.remove('open');
+			SDCpart4TitleControl.classList.remove('open');
+			SDCpart4ContenttextControl.classList.remove('open');
+			
+			SDCContentControl.classList.add('close');
+			
+			SDCpart1Control.classList.add('close');
+			SDCpart1TitleControl.classList.add('close');
+			
+			SDCpart2Control.classList.add('close');
+			SDCpart2TitleControl.classList.add('close');
+			
+			SDCpart3Control.classList.add('close');
+			SDCpart3TitleControl.classList.add('close');
 		
-			OACpart4ContentControl.classList.add('open');
-			OACpart4Control.classList.add('open');
-			OACpart4TitleControl.classList.add('open');
-			OACpart4ContenttextControl.classList.add('open');
+			SDCpart4Control.classList.add('close');
+			SDCpart4TitleControl.classList.add('close');
 		
-			OACpart4ContentControl.classList.remove('close');
-			OACpart4Control.classList.remove('close');
-			OACpart4TitleControl.classList.remove('close');
-			OACpart4ContenttextControl.classList.remove('close');
-
-			OACpart4ContentControl.style.zIndex = 18;
-			OACpart4Control.style.zIndex = 19;
-			OACpart4ContentControl.style.opacity = 0.99;
-			OACpart4ContenttextControl.style.opacity = 1;
-			OACpart1Control.style.zIndex = 16;
-			OACpart1TitleControl.style.zIndex = 16;
-			OACpart2Control.style.zIndex = 16;
-			OACpart2TitleControl.style.zIndex = 16;
-			OACpart3Control.style.zIndex = 16;
-			OACpart3TitleControl.style.zIndex = 16;
-			OAC4BAControl.style.opacity = 1;
-
-		
-		}; 
-	  
-		document.getElementsByClassName('OAC4BA')[0].onclick =function()
-		{
-			OACpart4ContentControl.classList.remove('open');
-			OACpart4Control.classList.remove('open');
-			OACpart4TitleControl.classList.remove('open');
-			OACpart4ContenttextControl.classList.remove('open');
-		
-			OACpart4ContentControl.classList.add('close');
-			OACpart4Control.classList.add('close');
-			OACpart4TitleControl.classList.add('close');
-			OACpart4ContenttextControl.classList.add('close');
-
-			OACpart4ContentControl.style.zIndex = 15;
-			OACpart4Control.style.zIndex = 19;		
-			OACpart4ContenttextControl.style.opacity = 0;
-			OACpart1Control.style.zIndex = 19;
-			OACpart1TitleControl.style.zIndex = 19;
-			OACpart2Control.style.zIndex = 19;
-			OACpart2TitleControl.style.zIndex = 19;
-			OACpart3Control.style.zIndex = 19;
-			OACpart3TitleControl.style.zIndex = 19;
-			OAC4BAControl.style.opacity = 0;
-
-
-		
+			SDCContentControl.style.zIndex = 15;
+			SDCpart1Control.style.zIndex = 19;
+			SDCpart1TitleControl.style.zIndex = 19;
+			SDCpart2Control.style.zIndex = 19;
+			SDCpart2TitleControl.style.zIndex = 19;
+			SDCpart3Control.style.zIndex = 19;
+			SDCpart3TitleControl.style.zIndex = 19;
+			SDCpart4Control.style.zIndex = 19;
+			SDCpart4TitleControl.style.zIndex = 19;
+			SDCBAControl.style.opacity = 0;
+			
+			SDCpart1ContenttextControl.style.opacity = 0;
+			SDCpart2ContenttextControl.style.opacity = 0;
+			SDCpart3ContenttextControl.style.opacity = 0;
+			SDCpart4ContenttextControl.style.opacity = 0;
+			
+			
 		}; 
 
 
 	  
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
-			document.getElementsByClassName('OceanAcidification')[0].value = 'close';
-    		textcardOAC.classList.remove('open'); 
-			textcardOAC.classList.add('close');
+			document.getElementsByClassName('SpeciesDiversity')[0].value = 'close';
+    		textcardSDC.classList.remove('open'); 
+			textcardSDC.classList.add('close');
 			MainMenuControl.classList.remove('close');
 			MainMenuControl.classList.add('open');
 			SteamControl.classList.remove('open');
@@ -564,6 +525,15 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			DisasterControl.classList.remove('open');
 			BbtnControl.classList.remove('open');
 
+			SDCContentControl.classList.remove('open');
+			SDCpart1Control.classList.remove('open');
+			SDCpart1TitleControl.classList.remove('open');
+			SDCpart2Control.classList.remove('open');
+			SDCpart2TitleControl.classList.remove('open');	
+			SDCpart3Control.classList.remove('open');
+			SDCpart3TitleControl.classList.remove('open');
+			SDCpart4Control.classList.remove('open');
+			SDCpart4TitleControl.classList.remove('open');
 		};	
 	
   	} 
