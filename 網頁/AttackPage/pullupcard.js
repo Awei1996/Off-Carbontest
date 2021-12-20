@@ -291,10 +291,10 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart3ContenttextControl.style.opacity = 0;
 			SDCpart4ContenttextControl.style.opacity = 0;
 			
-			SDCpart1ContenttextControl.style.display = 'none';
-			SDCpart2ContenttextControl.style.display = 'none';
-			SDCpart3ContenttextControl.style.display = 'none';
-			SDCpart4ContenttextControl.style.display = 'none';
+			SDCpart1ContenttextControl.style.display = 'flex';
+			SDCpart2ContenttextControl.style.display = 'flex';
+			SDCpart3ContenttextControl.style.display = 'flex';
+			SDCpart4ContenttextControl.style.display = 'flex';
 			
 			
 		}; 
@@ -411,10 +411,10 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 
 			OACpart1ContenttextControl.style.opacity = 1;
 			
-			OACpart1ContenttextControl.style.display = 'flex';
-			OACpart2ContenttextControl.style.display = 'none';
-			OACpart3ContenttextControl.style.display = 'none';
-			OACpart4ContenttextControl.style.display = 'none';
+			SDCpart1ContenttextControl.style.display = 'flex';
+			SDCpart2ContenttextControl.style.display = 'flex';
+			SDCpart3ContenttextControl.style.display = 'flex';
+			SDCpart4ContenttextControl.style.display = 'flex';
 			
 			
 			
@@ -590,6 +590,11 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart2ContenttextControl.style.opacity = 0;
 			OACpart3ContenttextControl.style.opacity = 0;
 			OACpart4ContenttextControl.style.opacity = 0;
+			
+			SDCpart1ContenttextControl.style.display = 'flex';
+			SDCpart2ContenttextControl.style.display = 'flex';
+			SDCpart3ContenttextControl.style.display = 'flex';
+			SDCpart4ContenttextControl.style.display = 'flex';
 			
 			
 		}; 
