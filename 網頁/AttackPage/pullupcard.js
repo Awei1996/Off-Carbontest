@@ -323,6 +323,11 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart3TitleControl.classList.remove('open');
 			SDCpart4Control.classList.remove('open');
 			SDCpart4TitleControl.classList.remove('open');
+			
+			SDCpart1ContenttextControl.style.display = 'flex';
+			SDCpart2ContenttextControl.style.display = 'flex';
+			SDCpart3ContenttextControl.style.display = 'flex';
+			SDCpart4ContenttextControl.style.display = 'flex';
 		};	
 	
   	} 
@@ -411,10 +416,10 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 
 			OACpart1ContenttextControl.style.opacity = 1;
 			
-			SDCpart1ContenttextControl.style.display = 'flex';
-			SDCpart2ContenttextControl.style.display = 'flex';
-			SDCpart3ContenttextControl.style.display = 'flex';
-			SDCpart4ContenttextControl.style.display = 'flex';
+			OACpart1ContenttextControl.style.display = 'flex';
+			OACpart2ContenttextControl.style.display = 'none';
+			OACpart3ContenttextControl.style.display = 'none';
+			OACpart4ContenttextControl.style.display = 'none';
 			
 			
 			
@@ -591,10 +596,10 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart3ContenttextControl.style.opacity = 0;
 			OACpart4ContenttextControl.style.opacity = 0;
 			
-			SDCpart1ContenttextControl.style.display = 'flex';
-			SDCpart2ContenttextControl.style.display = 'flex';
-			SDCpart3ContenttextControl.style.display = 'flex';
-			SDCpart4ContenttextControl.style.display = 'flex';
+			OACpart1ContenttextControl.style.display = 'flex';
+			OACpart2ContenttextControl.style.display = 'flex';
+			OACpart3ContenttextControl.style.display = 'flex';
+			OACpart4ContenttextControl.style.display = 'flex';
 			
 			
 		}; 
@@ -623,6 +628,11 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart3TitleControl.classList.remove('open');
 			OACpart4Control.classList.remove('open');
 			OACpart4TitleControl.classList.remove('open');
+			
+			OACpart1ContenttextControl.style.display = 'flex';
+			OACpart2ContenttextControl.style.display = 'flex';
+			OACpart3ContenttextControl.style.display = 'flex';
+			OACpart4ContenttextControl.style.display = 'flex';
 		};	
 	
   	}  
@@ -893,6 +903,11 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart3ContenttextControl.style.opacity = 0;
 			MICpart4ContenttextControl.style.opacity = 0;
 			
+			MICpart1ContenttextControl.style.display = 'flex';
+			MICpart2ContenttextControl.style.display = 'flex';
+			MICpart3ContenttextControl.style.display = 'flex';
+			MICpart4ContenttextControl.style.display = 'flex';
+			
 			
 		}; 
 
@@ -920,6 +935,11 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart3TitleControl.classList.remove('open');
 			MICpart4Control.classList.remove('open');
 			MICpart4TitleControl.classList.remove('open');
+			
+			MICpart1ContenttextControl.style.display = 'flex';
+			MICpart2ContenttextControl.style.display = 'flex';
+			MICpart3ContenttextControl.style.display = 'flex';
+			MICpart4ContenttextControl.style.display = 'flex';
 		};	
 	
   	}
