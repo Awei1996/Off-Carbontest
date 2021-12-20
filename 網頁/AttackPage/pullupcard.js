@@ -109,9 +109,9 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart1ContenttextControl.style.opacity = 1;
 			
 			
-			SDCpart2ContenttextControl.styke.display = 'none';
-			SDCpart3ContenttextControl.styke.display = 'none';
-			SDCpart4ContenttextControl.styke.display = 'none';
+			SDCpart2ContenttextControl.style.display = 'none';
+			SDCpart3ContenttextControl.style.display = 'none';
+			SDCpart4ContenttextControl.style.display = 'none';
 			
 			
 			
@@ -153,10 +153,10 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			
 			SDCpart2ContenttextControl.style.opacity = 1;
 			
-			SDCpart1ContenttextControl.styke.display = 'none';
+			SDCpart1ContenttextControl.style.display = 'none';
 			
-			SDCpart3ContenttextControl.styke.display = 'none';
-			SDCpart4ContenttextControl.styke.display = 'none';
+			SDCpart3ContenttextControl.style.display = 'none';
+			SDCpart4ContenttextControl.style.display = 'none';
 
 		
 		}; 
@@ -191,10 +191,10 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCBAControl.style.opacity = 1;
 	
 			SDCpart3ContenttextControl.style.opacity = 1;
-			SDCpart1ContenttextControl.styke.display = 'none';
-			SDCpart2ContenttextControl.styke.display = 'none';
+			SDCpart1ContenttextControl.style.display = 'none';
+			SDCpart2ContenttextControl.style.display = 'none';
 			
-			SDCpart4ContenttextControl.styke.display = 'none';
+			SDCpart4ContenttextControl.style.display = 'none';
 			
 		
 		}; 
@@ -230,9 +230,9 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart4ContenttextControl.style.zIndex = 19;
 			SDCBAControl.style.opacity = 1;
 			
-			SDCpart1ContenttextControl.styke.display = 'none';
-			SDCpart2ContenttextControl.styke.display = 'none';
-			SDCpart3ContenttextControl.styke.display = 'none';
+			SDCpart1ContenttextControl.style.display = 'none';
+			SDCpart2ContenttextControl.style.display = 'none';
+			SDCpart3ContenttextControl.style.display = 'none';
 			
 			SDCpart4ContenttextControl.style.opacity = 1;
 			
