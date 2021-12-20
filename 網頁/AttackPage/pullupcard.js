@@ -77,33 +77,40 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 	  
 		document.getElementsByClassName('SDCpart1')[0].onclick =function()
 		{
-			
-			
-			
-			SDCContentControl.classList.add('open');
-			SDCpart1Control.classList.add('open');
-			SDCpart1TitleControl.classList.add('open');
-			SDCpart1ContenttextControl.classList.add('open');
-			
-		
-			SDCContentControl.classList.remove('close');
-			SDCpart1Control.classList.remove('close');
-			SDCpart1TitleControl.classList.remove('close');
-			
-			
+			if(SDCpart1ContenttextControl.classList == SDCpart1ContenttextControl.open )
+			{
+				SDCContentControl.classList.remove('open');
+				SDCpart1Control.classList.remove('open');
+				SDCpart1TitleControl.classList.remove('open');
+			}
+			else{
+				
+				SDCContentControl.classList.add('open');
+				SDCpart1Control.classList.add('open');
+				SDCpart1TitleControl.classList.add('open');
+				SDCpart1ContenttextControl.classList.add('open');
 
-			SDCContentControl.style.zIndex = 18;
-			SDCpart1Control.style.zIndex = 19;
-			SDCContentControl.style.opacity = 0.99;
-			SDCpart2Control.style.zIndex = 16;
-			SDCpart2TitleControl.style.zIndex = 16;
-			SDCpart3Control.style.zIndex = 16;
-			SDCpart3TitleControl.style.zIndex = 16;
-			SDCpart4Control.style.zIndex = 16;
-			SDCpart4TitleControl.style.zIndex = 16;
-			SDCBAControl.style.opacity = 1;
+
+				SDCContentControl.classList.remove('close');
+				SDCpart1Control.classList.remove('close');
+				SDCpart1TitleControl.classList.remove('close');
+
+
+
+				SDCContentControl.style.zIndex = 18;
+				SDCpart1Control.style.zIndex = 19;
+				SDCContentControl.style.opacity = 0.99;
+				SDCpart2Control.style.zIndex = 16;
+				SDCpart2TitleControl.style.zIndex = 16;
+				SDCpart3Control.style.zIndex = 16;
+				SDCpart3TitleControl.style.zIndex = 16;
+				SDCpart4Control.style.zIndex = 16;
+				SDCpart4TitleControl.style.zIndex = 16;
+				SDCBAControl.style.opacity = 1;
+
+				SDCpart1ContenttextControl.style.opacity = 1;
+			}
 			
-			SDCpart1ContenttextControl.style.opacity = 1;
 			
 			
 
@@ -276,10 +283,6 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			DisasterControl.classList.add('close');
 			DisasterControl.classList.remove('open');
 			BbtnControl.classList.remove('open');
-			
-			SDCContentControl.classList.remove('open');
-			SDCpart1Control.classList.remove('open');
-			SDCpart1TitleControl.classList.remove('open');
 
 			
 		};	
