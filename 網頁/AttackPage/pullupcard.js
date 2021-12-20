@@ -2158,34 +2158,28 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 };
 document.getElementsByClassName('Disease')[0].onclick = function() {
 	
+	var DSCContentControl = document.getElementsByClassName('DSCContent')[0];
+	var DSCBAControl = document.getElementsByClassName('DSCBA')[0];
+	
 	var DSCpart1Control = document.getElementsByClassName('DSCpart1')[0];
 	var DSCpart1TitleControl = document.getElementsByClassName('DSCpart1Title')[0];
-  	var DSCpart1ContenttextControl = document.getElementsByClassName('DSCpart1Contenttext')[0];
-	var DSCpart1ContentControl = document.getElementsByClassName('DSCpart1Content')[0];
-	
+	var DSCpart1ContenttextControl = document.getElementsByClassName('DSCpart1Contenttext')[0];
+
 	var DSCpart2Control = document.getElementsByClassName('DSCpart2')[0];
 	var DSCpart2TitleControl = document.getElementsByClassName('DSCpart2Title')[0];
   	var DSCpart2ContenttextControl = document.getElementsByClassName('DSCpart2Contenttext')[0];
-	var DSCpart2ContentControl = document.getElementsByClassName('DSCpart2Content')[0];
 	
 	var DSCpart3Control = document.getElementsByClassName('DSCpart3')[0];
 	var DSCpart3TitleControl = document.getElementsByClassName('DSCpart3Title')[0];
   	var DSCpart3ContenttextControl = document.getElementsByClassName('DSCpart3Contenttext')[0];
-	var DSCpart3ContentControl = document.getElementsByClassName('DSCpart3Content')[0];
 	
 	var DSCpart4Control = document.getElementsByClassName('DSCpart4')[0];
 	var DSCpart4TitleControl = document.getElementsByClassName('DSCpart4Title')[0];
   	var DSCpart4ContenttextControl = document.getElementsByClassName('DSCpart4Contenttext')[0];
-	var DSCpart4ContentControl = document.getElementsByClassName('DSCpart4Content')[0];
-	
-	var DSC1BAControl = document.getElementsByClassName('DSC1BA')[0];
-	var DSC2BAControl = document.getElementsByClassName('DSC2BA')[0];
-	var DSC3BAControl = document.getElementsByClassName('DSC3BA')[0];
-	var DSC4BAControl = document.getElementsByClassName('DSC4BA')[0];
-	
-	if(this.value === 'close') 
-	{ 
-		this.value = 'open';
+
+  	if(this.value === 'close') 
+  	{ 
+    	this.value = 'open';
 		textcardDSC.classList.remove('close'); 
     	textcardDSC.classList.add('open');
 		MainMenuControl.classList.add('close');
@@ -2195,232 +2189,215 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
 		DSCBGControl.classList.add('open');
-  		BbtnControl.classList.add('open');
-
-	  
+		BbtnControl.classList.add('open');
+		
+		DSCpart1ContenttextControl.style.opacity = 0;
+		DSCpart2ContenttextControl.style.opacity = 0;
+		DSCpart3ContenttextControl.style.opacity = 0;
+		DSCpart4ContenttextControl.style.opacity = 0;
+  
 		document.getElementsByClassName('DSCpart1')[0].onclick =function()
 		{
-		
-			DSCpart1ContentControl.classList.add('open');
+							
+			DSCContentControl.classList.add('open');
 			DSCpart1Control.classList.add('open');
 			DSCpart1TitleControl.classList.add('open');
 			DSCpart1ContenttextControl.classList.add('open');
-		
-			DSCpart1ContentControl.classList.remove('close');
+
+			DSCContentControl.classList.remove('close');
 			DSCpart1Control.classList.remove('close');
 			DSCpart1TitleControl.classList.remove('close');
-			DSCpart1ContenttextControl.classList.remove('close');
 
-			DSCpart1ContentControl.style.zIndex = 18;
+			DSCContentControl.style.zIndex = 18;
 			DSCpart1Control.style.zIndex = 19;
-			DSCpart1ContentControl.style.opacity = 0.99;
-			DSCpart1ContenttextControl.style.opacity = 1;
+			DSCpart1TitleControl.style.zIndex = 19;
+			DSCpart1ContenttextControl.style.zIndex = 19;
+			DSCContentControl.style.opacity = 0.99;
 			DSCpart2Control.style.zIndex = 16;
 			DSCpart2TitleControl.style.zIndex = 16;
+			DSCpart2ContenttextControl.style.zIndex = 16;
 			DSCpart3Control.style.zIndex = 16;
 			DSCpart3TitleControl.style.zIndex = 16;
+			DSCpart3ContenttextControl.style.zIndex = 16;
 			DSCpart4Control.style.zIndex = 16;
 			DSCpart4TitleControl.style.zIndex = 16;
-			DSC1BAControl.style.opacity = 1;
+			DSCpart4ContenttextControl.style.zIndex = 16;
+			DSCBAControl.style.opacity = 1;
 
-
-
-		
+			DSCpart1ContenttextControl.style.opacity = 1;
+			
+			DSCpart1ContenttextControl.style.display = 'flex';
+			DSCpart2ContenttextControl.style.display = 'none';
+			DSCpart3ContenttextControl.style.display = 'none';
+			DSCpart4ContenttextControl.style.display = 'none';
+	
 		}; 
 	  
-		document.getElementsByClassName('DSC1BA')[0].onclick =function()
-		{
-			DSCpart1ContentControl.classList.remove('open');
-			DSCpart1Control.classList.remove('open');
-			DSCpart1TitleControl.classList.remove('open');
-			DSCpart1ContenttextControl.classList.remove('open');
-		
-			DSCpart1ContentControl.classList.add('close');
-			DSCpart1Control.classList.add('close');
-			DSCpart1TitleControl.classList.add('close');
-			DSCpart1ContenttextControl.classList.add('close');
-
-			DSCpart1ContentControl.style.zIndex = 15;
-			DSCpart1Control.style.zIndex = 19;		
-			DSCpart2Control.style.zIndex = 19;
-			DSCpart2TitleControl.style.zIndex = 19;
-			DSCpart3Control.style.zIndex = 19;
-			DSCpart3TitleControl.style.zIndex = 19;
-			DSCpart4Control.style.zIndex = 19;
-			DSCpart4TitleControl.style.zIndex = 19;
-			DSC1BAControl.style.opacity = 0;
-
-
-		
-		}; 
-		
 		document.getElementsByClassName('DSCpart2')[0].onclick =function()
 		{
 		
-			DSCpart2ContentControl.classList.add('open');
+			DSCContentControl.classList.add('open');
 			DSCpart2Control.classList.add('open');
 			DSCpart2TitleControl.classList.add('open');
 			DSCpart2ContenttextControl.classList.add('open');
 		
-			DSCpart2ContentControl.classList.remove('close');
+			DSCContentControl.classList.remove('close');
 			DSCpart2Control.classList.remove('close');
 			DSCpart2TitleControl.classList.remove('close');
-			DSCpart2ContenttextControl.classList.remove('close');
-
-			DSCpart2ContentControl.style.zIndex = 18;
-			DSCpart2Control.style.zIndex = 19;
-			DSCpart2ContentControl.style.opacity = 0.99;
-			DSCpart2ContenttextControl.style.opacity = 1;
+			
+			DSCContentControl.style.zIndex = 18;
 			DSCpart1Control.style.zIndex = 16;
 			DSCpart1TitleControl.style.zIndex = 16;
+			DSCpart1ContenttextControl.style.zIndex = 16;
+			DSCContentControl.style.opacity = 0.99;
+			DSCpart2Control.style.zIndex = 19;
+			DSCpart2TitleControl.style.zIndex = 19;
+			DSCpart2ContenttextControl.style.zIndex = 19;
 			DSCpart3Control.style.zIndex = 16;
 			DSCpart3TitleControl.style.zIndex = 16;
+			DSCpart3ContenttextControl.style.zIndex = 16;
 			DSCpart4Control.style.zIndex = 16;
 			DSCpart4TitleControl.style.zIndex = 16;
-			DSC2BAControl.style.opacity = 1;
+			DSCpart4ContenttextControl.style.zIndex = 16;
+			DSCBAControl.style.opacity = 1;
+			
+			DSCpart2ContenttextControl.style.opacity = 1;
+			
+			DSCpart1ContenttextControl.style.display = 'none';
+			DSCpart2ContenttextControl.style.display = 'flex';
+			DSCpart3ContenttextControl.style.display = 'none';
+			DSCpart4ContenttextControl.style.display = 'none';
 
-
-		
 		}; 
 	  
-		document.getElementsByClassName('DSC2BA')[0].onclick =function()
-		{
-			DSCpart2ContentControl.classList.remove('open');
-			DSCpart2Control.classList.remove('open');
-			DSCpart2TitleControl.classList.remove('open');
-			DSCpart2ContenttextControl.classList.remove('open');
-		
-			DSCpart2ContentControl.classList.add('close');
-			DSCpart2Control.classList.add('close');
-			DSCpart2TitleControl.classList.add('close');
-			DSCpart2ContenttextControl.classList.add('close');
-
-			DSCpart2ContentControl.style.zIndex = 15;
-			DSCpart2Control.style.zIndex = 19;		
-			DSCpart2ContenttextControl.style.opacity = 0;
-			DSCpart1Control.style.zIndex = 19;
-			DSCpart1TitleControl.style.zIndex = 19;
-			DSCpart3Control.style.zIndex = 19;
-			DSCpart3TitleControl.style.zIndex = 19;
-			DSCpart4Control.style.zIndex = 19;
-			DSCpart4TitleControl.style.zIndex = 19;
-			DSC2BAControl.style.opacity = 0;
-
-		
-		}; 
 		document.getElementsByClassName('DSCpart3')[0].onclick =function()
 		{
 		
-			DSCpart3ContentControl.classList.add('open');
+			DSCContentControl.classList.add('open');
 			DSCpart3Control.classList.add('open');
 			DSCpart3TitleControl.classList.add('open');
 			DSCpart3ContenttextControl.classList.add('open');
 		
-			DSCpart3ContentControl.classList.remove('close');
+			DSCContentControl.classList.remove('close');
 			DSCpart3Control.classList.remove('close');
 			DSCpart3TitleControl.classList.remove('close');
-			DSCpart3ContenttextControl.classList.remove('close');
 
-			DSCpart3ContentControl.style.zIndex = 18;
-			DSCpart3Control.style.zIndex = 19;
-			DSCpart3ContentControl.style.opacity = 0.99;
-			DSCpart3ContenttextControl.style.opacity = 1;
+			DSCContentControl.style.zIndex = 18;
 			DSCpart1Control.style.zIndex = 16;
 			DSCpart1TitleControl.style.zIndex = 16;
+			DSCpart1ContenttextControl.style.zIndex = 16;
+			DSCContentControl.style.opacity = 0.99;
 			DSCpart2Control.style.zIndex = 16;
 			DSCpart2TitleControl.style.zIndex = 16;
+			DSCpart2ContenttextControl.style.zIndex = 16;
+			DSCpart3Control.style.zIndex = 19;
+			DSCpart3TitleControl.style.zIndex = 19;
+			DSCpart3ContenttextControl.style.zIndex = 19;
 			DSCpart4Control.style.zIndex = 16;
 			DSCpart4TitleControl.style.zIndex = 16;
-			DSC3BAControl.style.opacity = 1;
-
+			DSCpart4ContenttextControl.style.zIndex = 16;
+			DSCBAControl.style.opacity = 1;
+	
+			DSCpart3ContenttextControl.style.opacity = 1;
+			
+			DSCpart1ContenttextControl.style.display = 'none';
+			DSCpart2ContenttextControl.style.display = 'none';
+			DSCpart3ContenttextControl.style.display = 'flex';
+			DSCpart4ContenttextControl.style.display = 'none';	
 		
 		}; 
 	  
-		document.getElementsByClassName('DSC3BA')[0].onclick =function()
-		{
-			DSCpart3ContentControl.classList.remove('open');
-			DSCpart3Control.classList.remove('open');
-			DSCpart3TitleControl.classList.remove('open');
-			DSCpart3ContenttextControl.classList.remove('open');
-		
-			DSCpart3ContentControl.classList.add('close');
-			DSCpart3Control.classList.add('close');
-			DSCpart3TitleControl.classList.add('close');
-			DSCpart3ContenttextControl.classList.add('close');
-
-			DSCpart3ContentControl.style.zIndex = 15;
-			DSCpart3Control.style.zIndex = 19;		
-			DSCpart3ContenttextControl.style.opacity = 0;
-			DSCpart1Control.style.zIndex = 19;
-			DSCpart1TitleControl.style.zIndex = 19;
-			DSCpart2Control.style.zIndex = 19;
-			DSCpart2TitleControl.style.zIndex = 19;
-			DSCpart4Control.style.zIndex = 19;
-			DSCpart4TitleControl.style.zIndex = 19;
-			DSC3BAControl.style.opacity = 0;
-
-
-		
-		}; 
-		
 		document.getElementsByClassName('DSCpart4')[0].onclick =function()
 		{
 		
-			DSCpart4ContentControl.classList.add('open');
+			DSCContentControl.classList.add('open');
 			DSCpart4Control.classList.add('open');
 			DSCpart4TitleControl.classList.add('open');
 			DSCpart4ContenttextControl.classList.add('open');
 		
-			DSCpart4ContentControl.classList.remove('close');
+			DSCContentControl.classList.remove('close');
 			DSCpart4Control.classList.remove('close');
 			DSCpart4TitleControl.classList.remove('close');
-			DSCpart4ContenttextControl.classList.remove('close');
-
-			DSCpart4ContentControl.style.zIndex = 18;
-			DSCpart4Control.style.zIndex = 19;
-			DSCpart4ContentControl.style.opacity = 0.99;
-			DSCpart4ContenttextControl.style.opacity = 1;
+			
+			DSCContentControl.style.zIndex = 18;
 			DSCpart1Control.style.zIndex = 16;
 			DSCpart1TitleControl.style.zIndex = 16;
+			DSCpart1ContenttextControl.style.zIndex = 16;
+			DSCContentControl.style.opacity = 0.99;
 			DSCpart2Control.style.zIndex = 16;
 			DSCpart2TitleControl.style.zIndex = 16;
+			DSCpart2ContenttextControl.style.zIndex = 16;
 			DSCpart3Control.style.zIndex = 16;
 			DSCpart3TitleControl.style.zIndex = 16;
-			DSC4BAControl.style.opacity = 1;
-
-		
+			DSCpart3ContenttextControl.style.zIndex = 16;
+			DSCpart4Control.style.zIndex = 19;
+			DSCpart4TitleControl.style.zIndex = 19;
+			DSCpart4ContenttextControl.style.zIndex = 19;
+			DSCBAControl.style.opacity = 1;
+			
+			DSCpart4ContenttextControl.style.opacity = 1;
+			
+			DSCpart1ContenttextControl.style.display = 'none';
+			DSCpart2ContenttextControl.style.display = 'none';
+			DSCpart3ContenttextControl.style.display = 'none';
+			DSCpart4ContenttextControl.style.display = 'flex';
+			
 		}; 
-	  
-		document.getElementsByClassName('DSC4BA')[0].onclick =function()
+		
+		document.getElementsByClassName('DSCBA')[0].onclick =function()
 		{
-			DSCpart4ContentControl.classList.remove('open');
+			DSCContentControl.classList.remove('open');
+			
+			DSCpart1Control.classList.remove('open');
+			DSCpart1TitleControl.classList.remove('open');
+			DSCpart1ContenttextControl.classList.remove('open');
+			DSCpart2Control.classList.remove('open');
+			DSCpart2TitleControl.classList.remove('open');
+			DSCpart2ContenttextControl.classList.remove('open');
+			DSCpart3Control.classList.remove('open');
+			DSCpart3TitleControl.classList.remove('open');
+			DSCpart3ContenttextControl.classList.remove('open');
 			DSCpart4Control.classList.remove('open');
 			DSCpart4TitleControl.classList.remove('open');
 			DSCpart4ContenttextControl.classList.remove('open');
+			
+			DSCContentControl.classList.add('close');
+			
+			DSCpart1Control.classList.add('close');
+			DSCpart1TitleControl.classList.add('close');
+			
+			DSCpart2Control.classList.add('close');
+			DSCpart2TitleControl.classList.add('close');
+			
+			DSCpart3Control.classList.add('close');
+			DSCpart3TitleControl.classList.add('close');
 		
-			DSCpart4ContentControl.classList.add('close');
 			DSCpart4Control.classList.add('close');
 			DSCpart4TitleControl.classList.add('close');
-			DSCpart4ContenttextControl.classList.add('close');
-
-			DSCpart4ContentControl.style.zIndex = 15;
-			DSCpart4Control.style.zIndex = 19;		
-			DSCpart4ContenttextControl.style.opacity = 0;
+		
+			DSCContentControl.style.zIndex = 15;
 			DSCpart1Control.style.zIndex = 19;
 			DSCpart1TitleControl.style.zIndex = 19;
 			DSCpart2Control.style.zIndex = 19;
 			DSCpart2TitleControl.style.zIndex = 19;
 			DSCpart3Control.style.zIndex = 19;
 			DSCpart3TitleControl.style.zIndex = 19;
-			DSC4BAControl.style.opacity = 0;
-
-
-		
+			DSCpart4Control.style.zIndex = 19;
+			DSCpart4TitleControl.style.zIndex = 19;
+			DSCBAControl.style.opacity = 0;
+			
+			DSCpart1ContenttextControl.style.opacity = 0;
+			DSCpart2ContenttextControl.style.opacity = 0;
+			DSCpart3ContenttextControl.style.opacity = 0;
+			DSCpart4ContenttextControl.style.opacity = 0;
+			
+			DSCpart1ContenttextControl.style.display = 'flex';
+			DSCpart2ContenttextControl.style.display = 'flex';
+			DSCpart3ContenttextControl.style.display = 'flex';
+			DSCpart4ContenttextControl.style.display = 'flex';
+			
 		}; 
 
-
-
-	  
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
 			document.getElementsByClassName('Disease')[0].value = 'close';
@@ -2433,10 +2410,35 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 			DisasterControl.classList.add('close');
 			DisasterControl.classList.remove('open');
 			BbtnControl.classList.remove('open');
+
+			DSCContentControl.classList.remove('open');
+			DSCpart1Control.classList.remove('open');
+			DSCpart1TitleControl.classList.remove('open');
+			DSCpart2Control.classList.remove('open');
+			DSCpart2TitleControl.classList.remove('open');	
+			DSCpart3Control.classList.remove('open');
+			DSCpart3TitleControl.classList.remove('open');
+			DSCpart4Control.classList.remove('open');
+			DSCpart4TitleControl.classList.remove('open');
 			
+			DSCContentControl.style.zIndex = 15;
+			DSCpart1Control.style.zIndex = 19;
+			DSCpart1TitleControl.style.zIndex = 19;
+			DSCpart2Control.style.zIndex = 19;
+			DSCpart2TitleControl.style.zIndex = 19;
+			DSCpart3Control.style.zIndex = 19;
+			DSCpart3TitleControl.style.zIndex = 19;
+			DSCpart4Control.style.zIndex = 19;
+			DSCpart4TitleControl.style.zIndex = 19;
+			DSCBAControl.style.opacity = 0;
+			
+			DSCpart1ContenttextControl.style.display = 'flex';
+			DSCpart2ContenttextControl.style.display = 'flex';
+			DSCpart3ContenttextControl.style.display = 'flex';
+			DSCpart4ContenttextControl.style.display = 'flex';
 		};	
 	
-  	} 
+  	}
   
 };
 document.getElementsByClassName('FoodShortage')[0].onclick = function() {
