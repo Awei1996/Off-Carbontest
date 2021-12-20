@@ -1047,8 +1047,10 @@
 }
 
 .OACpart2Title.close{
+	width: 39.06%;
     transition: 1s;
 	margin-top: 17.5%;
+	margin-left: 50.89%;
 	background-color: #1E3239;
 }
 
@@ -1124,24 +1126,13 @@
 }
 
 .OACpart3Title.close{
+	width: 39.06%;
 	transition: 1s;
 	margin-top: 41.5%;
+	margin-left: 10.42%;
 	background-color: #1E3239;
 }
-.OACContent{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	opacity: 0;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-}
+
 
 .OACpart4{
 	position: absolute;
@@ -1215,9 +1206,26 @@
 }
 
 .OACpart4Title.close{
+	width: 39.06%;
 	transition: 1s;
+	margin-left: 50.89%;
 	margin-top: 41.5%;
 	background-color: #1E3239;
+}
+
+.OACContent{
+	position: absolute;
+	z-index: -1;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 0%;
+	background-color: transparent;
+	color: transparent;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 .OACContent.open{
 	position: absolute;
