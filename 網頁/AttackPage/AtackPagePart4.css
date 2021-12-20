@@ -1481,49 +1481,7 @@
 	margin-top: 17.5%;
 	background-color: #1E3239;
 }
-.MICpart1Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	opacity: 0;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-}
-.MICpart1Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-	
-}
 
-.MICpart1Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 2;
-}
-.MICpart1Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
 
 .MICpart2{
 	position: absolute;
@@ -1602,49 +1560,6 @@
 	margin-top: 17.5%;
 	background-color: #1E3239;
 }
-.MICpart2Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	opacity: 0;
-}
-.MICpart2Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-}
-
-.MICpart2Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 2;
-	
-}
-.MICpart2Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
 
 .MICpart3{
 	position: absolute;
@@ -1722,49 +1637,8 @@
 	margin-top: 41.5%;
 	background-color: #1E3239;
 }
-.MICpart3Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	opacity: 0;
-}
-.MICpart3Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-	
-}
 
-.MICpart3Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 2;
-}
-.MICpart3Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
+
 
 
 .MICpart4{
@@ -1844,7 +1718,9 @@
 	margin-top: 41.5%;
 	background-color: #1E3239;
 }
-.MICpart4Content{
+
+
+.MICContent{
 	position: absolute;
 	z-index: -1;
 	margin-top: 0%;
@@ -1853,12 +1729,12 @@
 	background-color: transparent;
 	color: transparent;
 	font-size: 2.2rem;
+	opacity: 0;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	opacity: 0;
 }
-.MICpart4Content.open{
+.MICContent.open{
 	position: absolute;
 	margin-top: 0%;
 	margin-left: 0%;
@@ -1871,6 +1747,58 @@
 	
 }
 
+.MICpart1Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+	opacity: 0;
+}
+.MICpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.MICpart2Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+	opacity: 0;
+}
+.MICpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.MICpart3Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+	opacity: 0;
+}
+.MICpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
 .MICpart4Contenttext{
 	position: absolute;
 	margin-top: 54%;
@@ -1881,12 +1809,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	opacity: 0;
 	 
 }
-.MICpart4Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
+
 .MICpart4Contenttext.open{
 	transition: 1s opacity  0.5s;
 	opacity: 1;
