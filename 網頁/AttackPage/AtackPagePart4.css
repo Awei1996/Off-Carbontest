@@ -20,34 +20,14 @@
 	opacity: 0;
 }
 
-.OAC1BA{
+.OACBA{
 	position: absolute;
 	margin-left: 93%;
 	margin-top: 10%;
 	width:4.79%;	
 	opacity: 0;
 }
-.OAC2BA{
-	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
-	opacity: 0;
-}
-.OAC3BA{
-	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
-	opacity: 0;
-}
-.OAC4BA{
-	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
-	opacity: 0;
-}
+
 .MIC1BA{
 	position: absolute;
 	margin-left: 93%;
@@ -991,49 +971,6 @@
 	margin-top: 17.5%;
 	background-color: #1E3239;
 }
-.OACpart1Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	opacity: 0;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-}
-.OACpart1Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-	
-}
-
-.OACpart1Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 1.8;
-}
-.OACpart1Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
 
 .OACpart2{
 	position: absolute;
@@ -1113,49 +1050,6 @@
 	margin-top: 17.5%;
 	background-color: #1E3239;
 }
-.OACpart2Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	opacity: 0;
-}
-.OACpart2Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-}
-
-.OACpart2Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 2;
-	
-}
-.OACpart2Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
 
 .OACpart3{
 	position: absolute;
@@ -1233,7 +1127,7 @@
 	margin-top: 41.5%;
 	background-color: #1E3239;
 }
-.OACpart3Content{
+.OACContent{
 	position: absolute;
 	z-index: -1;
 	margin-top: 0%;
@@ -1242,40 +1136,11 @@
 	background-color: transparent;
 	color: transparent;
 	font-size: 2.2rem;
+	opacity: 0;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	opacity: 0;
 }
-.OACpart3Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-	
-}
-
-.OACpart3Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-}
-.OACpart3Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
-
 
 .OACpart4{
 	position: absolute;
@@ -1353,21 +1218,7 @@
 	margin-top: 41.5%;
 	background-color: #1E3239;
 }
-.OACpart4Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	opacity: 0;
-}
-.OACpart4Content.open{
+.OACContent.open{
 	position: absolute;
 	margin-top: 0%;
 	margin-left: 0%;
@@ -1380,6 +1231,59 @@
 	
 }
 
+.OACpart1Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 1.8;
+	opacity: 0;
+}
+.OACpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.OACpart2Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+	opacity: 0;
+}
+.OACpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.OACpart3Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	opacity: 0;
+}
+.OACpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
 .OACpart4Contenttext{
 	position: absolute;
 	margin-top: 54%;
@@ -1390,16 +1294,14 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	opacity: 0;
 	 
 }
 .OACpart4Contenttext.open{
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
-.OACpart4Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
+
 .MeltingIce{
 	width: 100%;
 	background-color: #6B8898 ;
