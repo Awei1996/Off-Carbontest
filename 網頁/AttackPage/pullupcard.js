@@ -92,19 +92,22 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 
 			SDCContentControl.style.zIndex = 18;
 			SDCpart1Control.style.zIndex = 19;
+			SDCpart1TitleControl.style.zIndex = 19;
+			SDCpart1ContenttextControl.style.zIndex = 19;
 			SDCContentControl.style.opacity = 0.99;
 			SDCpart2Control.style.zIndex = 16;
 			SDCpart2TitleControl.style.zIndex = 16;
+			SDCpart2ContenttextControl.style.zIndex = 16;
 			SDCpart3Control.style.zIndex = 16;
 			SDCpart3TitleControl.style.zIndex = 16;
+			SDCpart3ContenttextControl.style.zIndex = 16;
 			SDCpart4Control.style.zIndex = 16;
 			SDCpart4TitleControl.style.zIndex = 16;
+			SDCpart4ContenttextControl.style.zIndex = 16;
 			SDCBAControl.style.opacity = 1;
 
 			SDCpart1ContenttextControl.style.opacity = 1;
-			SDCpart2ContenttextControl.style.opacity = 0;
-			SDCpart3ContenttextControl.style.opacity = 0;
-			SDCpart4ContenttextControl.style.opacity = 0;
+			
 			
 
 
@@ -127,21 +130,23 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			
 
 			SDCContentControl.style.zIndex = 18;
-			SDCpart2Control.style.zIndex = 19;
-			SDCContentControl.style.opacity = 0.99;
 			SDCpart1Control.style.zIndex = 16;
 			SDCpart1TitleControl.style.zIndex = 16;
+			SDCpart1ContenttextControl.style.zIndex = 16;
+			SDCContentControl.style.opacity = 0.99;
+			SDCpart2Control.style.zIndex = 19;
+			SDCpart2TitleControl.style.zIndex = 19;
+			SDCpart2ContenttextControl.style.zIndex = 19;
 			SDCpart3Control.style.zIndex = 16;
 			SDCpart3TitleControl.style.zIndex = 16;
+			SDCpart3ContenttextControl.style.zIndex = 16;
 			SDCpart4Control.style.zIndex = 16;
 			SDCpart4TitleControl.style.zIndex = 16;
+			SDCpart4ContenttextControl.style.zIndex = 16;
 			SDCBAControl.style.opacity = 1;
 			
 			
-			SDCpart1ContenttextControl.style.opacity = 0;
 			SDCpart2ContenttextControl.style.opacity = 1;
-			SDCpart3ContenttextControl.style.opacity = 0;
-			SDCpart4ContenttextControl.style.opacity = 0;
 			
 
 		
@@ -161,20 +166,22 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart3TitleControl.classList.remove('close');
 
 			SDCContentControl.style.zIndex = 18;
-			SDCpart3Control.style.zIndex = 19;
-			SDCContentControl.style.opacity = 0.99;
 			SDCpart1Control.style.zIndex = 16;
 			SDCpart1TitleControl.style.zIndex = 16;
+			SDCpart1ContenttextControl.style.zIndex = 16;
+			SDCContentControl.style.opacity = 0.99;
 			SDCpart2Control.style.zIndex = 16;
 			SDCpart2TitleControl.style.zIndex = 16;
+			SDCpart2ContenttextControl.style.zIndex = 16;
+			SDCpart3Control.style.zIndex = 19;
+			SDCpart3TitleControl.style.zIndex = 19;
+			SDCpart3ContenttextControl.style.zIndex = 19;
 			SDCpart4Control.style.zIndex = 16;
 			SDCpart4TitleControl.style.zIndex = 16;
+			SDCpart4ContenttextControl.style.zIndex = 16;
 			SDCBAControl.style.opacity = 1;
 	
-			SDCpart1ContenttextControl.style.opacity = 0;
-			SDCpart2ContenttextControl.style.opacity = 0;
 			SDCpart3ContenttextControl.style.opacity = 1;
-			SDCpart4ContenttextControl.style.opacity = 0;
 		
 		}; 
 	  
@@ -194,20 +201,21 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			
 
 			SDCContentControl.style.zIndex = 18;
-			SDCpart4Control.style.zIndex = 19;
-			SDCContentControl.style.opacity = 0.99;
 			SDCpart1Control.style.zIndex = 16;
 			SDCpart1TitleControl.style.zIndex = 16;
+			SDCpart1ContenttextControl.style.zIndex = 16;
+			SDCContentControl.style.opacity = 0.99;
 			SDCpart2Control.style.zIndex = 16;
 			SDCpart2TitleControl.style.zIndex = 16;
+			SDCpart2ContenttextControl.style.zIndex = 16;
 			SDCpart3Control.style.zIndex = 16;
 			SDCpart3TitleControl.style.zIndex = 16;
+			SDCpart3ContenttextControl.style.zIndex = 16;
+			SDCpart4Control.style.zIndex = 19;
+			SDCpart4TitleControl.style.zIndex = 19;
+			SDCpart4ContenttextControl.style.zIndex = 19;
 			SDCBAControl.style.opacity = 1;
 			
-			
-			SDCpart1ContenttextControl.style.opacity = 0;
-			SDCpart2ContenttextControl.style.opacity = 0;
-			SDCpart3ContenttextControl.style.opacity = 0;
 			SDCpart4ContenttextControl.style.opacity = 1;
 
 
