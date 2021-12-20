@@ -292,24 +292,17 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 	var OACpart1TitleControl = document.getElementsByClassName('OACpart1Title')[0];
 	var OACpart1ContenttextControl = document.getElementsByClassName('OACpart1Contenttext')[0];
 	
-
-	
 	var OACpart2Control = document.getElementsByClassName('OACpart2')[0];
 	var OACpart2TitleControl = document.getElementsByClassName('OACpart2Title')[0];
   	var OACpart2ContenttextControl = document.getElementsByClassName('OACpart2Contenttext')[0];
-	
-
 	
 	var OACpart3Control = document.getElementsByClassName('OACpart3')[0];
 	var OACpart3TitleControl = document.getElementsByClassName('OACpart3Title')[0];
   	var OACpart3ContenttextControl = document.getElementsByClassName('OACpart3Contenttext')[0];
 	
-
-	
 	var OACpart4Control = document.getElementsByClassName('OACpart4')[0];
 	var OACpart4TitleControl = document.getElementsByClassName('OACpart4Title')[0];
   	var OACpart4ContenttextControl = document.getElementsByClassName('OACpart4Contenttext')[0];
-	
 
 
   	if(this.value === 'close') 
