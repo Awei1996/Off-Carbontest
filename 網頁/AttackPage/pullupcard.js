@@ -623,26 +623,18 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 	var MICpart1Control = document.getElementsByClassName('MICpart1')[0];
 	var MICpart1TitleControl = document.getElementsByClassName('MICpart1Title')[0];
 	var MICpart1ContenttextControl = document.getElementsByClassName('MICpart1Contenttext')[0];
-	
 
-	
 	var MICpart2Control = document.getElementsByClassName('MICpart2')[0];
 	var MICpart2TitleControl = document.getElementsByClassName('MICpart2Title')[0];
   	var MICpart2ContenttextControl = document.getElementsByClassName('MICpart2Contenttext')[0];
-	
-
 	
 	var MICpart3Control = document.getElementsByClassName('MICpart3')[0];
 	var MICpart3TitleControl = document.getElementsByClassName('MICpart3Title')[0];
   	var MICpart3ContenttextControl = document.getElementsByClassName('MICpart3Contenttext')[0];
 	
-
-	
 	var MICpart4Control = document.getElementsByClassName('MICpart4')[0];
 	var MICpart4TitleControl = document.getElementsByClassName('MICpart4Title')[0];
   	var MICpart4ContenttextControl = document.getElementsByClassName('MICpart4Contenttext')[0];
-	
-
 
   	if(this.value === 'close') 
   	{ 
@@ -663,7 +655,6 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 		MICpart3ContenttextControl.style.opacity = 0;
 		MICpart4ContenttextControl.style.opacity = 0;
   
-	  
 		document.getElementsByClassName('MICpart1')[0].onclick =function()
 		{
 							
@@ -672,12 +663,9 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart1TitleControl.classList.add('open');
 			MICpart1ContenttextControl.classList.add('open');
 
-
 			MICContentControl.classList.remove('close');
 			MICpart1Control.classList.remove('close');
 			MICpart1TitleControl.classList.remove('close');
-
-
 
 			MICContentControl.style.zIndex = 18;
 			MICpart1Control.style.zIndex = 19;
@@ -701,16 +689,9 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart2ContenttextControl.style.display = 'none';
 			MICpart3ContenttextControl.style.display = 'none';
 			MICpart4ContenttextControl.style.display = 'none';
-			
-			
-			
-
-
-		
+	
 		}; 
 	  
-		
-		
 		document.getElementsByClassName('MICpart2')[0].onclick =function()
 		{
 		
@@ -723,7 +704,6 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart2Control.classList.remove('close');
 			MICpart2TitleControl.classList.remove('close');
 			
-
 			MICContentControl.style.zIndex = 18;
 			MICpart1Control.style.zIndex = 16;
 			MICpart1TitleControl.style.zIndex = 16;
@@ -747,10 +727,8 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart3ContenttextControl.style.display = 'none';
 			MICpart4ContenttextControl.style.display = 'none';
 
-		
 		}; 
 	  
-		
 		document.getElementsByClassName('MICpart3')[0].onclick =function()
 		{
 		
@@ -784,13 +762,10 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart1ContenttextControl.style.display = 'none';
 			MICpart2ContenttextControl.style.display = 'none';
 			MICpart3ContenttextControl.style.display = 'flex';
-			MICpart4ContenttextControl.style.display = 'none';
-			
+			MICpart4ContenttextControl.style.display = 'none';	
 		
 		}; 
 	  
-		
-		
 		document.getElementsByClassName('MICpart4')[0].onclick =function()
 		{
 		
@@ -803,7 +778,6 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart4Control.classList.remove('close');
 			MICpart4TitleControl.classList.remove('close');
 			
-
 			MICContentControl.style.zIndex = 18;
 			MICpart1Control.style.zIndex = 16;
 			MICpart1TitleControl.style.zIndex = 16;
@@ -827,10 +801,6 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart3ContenttextControl.style.display = 'none';
 			MICpart4ContenttextControl.style.display = 'flex';
 			
-			
-
-
-		
 		}; 
 		
 		document.getElementsByClassName('MICBA')[0].onclick =function()
@@ -885,11 +855,8 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart3ContenttextControl.style.display = 'flex';
 			MICpart4ContenttextControl.style.display = 'flex';
 			
-			
 		}; 
 
-
-	  
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
 			document.getElementsByClassName('MeltingIce')[0].value = 'close';
