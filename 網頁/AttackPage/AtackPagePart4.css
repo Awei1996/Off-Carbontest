@@ -235,7 +235,6 @@
 	100%{margin-left: 0%;}
 }
 
-
 .Backbutton{
 	position: absolute;
 	z-index: 17;
@@ -247,7 +246,6 @@
 
 .Backbutton:hover{
 	-webkit-filter:brightness(1.6);
-
 }
 
 .Backbutton.open{
@@ -276,7 +274,6 @@
 	text-align:left;
 	color: #ffffff;
 	outline: none;
-
 	
 }
 
@@ -322,8 +319,6 @@
 	padding-bottom: 56%;
 	background-color: #163C4B;
 	opacity: 1;
-
-	
 
 }
 .SDCBG.open{
@@ -397,7 +392,6 @@
 }
 .SDCpart1.open:hover{
 	-webkit-filter:brightness(1);
-
 }
 .SDCpart1.close{
 	-webkit-transition: 0.5s;
@@ -825,7 +819,6 @@
     margin-left: -310%;
 	opacity: 0;
 }
-
 
 .OACBG{
 	position: absolute;
@@ -3397,49 +3390,6 @@
 	margin-top: 17.5%;
 	background-color: #1E3239;
 }
-.DSCpart1Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	opacity: 0;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-}
-.DSCpart1Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-	
-}
-
-.DSCpart1Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 1.8;
-}
-.DSCpart1Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
 
 .DSCpart2{
 	position: absolute;
@@ -3518,49 +3468,6 @@
 	margin-top: 17.5%;
 	background-color: #1E3239;
 }
-.DSCpart2Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	opacity: 0;
-}
-.DSCpart2Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-}
-
-.DSCpart2Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 2;
-	
-}
-.DSCpart2Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
 
 .DSCpart3{
 	position: absolute;
@@ -3638,50 +3545,6 @@
 	margin-top: 41.5%;
 	background-color: #1E3239;
 }
-.DSCpart3Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	opacity: 0;
-}
-.DSCpart3Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-	
-}
-
-.DSCpart3Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 2;
-}
-.DSCpart3Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
-
 
 .DSCpart4{
 	position: absolute;
@@ -3703,7 +3566,6 @@
 .DSCpart4:hover{
 	-webkit-filter:brightness(1.2);
 	background-image: url("../../Animation/WorldDamage/腎衰竭.gif");
-
 
 }
 
@@ -3761,7 +3623,8 @@
 	margin-top: 41.5%;
 	background-color: #1E3239;
 }
-.DSCpart4Content{
+
+.DSCContent{
 	position: absolute;
 	z-index: -1;
 	margin-top: 0%;
@@ -3770,22 +3633,62 @@
 	background-color: transparent;
 	color: transparent;
 	font-size: 2.2rem;
+	opacity: 0;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	opacity: 0;
 }
-.DSCpart4Content.open{
+
+.DSCpart1Contenttext{
 	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
 	display: flex;
-	color: #ffffff;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 1.8;
+}
+.DSCpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.DSCpart2Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
 	
+}
+.DSCpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.DSCpart3Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+}
+.DSCpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
 }
 
 .DSCpart4Contenttext{
@@ -3804,10 +3707,7 @@
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
-.DSCpart4Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
+
 .FoodShortage{
 	width: 100%;
 	height: 11.1%;
