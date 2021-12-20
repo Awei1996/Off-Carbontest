@@ -499,6 +499,7 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACBAControl.style.opacity = 1;
 	
 			OACpart3ContenttextControl.style.opacity = 1;
+			
 			OACpart1ContenttextControl.style.display = 'none';
 			OACpart2ContenttextControl.style.display = 'none';
 			OACpart3ContenttextControl.style.display = 'flex';
@@ -538,11 +539,13 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart4ContenttextControl.style.zIndex = 19;
 			OACBAControl.style.opacity = 1;
 			
+			OACpart4ContenttextControl.style.opacity = 1;
+			
 			OACpart1ContenttextControl.style.display = 'none';
 			OACpart2ContenttextControl.style.display = 'none';
 			OACpart3ContenttextControl.style.display = 'none';
 			OACpart4ContenttextControl.style.display = 'flex';
-			OACpart4ContenttextControl.style.opacity = 1;
+			
 			
 
 
@@ -806,6 +809,7 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICBAControl.style.opacity = 1;
 	
 			MICpart3ContenttextControl.style.opacity = 1;
+			
 			MICpart1ContenttextControl.style.display = 'none';
 			MICpart2ContenttextControl.style.display = 'none';
 			MICpart3ContenttextControl.style.display = 'flex';
@@ -845,11 +849,13 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart4ContenttextControl.style.zIndex = 19;
 			MICBAControl.style.opacity = 1;
 			
+			MICpart4ContenttextControl.style.opacity = 1;
+			
 			MICpart1ContenttextControl.style.display = 'none';
 			MICpart2ContenttextControl.style.display = 'none';
 			MICpart3ContenttextControl.style.display = 'none';
 			MICpart4ContenttextControl.style.display = 'flex';
-			MICpart4ContenttextControl.style.opacity = 1;
+			
 			
 
 
