@@ -618,6 +618,9 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICBAControl.style.opacity = 1;
 
 			MICpart1ContenttextControl.style.opacity = 1;
+			MICpart2ContenttextControl.style.opacity = 0;
+			MICpart3ContenttextControl.style.opacity = 0;
+			MICpart4ContenttextControl.style.opacity = 0;
 			
 
 		
@@ -646,7 +649,10 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart4TitleControl.style.zIndex = 16;
 			MICBAControl.style.opacity = 1;
 			
+			MICpart1ContenttextControl.style.opacity = 0;
 			MICpart2ContenttextControl.style.opacity = 1;
+			MICpart3ContenttextControl.style.opacity = 0;
+			MICpart4ContenttextControl.style.opacity = 0;
 
 		}; 
 	  
@@ -673,7 +679,10 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart4TitleControl.style.zIndex = 16;
 			MICBAControl.style.opacity = 1;
 	
+			MICpart1ContenttextControl.style.opacity = 0;
+			MICpart2ContenttextControl.style.opacity = 0;
 			MICpart3ContenttextControl.style.opacity = 1;
+			MICpart4ContenttextControl.style.opacity = 0;
 		
 		}; 
 	  
@@ -704,6 +713,9 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICBAControl.style.opacity = 1;
 			
 			
+			MICpart1ContenttextControl.style.opacity = 0;
+			MICpart2ContenttextControl.style.opacity = 0;
+			MICpart3ContenttextControl.style.opacity = 0;
 			MICpart4ContenttextControl.style.opacity = 1;
 
 
