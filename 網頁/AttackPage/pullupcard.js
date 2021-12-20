@@ -104,10 +104,6 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart1ContenttextControl.style.opacity = 1;
 			
 			
-			
-			
-
-
 
 
 		
@@ -242,7 +238,6 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart4Control.classList.add('close');
 			SDCpart4TitleControl.classList.add('close');
 		
-		
 			SDCContentControl.style.zIndex = 15;
 			SDCpart1Control.style.zIndex = 19;
 			SDCpart1TitleControl.style.zIndex = 19;
@@ -277,7 +272,15 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			DisasterControl.classList.remove('open');
 			BbtnControl.classList.remove('open');
 
-			
+			SDCContentControl.classList.remove('open');
+			SDCpart1Control.classList.remove('open');
+			SDCpart1TitleControl.classList.remove('open');
+			SDCpart2Control.classList.remove('open');
+			SDCpart2TitleControl.classList.remove('open');	
+			SDCpart3Control.classList.remove('open');
+			SDCpart3TitleControl.classList.remove('open');
+			SDCpart4Control.classList.remove('open');
+			SDCpart4TitleControl.classList.remove('open');
 		};	
 	
   	} 
