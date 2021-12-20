@@ -324,6 +324,8 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart4Control.classList.remove('open');
 			SDCpart4TitleControl.classList.remove('open');
 			
+			SDCContentControl.style.zIndex = 15;
+			
 			SDCpart1ContenttextControl.style.display = 'flex';
 			SDCpart2ContenttextControl.style.display = 'flex';
 			SDCpart3ContenttextControl.style.display = 'flex';
@@ -631,6 +633,8 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart3TitleControl.classList.remove('open');
 			OACpart4Control.classList.remove('open');
 			OACpart4TitleControl.classList.remove('open');
+			
+			OACContentControl.style.zIndex = 15;
 			
 			OACpart1ContenttextControl.style.display = 'flex';
 			OACpart2ContenttextControl.style.display = 'flex';
@@ -941,6 +945,8 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart3TitleControl.classList.remove('open');
 			MICpart4Control.classList.remove('open');
 			MICpart4TitleControl.classList.remove('open');
+			
+			MICContentControl.style.zIndex = 15;
 			
 			MICpart1ContenttextControl.style.display = 'flex';
 			MICpart2ContenttextControl.style.display = 'flex';
