@@ -973,7 +973,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCIconControl.classList.remove('open');
 			FFCIconControl.classList.add('close');
 
-
 			FFCAmazonContentControl.style.zIndex = 18;
 			FFCAmazonControl.style.zIndex = 19;
 			FFCAmazonContentControl.style.opacity = 0.99;
@@ -991,19 +990,10 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCSBLContentControl.style.opacity = 0;
 			FFCAusContentControl.style.opacity = 0;
 			FFCIconContentControl.style.opacity = 0;
-
 			
 			FFCBAControl.style.opacity = 1;
 
-
-			
-
-
-
-		
 		}; 
-	  
-		
 		
 		document.getElementsByClassName('FFCNAEUJP')[0].onclick =function()
 		{
@@ -1034,8 +1024,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCIconControl.classList.remove('open');
 			FFCIconControl.classList.add('close');
 
-		
-
 			FFCNAEUJPContentControl.style.zIndex = 18;
 			FFCNAEUJPControl.style.zIndex = 19;
 			FFCNAEUJPContentControl.style.opacity = 0.99;
@@ -1055,15 +1043,10 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAusContentControl.style.opacity = 0;
 			FFCIconContentControl.style.opacity = 0;
 
-
-			
 			FFCBAControl.style.opacity = 1;
 
-
-		
 		}; 
 	  
-		
 		document.getElementsByClassName('FFCSBL')[0].onclick =function()
 		{
 		
@@ -1114,11 +1097,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCIconContentControl.style.opacity = 0;
 			
 			FFCBAControl.style.opacity = 1;
-
 		
 		}; 
-	  
-		
 		
 		document.getElementsByClassName('FFCAus')[0].onclick =function()
 		{
@@ -1147,7 +1127,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCIconControl.classList.add('close');
 			FFCIconControl.classList.remove('open');
 			FFCIconControl.classList.add('close');
-			
 
 			FFCAusContentControl.style.zIndex = 18;
 			FFCAusControl.style.zIndex = 19;
@@ -1170,11 +1149,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			
 			FFCBAControl.style.opacity = 1;
 
-		
 		}; 
 	  
-		
-		
 		document.getElementsByClassName('FFCIcon')[0].onclick =function()
 		{
 		
@@ -1202,9 +1178,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAusControl.classList.remove('open');
 			FFCAusControl.classList.add('close');
 
-
-
-
 			FFCIconContentControl.style.zIndex = 18;
 			FFCIconControl.style.zIndex = 19;
 			FFCIconContentControl.style.opacity = 0.99;
@@ -1226,7 +1199,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			
 			FFCBAControl.style.opacity = 1;
 
-		
 		}; 
 		
 		document.getElementsByClassName('FFCBA')[0].onclick =function()
@@ -1236,7 +1208,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAmazonContenttextControl.classList.remove('open');
 			/*FFCAmazonTitleControl.classList.remove('open');*/
 
-		
 			FFCAmazonContentControl.classList.add('close');
 			FFCAmazonControl.classList.add('close');
 			FFCAmazonContenttextControl.classList.add('close');
@@ -1264,7 +1235,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAusContentControl.classList.add('close');
 			FFCAusControl.classList.add('close');
 			FFCAusContenttextControl.classList.add('close');
-
 			
 			FFCIconContentControl.classList.remove('open');
 			FFCIconControl.classList.remove('open');
@@ -1273,8 +1243,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCIconContentControl.classList.add('close');
 			FFCIconControl.classList.add('close');
 			FFCIconContenttextControl.classList.add('close');
-			
-			
 
 			FFCIconContentControl.style.zIndex = 15;
 
@@ -1291,12 +1259,9 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCSBLContentControl.style.zIndex = 17;
 			FFCAusContentControl.style.zIndex = 17;
 			FFCIconContentControl.style.zIndex = 17;
-
-
 		
 		}; 
 
-	  
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
 			document.getElementsByClassName('FireForest')[0].value = 'close';
@@ -1340,7 +1305,6 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 	
 	var HWCBAControl = document.getElementsByClassName('HWCBA')[0];
 	
-	
   	if(this.value === 'close') 
   	{ 
     	this.value = 'open';
@@ -1355,7 +1319,6 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		HWCBGControl.classList.add('open');
   		BbtnControl.classList.add('open');
 
-	  
 		document.getElementsByClassName('HWCpart1')[0].onclick =function()
 		{
 			
@@ -1382,11 +1345,9 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCpart4ContentControl.style.zIndex = 17;
 			HWCALLContentControl.style.zIndex = 17;
 			
-			
 			HWCpart2ContentControl.style.opacity = 0;
 			HWCpart3ContentControl.style.opacity = 0;
 			HWCpart4ContentControl.style.opacity = 0;
-			
 			
 			HWCBAControl.style.opacity = 1;
 			
@@ -1404,12 +1365,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCpart4Control.classList.add('close');
 			HWCALLContentControl.classList.remove('open');
 			
-
-
-		
 		}; 
-	  
-		
 		
 		document.getElementsByClassName('HWCpart2')[0].onclick =function()
 		{
@@ -1442,7 +1398,6 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			
 			HWCBAControl.style.opacity = 1;
 
-			
 			HWCpart1ContentControl.classList.remove('open');
 			HWCpart1Control.classList.add('close');
 			HWCpart1Control.classList.remove('open');
@@ -1457,11 +1412,8 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCpart4Control.classList.add('close');
 			HWCALLContentControl.classList.remove('open');
 
-
-		
 		}; 
 	  
-		
 		document.getElementsByClassName('HWCpart3')[0].onclick =function()
 		{
 			HWCALLContentControl.classList.add('close');
@@ -1492,7 +1444,6 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCpart4ContentControl.style.opacity = 0;
 			
 			HWCBAControl.style.opacity = 1;
-
 			
 			HWCpart2ContentControl.classList.remove('open');
 			HWCpart2Control.classList.add('close');
@@ -1507,11 +1458,8 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCpart4Control.classList.remove('open');
 			HWCpart4Control.classList.add('close');
 			HWCALLContentControl.classList.remove('open');
-
 		
 		}; 
-	  
-		
 		
 		document.getElementsByClassName('HWCpart4')[0].onclick =function()
 		{
@@ -1544,7 +1492,6 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			
 			HWCBAControl.style.opacity = 1;
 
-			
 			HWCpart2ContentControl.classList.remove('open');
 			HWCpart2ContentControl.classList.add('close');
 			HWCpart2Control.classList.remove('open');
@@ -1559,7 +1506,6 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCpart1Control.classList.add('close');
 			HWCALLContentControl.classList.remove('open');
 
-		
 		}; 
 	  
 		document.getElementsByClassName('HWCBA')[0].onclick =function()
@@ -1611,16 +1557,9 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCpart3ContentControl.style.zIndex = 17;
 			HWCpart4ContentControl.style.zIndex = 17;
 			
-
-			
 			HWCBAControl.style.opacity = 0;
 
-
-
-		
 		}; 
-
-
 	  
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
@@ -1674,8 +1613,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 	
 	var ECCBAControl = document.getElementsByClassName('ECCBA')[0];
 	
-	
-	
+
   	if(this.value === 'close') 
   	{ 
     	this.value = 'open';
@@ -1690,7 +1628,6 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 		ECCBGControl.classList.add('open');
   		BbtnControl.classList.add('open');
 
-	  
 		document.getElementsByClassName('ECCpart1')[0].onclick =function()
 		{
 			
@@ -1725,10 +1662,8 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCpart5ContentControl.style.opacity = 0;
 			ECCIconContentControl.style.opacity = 0;
 			
-			
 			ECCBAControl.style.opacity = 1;
 
-			
 			ECCpart2ContentControl.classList.remove('open');
 			ECCpart2ContentControl.classList.add('close');
 			ECCpart2Control.classList.remove('open');
@@ -1750,11 +1685,8 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCIconControl.classList.remove('open');
 			ECCIconControl.classList.add('close');
 
-		
 		}; 
 	  
-		
-		
 		document.getElementsByClassName('ECCpart2')[0].onclick =function()
 		{
 			ECCALLContentControl.classList.add('close');		
@@ -1790,8 +1722,6 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			
 			ECCBAControl.style.opacity = 1;
 
-
-			
 			ECCpart1ContentControl.classList.remove('open');
 			ECCpart1ContentControl.classList.add('close');
 			ECCpart1Control.classList.remove('open');
@@ -1812,12 +1742,9 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCIconContentControl.classList.remove('open');
 			ECCIconControl.classList.remove('open');
 			ECCIconControl.classList.add('close');
-
-
 		
 		}; 
 	  
-		
 		document.getElementsByClassName('ECCpart3')[0].onclick =function()
 		{
 			ECCALLContentControl.classList.add('close');
@@ -1873,11 +1800,8 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCIconContentControl.classList.remove('open');
 			ECCIconControl.classList.remove('open');
 			ECCIconControl.classList.add('close');
-
 		
 		}; 
-	  
-		
 		
 		document.getElementsByClassName('ECCpart4')[0].onclick =function()
 		{
@@ -1935,10 +1859,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCIconControl.classList.remove('open');
 			ECCIconControl.classList.add('close');
 
-		
-		}; 
-	  
-		
+		};
 		
 		document.getElementsByClassName('ECCpart5')[0].onclick =function()
 		{
@@ -1997,16 +1918,8 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCIconControl.classList.remove('open');
 			ECCIconControl.classList.add('close');
 			
+		}; 	
 
-
-		
-		}; 
-	  
-		
-			
-
-
-		
 	} 
 		
 		document.getElementsByClassName('ECCIcon')[0].onclick =function()
@@ -2066,9 +1979,6 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCpart5ContentControl.classList.add('close');
 			ECCpart5Control.classList.remove('open');
 			ECCpart5Control.classList.add('close');
-			
-
-
 		
 		}; 
 	  
@@ -2131,13 +2041,9 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCpart5Control.style.zIndex = 19;
 			ECCIconControl.style.zIndex = 19;
 			ECCBAControl.style.opacity = 0;
-
-
 		
 		}; 
 
-
-	  
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
 			document.getElementsByClassName('ExtremeClimate')[0].value = 'close';
@@ -2153,8 +2059,6 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			
 		};	
 	
-  	 
-  
 };
 document.getElementsByClassName('Disease')[0].onclick = function() {
 	
