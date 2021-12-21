@@ -4248,6 +4248,7 @@
 	padding-bottom: 172.5%;
 
 }
+
 .EconomicShockContent.open{
 	-webkit-transition: 2s;
     -moz-transition: 2s;
@@ -4278,6 +4279,7 @@
 	opacity: 1;
 
 }
+
 .ESCBG.open{
 	-webkit-transition: 2s;
     -moz-transition: 2s;
@@ -4287,6 +4289,7 @@
 	opacity: 0.9;
 	margin-left: 0%;
 }
+
 .ESCMain{
 	position: absolute;
 	z-index: 17;
@@ -4302,6 +4305,7 @@
 	font-weight: normal;
 
 }
+
 .ESCSub{
 	position: absolute;
 	z-index: 17;
@@ -4311,6 +4315,7 @@
 	font-size: 2.2rem;
 	font-weight: normal;
 }
+
 .ESCpart1{
 	overflow: visible;
 	position: absolute;
@@ -4329,10 +4334,10 @@
 	justify-content: center;
 	-webkit-background-size: contain;
 }
+
 .ESCpart1:hover{
 	-webkit-filter:brightness(1.2);
 	background-image: url("../../Animation/WorldDamage/氣溫GDP.gif");
-	
 
 }
 
@@ -4391,49 +4396,6 @@
 	margin-top: 17.5%;
 	background-color: #1E3239;
 }
-.ESCpart1Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	opacity: 0;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-}
-.ESCpart1Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-	
-}
-
-.ESCpart1Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 2.1;
-}
-.ESCpart1Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
 
 .ESCpart2{
 	position: absolute;
@@ -4456,8 +4418,8 @@
 	-webkit-filter:brightness(1.2);
 	background-image: url("../../Animation/WorldDamage/男人心臟1.gif");
 	
-
 }
+
 .ESCpart2.open{
 	-webkit-transition: 1s;
     -moz-transition: 1s;
@@ -4470,6 +4432,7 @@
 	background-image: url("../../Animation/WorldDamage/男人心臟1.gif");
 
 }
+
 .ESCpart2.open:hover{
 	-webkit-filter:brightness(1);
 
@@ -4497,6 +4460,7 @@
 	align-items: center;
 	justify-content: center;
 }
+
 .ESCpart2Title.open{
     transition: 1s;
 	width: 100%;
@@ -4512,6 +4476,7 @@
 	margin-top: 17.5%;
 	background-color: #1E3239;
 }
+
 .ESCpart2Content{
 	position: absolute;
 	z-index: -1;
@@ -4526,6 +4491,7 @@
 	justify-content: flex-end;
 	opacity: 0;
 }
+
 .ESCpart2Content.open{
 	position: absolute;
 	margin-top: 0%;
@@ -4536,24 +4502,6 @@
 	opacity: 0.95;
 	display: flex;
 	color: #ffffff;
-}
-
-.ESCpart2Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 2;
-	
-}
-.ESCpart2Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
 }
 
 .ESCpart3{
@@ -4573,6 +4521,7 @@
 	justify-content: center;
 	-webkit-background-size: contain;
 }
+
 .ESCpart3:hover{
 	-webkit-filter:brightness(1.2);
 	background-image: url("../../Animation/WorldDamage/熱壓力症穀物價格.gif");
@@ -4587,7 +4536,6 @@
 	margin-top: 16%;
 	opacity: 1;
 	background-image: url("../../Animation/WorldDamage/熱壓力症穀物價格.gif");
-
 
 }
 .ESCpart3.open:hover{
@@ -4633,50 +4581,6 @@
 	margin-top: 41.5%;
 	background-color: #1E3239;
 }
-.ESCpart3Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	opacity: 0;
-}
-.ESCpart3Content.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-	
-}
-
-.ESCpart3Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 2;
-}
-.ESCpart3Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
-
 
 .ESCpart4{
 	position: absolute;
@@ -4696,9 +4600,9 @@
 	-webkit-background-size: contain;
 }
 .ESCpart4:hover{
+	
 	-webkit-filter:brightness(1.2);
 	background-image: url("../../Animation/WorldDamage/泰國美國.gif");
-
 
 }
 
@@ -4756,7 +4660,8 @@
 	margin-top: 41.5%;
 	background-color: #1E3239;
 }
-.ESCpart4Content{
+
+.ESCContent{
 	position: absolute;
 	z-index: -1;
 	margin-top: 0%;
@@ -4765,12 +4670,12 @@
 	background-color: transparent;
 	color: transparent;
 	font-size: 2.2rem;
+	opacity: 0;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	opacity: 0;
 }
-.ESCpart4Content.open{
+.ESCContent.open{
 	position: absolute;
 	margin-top: 0%;
 	margin-left: 0%;
@@ -4781,6 +4686,57 @@
 	display: flex;
 	color: #ffffff;
 	
+}
+
+.ESCpart1Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2.1;
+}
+.ESCpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.ESCpart2Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+	
+}
+.ESCpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.ESCpart3Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+}
+.ESCpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
 }
 
 .ESCpart4Contenttext{
@@ -4799,10 +4755,7 @@
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
-.ESCpart4Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
+
 .Steam{
 	position: absolute;
 	z-index: 6;

@@ -2728,35 +2728,28 @@ document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 };
 document.getElementsByClassName('EconomicShock')[0].onclick = function() {
 	
+	var ESCContentControl = document.getElementsByClassName('ESCContent')[0];
+	var ESCBAControl = document.getElementsByClassName('ESCBA')[0];
+	
 	var ESCpart1Control = document.getElementsByClassName('ESCpart1')[0];
 	var ESCpart1TitleControl = document.getElementsByClassName('ESCpart1Title')[0];
-  	var ESCpart1ContenttextControl = document.getElementsByClassName('ESCpart1Contenttext')[0];
-	var ESCpart1ContentControl = document.getElementsByClassName('ESCpart1Content')[0];
-	
+	var ESCpart1ContenttextControl = document.getElementsByClassName('ESCpart1Contenttext')[0];
+
 	var ESCpart2Control = document.getElementsByClassName('ESCpart2')[0];
 	var ESCpart2TitleControl = document.getElementsByClassName('ESCpart2Title')[0];
   	var ESCpart2ContenttextControl = document.getElementsByClassName('ESCpart2Contenttext')[0];
-	var ESCpart2ContentControl = document.getElementsByClassName('ESCpart2Content')[0];
 	
 	var ESCpart3Control = document.getElementsByClassName('ESCpart3')[0];
 	var ESCpart3TitleControl = document.getElementsByClassName('ESCpart3Title')[0];
   	var ESCpart3ContenttextControl = document.getElementsByClassName('ESCpart3Contenttext')[0];
-	var ESCpart3ContentControl = document.getElementsByClassName('ESCpart3Content')[0];
 	
 	var ESCpart4Control = document.getElementsByClassName('ESCpart4')[0];
 	var ESCpart4TitleControl = document.getElementsByClassName('ESCpart4Title')[0];
   	var ESCpart4ContenttextControl = document.getElementsByClassName('ESCpart4Contenttext')[0];
-	var ESCpart4ContentControl = document.getElementsByClassName('ESCpart4Content')[0];
-	
-	var ESC1BAControl = document.getElementsByClassName('ESC1BA')[0];
-	var ESC2BAControl = document.getElementsByClassName('ESC2BA')[0];
-	var ESC3BAControl = document.getElementsByClassName('ESC3BA')[0];
-	var ESC4BAControl = document.getElementsByClassName('ESC4BA')[0];
-	
-	
+
   	if(this.value === 'close') 
   	{ 
-		this.value = 'open';
+    	this.value = 'open';
 		textcardESC.classList.remove('close'); 
     	textcardESC.classList.add('open');
 		MainMenuControl.classList.add('close');
@@ -2766,231 +2759,215 @@ document.getElementsByClassName('EconomicShock')[0].onclick = function() {
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
 		ESCBGControl.classList.add('open');
-  		BbtnControl.classList.add('open');
-
-	  
+		BbtnControl.classList.add('open');
+		
+		ESCpart1ContenttextControl.style.opacity = 0;
+		ESCpart2ContenttextControl.style.opacity = 0;
+		ESCpart3ContenttextControl.style.opacity = 0;
+		ESCpart4ContenttextControl.style.opacity = 0;
+  
 		document.getElementsByClassName('ESCpart1')[0].onclick =function()
 		{
-		
-			ESCpart1ContentControl.classList.add('open');
+							
+			ESCContentControl.classList.add('open');
 			ESCpart1Control.classList.add('open');
 			ESCpart1TitleControl.classList.add('open');
 			ESCpart1ContenttextControl.classList.add('open');
-		
-			ESCpart1ContentControl.classList.remove('close');
+
+			ESCContentControl.classList.remove('close');
 			ESCpart1Control.classList.remove('close');
 			ESCpart1TitleControl.classList.remove('close');
-			ESCpart1ContenttextControl.classList.remove('close');
 
-			ESCpart1ContentControl.style.zIndex = 18;
+			ESCContentControl.style.zIndex = 18;
 			ESCpart1Control.style.zIndex = 19;
-			ESCpart1ContentControl.style.opacity = 0.99;
-			ESCpart1ContenttextControl.style.opacity = 1;
+			ESCpart1TitleControl.style.zIndex = 19;
+			ESCpart1ContenttextControl.style.zIndex = 19;
+			ESCContentControl.style.opacity = 0.99;
 			ESCpart2Control.style.zIndex = 16;
 			ESCpart2TitleControl.style.zIndex = 16;
+			ESCpart2ContenttextControl.style.zIndex = 16;
 			ESCpart3Control.style.zIndex = 16;
 			ESCpart3TitleControl.style.zIndex = 16;
+			ESCpart3ContenttextControl.style.zIndex = 16;
 			ESCpart4Control.style.zIndex = 16;
 			ESCpart4TitleControl.style.zIndex = 16;
-			ESC1BAControl.style.opacity = 1;
+			ESCpart4ContenttextControl.style.zIndex = 16;
+			ESCBAControl.style.opacity = 1;
 
-
-
-		
+			ESCpart1ContenttextControl.style.opacity = 1;
+			
+			ESCpart1ContenttextControl.style.display = 'flex';
+			ESCpart2ContenttextControl.style.display = 'none';
+			ESCpart3ContenttextControl.style.display = 'none';
+			ESCpart4ContenttextControl.style.display = 'none';
+	
 		}; 
 	  
-		document.getElementsByClassName('ESC1BA')[0].onclick =function()
-		{
-			ESCpart1ContentControl.classList.remove('open');
-			ESCpart1Control.classList.remove('open');
-			ESCpart1TitleControl.classList.remove('open');
-			ESCpart1ContenttextControl.classList.remove('open');
-		
-			ESCpart1ContentControl.classList.add('close');
-			ESCpart1Control.classList.add('close');
-			ESCpart1TitleControl.classList.add('close');
-			ESCpart1ContenttextControl.classList.add('close');
-
-			ESCpart1ContentControl.style.zIndex = 15;
-			ESCpart1Control.style.zIndex = 19;		
-			ESCpart2Control.style.zIndex = 19;
-			ESCpart2TitleControl.style.zIndex = 19;
-			ESCpart3Control.style.zIndex = 19;
-			ESCpart3TitleControl.style.zIndex = 19;
-			ESCpart4Control.style.zIndex = 19;
-			ESCpart4TitleControl.style.zIndex = 19;
-			ESC1BAControl.style.opacity = 0;
-
-
-		
-		}; 
-		
 		document.getElementsByClassName('ESCpart2')[0].onclick =function()
 		{
 		
-			ESCpart2ContentControl.classList.add('open');
+			ESCContentControl.classList.add('open');
 			ESCpart2Control.classList.add('open');
 			ESCpart2TitleControl.classList.add('open');
 			ESCpart2ContenttextControl.classList.add('open');
 		
-			ESCpart2ContentControl.classList.remove('close');
+			ESCContentControl.classList.remove('close');
 			ESCpart2Control.classList.remove('close');
 			ESCpart2TitleControl.classList.remove('close');
-			ESCpart2ContenttextControl.classList.remove('close');
-
-			ESCpart2ContentControl.style.zIndex = 18;
-			ESCpart2Control.style.zIndex = 19;
-			ESCpart2ContentControl.style.opacity = 0.99;
-			ESCpart2ContenttextControl.style.opacity = 1;
+			
+			ESCContentControl.style.zIndex = 18;
 			ESCpart1Control.style.zIndex = 16;
 			ESCpart1TitleControl.style.zIndex = 16;
+			ESCpart1ContenttextControl.style.zIndex = 16;
+			ESCContentControl.style.opacity = 0.99;
+			ESCpart2Control.style.zIndex = 19;
+			ESCpart2TitleControl.style.zIndex = 19;
+			ESCpart2ContenttextControl.style.zIndex = 19;
 			ESCpart3Control.style.zIndex = 16;
 			ESCpart3TitleControl.style.zIndex = 16;
+			ESCpart3ContenttextControl.style.zIndex = 16;
 			ESCpart4Control.style.zIndex = 16;
 			ESCpart4TitleControl.style.zIndex = 16;
-			ESC2BAControl.style.opacity = 1;
+			ESCpart4ContenttextControl.style.zIndex = 16;
+			ESCBAControl.style.opacity = 1;
+			
+			ESCpart2ContenttextControl.style.opacity = 1;
+			
+			ESCpart1ContenttextControl.style.display = 'none';
+			ESCpart2ContenttextControl.style.display = 'flex';
+			ESCpart3ContenttextControl.style.display = 'none';
+			ESCpart4ContenttextControl.style.display = 'none';
 
-
-		
 		}; 
 	  
-		document.getElementsByClassName('ESC2BA')[0].onclick =function()
-		{
-			ESCpart2ContentControl.classList.remove('open');
-			ESCpart2Control.classList.remove('open');
-			ESCpart2TitleControl.classList.remove('open');
-			ESCpart2ContenttextControl.classList.remove('open');
-		
-			ESCpart2ContentControl.classList.add('close');
-			ESCpart2Control.classList.add('close');
-			ESCpart2TitleControl.classList.add('close');
-			ESCpart2ContenttextControl.classList.add('close');
-
-			ESCpart2ContentControl.style.zIndex = 15;
-			ESCpart2Control.style.zIndex = 19;		
-			ESCpart2ContenttextControl.style.opacity = 0;
-			ESCpart1Control.style.zIndex = 19;
-			ESCpart1TitleControl.style.zIndex = 19;
-			ESCpart3Control.style.zIndex = 19;
-			ESCpart3TitleControl.style.zIndex = 19;
-			ESCpart4Control.style.zIndex = 19;
-			ESCpart4TitleControl.style.zIndex = 19;
-			ESC2BAControl.style.opacity = 0;
-
-		
-		}; 
 		document.getElementsByClassName('ESCpart3')[0].onclick =function()
 		{
 		
-			ESCpart3ContentControl.classList.add('open');
+			ESCContentControl.classList.add('open');
 			ESCpart3Control.classList.add('open');
 			ESCpart3TitleControl.classList.add('open');
 			ESCpart3ContenttextControl.classList.add('open');
 		
-			ESCpart3ContentControl.classList.remove('close');
+			ESCContentControl.classList.remove('close');
 			ESCpart3Control.classList.remove('close');
 			ESCpart3TitleControl.classList.remove('close');
-			ESCpart3ContenttextControl.classList.remove('close');
 
-			ESCpart3ContentControl.style.zIndex = 18;
-			ESCpart3Control.style.zIndex = 19;
-			ESCpart3ContentControl.style.opacity = 0.99;
-			ESCpart3ContenttextControl.style.opacity = 1;
+			ESCContentControl.style.zIndex = 18;
 			ESCpart1Control.style.zIndex = 16;
 			ESCpart1TitleControl.style.zIndex = 16;
+			ESCpart1ContenttextControl.style.zIndex = 16;
+			ESCContentControl.style.opacity = 0.99;
 			ESCpart2Control.style.zIndex = 16;
 			ESCpart2TitleControl.style.zIndex = 16;
+			ESCpart2ContenttextControl.style.zIndex = 16;
+			ESCpart3Control.style.zIndex = 19;
+			ESCpart3TitleControl.style.zIndex = 19;
+			ESCpart3ContenttextControl.style.zIndex = 19;
 			ESCpart4Control.style.zIndex = 16;
 			ESCpart4TitleControl.style.zIndex = 16;
-			ESC3BAControl.style.opacity = 1;
-
+			ESCpart4ContenttextControl.style.zIndex = 16;
+			ESCBAControl.style.opacity = 1;
+	
+			ESCpart3ContenttextControl.style.opacity = 1;
+			
+			ESCpart1ContenttextControl.style.display = 'none';
+			ESCpart2ContenttextControl.style.display = 'none';
+			ESCpart3ContenttextControl.style.display = 'flex';
+			ESCpart4ContenttextControl.style.display = 'none';	
 		
 		}; 
 	  
-		document.getElementsByClassName('ESC3BA')[0].onclick =function()
-		{
-			ESCpart3ContentControl.classList.remove('open');
-			ESCpart3Control.classList.remove('open');
-			ESCpart3TitleControl.classList.remove('open');
-			ESCpart3ContenttextControl.classList.remove('open');
-		
-			ESCpart3ContentControl.classList.add('close');
-			ESCpart3Control.classList.add('close');
-			ESCpart3TitleControl.classList.add('close');
-			ESCpart3ContenttextControl.classList.add('close');
-
-			ESCpart3ContentControl.style.zIndex = 15;
-			ESCpart3Control.style.zIndex = 19;		
-			ESCpart3ContenttextControl.style.opacity = 0;
-			ESCpart1Control.style.zIndex = 19;
-			ESCpart1TitleControl.style.zIndex = 19;
-			ESCpart2Control.style.zIndex = 19;
-			ESCpart2TitleControl.style.zIndex = 19;
-			ESCpart4Control.style.zIndex = 19;
-			ESCpart4TitleControl.style.zIndex = 19;
-			ESC3BAControl.style.opacity = 0;
-
-
-		
-		}; 
-		
 		document.getElementsByClassName('ESCpart4')[0].onclick =function()
 		{
 		
-			ESCpart4ContentControl.classList.add('open');
+			ESCContentControl.classList.add('open');
 			ESCpart4Control.classList.add('open');
 			ESCpart4TitleControl.classList.add('open');
 			ESCpart4ContenttextControl.classList.add('open');
 		
-			ESCpart4ContentControl.classList.remove('close');
+			ESCContentControl.classList.remove('close');
 			ESCpart4Control.classList.remove('close');
 			ESCpart4TitleControl.classList.remove('close');
-			ESCpart4ContenttextControl.classList.remove('close');
-
-			ESCpart4ContentControl.style.zIndex = 18;
-			ESCpart4Control.style.zIndex = 19;
-			ESCpart4ContentControl.style.opacity = 0.99;
-			ESCpart4ContenttextControl.style.opacity = 1;
+			
+			ESCContentControl.style.zIndex = 18;
 			ESCpart1Control.style.zIndex = 16;
 			ESCpart1TitleControl.style.zIndex = 16;
+			ESCpart1ContenttextControl.style.zIndex = 16;
+			ESCContentControl.style.opacity = 0.99;
 			ESCpart2Control.style.zIndex = 16;
 			ESCpart2TitleControl.style.zIndex = 16;
+			ESCpart2ContenttextControl.style.zIndex = 16;
 			ESCpart3Control.style.zIndex = 16;
 			ESCpart3TitleControl.style.zIndex = 16;
-			ESC4BAControl.style.opacity = 1;
-
-		
+			ESCpart3ContenttextControl.style.zIndex = 16;
+			ESCpart4Control.style.zIndex = 19;
+			ESCpart4TitleControl.style.zIndex = 19;
+			ESCpart4ContenttextControl.style.zIndex = 19;
+			ESCBAControl.style.opacity = 1;
+			
+			ESCpart4ContenttextControl.style.opacity = 1;
+			
+			ESCpart1ContenttextControl.style.display = 'none';
+			ESCpart2ContenttextControl.style.display = 'none';
+			ESCpart3ContenttextControl.style.display = 'none';
+			ESCpart4ContenttextControl.style.display = 'flex';
+			
 		}; 
-	  
-		document.getElementsByClassName('ESC4BA')[0].onclick =function()
+		
+		document.getElementsByClassName('ESCBA')[0].onclick =function()
 		{
-			ESCpart4ContentControl.classList.remove('open');
+			ESCContentControl.classList.remove('open');
+			
+			ESCpart1Control.classList.remove('open');
+			ESCpart1TitleControl.classList.remove('open');
+			ESCpart1ContenttextControl.classList.remove('open');
+			ESCpart2Control.classList.remove('open');
+			ESCpart2TitleControl.classList.remove('open');
+			ESCpart2ContenttextControl.classList.remove('open');
+			ESCpart3Control.classList.remove('open');
+			ESCpart3TitleControl.classList.remove('open');
+			ESCpart3ContenttextControl.classList.remove('open');
 			ESCpart4Control.classList.remove('open');
 			ESCpart4TitleControl.classList.remove('open');
 			ESCpart4ContenttextControl.classList.remove('open');
+			
+			ESCContentControl.classList.add('close');
+			
+			ESCpart1Control.classList.add('close');
+			ESCpart1TitleControl.classList.add('close');
+			
+			ESCpart2Control.classList.add('close');
+			ESCpart2TitleControl.classList.add('close');
+			
+			ESCpart3Control.classList.add('close');
+			ESCpart3TitleControl.classList.add('close');
 		
-			ESCpart4ContentControl.classList.add('close');
 			ESCpart4Control.classList.add('close');
 			ESCpart4TitleControl.classList.add('close');
-			ESCpart4ContenttextControl.classList.add('close');
-
-			ESCpart4ContentControl.style.zIndex = 15;
-			ESCpart4Control.style.zIndex = 19;		
-			ESCpart4ContenttextControl.style.opacity = 0;
+		
+			ESCContentControl.style.zIndex = 15;
 			ESCpart1Control.style.zIndex = 19;
 			ESCpart1TitleControl.style.zIndex = 19;
 			ESCpart2Control.style.zIndex = 19;
 			ESCpart2TitleControl.style.zIndex = 19;
 			ESCpart3Control.style.zIndex = 19;
 			ESCpart3TitleControl.style.zIndex = 19;
-			ESC4BAControl.style.opacity = 0;
-
-
-		
+			ESCpart4Control.style.zIndex = 19;
+			ESCpart4TitleControl.style.zIndex = 19;
+			ESCBAControl.style.opacity = 0;
+			
+			ESCpart1ContenttextControl.style.opacity = 0;
+			ESCpart2ContenttextControl.style.opacity = 0;
+			ESCpart3ContenttextControl.style.opacity = 0;
+			ESCpart4ContenttextControl.style.opacity = 0;
+			
+			ESCpart1ContenttextControl.style.display = 'flex';
+			ESCpart2ContenttextControl.style.display = 'flex';
+			ESCpart3ContenttextControl.style.display = 'flex';
+			ESCpart4ContenttextControl.style.display = 'flex';
+			
 		}; 
 
-
-	  
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
 			document.getElementsByClassName('EconomicShock')[0].value = 'close';
@@ -3003,9 +2980,34 @@ document.getElementsByClassName('EconomicShock')[0].onclick = function() {
 			DisasterControl.classList.add('close');
 			DisasterControl.classList.remove('open');
 			BbtnControl.classList.remove('open');
+
+			ESCContentControl.classList.remove('open');
+			ESCpart1Control.classList.remove('open');
+			ESCpart1TitleControl.classList.remove('open');
+			ESCpart2Control.classList.remove('open');
+			ESCpart2TitleControl.classList.remove('open');	
+			ESCpart3Control.classList.remove('open');
+			ESCpart3TitleControl.classList.remove('open');
+			ESCpart4Control.classList.remove('open');
+			ESCpart4TitleControl.classList.remove('open');
 			
-		};
+			ESCContentControl.style.zIndex = 15;
+			ESCpart1Control.style.zIndex = 19;
+			ESCpart1TitleControl.style.zIndex = 19;
+			ESCpart2Control.style.zIndex = 19;
+			ESCpart2TitleControl.style.zIndex = 19;
+			ESCpart3Control.style.zIndex = 19;
+			ESCpart3TitleControl.style.zIndex = 19;
+			ESCpart4Control.style.zIndex = 19;
+			ESCpart4TitleControl.style.zIndex = 19;
+			ESCBAControl.style.opacity = 0;
+			
+			ESCpart1ContenttextControl.style.display = 'flex';
+			ESCpart2ContenttextControl.style.display = 'flex';
+			ESCpart3ContenttextControl.style.display = 'flex';
+			ESCpart4ContenttextControl.style.display = 'flex';
+		};	
 	
-  	} 
+  	}
   
 }; 
