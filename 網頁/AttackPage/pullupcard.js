@@ -904,7 +904,6 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 document.getElementsByClassName('FireForest')[0].onclick = function() {
 	
 	var FFCAmazonControl = document.getElementsByClassName('FFCAmazon')[0];
-	/*var FFCAmazonTitleControl = document.getElementsByClassName('FFCAmazonTitle')[0];*/
   	var FFCAmazonContenttextControl = document.getElementsByClassName('FFCAmazonContenttext')[0];
 
 	var FFCNAEUJPControl = document.getElementsByClassName('FFCNAEUJP')[0];
