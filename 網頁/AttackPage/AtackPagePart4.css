@@ -1936,13 +1936,11 @@
 	display: none;
 	line-height: 2;
 	opacity: 0;
-
 	 
 }
 .FFCAmazonContenttext.open{
 	display: flex;
 	align-items: center;
-	justify-content: flex-start;
 	font-size: 2.2rem;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
