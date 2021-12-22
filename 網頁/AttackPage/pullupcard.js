@@ -940,6 +940,9 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 		DisasterControl.classList.remove('close');
 		FFCBGControl.classList.add('open');
   		BbtnControl.classList.add('open');
+		
+		FFCAmazonContenttextControl.style.display = 'none';
+			
 
 	  
 		document.getElementsByClassName('FFCAmazon')[0].onclick =function()
@@ -983,6 +986,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAusContentControl.style.zIndex = 17;
 			FFCIconContentControl.style.zIndex = 17;
 			
+			FFCAmazonContenttextControl.style.display = 'flex';
 			FFCNAEUJPContentControl.style.opacity = 0;
 			FFCSBLContentControl.style.opacity = 0;
 			FFCAusContentControl.style.opacity = 0;
