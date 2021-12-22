@@ -950,7 +950,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 		
 			
 			FFCAmazonControl.classList.remove('close');
-			FFCAmazonContenttextControl.classList.remove('close');
+		
 			/*FFCAmazonTitleControl.classList.add('open');*/
 			
 			FFCNAEUJPContentControl.classList.remove('open');
@@ -982,7 +982,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAusContentControl.style.zIndex = 17;
 			FFCIconContentControl.style.zIndex = 17;
 			
-			FFCAmazonContenttextControl.style.display = 'flex';
+			
 			FFCNAEUJPContentControl.style.opacity = 0;
 			FFCSBLContentControl.style.opacity = 0;
 			FFCAusContentControl.style.opacity = 0;
@@ -1208,7 +1208,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 
 			
 			FFCAmazonControl.classList.add('close');
-			FFCAmazonContenttextControl.classList.add('close');
+			
 			
 			FFCNAEUJPContentControl.classList.remove('open');
 			FFCNAEUJPControl.classList.remove('open');
