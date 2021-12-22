@@ -1918,7 +1918,7 @@
 }
 .FFCAmazonContenttext.open{
 	display: flex;
-	transition: 3s;
+	transition: 1s opacity 3s;
 	opacity: 1;
 }
 
