@@ -1899,32 +1899,10 @@
 	opacity: 1;
 }
 
-.FFCAmazonContent{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	opacity: 0;
-}
-.FFCAmazonContent.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	
-	padding-bottom: 56%;
-	background-color: transparent;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-
-}
-
 .FFCAmazonContenttext{
 	position: absolute;
+	margin-top: 0%;
+	margin-left: 0%;
 	margin-left: 12.5%;
 	width: 41.67%;
 	height: 100%;
@@ -1938,7 +1916,6 @@
 }
 .FFCAmazonContenttext.open{
 	display: flex;
-	
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
