@@ -975,7 +975,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			
 			FFCAmazonControl.style.zIndex = 19;
 			
-			FFCAmazonContenttextControl.style.opacity = 1;
 			FFCNAEUJPControl.style.zIndex = 16;
 			FFCSBLControl.style.zIndex = 16;
 			FFCAusControl.style.zIndex = 16;
