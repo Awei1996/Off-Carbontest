@@ -1922,11 +1922,6 @@
 	opacity: 1;
 }
 
-.FFCAmazonContenttext.close{
-	display: none;
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
 
 .FFCNAEUJP{
 	position: absolute;
