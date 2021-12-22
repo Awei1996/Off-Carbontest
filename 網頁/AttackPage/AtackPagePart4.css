@@ -1901,15 +1901,17 @@
 
 .FFCAmazonContenttext{
 	position: absolute;
+	z-index: 18;
 	margin-top: 0%;
 	margin-left: 0%;
-	margin-left: 12.5%;
+	margin-left: 7.5%;
 	width: 41.67%;
 	height: 100%;
 	background-color: transparent;
 	font-size: 2.2rem;
 	display: none;
 	align-items: center;
+	color: #ffffff;
 	line-height: 2;
 	opacity: 0;
 	 
