@@ -906,8 +906,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 	var FFCAmazonControl = document.getElementsByClassName('FFCAmazon')[0];
 	/*var FFCAmazonTitleControl = document.getElementsByClassName('FFCAmazonTitle')[0];*/
   	var FFCAmazonContenttextControl = document.getElementsByClassName('FFCAmazonContenttext')[0];
-	var FFCAmazonContentControl = document.getElementsByClassName('FFCAmazonContent')[0];
-	
+
 	var FFCNAEUJPControl = document.getElementsByClassName('FFCNAEUJP')[0];
   	var FFCNAEUJPContenttextControl = document.getElementsByClassName('FFCNAEUJPContenttext')[0];
 	var FFCNAEUJPContentControl = document.getElementsByClassName('FFCNAEUJPContent')[0];
@@ -947,11 +946,11 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 		document.getElementsByClassName('FFCAmazon')[0].onclick =function()
 		{
 		
-			FFCAmazonContentControl.classList.add('open');
+			
 			FFCAmazonControl.classList.add('open');
 			FFCAmazonContenttextControl.classList.add('open');
 		
-			FFCAmazonContentControl.classList.remove('close');
+			
 			FFCAmazonControl.classList.remove('close');
 			FFCAmazonContenttextControl.classList.remove('close');
 			/*FFCAmazonTitleControl.classList.add('open');*/
@@ -973,9 +972,9 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCIconControl.classList.remove('open');
 			FFCIconControl.classList.add('close');
 
-			FFCAmazonContentControl.style.zIndex = 18;
+			
 			FFCAmazonControl.style.zIndex = 19;
-			FFCAmazonContentControl.style.opacity = 0.99;
+			
 			FFCAmazonContenttextControl.style.opacity = 1;
 			FFCNAEUJPControl.style.zIndex = 16;
 			FFCSBLControl.style.zIndex = 16;
@@ -1006,7 +1005,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCNAEUJPContentControl.classList.remove('close');
 			FFCNAEUJPControl.classList.remove('close');
 			FFCNAEUJPContenttextControl.classList.remove('close');
-			FFCAmazonContentControl.classList.remove('open');
+			
 			FFCAmazonControl.classList.add('close');
 			FFCAmazonControl.classList.remove('open');
 			FFCAmazonControl.classList.add('close');
@@ -1033,12 +1032,12 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAusControl.style.zIndex = 16;
 			FFCIconControl.style.zIndex = 16;
 			
-			FFCAmazonContentControl.style.zIndex = 17;
+		
 			FFCSBLContentControl.style.zIndex = 17;
 			FFCAusContentControl.style.zIndex = 17;
 			FFCIconContentControl.style.zIndex = 17;
 			
-			FFCAmazonContentControl.style.opacity = 0;
+		
 			FFCSBLContentControl.style.opacity = 0;
 			FFCAusContentControl.style.opacity = 0;
 			FFCIconContentControl.style.opacity = 0;
@@ -1057,7 +1056,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCSBLContentControl.classList.remove('close');
 			FFCSBLControl.classList.remove('close');
 			FFCSBLContenttextControl.classList.remove('close');
-			FFCAmazonContentControl.classList.remove('open');
+			
 			FFCAmazonControl.classList.add('close');
 			FFCAmazonControl.classList.remove('open');
 			FFCAmazonControl.classList.add('close');
@@ -1085,12 +1084,12 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAusControl.style.zIndex = 16;
 			FFCIconControl.style.zIndex = 16;
 			
-			FFCAmazonContentControl.style.zIndex = 17;
+			
 			FFCNAEUJPContentControl.style.zIndex = 17;
 			FFCAusContentControl.style.zIndex = 17;
 			FFCIconContentControl.style.zIndex = 17;
 			
-			FFCAmazonContentControl.style.opacity = 0;
+			
 			FFCNAEUJPContentControl.style.opacity = 0;
 			
 			FFCAusContentControl.style.opacity = 0;
@@ -1111,7 +1110,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAusControl.classList.remove('close');
 			FFCAusContenttextControl.classList.remove('close');
 			
-			FFCAmazonContentControl.classList.remove('open');
+			
 			FFCAmazonControl.classList.add('close');
 			FFCAmazonControl.classList.remove('open');
 			FFCAmazonControl.classList.add('close');
@@ -1137,12 +1136,12 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCSBLControl.style.zIndex = 16;
 			FFCIconControl.style.zIndex = 16;
 			
-			FFCAmazonContentControl.style.zIndex = 17;
+		
 			FFCNAEUJPContentControl.style.zIndex = 17;
 			FFCSBLContentControl.style.zIndex = 17;
 			FFCIconContentControl.style.zIndex = 17;
 			
-			FFCAmazonContentControl.style.opacity = 0;
+			
 			FFCNAEUJPContentControl.style.opacity = 0;
 			FFCSBLContentControl.style.opacity = 0;
 			FFCIconContentControl.style.opacity = 0;
@@ -1161,7 +1160,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCIconContentControl.classList.remove('close');
 			FFCIconControl.classList.remove('close');
 			FFCIconContenttextControl.classList.remove('close');
-			FFCAmazonContentControl.classList.remove('open');
+			
 			FFCAmazonControl.classList.add('close');
 			FFCAmazonControl.classList.remove('open');
 			FFCAmazonControl.classList.add('close');
@@ -1187,12 +1186,12 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCSBLControl.style.zIndex = 16;
 			FFCAusControl.style.zIndex = 16;
 			
-			FFCAmazonContentControl.style.zIndex = 17;
+		
 			FFCNAEUJPContentControl.style.zIndex = 17;
 			FFCSBLContentControl.style.zIndex = 17;
 			FFCAusContentControl.style.zIndex = 17;
 			
-			FFCAmazonContentControl.style.opacity = 0;
+		
 			FFCNAEUJPContentControl.style.opacity = 0;
 			FFCSBLContentControl.style.opacity = 0;
 			FFCAusContentControl.style.opacity = 0;
@@ -1203,12 +1202,12 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 		
 		document.getElementsByClassName('FFCBA')[0].onclick =function()
 		{
-			FFCAmazonContentControl.classList.remove('open');
+			
 			FFCAmazonControl.classList.remove('open');
 			FFCAmazonContenttextControl.classList.remove('open');
 			/*FFCAmazonTitleControl.classList.remove('open');*/
 
-			FFCAmazonContentControl.classList.add('close');
+			
 			FFCAmazonControl.classList.add('close');
 			FFCAmazonContenttextControl.classList.add('close');
 			
@@ -1254,7 +1253,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAusControl.style.zIndex = 19;
 			FFCBAControl.style.opacity = 0;
 			
-			FFCAmazonContentControl.style.zIndex = 17;
+			
 			FFCNAEUJPContentControl.style.zIndex = 17;
 			FFCSBLContentControl.style.zIndex = 17;
 			FFCAusContentControl.style.zIndex = 17;
