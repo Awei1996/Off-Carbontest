@@ -939,7 +939,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
 		FFCBGControl.classList.add('open');
-		FFCAmazonContenttextControl.style.opacity = 0;
   		BbtnControl.classList.add('open');
 
 	  

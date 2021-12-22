@@ -1903,7 +1903,6 @@
 	position: absolute;
 	z-index: 18;
 	margin-top: 0%;
-	margin-left: 0%;
 	margin-left: 5%;
 	width: 41.67%;
 	height: 100%;
@@ -1914,13 +1913,15 @@
 	color: #ffffff;
 	line-height: 2;
 	opacity: 0;
+	
 	 
 }
 .FFCAmazonContenttext.open{
 	display: flex;
-	transition: 3s ;
+	transition: 3s;
 	opacity: 1;
 }
+
 .FFCAmazonContenttext.close{
 	display: none;
 	transition: 1s opacity  0.5s;
