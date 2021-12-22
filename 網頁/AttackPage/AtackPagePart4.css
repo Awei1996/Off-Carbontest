@@ -1917,8 +1917,7 @@
 	 
 }
 .FFCAmazonContenttext.open{
-	
-	transition: 3s;
+	transition: 1s;
 	opacity: 1;
 }
 
