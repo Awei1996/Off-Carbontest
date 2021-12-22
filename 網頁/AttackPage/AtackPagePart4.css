@@ -1814,7 +1814,6 @@
     transition: 0.01s,opacity 2s;
 	opacity: 0.9;
 	margin-left: 100%;
-	border:  2px solid red;
 }
 .FireForestContent.close{
 	-webkit-transition: 2s;
@@ -1921,6 +1920,8 @@
 	opacity: 0.95;
 	display: flex;
 	color: #ffffff;
+	border:  2px solid red;
+
 	
 	
 }
