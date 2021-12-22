@@ -1006,6 +1006,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCNAEUJPControl.classList.remove('close');
 			FFCNAEUJPContenttextControl.classList.remove('close');
 			
+			FFCAmazonContenttextControl.classList.remove('open');
 			FFCAmazonControl.classList.add('close');
 			FFCAmazonControl.classList.remove('open');
 			FFCAmazonControl.classList.add('close');
