@@ -954,7 +954,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 		document.getElementsByClassName('FFCAmazon')[0].onclick =function()
 		{
 							
-			FFCContentControl.classList.add('open');
+			FFCContenttextControl.classList.add('open');
 			FFCAmazonControl.classList.add('open');
 			FFCAmazonContenttextControl.classList.add('open');
 
