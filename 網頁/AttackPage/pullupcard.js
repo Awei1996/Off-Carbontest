@@ -905,6 +905,7 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 
 document.getElementsByClassName('FireForest')[0].onclick = function() {
 	
+	var FFCContentControl = document.getElementsByClassName('FireForestContent')[0];
 	var FFCContenttextControl = document.getElementsByClassName('FFCContenttext')[0];
 	var FFCBAControl = document.getElementsByClassName('FFCBA')[0];
 	
@@ -932,6 +933,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
   	{ 
     	this.value = 'open';
 		
+		FFCContentControl.classList.add('open');
 		MainMenuControl.classList.add('close');
 		MainMenuControl.classList.remove('open');
 		SteamControl.classList.add('open');
