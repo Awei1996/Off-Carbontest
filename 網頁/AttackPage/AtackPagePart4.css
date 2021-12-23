@@ -1879,7 +1879,7 @@
 
 .FFCContenttext{
 	position: absolute;
-	z-index: 19;
+	z-index: 15;
 	margin-top: 0%;
 	margin-left: 0%;
 	width: 0%;
@@ -1927,7 +1927,7 @@
 
 .FFCAmazonContenttext{
 	position: absolute;
-	z-index: 15;
+	z-index: 18;
 	margin-top: 0%;
 	margin-left: 5%;
 	width: 100%;
