@@ -650,10 +650,7 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 		MICBGControl.classList.add('open');
 		BbtnControl.classList.add('open');
 		
-		MICpart1ContenttextControl.style.display = 'none';
-		MICpart2ContenttextControl.style.display = 'none';
-		MICpart3ContenttextControl.style.display = 'none';
-		MICpart4ContenttextControl.style.display = 'none';
+		
 		MICpart1ContenttextControl.style.opacity = 0;
 		MICpart2ContenttextControl.style.opacity = 0;
 		MICpart3ContenttextControl.style.opacity = 0;
@@ -928,6 +925,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 	var FFCIconContentControl = document.getElementsByClassName('FFCIconContent')[0];
 	
 	var FFCBAControl = document.getElementsByClassName('FFCBA')[0];
+	
+	FFCAmazonContenttextControl.style.display = 'none';
 
 	
 	if(this.value === 'close') 
