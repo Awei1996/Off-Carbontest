@@ -902,7 +902,11 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
   
 };
 
+
 document.getElementsByClassName('FireForest')[0].onclick = function() {
+	
+	var FFCContenttextControl = document.getElementsByClassName('FFCContenttext')[0];
+	var FFCBAControl = document.getElementsByClassName('FFCBA')[0];
 	
 	var FFCAmazonControl = document.getElementsByClassName('FFCAmazon')[0];
   	var FFCAmazonContenttextControl = document.getElementsByClassName('FFCAmazonContenttext')[0];
@@ -923,17 +927,11 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 	/*var FFCIconTitleControl = document.getElementsByClassName('FFCIconTitle')[0];*/
   	var FFCIconContenttextControl = document.getElementsByClassName('FFCIconContenttext')[0];
 	var FFCIconContentControl = document.getElementsByClassName('FFCIconContent')[0];
-	
-	var FFCBAControl = document.getElementsByClassName('FFCBA')[0];
-	var FFCContenttextControl = document.getElementsByClassName('FFCContenttext')[0];
-	
 
-	
-	if(this.value === 'close') 
+  	if(this.value === 'close') 
   	{ 
     	this.value = 'open';
-		textcardFFC.classList.remove('close'); 
-    	textcardFFC.classList.add('open');
+		
 		MainMenuControl.classList.add('close');
 		MainMenuControl.classList.remove('open');
 		SteamControl.classList.add('open');
@@ -941,345 +939,50 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
 		FFCBGControl.classList.add('open');
-  		BbtnControl.classList.add('open');
+		BbtnControl.classList.add('open');
 		
 		
-					
+		FFCAmazonContenttextControl.style.opacity = 0;
+		
+  
 		document.getElementsByClassName('FFCAmazon')[0].onclick =function()
 		{
-		
-			FFCContenttextControl.classList.add('open');
+							
+			FFCContentControl.classList.add('open');
 			FFCAmazonControl.classList.add('open');
 			FFCAmazonContenttextControl.classList.add('open');
-			
-			FFCNAEUJPContentControl.classList.remove('open');
-			FFCNAEUJPControl.classList.add('close');
-			FFCNAEUJPControl.classList.remove('open');
-			FFCNAEUJPControl.classList.add('close');
-			FFCSBLContentControl.classList.remove('open');
-			FFCSBLControl.classList.add('close');
-			FFCSBLControl.classList.remove('open');
-			FFCSBLControl.classList.add('close');
-			FFCAusContentControl.classList.remove('open');
-			FFCAusControl.classList.add('close');
-			FFCAusControl.classList.remove('open');
-			FFCAusControl.classList.add('close');
-			FFCIconContentControl.classList.remove('open');
-			FFCIconControl.classList.add('close');
-			FFCIconControl.classList.remove('open');
-			FFCIconControl.classList.add('close');
 
+			FFCContentControl.classList.remove('close');
+			FFCAmazonControl.classList.remove('close');
 			
+
+			FFCContentControl.style.zIndex = 18;
 			FFCAmazonControl.style.zIndex = 19;
-			
-			FFCNAEUJPControl.style.zIndex = 16;
-			FFCSBLControl.style.zIndex = 16;
-			FFCAusControl.style.zIndex = 16;
-			FFCIconControl.style.zIndex = 16;
-			FFCNAEUJPContentControl.style.zIndex = 17;
-			FFCSBLContentControl.style.zIndex = 17;
-			FFCAusContentControl.style.zIndex = 17;
-			FFCIconContentControl.style.zIndex = 17;
-			
-			
-			FFCNAEUJPContentControl.style.opacity = 0;
-			FFCSBLContentControl.style.opacity = 0;
-			FFCAusContentControl.style.opacity = 0;
-			FFCIconContentControl.style.opacity = 0;
-			
+			FFCAmazonTitleControl.style.zIndex = 19;
+			FFCAmazonContenttextControl.style.zIndex = 19;
+			FFCContentControl.style.opacity = 0.99;
+			FFCpart2Control.style.zIndex = 16;
+			FFCpart2TitleControl.style.zIndex = 16;
+			FFCpart2ContenttextControl.style.zIndex = 16;
+			FFCpart3Control.style.zIndex = 16;
+			FFCpart3TitleControl.style.zIndex = 16;
+			FFCpart3ContenttextControl.style.zIndex = 16;
+			FFCpart4Control.style.zIndex = 16;
+			FFCpart4TitleControl.style.zIndex = 16;
+			FFCpart4ContenttextControl.style.zIndex = 16;
 			FFCBAControl.style.opacity = 1;
+
+			FFCAmazonContenttextControl.style.opacity = 1;
 			
 			FFCAmazonContenttextControl.style.display = 'flex';
-
-		}; 
-		
-		document.getElementsByClassName('FFCNAEUJP')[0].onclick =function()
-		{
-		
-			FFCNAEUJPContentControl.classList.add('open');
-			FFCNAEUJPControl.classList.add('open');
-			FFCNAEUJPContenttextControl.classList.add('open');
-
-		
-			FFCNAEUJPContentControl.classList.remove('close');
-			FFCNAEUJPControl.classList.remove('close');
-			FFCNAEUJPContenttextControl.classList.remove('close');
-			
-			FFCAmazonContenttextControl.classList.remove('open');
-			FFCAmazonControl.classList.add('close');
-			FFCAmazonControl.classList.remove('open');
-			FFCAmazonControl.classList.add('close');
-			
-			FFCSBLContentControl.classList.remove('open');
-			FFCSBLControl.classList.add('close');
-			FFCSBLControl.classList.remove('open');
-			FFCSBLControl.classList.add('close');
-			FFCAusContentControl.classList.remove('open');
-			FFCAusControl.classList.add('close');
-			FFCAusControl.classList.remove('open');
-			FFCAusControl.classList.add('close');
-			FFCIconContentControl.classList.remove('open');
-			FFCIconControl.classList.add('close');
-			FFCIconControl.classList.remove('open');
-			FFCIconControl.classList.add('close');
-
-			FFCNAEUJPContentControl.style.zIndex = 18;
-			FFCNAEUJPControl.style.zIndex = 19;
-			FFCNAEUJPContentControl.style.opacity = 0.99;
-			FFCNAEUJPContenttextControl.style.opacity = 1;
-			FFCAmazonControl.style.zIndex = 16;
-			FFCSBLControl.style.zIndex = 16;
-			FFCAusControl.style.zIndex = 16;
-			FFCIconControl.style.zIndex = 16;
-			
-		
-			FFCSBLContentControl.style.zIndex = 17;
-			FFCAusContentControl.style.zIndex = 17;
-			FFCIconContentControl.style.zIndex = 17;
-			
-		
-			FFCSBLContentControl.style.opacity = 0;
-			FFCAusContentControl.style.opacity = 0;
-			FFCIconContentControl.style.opacity = 0;
-
-			FFCBAControl.style.opacity = 1;
-
-		}; 
-	  
-		document.getElementsByClassName('FFCSBL')[0].onclick =function()
-		{
-		
-			FFCSBLContentControl.classList.add('open');
-			FFCSBLControl.classList.add('open');
-			FFCSBLContenttextControl.classList.add('open');
-		
-			FFCSBLContentControl.classList.remove('close');
-			FFCSBLControl.classList.remove('close');
-			FFCSBLContenttextControl.classList.remove('close');
-			
-			FFCAmazonControl.classList.add('close');
-			FFCAmazonControl.classList.remove('open');
-			FFCAmazonControl.classList.add('close');
-			
-			FFCNAEUJPContentControl.classList.remove('open');
-			FFCNAEUJPControl.classList.add('close');
-			FFCNAEUJPControl.classList.remove('open');
-			FFCNAEUJPControl.classList.add('close');
-			
-			FFCAusContentControl.classList.remove('open');
-			FFCAusControl.classList.add('close');
-			FFCAusControl.classList.remove('open');
-			FFCAusControl.classList.add('close');
-			FFCIconContentControl.classList.remove('open');
-			FFCIconControl.classList.add('close');
-			FFCIconControl.classList.remove('open');
-			FFCIconControl.classList.add('close');
-
-			FFCSBLContentControl.style.zIndex = 18;
-			FFCSBLControl.style.zIndex = 19;
-			FFCSBLContentControl.style.opacity = 0.99;
-			FFCSBLContenttextControl.style.opacity = 1;
-			FFCAmazonControl.style.zIndex = 16;
-			FFCNAEUJPControl.style.zIndex = 16;
-			FFCAusControl.style.zIndex = 16;
-			FFCIconControl.style.zIndex = 16;
-			
-			
-			FFCNAEUJPContentControl.style.zIndex = 17;
-			FFCAusContentControl.style.zIndex = 17;
-			FFCIconContentControl.style.zIndex = 17;
-			
-			
-			FFCNAEUJPContentControl.style.opacity = 0;
-			
-			FFCAusContentControl.style.opacity = 0;
-			FFCIconContentControl.style.opacity = 0;
-			
-			FFCBAControl.style.opacity = 1;
-		
-		}; 
-		
-		document.getElementsByClassName('FFCAus')[0].onclick =function()
-		{
-		
-			FFCAusContentControl.classList.add('open');
-			FFCAusControl.classList.add('open');
-			FFCAusContenttextControl.classList.add('open');
-		
-			FFCAusContentControl.classList.remove('close');
-			FFCAusControl.classList.remove('close');
-			FFCAusContenttextControl.classList.remove('close');
-			
-			
-			FFCAmazonControl.classList.add('close');
-			FFCAmazonControl.classList.remove('open');
-			FFCAmazonControl.classList.add('close');
-			FFCNAEUJPContentControl.classList.remove('open');
-			FFCNAEUJPControl.classList.add('close');
-			FFCNAEUJPControl.classList.remove('open');
-			FFCNAEUJPControl.classList.add('close');
-			FFCSBLContentControl.classList.remove('open');
-			FFCSBLControl.classList.add('close');
-			FFCSBLControl.classList.remove('open');
-			FFCSBLControl.classList.add('close');
-			FFCIconContentControl.classList.remove('open');
-			FFCIconControl.classList.add('close');
-			FFCIconControl.classList.remove('open');
-			FFCIconControl.classList.add('close');
-
-			FFCAusContentControl.style.zIndex = 18;
-			FFCAusControl.style.zIndex = 19;
-			FFCAusContentControl.style.opacity = 0.99;
-			FFCAusContenttextControl.style.opacity = 1;
-			FFCAmazonControl.style.zIndex = 16;
-			FFCNAEUJPControl.style.zIndex = 16;
-			FFCSBLControl.style.zIndex = 16;
-			FFCIconControl.style.zIndex = 16;
-			
-		
-			FFCNAEUJPContentControl.style.zIndex = 17;
-			FFCSBLContentControl.style.zIndex = 17;
-			FFCIconContentControl.style.zIndex = 17;
-			
-			
-			FFCNAEUJPContentControl.style.opacity = 0;
-			FFCSBLContentControl.style.opacity = 0;
-			FFCIconContentControl.style.opacity = 0;
-			
-			FFCBAControl.style.opacity = 1;
-
-		}; 
-	  
-		document.getElementsByClassName('FFCIcon')[0].onclick =function()
-		{
-		
-			FFCIconContentControl.classList.add('open');
-			FFCIconControl.classList.add('open');
-			FFCIconContenttextControl.classList.add('open');
-		
-			FFCIconContentControl.classList.remove('close');
-			FFCIconControl.classList.remove('close');
-			FFCIconContenttextControl.classList.remove('close');
-			
-			FFCAmazonControl.classList.add('close');
-			FFCAmazonControl.classList.remove('open');
-			FFCAmazonControl.classList.add('close');
-			FFCNAEUJPContentControl.classList.remove('open');
-			FFCNAEUJPControl.classList.add('close');
-			FFCNAEUJPControl.classList.remove('open');
-			FFCNAEUJPControl.classList.add('close');
-			FFCSBLContentControl.classList.remove('open');
-			FFCSBLControl.classList.add('close');
-			FFCSBLControl.classList.remove('open');
-			FFCSBLControl.classList.add('close');
-			FFCAusContentControl.classList.remove('open');
-			FFCAusControl.classList.add('close');
-			FFCAusControl.classList.remove('open');
-			FFCAusControl.classList.add('close');
-
-			FFCIconContentControl.style.zIndex = 18;
-			FFCIconControl.style.zIndex = 19;
-			FFCIconContentControl.style.opacity = 0.99;
-			FFCIconContenttextControl.style.opacity = 1;
-			FFCAmazonControl.style.zIndex = 16;
-			FFCNAEUJPControl.style.zIndex = 16;
-			FFCSBLControl.style.zIndex = 16;
-			FFCAusControl.style.zIndex = 16;
-			
-		
-			FFCNAEUJPContentControl.style.zIndex = 17;
-			FFCSBLContentControl.style.zIndex = 17;
-			FFCAusContentControl.style.zIndex = 17;
-			
-		
-			FFCNAEUJPContentControl.style.opacity = 0;
-			FFCSBLContentControl.style.opacity = 0;
-			FFCAusContentControl.style.opacity = 0;
-			
-			FFCBAControl.style.opacity = 1;
-
-		}; 
-		
-		document.getElementsByClassName('FFCBA')[0].onclick =function()
-		{
-			FFCContenttextControl.classList.remove('open');
-
-			FFCAmazonControl.classList.remove('open');
-			FFCAmazonContenttextControl.classList.remove('open');
-			/*FFCAmazonTitleControl.classList.remove('open');*/
-
-			
-			FFCAmazonControl.classList.add('close');
-			
-			
-			FFCNAEUJPContentControl.classList.remove('open');
-			FFCNAEUJPControl.classList.remove('open');
-			FFCNAEUJPContenttextControl.classList.remove('open');
-		
-			FFCNAEUJPContentControl.classList.add('close');
-			FFCNAEUJPControl.classList.add('close');
-			FFCNAEUJPContenttextControl.classList.add('close');
-			
-			FFCSBLContentControl.classList.remove('open');
-			FFCSBLControl.classList.remove('open');
-			FFCSBLContenttextControl.classList.remove('open');
-		
-			FFCSBLContentControl.classList.add('close');
-			FFCSBLControl.classList.add('close');
-			FFCSBLContenttextControl.classList.add('close');
-			
-			FFCAusContentControl.classList.remove('open');
-			FFCAusControl.classList.remove('open');
-			FFCAusContenttextControl.classList.remove('open');
-		
-			FFCAusContentControl.classList.add('close');
-			FFCAusControl.classList.add('close');
-			FFCAusContenttextControl.classList.add('close');
-			
-			FFCIconContentControl.classList.remove('open');
-			FFCIconControl.classList.remove('open');
-			FFCIconContenttextControl.classList.remove('open');
-		
-			FFCIconContentControl.classList.add('close');
-			FFCIconControl.classList.add('close');
-			FFCIconContenttextControl.classList.add('close');
-
-			FFCIconContentControl.style.zIndex = 15;
-
-			FFCIconControl.style.zIndex = 19;		
-			FFCIconContenttextControl.style.opacity = 0;
-			FFCAmazonControl.style.zIndex = 19;
-			FFCNAEUJPControl.style.zIndex = 19;
-			FFCSBLControl.style.zIndex = 19;
-			FFCAusControl.style.zIndex = 19;
-			FFCBAControl.style.opacity = 0;
-			
-			
-			FFCNAEUJPContentControl.style.zIndex = 17;
-			FFCSBLContentControl.style.zIndex = 17;
-			FFCAusContentControl.style.zIndex = 17;
-			FFCIconContentControl.style.zIndex = 17;
-		
-		}; 
-
-		document.getElementsByClassName('Backbutton')[0].onclick =function()
-		{
-			document.getElementsByClassName('FireForest')[0].value = 'close';
-    		textcardFFC.classList.remove('open'); 
-			textcardFFC.classList.add('close');
-			MainMenuControl.classList.remove('close');
-			MainMenuControl.classList.add('open');
-			SteamControl.classList.remove('open');
-			SteamControl.classList.add('close');
-			DisasterControl.classList.add('close');
-			DisasterControl.classList.remove('open');
-			BbtnControl.classList.remove('open');
-			
-		};	
+			FFCpart2ContenttextControl.style.display = 'none';
+			FFCpart3ContenttextControl.style.display = 'none';
+			FFCpart4ContenttextControl.style.display = 'none';
 	
-  	} 
-  
-};
+		}; 
+	}
+}
+
 
 document.getElementsByClassName('HeatWave')[0].onclick = function() {
 	
