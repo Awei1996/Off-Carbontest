@@ -927,7 +927,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 	var FFCBAControl = document.getElementsByClassName('FFCBA')[0];
 	var FFCContenttextControl = document.getElementsByClassName('FFCContenttext')[0];
 	
-	FFCAmazonContenttextControl.style.display = 'none';
 
 	
 	if(this.value === 'close') 
