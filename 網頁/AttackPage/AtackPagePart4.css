@@ -1876,6 +1876,33 @@
 	font-size: 2.2rem;
 	font-weight: normal;
 }
+
+.FFCContenttext{
+	position: absolute;
+	z-index: -1;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 0%;
+	background-color: transparent;
+	color: transparent;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.FFCContenttext.open{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
 .FFCAmazon{
 	position: absolute;
 	z-index: 17;
