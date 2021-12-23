@@ -1943,7 +1943,6 @@
 }
 .FFCAmazonContenttext.open{
 	transition: 1s;
-	display: flex;
 	opacity: 1;
 }
 
