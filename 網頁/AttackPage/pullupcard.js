@@ -650,6 +650,10 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 		MICBGControl.classList.add('open');
 		BbtnControl.classList.add('open');
 		
+		MICpart1ContenttextControl.style.display = 'none';
+		MICpart2ContenttextControl.style.display = 'none';
+		MICpart3ContenttextControl.style.display = 'none';
+		MICpart4ContenttextControl.style.display = 'none';
 		MICpart1ContenttextControl.style.opacity = 0;
 		MICpart2ContenttextControl.style.opacity = 0;
 		MICpart3ContenttextControl.style.opacity = 0;
