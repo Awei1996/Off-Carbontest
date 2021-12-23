@@ -957,9 +957,12 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCContenttextControl.classList.add('open');
 			FFCAmazonControl.classList.add('open');
 			FFCAmazonContenttextControl.classList.add('open');
+			FFCBAControl.classList.add('open');
+
 
 			FFCContentControl.classList.remove('close');
 			FFCAmazonControl.classList.remove('close');
+
 			
 
 			FFCContentControl.style.zIndex = 18;
