@@ -905,6 +905,8 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 
 document.getElementsByClassName('FireForest')[0].onclick = function() {
 	
+	
+	
 	var FFCContentControl = document.getElementsByClassName('FireForestContent')[0];
 	var FFCContenttextControl = document.getElementsByClassName('FFCContenttext')[0];
 	var FFCBAControl = document.getElementsByClassName('FFCBA')[0];
@@ -932,6 +934,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
   	if(this.value === 'close') 
   	{ 
     	this.value = 'open';
+		textcardFFC.classList.remove('close'); 
+		textcardFFC.classList.add('open');
 		
 		FFCContentControl.classList.add('open');
 		MainMenuControl.classList.add('close');
@@ -960,7 +964,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 
 			FFCContentControl.style.zIndex = 18;
 			FFCAmazonControl.style.zIndex = 19;
-			FFCAmazonTitleControl.style.zIndex = 19;
 			FFCAmazonContenttextControl.style.zIndex = 19;
 			FFCContentControl.style.opacity = 0.99;
 			FFCpart2Control.style.zIndex = 16;
