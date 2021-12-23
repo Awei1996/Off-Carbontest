@@ -948,7 +948,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 		BbtnControl.classList.add('open');
 		
 		
-		FFCAmazonContenttextControl.style.opacity = 0;
+		
 		
   
 		document.getElementsByClassName('FFCAmazon')[0].onclick =function()
