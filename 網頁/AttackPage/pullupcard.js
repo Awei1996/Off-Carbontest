@@ -1203,7 +1203,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 		
 		document.getElementsByClassName('FFCBA')[0].onclick =function()
 		{
-			
+			FFCContenttextControl.classList.remove('open');
+
 			FFCAmazonControl.classList.remove('open');
 			FFCAmazonContenttextControl.classList.remove('open');
 			/*FFCAmazonTitleControl.classList.remove('open');*/
