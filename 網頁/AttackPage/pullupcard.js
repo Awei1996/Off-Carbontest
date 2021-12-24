@@ -898,10 +898,7 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
   
 };
 
-
 document.getElementsByClassName('FireForest')[0].onclick = function() {
-	
-	
 	
 	var FFCContentControl = document.getElementsByClassName('FireForestContent')[0];
 	var FFCContenttextControl = document.getElementsByClassName('FFCContenttext')[0];
@@ -936,7 +933,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 		DisasterControl.classList.remove('close');
 		FFCBGControl.classList.add('open');
 		BbtnControl.classList.add('open');
-		
   
 		document.getElementsByClassName('FFCAmazon')[0].onclick =function()
 		{
@@ -944,7 +940,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCContenttextControl.classList.add('open');
 			FFCAmazonControl.classList.add('open');
 			FFCAmazonContenttextControl.classList.add('open');
-
 
 			FFCNAEUJPControl.classList.remove('open');
 			FFCNAEUJPContenttextControl.classList.remove('open');
@@ -964,7 +959,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCSBLContenttextControl.style.zIndex = 16;
 			FFCAUSContenttextControl.style.zIndex = 16;
 			FFCIconContenttextControl.style.zIndex = 16;
-			
 			
 		}; 
 		
@@ -994,7 +988,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAUSContenttextControl.style.zIndex = 16;
 			FFCIconContenttextControl.style.zIndex = 16;
 			
-			
 		};
 		
 		document.getElementsByClassName('FFCSBL')[0].onclick =function()
@@ -1022,7 +1015,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAUSContenttextControl.style.zIndex = 16;
 			FFCIconContenttextControl.style.zIndex = 16;
 			
-			
 		};
 		
 		document.getElementsByClassName('FFCAUS')[0].onclick =function()
@@ -1049,8 +1041,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCSBLContenttextControl.style.zIndex = 16;
 			FFCAUSContenttextControl.style.zIndex = 19;
 			FFCIconContenttextControl.style.zIndex = 16;
-			
-			
+				
 		};
 		
 		document.getElementsByClassName('FFCIcon')[0].onclick =function()
@@ -1096,7 +1087,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCIconControl.classList.remove('open');
 			FFCIconContenttextControl.classList.remove('open');
 			
-
 			FFCAmazonContenttextControl.style.zIndex = 16;
 			FFCNAEUJPContenttextControl.style.zIndex = 16;
 			FFCSBLContenttextControl.style.zIndex = 16;
