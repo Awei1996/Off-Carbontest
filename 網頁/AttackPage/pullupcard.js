@@ -1383,11 +1383,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCBAControl.style.opacity = 0;
 			HWCContentControl.style.zIndex = 19;
 
-			HWCWEUContenttextControl.style.zIndex = 17;
-			
-			HWCContenttextControl.classList.remove('close');
-			
-			
+			HWCWEUContenttextControl.style.zIndex = 17;			
 
 			HWCpart4ContentControl.style.zIndex = 15;
 			HWCpart4Control.style.zIndex = 19;		
@@ -1409,6 +1405,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
 			document.getElementsByClassName('HeatWave')[0].value = 'close';
+			
     		textcardHWC.classList.remove('open'); 
 			textcardHWC.classList.add('close');
 			MainMenuControl.classList.remove('close');
@@ -1418,6 +1415,11 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			DisasterControl.classList.add('close');
 			DisasterControl.classList.remove('open');
 			BbtnControl.classList.remove('open');
+			
+			HWCWEUControl.classList.remove('open');
+			HWCWEUContenttextControl.classList.remove('open');
+			
+			HWCintroductionControl.classList.add('open');
 			
 		};	
 	
