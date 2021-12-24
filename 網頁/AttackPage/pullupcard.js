@@ -1188,7 +1188,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCContentControl.style.zIndex = 19;
 			HWCContentControl.style.opacity = 0.99;
 
-			FFCAmazonContenttextControl.style.zIndex = 19;
+			HWCWEUContenttextControl.style.zIndex = 19;
 			FFCNAEUJPContenttextControl.style.zIndex = 16;
 			FFCSBLContenttextControl.style.zIndex = 16;
 			FFCAUSContenttextControl.style.zIndex = 16;
