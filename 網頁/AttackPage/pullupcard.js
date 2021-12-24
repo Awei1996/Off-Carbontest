@@ -1083,7 +1083,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 		
 		document.getElementsByClassName('FFCBA')[0].onclick =function()
 		{
-										
+			
+			FFCContentControl.classList.remove('open');
 			FFCAmazonControl.classList.remove('open');
 			FFCAmazonContenttextControl.classList.remove('open');
 			FFCNAEUJPControl.classList.remove('open');
@@ -1145,15 +1146,15 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 document.getElementsByClassName('HeatWave')[0].onclick = function() {
 	
 	/*var FFCIconTitleControl = document.getElementsByClassName('FFCIconTitle')[0];*/
-  	var HWCALLContenttextControl = document.getElementsByClassName('HWCALLContenttext')[0];
+	var HWCALLContenttextControl = document.getElementsByClassName('HWCALLContenttext')[0];
 	var HWCALLContentControl = document.getElementsByClassName('HWCALLContent')[0];
 	
 	var HWCpart1Control = document.getElementsByClassName('HWCpart1')[0];
-  	var HWCpart1ContenttextControl = document.getElementsByClassName('HWCpart1Contenttext')[0];
+	var HWCpart1ContenttextControl = document.getElementsByClassName('HWCpart1Contenttext')[0];
 	var HWCpart1ContentControl = document.getElementsByClassName('HWCpart1Content')[0];
 	
 	var HWCpart2Control = document.getElementsByClassName('HWCpart2')[0];
-  	var HWCpart2ContenttextControl = document.getElementsByClassName('HWCpart2Contenttext')[0];
+	var HWCpart2ContenttextControl = document.getElementsByClassName('HWCpart2Contenttext')[0];
 	var HWCpart2ContentControl = document.getElementsByClassName('HWCpart2Content')[0];
 	
 	var HWCpart3Control = document.getElementsByClassName('HWCpart3')[0];
