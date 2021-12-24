@@ -39,27 +39,27 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 	
 	var SDCpart2Control = document.getElementsByClassName('SDCpart2')[0];
 	var SDCpart2TitleControl = document.getElementsByClassName('SDCpart2Title')[0];
-  	var SDCpart2ContenttextControl = document.getElementsByClassName('SDCpart2Contenttext')[0];
+	var SDCpart2ContenttextControl = document.getElementsByClassName('SDCpart2Contenttext')[0];
 	
 
 	
 	var SDCpart3Control = document.getElementsByClassName('SDCpart3')[0];
 	var SDCpart3TitleControl = document.getElementsByClassName('SDCpart3Title')[0];
-  	var SDCpart3ContenttextControl = document.getElementsByClassName('SDCpart3Contenttext')[0];
+	var SDCpart3ContenttextControl = document.getElementsByClassName('SDCpart3Contenttext')[0];
 	
 
 	
 	var SDCpart4Control = document.getElementsByClassName('SDCpart4')[0];
 	var SDCpart4TitleControl = document.getElementsByClassName('SDCpart4Title')[0];
-  	var SDCpart4ContenttextControl = document.getElementsByClassName('SDCpart4Contenttext')[0];
+	var SDCpart4ContenttextControl = document.getElementsByClassName('SDCpart4Contenttext')[0];
 	
 
 
-  	if(this.value === 'close') 
-  	{ 
-    	this.value = 'open';
+	if(this.value === 'close') 
+	{ 
+		this.value = 'open';
 		textcardSDC.classList.remove('close'); 
-    	textcardSDC.classList.add('open');
+		textcardSDC.classList.add('open');
 		MainMenuControl.classList.add('close');
 		MainMenuControl.classList.remove('open');
 		SteamControl.classList.add('open');
@@ -73,8 +73,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 		SDCpart2ContenttextControl.style.opacity = 0;
 		SDCpart3ContenttextControl.style.opacity = 0;
 		SDCpart4ContenttextControl.style.opacity = 0;
-  
-	  
+ 
 		document.getElementsByClassName('SDCpart1')[0].onclick =function()
 		{
 							
@@ -186,7 +185,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart4ContenttextControl.style.display = 'none';
 		
 		}; 
-	  	
+		
 		document.getElementsByClassName('SDCpart4')[0].onclick =function()
 		{
 		
@@ -279,12 +278,11 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			
 		}; 
 
-
-	  
+  
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
 			document.getElementsByClassName('SpeciesDiversity')[0].value = 'close';
-    		textcardSDC.classList.remove('open'); 
+			textcardSDC.classList.remove('open'); 
 			textcardSDC.classList.add('close');
 			MainMenuControl.classList.remove('close');
 			MainMenuControl.classList.add('open');
@@ -321,7 +319,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart4ContenttextControl.style.display = 'flex';
 		};	
 	
-  	} 
+	} 
   
 };
 
@@ -336,21 +334,21 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 	
 	var OACpart2Control = document.getElementsByClassName('OACpart2')[0];
 	var OACpart2TitleControl = document.getElementsByClassName('OACpart2Title')[0];
-  	var OACpart2ContenttextControl = document.getElementsByClassName('OACpart2Contenttext')[0];
+	var OACpart2ContenttextControl = document.getElementsByClassName('OACpart2Contenttext')[0];
 	
 	var OACpart3Control = document.getElementsByClassName('OACpart3')[0];
 	var OACpart3TitleControl = document.getElementsByClassName('OACpart3Title')[0];
-  	var OACpart3ContenttextControl = document.getElementsByClassName('OACpart3Contenttext')[0];
+	var OACpart3ContenttextControl = document.getElementsByClassName('OACpart3Contenttext')[0];
 	
 	var OACpart4Control = document.getElementsByClassName('OACpart4')[0];
 	var OACpart4TitleControl = document.getElementsByClassName('OACpart4Title')[0];
-  	var OACpart4ContenttextControl = document.getElementsByClassName('OACpart4Contenttext')[0];
+	var OACpart4ContenttextControl = document.getElementsByClassName('OACpart4Contenttext')[0];
 
-  	if(this.value === 'close') 
-  	{ 
-    	this.value = 'open';
+	if(this.value === 'close') 
+	{ 
+		this.value = 'open';
 		textcardOAC.classList.remove('close'); 
-    	textcardOAC.classList.add('open');
+		textcardOAC.classList.add('open');
 		MainMenuControl.classList.add('close');
 		MainMenuControl.classList.remove('open');
 		SteamControl.classList.add('open');
@@ -364,7 +362,7 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 		OACpart2ContenttextControl.style.opacity = 0;
 		OACpart3ContenttextControl.style.opacity = 0;
 		OACpart4ContenttextControl.style.opacity = 0;
-	  
+		
 		document.getElementsByClassName('OACpart1')[0].onclick =function()
 		{
 							
@@ -401,7 +399,7 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart4ContenttextControl.style.display = 'none';
 			
 		}; 
-	  
+		
 		document.getElementsByClassName('OACpart2')[0].onclick =function()
 		{
 		
@@ -438,7 +436,7 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart4ContenttextControl.style.display = 'none';
 
 		}; 
-	  
+		
 		document.getElementsByClassName('OACpart3')[0].onclick =function()
 		{
 		
@@ -566,13 +564,11 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart4ContenttextControl.style.display = 'flex';
 				
 		}; 
-
-
-	  
+		
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
 			document.getElementsByClassName('OceanAcidification')[0].value = 'close';
-    		textcardOAC.classList.remove('open'); 
+			textcardOAC.classList.remove('open'); 
 			textcardOAC.classList.add('close');
 			MainMenuControl.classList.remove('close');
 			MainMenuControl.classList.add('open');
@@ -609,7 +605,7 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart4ContenttextControl.style.display = 'flex';
 		};	
 	
-  	}  
+	}  
   
 };
 	
@@ -626,21 +622,21 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 
 	var MICpart2Control = document.getElementsByClassName('MICpart2')[0];
 	var MICpart2TitleControl = document.getElementsByClassName('MICpart2Title')[0];
-  	var MICpart2ContenttextControl = document.getElementsByClassName('MICpart2Contenttext')[0];
+	var MICpart2ContenttextControl = document.getElementsByClassName('MICpart2Contenttext')[0];
 	
 	var MICpart3Control = document.getElementsByClassName('MICpart3')[0];
 	var MICpart3TitleControl = document.getElementsByClassName('MICpart3Title')[0];
-  	var MICpart3ContenttextControl = document.getElementsByClassName('MICpart3Contenttext')[0];
+	var MICpart3ContenttextControl = document.getElementsByClassName('MICpart3Contenttext')[0];
 	
 	var MICpart4Control = document.getElementsByClassName('MICpart4')[0];
 	var MICpart4TitleControl = document.getElementsByClassName('MICpart4Title')[0];
-  	var MICpart4ContenttextControl = document.getElementsByClassName('MICpart4Contenttext')[0];
+	var MICpart4ContenttextControl = document.getElementsByClassName('MICpart4Contenttext')[0];
 
-  	if(this.value === 'close') 
-  	{ 
-    	this.value = 'open';
+	if(this.value === 'close') 
+	{ 
+		this.value = 'open';
 		textcardMIC.classList.remove('close'); 
-    	textcardMIC.classList.add('open');
+		textcardMIC.classList.add('open');
 		MainMenuControl.classList.add('close');
 		MainMenuControl.classList.remove('open');
 		SteamControl.classList.add('open');
@@ -692,7 +688,7 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart4ContenttextControl.style.display = 'none';
 	
 		}; 
-	  
+		
 		document.getElementsByClassName('MICpart2')[0].onclick =function()
 		{
 		
@@ -729,7 +725,7 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart4ContenttextControl.style.display = 'none';
 
 		}; 
-	  
+		
 		document.getElementsByClassName('MICpart3')[0].onclick =function()
 		{
 		
@@ -766,7 +762,7 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart4ContenttextControl.style.display = 'none';	
 		
 		}; 
-	  
+		
 		document.getElementsByClassName('MICpart4')[0].onclick =function()
 		{
 		
@@ -861,7 +857,7 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
 			document.getElementsByClassName('MeltingIce')[0].value = 'close';
-    		textcardMIC.classList.remove('open'); 
+			textcardMIC.classList.remove('open'); 
 			textcardMIC.classList.add('close');
 			MainMenuControl.classList.remove('close');
 			MainMenuControl.classList.add('open');
@@ -898,7 +894,7 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart4ContenttextControl.style.display = 'flex';
 		};	
 	
-  	}
+	}
   
 };
 
@@ -912,10 +908,10 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 	var FFCBAControl = document.getElementsByClassName('FFCBA')[0];
 	
 	var FFCAmazonControl = document.getElementsByClassName('FFCAmazon')[0];
-  	var FFCAmazonContenttextControl = document.getElementsByClassName('FFCAmazonContenttext')[0];
+	var FFCAmazonContenttextControl = document.getElementsByClassName('FFCAmazonContenttext')[0];
 
 	var FFCNAEUJPControl = document.getElementsByClassName('FFCNAEUJP')[0];
-  	var FFCNAEUJPContenttextControl = document.getElementsByClassName('FFCNAEUJPContenttext')[0];
+	var FFCNAEUJPContenttextControl = document.getElementsByClassName('FFCNAEUJPContenttext')[0];
 	
 	var FFCSBLControl = document.getElementsByClassName('FFCSBL')[0];
   	var FFCSBLContenttextControl = document.getElementsByClassName('FFCSBLContenttext')[0];
@@ -957,6 +953,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 
 			FFCNAEUJPControl.classList.remove('open');
 			FFCNAEUJPContenttextControl.classList.remove('open');
+			FFCSBLControl.classList.remove('open');
+			FFCSBLContenttextControl.classList.remove('open');
 			
 			FFCBAControl.style.opacity = 1;
 			FFCContentControl.style.zIndex = 19;
@@ -964,8 +962,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 
 			FFCAmazonContenttextControl.style.zIndex = 19;
 			FFCNAEUJPContenttextControl.style.zIndex = 16;
-			FFCpart3ContenttextControl.style.zIndex = 16;
-			FFCpart4ContenttextControl.style.zIndex = 16;
+			FFCSBLContenttextControl.style.zIndex = 16;
+			
 			
 		}; 
 		
@@ -978,6 +976,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			
 			FFCAmazonControl.classList.remove('open');
 			FFCAmazonContenttextControl.classList.remove('open');
+			FFCSBLControl.classList.remove('open');
+			FFCSBLContenttextControl.classList.remove('open');
 			
 			FFCBAControl.style.opacity = 1;
 			
@@ -985,10 +985,34 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCContentControl.style.opacity = 0.99;
 			FFCAmazonContenttextControl.style.zIndex = 16;
 			FFCNAEUJPContenttextControl.style.zIndex = 19;
-			FFCpart3ContenttextControl.style.zIndex = 16;
-			FFCpart4ContenttextControl.style.zIndex = 16;
+			FFCSBLContenttextControl.style.zIndex = 16;
 			
-		}; 
+			
+		};
+		
+		document.getElementsByClassName('FFCSBL')[0].onclick =function()
+		{
+							
+			FFCContenttextControl.classList.add('open');
+			FFCSBLControl.classList.add('open');
+			FFCSBLContenttextControl.classList.add('open');
+			
+			FFCAmazonControl.classList.remove('open');
+			FFCAmazonContenttextControl.classList.remove('open');
+			FFCNAEUJPControl.classList.remove('open');
+			FFCNAEUJPContenttextControl.classList.remove('open');
+			
+			FFCBAControl.style.opacity = 1;
+			
+			FFCContentControl.style.zIndex = 19;
+			FFCContentControl.style.opacity = 0.99;
+			FFCAmazonContenttextControl.style.zIndex = 16;
+			FFCNAEUJPContenttextControl.style.zIndex = 16;
+			FFCSBLContenttextControl.style.zIndex = 19;
+			
+			
+		};
+		
 		document.getElementsByClassName('FFCBA')[0].onclick =function()
 		{
 										
@@ -998,9 +1022,13 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCNAEUJPControl.classList.remove('open');
 			FFCNAEUJPContenttextControl.classList.remove('open');
 			
+			FFCSBLControl.classList.remove('open');
+			FFCSBLContenttextControl.classList.remove('open');
+			
 
 			FFCAmazonContenttextControl.style.zIndex = 16;
 			FFCNAEUJPContenttextControl.style.zIndex = 16;
+			FFCSBLContenttextControl.style.zIndex = 16;
 			
 			FFCBAControl.style.opacity = 0;
 		}; 
