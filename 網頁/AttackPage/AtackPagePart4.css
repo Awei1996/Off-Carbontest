@@ -1887,7 +1887,8 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
-	display: none;
+	display: flex;
+	visibility: hidden;
 	
 }
 .FFCContenttext.open{
@@ -1898,8 +1899,8 @@
 	padding-bottom: 56%;
 	background-color: transparent;
 	opacity: 1;
-	display: flex;
 	color: #ffffff;
+	visibility: visible;
 	
 }
 .FFCAmazon{
