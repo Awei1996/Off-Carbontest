@@ -1119,7 +1119,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			DisasterControl.classList.remove('open');
 			BbtnControl.classList.remove('open');
 
-			FFCContentControl.classList.remove('open');
+			FFCContenttextControl.classList.remove('open');
 			FFCAmazonControl.classList.remove('open');
 			FFCAmazonContenttextControl.classList.remove('open')
 			FFCNAEUJPControl.classList.remove('open');
