@@ -1950,7 +1950,7 @@
 	opacity: 1;
 }
 
-.FFCAus{
+.FFCAUS{
 	position: absolute;
 	z-index: 17;
 	margin-top: 34.15%;
@@ -1963,12 +1963,12 @@
 	justify-content: center;
 	
 }
-.FFCAus:hover{
+.FFCAUS:hover{
 	transition: 1s ;
 	opacity: 1;
 }
 
-.FFCAus.open{
+.FFCAUS.open{
 	opacity: 1;	
 }
 
@@ -2119,7 +2119,7 @@
 	opacity: 1;
 }
 
-.FFCAusContenttext{
+.FFCAUSContenttext{
 	position: absolute;
 	margin-top: 0%;
 	margin-left: 12.5%;
@@ -2134,7 +2134,7 @@
 	opacity: 0;
 	 
 }
-.FFCAusContenttext.open{
+.FFCAUSContenttext.open{
 	transition: 1s;
 	opacity: 1;
 }
