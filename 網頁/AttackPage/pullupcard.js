@@ -980,7 +980,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCSBLContenttextControl.classList.remove('open');
 			
 			FFCBAControl.style.opacity = 1;
-			
 			FFCContentControl.style.zIndex = 19;
 			FFCContentControl.style.opacity = 0.99;
 			FFCAmazonContenttextControl.style.zIndex = 16;
