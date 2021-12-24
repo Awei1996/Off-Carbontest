@@ -1139,12 +1139,12 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 document.getElementsByClassName('HeatWave')[0].onclick = function() {
 	
 	/*var FFCIconTitleControl = document.getElementsByClassName('FFCIconTitle')[0];*/
+	var HWCContentControl = document.getElementsByClassName('HeatWaveContent')[0];
 	var HWCContenttextControl = document.getElementsByClassName('HWCContenttext')[0];
 	var HWCintroductionControl = document.getElementsByClassName('HWCintroduction')[0];
 	
-	var HWCpart1Control = document.getElementsByClassName('HWCpart1')[0];
-	var HWCpart1ContenttextControl = document.getElementsByClassName('HWCpart1Contenttext')[0];
-	var HWCpart1ContentControl = document.getElementsByClassName('HWCpart1Content')[0];
+	var HWCWEUControl = document.getElementsByClassName('HWCWEU')[0];
+	var HWCWEUContenttextControl = document.getElementsByClassName('HWCWEUContenttext')[0];
 	
 	var HWCpart2Control = document.getElementsByClassName('HWCpart2')[0];
 	var HWCpart2ContenttextControl = document.getElementsByClassName('HWCpart2Contenttext')[0];
@@ -1178,14 +1178,27 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		HWCContenttextControl.classList.add('open');
 		HWCintroductionControl.classList.add('open');
 
-		document.getElementsByClassName('HWCpart1')[0].onclick =function()
+		document.getElementsByClassName('HWCWEU')[0].onclick =function()
 		{
 			
-			HWCContenttext.classList.add('close');
-			HWCpart1ContentControl.classList.add('open');
-			HWCpart1Control.classList.add('open');
+			HWCWEUControl.classList.add('open');
+			HWCWEUContenttextControl.classList.add('open');
+			
+			HWCBAControl.style.opacity = 1;
+			HWCContentControl.style.zIndex = 19;
+			HWCContentControl.style.opacity = 0.99;
+
+			FFCAmazonContenttextControl.style.zIndex = 19;
+			FFCNAEUJPContenttextControl.style.zIndex = 16;
+			FFCSBLContenttextControl.style.zIndex = 16;
+			FFCAUSContenttextControl.style.zIndex = 16;
+			FFCIconContenttextControl.style.zIndex = 16;
+			
+			
+			HWCWEUControl.classList.add('open');
 			HWCpart1ContenttextControl.classList.add('open');
 		
+			HWCintroductionControl.classList.remove('open');
 			HWCpart1ContentControl.classList.remove('close');
 			HWCpart1Control.classList.remove('close');
 			HWCpart1ContenttextControl.classList.remove('close');
