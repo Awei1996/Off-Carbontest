@@ -1184,24 +1184,17 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCWEUControl.classList.add('open');
 			HWCWEUContenttextControl.classList.add('open');
 			
+			HWCintroductionControl.classList.remove('open');
+			
 			HWCBAControl.style.opacity = 1;
 			HWCContentControl.style.zIndex = 19;
 			HWCContentControl.style.opacity = 0.99;
 
 			HWCWEUContenttextControl.style.zIndex = 19;
-			FFCNAEUJPContenttextControl.style.zIndex = 16;
-			FFCSBLContenttextControl.style.zIndex = 16;
-			FFCAUSContenttextControl.style.zIndex = 16;
-			FFCIconContenttextControl.style.zIndex = 16;
 			
 			
-			HWCWEUControl.classList.add('open');
-			HWCpart1ContenttextControl.classList.add('open');
 		
-			HWCintroductionControl.classList.remove('open');
-			HWCpart1ContentControl.classList.remove('close');
-			HWCpart1Control.classList.remove('close');
-			HWCpart1ContenttextControl.classList.remove('close');
+			
 
 			HWCpart1ContentControl.style.zIndex = 18;
 			HWCpart1Control.style.zIndex = 19;
