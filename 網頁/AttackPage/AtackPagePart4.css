@@ -2206,7 +2206,7 @@
 	font-size: 2.2rem;
 	font-weight: normal;
 }
-.HWCALLContent{
+.HWCContenttext{
 	position: absolute;
 	z-index: 18;
 	margin-top:  0%;
@@ -2224,7 +2224,10 @@
 	
 	
 }
-.HWCALLContent.close{
+.HWCContenttext.open{
+	
+}
+.HWCContenttext.close{
 	position: absolute;
 	z-index: -1;
 	width: 0%;
@@ -2235,7 +2238,7 @@
 }
 
 
-.HWCALLContenttext{
+.HWCintroduction{
 	position: absolute;
 	margin-top: 150%;
 	width: 100%;
@@ -2249,11 +2252,11 @@
 	opacity: 0;
 	 
 }
-.HWCALLContenttext.open{
+.HWCintroduction.open{
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
-.HWCpart1{
+.HWCWEU{
 	position: absolute;
 	z-index: 17;
 	margin-top: 27.4%;
@@ -2266,18 +2269,18 @@
 	align-items: center;
 	justify-content: center;
 }
-.HWCpart1:hover{
+.HWCWEU:hover{
 	transition: 1s;
 	opacity: 1;
 }
 
-.HWCpart1.open{
+.HWCWEU.open{
 	
 	opacity: 1;	
 }
 
 
-.HWCpart1Content{
+.HWCWEUContent{
 	position: absolute;
 	z-index: -1;
 	margin-top: 0%;
@@ -2289,7 +2292,7 @@
 	opacity: 0;
 	
 }
-.HWCpart1Content.open{
+.HWCWEUContent.open{
 	position: absolute;
 	margin-top: 0%;
 	margin-left: 0%;
@@ -2302,7 +2305,7 @@
 	
 }
 
-.HWCpart1Contenttext{
+.HWCWEUContenttext{
 	position: absolute;
 	margin-top: 25%;
 	margin-left: 12.5%;
@@ -2317,7 +2320,7 @@
 	opacity: 0;
 	 
 }
-.HWCpart1Contenttext.open{
+.HWCWEUContenttext.open{
 	display: flex;
 	transition: 1s opacity  0.5s;
 	opacity: 1;
