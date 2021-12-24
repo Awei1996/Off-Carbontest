@@ -979,9 +979,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCpart4TitleControl.style.zIndex = 16;
 			FFCpart4ContenttextControl.style.zIndex = 16;
 			FFCBAControl.style.opacity = 1;
-			
-			FFCAmazonContenttextControl.style.display = 'flex';
-	
 		}; 
 	}
 }
