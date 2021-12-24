@@ -916,7 +916,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 
 	var FFCNAEUJPControl = document.getElementsByClassName('FFCNAEUJP')[0];
   	var FFCNAEUJPContenttextControl = document.getElementsByClassName('FFCNAEUJPContenttext')[0];
-	var FFCNAEUJPContentControl = document.getElementsByClassName('FFCNAEUJPContent')[0];
 	
 	var FFCSBLControl = document.getElementsByClassName('FFCSBL')[0];
   	var FFCSBLContenttextControl = document.getElementsByClassName('FFCSBLContenttext')[0];
@@ -963,26 +962,47 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCBAControl.style.opacity = 1;
 			
 			FFCContentControl.style.zIndex = 19;
-			FFCAmazonControl.style.zIndex = 19;
-			FFCAmazonContenttextControl.style.zIndex = 19;
 			FFCContentControl.style.opacity = 0.99;
-			FFCpart2Control.style.zIndex = 16;
-			FFCpart2TitleControl.style.zIndex = 16;
-			FFCpart2ContenttextControl.style.zIndex = 16;
-			FFCpart3Control.style.zIndex = 16;
-			FFCpart3TitleControl.style.zIndex = 16;
+			
+			FFCAmazonContenttextControl.style.zIndex = 19;
+			FFCNAEUJPContenttextControl.style.zIndex = 16;
 			FFCpart3ContenttextControl.style.zIndex = 16;
-			FFCpart4Control.style.zIndex = 16;
-			FFCpart4TitleControl.style.zIndex = 16;
 			FFCpart4ContenttextControl.style.zIndex = 16;
 			
 		}; 
 		
+		document.getElementsByClassName('FFCNAEUJP')[0].onclick =function()
+		{
+							
+			FFCContenttextControl.classList.add('open');
+			FFCNAEUJPControl.classList.add('open');
+			FFCNAEUJPContenttextControl.classList.add('open');
+
+
+			FFCContentControl.classList.remove('close');
+			FFCNAEUJPControl.classList.remove('close');
+
+			
+			FFCBAControl.style.opacity = 1;
+			
+			FFCContentControl.style.zIndex = 19;
+			FFCContentControl.style.opacity = 0.99;
+			FFCAmazonContenttextControl.style.zIndex = 16;
+			FFCNAEUJPContenttextControl.style.zIndex = 19;
+			FFCpart3ContenttextControl.style.zIndex = 16;
+			FFCpart4ContenttextControl.style.zIndex = 16;
+			
+		}; 
 		document.getElementsByClassName('FFCBA')[0].onclick =function()
 		{
 										
 			FFCAmazonControl.classList.remove('open');
 			FFCAmazonContenttextControl.classList.remove('open');
+			
+			FFCNAEUJPControl.classList.remove('open');
+			FFCNAEUJPContenttextControl.classList.remove('open');
+			FFCNAEUJPContenttextControl
+			
 
 			FFCAmazonControl.style.zIndex = 16;
 			FFCAmazonContenttextControl.style.zIndex = 16;
