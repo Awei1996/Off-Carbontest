@@ -2276,6 +2276,7 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	visibility: hidden;
 	
 }
 .HWCWEUContent.open{
@@ -2288,6 +2289,7 @@
 	opacity: 0.95;
 	display: flex;
 	color: #ffffff;
+	visibility: visible;
 	
 }
 
