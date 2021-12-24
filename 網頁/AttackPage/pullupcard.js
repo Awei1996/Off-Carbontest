@@ -916,9 +916,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 	var FFCSBLControl = document.getElementsByClassName('FFCSBL')[0];
 	var FFCSBLContenttextControl = document.getElementsByClassName('FFCSBLContenttext')[0];
 	
-	var FFCAusControl = document.getElementsByClassName('FFCAus')[0];
-  	var FFCAusContenttextControl = document.getElementsByClassName('FFCAusContenttext')[0];
-	var FFCAusContentControl = document.getElementsByClassName('FFCAusContent')[0];
+	var FFCAUSControl = document.getElementsByClassName('FFCAUS')[0];
+	var FFCAUSContenttextControl = document.getElementsByClassName('FFCAUSContenttext')[0];
 	
 	var FFCIconControl = document.getElementsByClassName('FFCIcon')[0];
 	/*var FFCIconTitleControl = document.getElementsByClassName('FFCIconTitle')[0];*/
@@ -954,6 +953,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCNAEUJPContenttextControl.classList.remove('open');
 			FFCSBLControl.classList.remove('open');
 			FFCSBLContenttextControl.classList.remove('open');
+			FFCAUSControl.classList.remove('open');
+			FFCAUSContenttextControl.classList.remove('open');
 			
 			FFCBAControl.style.opacity = 1;
 			FFCContentControl.style.zIndex = 19;
@@ -962,6 +963,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAmazonContenttextControl.style.zIndex = 19;
 			FFCNAEUJPContenttextControl.style.zIndex = 16;
 			FFCSBLContenttextControl.style.zIndex = 16;
+			FFCAUSContenttextControl.style.zIndex = 16;
 			
 			
 		}; 
@@ -977,6 +979,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAmazonContenttextControl.classList.remove('open');
 			FFCSBLControl.classList.remove('open');
 			FFCSBLContenttextControl.classList.remove('open');
+			FFCAUSControl.classList.remove('open');
+			FFCAUSContenttextControl.classList.remove('open');
 			
 			FFCBAControl.style.opacity = 1;
 			FFCContentControl.style.zIndex = 19;
@@ -984,6 +988,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAmazonContenttextControl.style.zIndex = 16;
 			FFCNAEUJPContenttextControl.style.zIndex = 19;
 			FFCSBLContenttextControl.style.zIndex = 16;
+			FFCAUSContenttextControl.style.zIndex = 16;
 			
 			
 		};
@@ -999,6 +1004,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAmazonContenttextControl.classList.remove('open');
 			FFCNAEUJPControl.classList.remove('open');
 			FFCNAEUJPContenttextControl.classList.remove('open');
+			FFCAUSControl.classList.remove('open');
+			FFCAUSContenttextControl.classList.remove('open');
 			
 			FFCBAControl.style.opacity = 1;
 			FFCContentControl.style.zIndex = 19;
@@ -1006,6 +1013,32 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAmazonContenttextControl.style.zIndex = 16;
 			FFCNAEUJPContenttextControl.style.zIndex = 16;
 			FFCSBLContenttextControl.style.zIndex = 19;
+			FFCAUSContenttextControl.style.zIndex = 16;
+			
+			
+		};
+		
+		document.getElementsByClassName('FFCAUS')[0].onclick =function()
+		{
+							
+			FFCContenttextControl.classList.add('open');
+			FFCAUSControl.classList.add('open');
+			FFCAUSContenttextControl.classList.add('open');
+			
+			FFCAmazonControl.classList.remove('open');
+			FFCAmazonContenttextControl.classList.remove('open');
+			FFCNAEUJPControl.classList.remove('open');
+			FFCNAEUJPContenttextControl.classList.remove('open');
+			FFCSBLControl.classList.remove('open');
+			FFCSBLContenttextControl.classList.remove('open');
+			
+			FFCBAControl.style.opacity = 1;
+			FFCContentControl.style.zIndex = 19;
+			FFCContentControl.style.opacity = 0.99;
+			FFCAmazonContenttextControl.style.zIndex = 16;
+			FFCNAEUJPContenttextControl.style.zIndex = 16;
+			FFCSBLContenttextControl.style.zIndex = 16;
+			FFCAUSContenttextControl.style.zIndex = 19;
 			
 			
 		};
@@ -1022,10 +1055,14 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCSBLControl.classList.remove('open');
 			FFCSBLContenttextControl.classList.remove('open');
 			
+			FFCAUSControl.classList.remove('open');
+			FFCAUSContenttextControl.classList.remove('open');
+			
 
 			FFCAmazonContenttextControl.style.zIndex = 16;
 			FFCNAEUJPContenttextControl.style.zIndex = 16;
 			FFCSBLContenttextControl.style.zIndex = 16;
+			FFCAUSContenttextControl.style.zIndex = 16;
 			
 			FFCBAControl.style.opacity = 0;
 		}; 

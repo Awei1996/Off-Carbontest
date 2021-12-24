@@ -1877,25 +1877,6 @@
 	font-weight: normal;
 }
 
-.FFCContenttext{
-	position: absolute;
-	z-index: 16;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 41.67%;
-	padding-bottom: 56%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	opacity: 1;
-	display: flex;
-	visibility: hidden;
-	
-}
-.FFCContenttext.open{
-	
-	visibility: visible;	
-}
 .FFCAmazon{
 	position: absolute;
 	z-index: 17;
@@ -1918,28 +1899,6 @@
 .FFCAmazon.open{	
 	opacity: 1;
 }
-
-.FFCAmazonContenttext{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 12.5%;
-	width: 100%;
-	height: 100%;
-	background-color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	color: #ffffff;
-	line-height: 2;
-	opacity: 0;
-	
-	 
-}
-.FFCAmazonContenttext.open{
-	transition: 1s;
-	opacity: 1;
-}
-
 
 .FFCNAEUJP{
 	position: absolute;
@@ -1970,27 +1929,6 @@
 	width: 7.44%;
 }
 
-
-.FFCNAEUJPContenttext{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 12.5%;
-	width: 100%;
-	height: 100%;
-	background-color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	color: #ffffff;
-	line-height: 2;
-	opacity: 0;
-	 
-}
-.FFCNAEUJPContenttext.open{
-	transition: 1s;
-	opacity: 1;
-}
-
 .FFCSBL{
 	position: absolute;
 	z-index: 17;
@@ -2011,28 +1949,6 @@
 .FFCSBL.open{	
 	opacity: 1;
 }
-
-.FFCSBLContenttext{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 12.5%;
-	width: 100%;
-	height: 100%;
-	background-color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	color: #ffffff;
-	line-height: 2;
-	opacity: 0;
-
-	 
-}
-.FFCSBLContenttext.open{
-	transition: 1s;
-	opacity: 1;
-}
-
 
 .FFCAus{
 	position: absolute;
@@ -2056,51 +1972,6 @@
 	opacity: 1;	
 }
 
-
-.FFCAusContent{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	opacity: 0;
-}
-.FFCAusContent.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 41.67%;
-	padding-bottom: 56%;
-	background-color: transparent;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-	
-}
-
-.FFCAusContenttext{
-	position: absolute;
-	margin-top: 45%;
-	margin-left: 12.5%;
-	width: 100%;
-	padding-bottom: 20%;
-	background-color: transparent;
-	font-size: 2.2rem;
-	display: none;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 2;
-	opacity: 0;
-	 
-}
-.FFCAusContenttext.open{
-	display: flex;
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
 .FFCIcon{
 	position: absolute;
 	z-index: 17;
@@ -2165,6 +2036,106 @@
 .FFCIconContenttext.open{
 	display: flex;
 	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.FFCContenttext{
+	position: absolute;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 41.67%;
+	padding-bottom: 56%;
+	background-color: transparent;
+	color: transparent;
+	font-size: 2.2rem;
+	opacity: 1;
+	display: flex;
+	visibility: hidden;
+	
+}
+
+.FFCAmazonContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	line-height: 2;
+	opacity: 0;
+
+}
+
+.FFCAmazonContenttext.open{
+	transition: 1s;
+	opacity: 1;
+}
+
+.FFCContenttext.open{
+	visibility: visible;	
+}
+
+.FFCNAEUJPContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	line-height: 2;
+	opacity: 0;
+	 
+}
+.FFCNAEUJPContenttext.open{
+	transition: 1s;
+	opacity: 1;
+}
+
+.FFCSBLContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	line-height: 2;
+	opacity: 0;
+
+}
+.FFCSBLContenttext.open{
+	transition: 1s;
+	opacity: 1;
+}
+
+.FFCAusContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	line-height: 2;
+	opacity: 0;
+	 
+}
+.FFCAusContenttext.open{
+	transition: 1s;
 	opacity: 1;
 }
 .HeatWave{
