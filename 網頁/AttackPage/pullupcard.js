@@ -920,13 +920,10 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 	var FFCAUSContenttextControl = document.getElementsByClassName('FFCAUSContenttext')[0];
 	
 	var FFCIconControl = document.getElementsByClassName('FFCIcon')[0];
-	/*var FFCIconTitleControl = document.getElementsByClassName('FFCIconTitle')[0];*/
-  	var FFCIconContenttextControl = document.getElementsByClassName('FFCIconContenttext')[0];
-	var FFCIconContentControl = document.getElementsByClassName('FFCIconContent')[0];
-
-  	if(this.value === 'close') 
-  	{ 
-    	this.value = 'open';
+	var FFCIconContenttextControl = document.getElementsByClassName('FFCIconContenttext')[0];
+	if(this.value === 'close') 
+	{ 
+		this.value = 'open';
 		textcardFFC.classList.remove('close'); 
 		textcardFFC.classList.add('open');
 		
@@ -955,6 +952,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCSBLContenttextControl.classList.remove('open');
 			FFCAUSControl.classList.remove('open');
 			FFCAUSContenttextControl.classList.remove('open');
+			FFCIconControl.classList.remove('open');
+			FFCIconContenttextControl.classList.remove('open');
 			
 			FFCBAControl.style.opacity = 1;
 			FFCContentControl.style.zIndex = 19;
@@ -964,6 +963,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCNAEUJPContenttextControl.style.zIndex = 16;
 			FFCSBLContenttextControl.style.zIndex = 16;
 			FFCAUSContenttextControl.style.zIndex = 16;
+			FFCIconContenttextControl.style.zIndex = 16;
 			
 			
 		}; 
@@ -981,14 +981,18 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCSBLContenttextControl.classList.remove('open');
 			FFCAUSControl.classList.remove('open');
 			FFCAUSContenttextControl.classList.remove('open');
+			FFCIconControl.classList.remove('open');
+			FFCIconContenttextControl.classList.remove('open');
 			
 			FFCBAControl.style.opacity = 1;
 			FFCContentControl.style.zIndex = 19;
 			FFCContentControl.style.opacity = 0.99;
+			
 			FFCAmazonContenttextControl.style.zIndex = 16;
 			FFCNAEUJPContenttextControl.style.zIndex = 19;
 			FFCSBLContenttextControl.style.zIndex = 16;
 			FFCAUSContenttextControl.style.zIndex = 16;
+			FFCIconContenttextControl.style.zIndex = 16;
 			
 			
 		};
@@ -1006,6 +1010,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCNAEUJPContenttextControl.classList.remove('open');
 			FFCAUSControl.classList.remove('open');
 			FFCAUSContenttextControl.classList.remove('open');
+			FFCIconControl.classList.remove('open');
+			FFCIconContenttextControl.classList.remove('open');
 			
 			FFCBAControl.style.opacity = 1;
 			FFCContentControl.style.zIndex = 19;
@@ -1014,6 +1020,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCNAEUJPContenttextControl.style.zIndex = 16;
 			FFCSBLContenttextControl.style.zIndex = 19;
 			FFCAUSContenttextControl.style.zIndex = 16;
+			FFCIconContenttextControl.style.zIndex = 16;
 			
 			
 		};
@@ -1031,6 +1038,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCNAEUJPContenttextControl.classList.remove('open');
 			FFCSBLControl.classList.remove('open');
 			FFCSBLContenttextControl.classList.remove('open');
+			FFCIconControl.classList.remove('open');
+			FFCIconContenttextControl.classList.remove('open');
 			
 			FFCBAControl.style.opacity = 1;
 			FFCContentControl.style.zIndex = 19;
@@ -1039,6 +1048,35 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCNAEUJPContenttextControl.style.zIndex = 16;
 			FFCSBLContenttextControl.style.zIndex = 16;
 			FFCAUSContenttextControl.style.zIndex = 19;
+			FFCIconContenttextControl.style.zIndex = 16;
+			
+			
+		};
+		
+		document.getElementsByClassName('FFCIcon')[0].onclick =function()
+		{
+							
+			FFCContenttextControl.classList.add('open');
+			FFCIconControl.classList.add('open');
+			FFCIconContenttextControl.classList.add('open');
+			
+			FFCAmazonControl.classList.remove('open');
+			FFCAmazonContenttextControl.classList.remove('open');
+			FFCNAEUJPControl.classList.remove('open');
+			FFCNAEUJPContenttextControl.classList.remove('open');
+			FFCSBLControl.classList.remove('open');
+			FFCSBLContenttextControl.classList.remove('open');
+			FFCAUSControl.classList.remove('open');
+			FFCAUSContenttextControl.classList.remove('open');
+			
+			FFCBAControl.style.opacity = 1;
+			FFCContentControl.style.zIndex = 19;
+			FFCContentControl.style.opacity = 0.99;
+			FFCAmazonContenttextControl.style.zIndex = 16;
+			FFCNAEUJPContenttextControl.style.zIndex = 16;
+			FFCSBLContenttextControl.style.zIndex = 16;
+			FFCAUSContenttextControl.style.zIndex = 16;
+			FFCIconContenttextControl.style.zIndex = 19;
 			
 			
 		};
@@ -1048,21 +1086,21 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 										
 			FFCAmazonControl.classList.remove('open');
 			FFCAmazonContenttextControl.classList.remove('open');
-			
 			FFCNAEUJPControl.classList.remove('open');
 			FFCNAEUJPContenttextControl.classList.remove('open');
-			
 			FFCSBLControl.classList.remove('open');
 			FFCSBLContenttextControl.classList.remove('open');
-			
 			FFCAUSControl.classList.remove('open');
 			FFCAUSContenttextControl.classList.remove('open');
+			FFCIconControl.classList.remove('open');
+			FFCIconContenttextControl.classList.remove('open');
 			
 
 			FFCAmazonContenttextControl.style.zIndex = 16;
 			FFCNAEUJPContenttextControl.style.zIndex = 16;
 			FFCSBLContenttextControl.style.zIndex = 16;
 			FFCAUSContenttextControl.style.zIndex = 16;
+			FFCIconContenttextControl.style.zIndex = 16;
 			
 			FFCBAControl.style.opacity = 0;
 		}; 
