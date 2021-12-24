@@ -1108,7 +1108,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
 			document.getElementsByClassName('FireForest')[0].value = 'close';
-    		textcardFFC.classList.remove('open'); 
+			textcardFFC.classList.remove('open'); 
 			textcardFFC.classList.add('close');
 			MainMenuControl.classList.remove('close');
 			MainMenuControl.classList.add('open');
@@ -1121,6 +1121,10 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCContentControl.classList.remove('open');
 			FFCAmazonControl.classList.remove('open');
 			FFCAmazonContenttextControl.classList.remove('open')
+			FFCNAEUJPControl.classList.remove('open');
+			FFCSBLContenttextControl.classList.remove('open')
+			FFCAUSContenttextControl.classList.remove('open')
+			FFCIconContenttextControl.classList.remove('open')
 			
 			FFCContentControl.style.zIndex = 15;
 			FFCAmazonControl.style.zIndex = 19;
