@@ -1893,10 +1893,8 @@
 	
 }
 .FFCContenttext.open{
-	position: absolute;
-	background-color: transparent;
-	visibility: visible;
 	
+	visibility: visible;	
 }
 .FFCAmazon{
 	position: absolute;
