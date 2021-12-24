@@ -1139,8 +1139,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 document.getElementsByClassName('HeatWave')[0].onclick = function() {
 	
 	/*var FFCIconTitleControl = document.getElementsByClassName('FFCIconTitle')[0];*/
-	var HWCintroductionControl = document.getElementsByClassName('HWCintroduction')[0];
 	var HWCContenttextControl = document.getElementsByClassName('HWCContenttext')[0];
+	var HWCintroductionControl = document.getElementsByClassName('HWCintroduction')[0];
 	
 	var HWCpart1Control = document.getElementsByClassName('HWCpart1')[0];
 	var HWCpart1ContenttextControl = document.getElementsByClassName('HWCpart1Contenttext')[0];
@@ -1151,20 +1151,23 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 	var HWCpart2ContentControl = document.getElementsByClassName('HWCpart2Content')[0];
 	
 	var HWCpart3Control = document.getElementsByClassName('HWCpart3')[0];
-  	var HWCpart3ContenttextControl = document.getElementsByClassName('HWCpart3Contenttext')[0];
+	var HWCpart3ContenttextControl = document.getElementsByClassName('HWCpart3Contenttext')[0];
 	var HWCpart3ContentControl = document.getElementsByClassName('HWCpart3Content')[0];
 	
 	var HWCpart4Control = document.getElementsByClassName('HWCpart4')[0];
-  	var HWCpart4ContenttextControl = document.getElementsByClassName('HWCpart4Contenttext')[0];
+	var HWCpart4ContenttextControl = document.getElementsByClassName('HWCpart4Contenttext')[0];
 	var HWCpart4ContentControl = document.getElementsByClassName('HWCpart4Content')[0];
 	
 	var HWCBAControl = document.getElementsByClassName('HWCBA')[0];
 	
-  	if(this.value === 'close') 
-  	{ 
-    	this.value = 'open';
+	HWCContenttextControl.classList.add('open');
+	HWCintroductionControl.classList.add('open');
+	
+	if(this.value === 'close') 
+	{ 
+		this.value = 'open';
 		textcardHWC.classList.remove('close'); 
-    	textcardHWC.classList.add('open');
+		textcardHWC.classList.add('open');
 		MainMenuControl.classList.add('close');
 		MainMenuControl.classList.remove('open');
 		SteamControl.classList.add('open');
@@ -1172,7 +1175,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
 		HWCBGControl.classList.add('open');
-  		BbtnControl.classList.add('open');
+		BbtnControl.classList.add('open');
 
 		document.getElementsByClassName('HWCpart1')[0].onclick =function()
 		{

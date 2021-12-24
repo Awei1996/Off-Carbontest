@@ -2011,6 +2011,10 @@
 	
 }
 
+.FFCContenttext.open{
+	visibility: visible;	
+}
+
 .FFCAmazonContenttext{
 	position: absolute;
 	margin-top: 0%;
@@ -2030,10 +2034,6 @@
 .FFCAmazonContenttext.open{
 	transition: 1s;
 	opacity: 1;
-}
-
-.FFCContenttext.open{
-	visibility: visible;	
 }
 
 .FFCNAEUJPContenttext{
@@ -2208,52 +2208,37 @@
 }
 .HWCContenttext{
 	position: absolute;
-	z-index: 18;
-	margin-top:  0%;
-	margin-left: 5.21%;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: 0%;
 	width: 41.67%;
 	padding-bottom: 56%;
 	background-color: transparent;
-	opacity: 1;
-	color: #ffffff;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-
-	
-	
-}
-.HWCContenttext.open{
-	
-}
-.HWCContenttext.close{
-	position: absolute;
-	z-index: -1;
-	width: 0%;
-	background-color: transparent;
 	color: transparent;
-	opacity: 0;
-	display: none;
+	font-size: 2.2rem;
+	opacity: 1;
+	display: flex;
+	visibility: hidden;	
+	
 }
-
 
 .HWCintroduction{
 	position: absolute;
-	margin-top: 150%;
+	margin-top: 0%;
+	margin-left: 12.5%;
 	width: 100%;
-	padding-bottom: 20%;
+	height: 100%;
 	background-color: transparent;
 	font-size: 2.2rem;
 	display: flex;
 	align-items: center;
-	justify-content: flex-start;
+	color: #ffffff;
 	line-height: 2;
 	opacity: 0;
 	 
 }
 .HWCintroduction.open{
-	transition: 1s opacity  0.5s;
+	transition: 1s;
 	opacity: 1;
 }
 .HWCWEU{
