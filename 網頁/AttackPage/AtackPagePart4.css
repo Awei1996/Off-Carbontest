@@ -1993,6 +1993,10 @@
 	-webkit-filter:brightness(1.2);
 }
 
+.FFCIcon.open{
+	-webkit-filter:brightness(1.2);
+}
+
 .FFCContenttext{
 	position: absolute;
 	z-index: 16;
