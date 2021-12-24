@@ -2144,18 +2144,9 @@
     -moz-transition: 2s;
     -ms-transition: 2s;
     -o-transition: 2s;
-    transition: 0.01s,opacity 2s;
+    transition: 0.01s,opacity 1s;
 	opacity: 0.9;
 	margin-left: 100%;
-}
-.HeatWaveContent.close{
-	-webkit-transition: 2s;
-    -moz-transition: 2s;
-    -ms-transition: 2s;
-    -o-transition: 2s;
-    transition: 0.01s,opacity 1s;
-    margin-left: -310%;
-	opacity: 0;
 }
 
 .HWCBG{
@@ -2267,34 +2258,6 @@
 	opacity: 1;	
 }
 
-
-.HWCWEUContent{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	opacity: 0;
-	visibility: hidden;
-	
-}
-.HWCWEUContent.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 41.67%;
-	padding-bottom: 56%;
-	background-color: transparent;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-	visibility: visible;
-	
-}
-
 .HWCWEUContenttext{
 	position: absolute;
 	margin-top: 0%;
@@ -2308,11 +2271,13 @@
 	color: #ffffff;
 	line-height: 2;
 	opacity: 0;
+	visibility: hidden;
 	 
 }
 .HWCWEUContenttext.open{
 	transition: 1s opacity  0.5s;
 	opacity: 1;
+	visibility: visible;
 }
 
 .HWCpart2{
