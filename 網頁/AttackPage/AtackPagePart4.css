@@ -2236,11 +2236,13 @@
 	color: #ffffff;
 	line-height: 2;
 	opacity: 0;
+	visibility: hidden;
 	 
 }
 .HWCintroduction.open{
 	transition: 1s;
 	opacity: 1;
+	visibility: visible;
 }
 .HWCWEU{
 	position: absolute;
