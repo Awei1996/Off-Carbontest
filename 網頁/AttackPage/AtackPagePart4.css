@@ -1882,7 +1882,8 @@
 	z-index: 16;
 	margin-top: 0%;
 	margin-left: 0%;
-	width: 0%;
+	width: 41.67%;
+	padding-bottom: 56%;
 	background-color: transparent;
 	color: transparent;
 	font-size: 2.2rem;
@@ -1893,12 +1894,7 @@
 }
 .FFCContenttext.open{
 	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 41.67%;
-	padding-bottom: 56%;
 	background-color: transparent;
-	color: #ffffff;
 	visibility: visible;
 	
 }
