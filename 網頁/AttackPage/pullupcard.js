@@ -947,9 +947,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 		FFCBGControl.classList.add('open');
 		BbtnControl.classList.add('open');
 		
-		
-		
-		
   
 		document.getElementsByClassName('FFCAmazon')[0].onclick =function()
 		{
