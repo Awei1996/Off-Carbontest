@@ -1159,9 +1159,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 	var HWCpart4ContentControl = document.getElementsByClassName('HWCpart4Content')[0];
 	
 	var HWCBAControl = document.getElementsByClassName('HWCBA')[0];
-	
-	HWCContenttextControl.classList.add('open');
-	HWCintroductionControl.classList.add('open');
+
 	
 	if(this.value === 'close') 
 	{ 
@@ -1176,6 +1174,9 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		DisasterControl.classList.remove('close');
 		HWCBGControl.classList.add('open');
 		BbtnControl.classList.add('open');
+		
+		HWCContenttextControl.classList.add('open');
+		HWCintroductionControl.classList.add('open');
 
 		document.getElementsByClassName('HWCpart1')[0].onclick =function()
 		{
