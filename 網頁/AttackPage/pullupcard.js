@@ -1001,11 +1001,10 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			
 			FFCNAEUJPControl.classList.remove('open');
 			FFCNAEUJPContenttextControl.classList.remove('open');
-			FFCNAEUJPContenttextControl
 			
 
-			FFCAmazonControl.style.zIndex = 16;
 			FFCAmazonContenttextControl.style.zIndex = 16;
+			FFCNAEUJPContenttextControl.style.zIndex = 16;
 			
 			FFCBAControl.style.opacity = 0;
 		}; 
