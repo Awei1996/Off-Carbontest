@@ -1886,7 +1886,7 @@
 	background-color: transparent;
 	color: transparent;
 	font-size: 2.2rem;
-	opacity: 0;
+	opacity: 1;
 	display: flex;
 	visibility: hidden;
 	
@@ -1898,7 +1898,6 @@
 	width: 41.67%;
 	padding-bottom: 56%;
 	background-color: transparent;
-	opacity: 1;
 	color: #ffffff;
 	visibility: visible;
 	
