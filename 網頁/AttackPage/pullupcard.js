@@ -1250,7 +1250,8 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCintroductionControl.classList.add('open');
 			
 			HWCBAControl.style.opacity = 0;
-
+			
+			HWCContentControl.style.zIndex = 16;
 			HWCWEUContenttextControl.style.zIndex = 16;
 			HWCENNLContenttextControl.style.zIndex = 16;
 			HWCSWEContenttextControl.style.zIndex = 16;		
