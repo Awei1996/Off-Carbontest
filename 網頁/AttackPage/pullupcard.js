@@ -1315,9 +1315,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCintroductionControl.classList.add('open');
 			
 		};	
-	
-  	} 
-  
+	} 
 };
 
 document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
