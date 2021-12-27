@@ -2222,6 +2222,7 @@
 	width: 7.135%;
 	opacity: 0;
 	color: #ffffff;
+	background-color: transparent;
 	font-size: 2.2rem;
 	display: flex;
 	align-items: center;
@@ -2244,6 +2245,7 @@
 	width: 3.34%;
 	opacity: 0;
 	color: #ffffff;
+	background-color: transparent;
 	font-size: 2.2rem;
 	display: flex;
 	align-items: center;
@@ -2309,6 +2311,7 @@
 	margin-left: 52.8%;
 	width: 3.29%;
 	color: #ffffff;
+	background-color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
 	display: flex;
@@ -2358,6 +2361,7 @@
 	margin-left: 84%;
 	width: 4.29%;
 	color: #ffffff;
+	background-color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
 	display: flex;
