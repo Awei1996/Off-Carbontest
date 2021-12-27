@@ -2104,14 +2104,36 @@
 	opacity: 0.9;
 	margin-left: 100%;
 }
+.FFCBG{
+	position: absolute;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: -100%;
+	width: 100%;
+	padding-bottom: 13.5%;
+	background-color: #163C4B;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 
+}
+.FFCBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	margin-left: 0%;
+}
 .HWCBG{
 	position: absolute;
 	z-index: 16;
 	margin-top: 0%;
 	margin-left: -100%;
 	width: 100%;
-	padding-bottom: 6%;
+	padding-bottom: 13.5%;
 	background-color: #163C4B;
 	opacity: 1;
 	display: flex;
@@ -2190,6 +2212,25 @@
 	transition: 1s;
 	opacity: 1;
 	visibility: visible;
+}
+.FFCAmazon{
+	position: absolute;
+	z-index: 17;
+	margin-top: 30.6%;
+	margin-left: 58.45%;
+	width: 7.18%;
+	color: #ffffff;
+	opacity: 0;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.FFCAmazon:hover{
+	transition: 1s;
+	opacity: 1;
+
 }
 .HWCWEU{
 	position: absolute;
