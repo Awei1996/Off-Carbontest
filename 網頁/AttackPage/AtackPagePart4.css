@@ -69,28 +69,7 @@
 	opacity: 0;
 }
 
-.FSC1BA{
-	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
-	opacity: 0;
-}
-.FSC2BA{
-	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
-	opacity: 0;
-}
-.FSC3BA{
-	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
-	opacity: 0;
-}
-.FSC4BA{
+.FSCBA{
 	position: absolute;
 	margin-left: 93%;
 	margin-top: 10%;
@@ -98,36 +77,13 @@
 	opacity: 0;
 }
 
-.ESC1BA{
+.ESCBA{
 	position: absolute;
 	margin-left: 93%;
 	margin-top: 10%;
 	width:4.79%;	
 	opacity: 0;
 }
-.ESC2BA{
-	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
-	opacity: 0;
-}
-.ESC3BA{
-	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
-	opacity: 0;
-}
-.ESC4BA{
-	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
-	opacity: 0;
-}
-
-
 
 .Disaster{
 	position: absolute;
