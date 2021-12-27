@@ -1347,16 +1347,6 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			
 			ECCBAControl.style.opacity = 1;
 			
-			HWCENNLControl.classList.remove('open');
-			HWCENNLContenttextControl.classList.remove('open');
-			HWCSWEControl.classList.remove('open');
-			HWCSWEContenttextControl.classList.remove('open');
-			HWCJPControl.classList.remove('open');
-			HWCJPContenttextControl.classList.remove('open');
-
-		
-			
-			HWCintroductionControl.classList.remove('open');
 		
 		}; 
 
@@ -1655,63 +1645,19 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 	  
 		document.getElementsByClassName('ECCBA')[0].onclick =function()
 		{
-			ECCALLContentControl.classList.remove('close');
-			ECCpart1ContentControl.classList.remove('open');
-			ECCpart1Control.classList.remove('open');
-			ECCpart1ContenttextControl.classList.remove('open');
-		
-			ECCpart1ContentControl.classList.add('close');
-			ECCpart1Control.classList.add('close');
-			ECCpart1ContenttextControl.classList.add('close');
-			
-			ECCpart2ContentControl.classList.remove('open');
-			ECCpart2Control.classList.remove('open');
-			ECCpart2ContenttextControl.classList.remove('open');
-		
-			ECCpart2ContentControl.classList.add('close');
-			ECCpart2Control.classList.add('close');
-			ECCpart2ContenttextControl.classList.add('close');
-			
-			ECCpart3ContentControl.classList.remove('open');
-			ECCpart3Control.classList.remove('open');
-			ECCpart3ContenttextControl.classList.remove('open');
-		
-			ECCpart3ContentControl.classList.add('close');
-			ECCpart3Control.classList.add('close');
-			ECCpart3ContenttextControl.classList.add('close');
-			
-			ECCpart4ContentControl.classList.remove('open');
-			ECCpart4Control.classList.remove('open');
-			ECCpart4ContenttextControl.classList.remove('open');
-		
-			ECCpart4ContentControl.classList.add('close');
-			ECCpart4Control.classList.add('close');
-			ECCpart4ContenttextControl.classList.add('close');
-			
-			ECCpart5ContentControl.classList.remove('open');
-			ECCpart5Control.classList.remove('open');
-			ECCpart5ContenttextControl.classList.remove('open');
-		
-			ECCpart5ContentControl.classList.add('close');
-			ECCpart5Control.classList.add('close');
-			ECCpart5ContenttextControl.classList.add('close');
-			
-			ECCIconContentControl.classList.remove('open');
 			ECCIconControl.classList.remove('open');
 			ECCIconContenttextControl.classList.remove('open');
-		
-			ECCIconContentControl.classList.add('close');
-			ECCIconControl.classList.add('close');
-			ECCIconContenttextControl.classList.add('close');
-
-			ECCpart1ContentControl.style.zIndex = 15;
-			ECCpart1Control.style.zIndex = 19;		
-			ECCpart2Control.style.zIndex = 19;
-			ECCpart3Control.style.zIndex = 19;
-			ECCpart4Control.style.zIndex = 19;
-			ECCpart5Control.style.zIndex = 19;
-			ECCIconControl.style.zIndex = 19;
+			
+			ECCintroductionControl.classList.add('open');
+			
 			ECCBAControl.style.opacity = 0;
+
+			HWCWEUContenttextControl.style.zIndex = 17;
+			HWCENNLContenttextControl.style.zIndex = 17;
+			HWCSWEContenttextControl.style.zIndex = 17;		
+			HWCJPContenttextControl.style.zIndex = 17;
+
+			HWCBAControl.style.opacity = 0;
 		
 		}; 
 
