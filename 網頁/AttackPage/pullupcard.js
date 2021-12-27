@@ -1309,6 +1309,8 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCENNLContenttextControl.classList.remove('open');
 			HWCSWEControl.classList.remove('open');
 			HWCSWEContenttextControl.classList.remove('open');
+			HWCJPControl.classList.remove('open');
+			HWCJPContenttextControl.classList.remove('open');
 			
 			HWCintroductionControl.classList.add('open');
 			
