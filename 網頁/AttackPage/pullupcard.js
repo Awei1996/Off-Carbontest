@@ -1139,6 +1139,8 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		this.value = 'open';
 		textcardHWC.classList.remove('close'); 
 		textcardHWC.classList.add('open');
+		HWCContentControl.classList.add('open');
+		
 		MainMenuControl.classList.add('close');
 		MainMenuControl.classList.remove('open');
 		SteamControl.classList.add('open');
