@@ -90,7 +90,6 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart1Control.style.zIndex = 19;
 			SDCpart1TitleControl.style.zIndex = 19;
 			SDCpart1ContenttextControl.style.zIndex = 19;
-			SDCContentControl.style.opacity = 0.99;
 			SDCpart2Control.style.zIndex = 16;
 			SDCpart2TitleControl.style.zIndex = 16;
 			SDCpart2ContenttextControl.style.zIndex = 16;
@@ -128,7 +127,6 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart1Control.style.zIndex = 16;
 			SDCpart1TitleControl.style.zIndex = 16;
 			SDCpart1ContenttextControl.style.zIndex = 16;
-			SDCContentControl.style.opacity = 0.99;
 			SDCpart2Control.style.zIndex = 19;
 			SDCpart2TitleControl.style.zIndex = 19;
 			SDCpart2ContenttextControl.style.zIndex = 19;
@@ -165,7 +163,6 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart1Control.style.zIndex = 16;
 			SDCpart1TitleControl.style.zIndex = 16;
 			SDCpart1ContenttextControl.style.zIndex = 16;
-			SDCContentControl.style.opacity = 0.99;
 			SDCpart2Control.style.zIndex = 16;
 			SDCpart2TitleControl.style.zIndex = 16;
 			SDCpart2ContenttextControl.style.zIndex = 16;
@@ -202,7 +199,6 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCpart1Control.style.zIndex = 16;
 			SDCpart1TitleControl.style.zIndex = 16;
 			SDCpart1ContenttextControl.style.zIndex = 16;
-			SDCContentControl.style.opacity = 0.99;
 			SDCpart2Control.style.zIndex = 16;
 			SDCpart2TitleControl.style.zIndex = 16;
 			SDCpart2ContenttextControl.style.zIndex = 16;
@@ -379,7 +375,6 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart1Control.style.zIndex = 19;
 			OACpart1TitleControl.style.zIndex = 19;
 			OACpart1ContenttextControl.style.zIndex = 19;
-			OACContentControl.style.opacity = 0.99;
 			OACpart2Control.style.zIndex = 16;
 			OACpart2TitleControl.style.zIndex = 16;
 			OACpart2ContenttextControl.style.zIndex = 16;
@@ -416,7 +411,6 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart1Control.style.zIndex = 16;
 			OACpart1TitleControl.style.zIndex = 16;
 			OACpart1ContenttextControl.style.zIndex = 16;
-			OACContentControl.style.opacity = 0.99;
 			OACpart2Control.style.zIndex = 19;
 			OACpart2TitleControl.style.zIndex = 19;
 			OACpart2ContenttextControl.style.zIndex = 19;
@@ -453,7 +447,6 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart1Control.style.zIndex = 16;
 			OACpart1TitleControl.style.zIndex = 16;
 			OACpart1ContenttextControl.style.zIndex = 16;
-			OACContentControl.style.opacity = 0.99;
 			OACpart2Control.style.zIndex = 16;
 			OACpart2TitleControl.style.zIndex = 16;
 			OACpart2ContenttextControl.style.zIndex = 16;
@@ -490,7 +483,6 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 			OACpart1Control.style.zIndex = 16;
 			OACpart1TitleControl.style.zIndex = 16;
 			OACpart1ContenttextControl.style.zIndex = 16;
-			OACContentControl.style.opacity = 0.99;
 			OACpart2Control.style.zIndex = 16;
 			OACpart2TitleControl.style.zIndex = 16;
 			OACpart2ContenttextControl.style.zIndex = 16;
@@ -668,7 +660,6 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart1Control.style.zIndex = 19;
 			MICpart1TitleControl.style.zIndex = 19;
 			MICpart1ContenttextControl.style.zIndex = 19;
-			MICContentControl.style.opacity = 0.99;
 			MICpart2Control.style.zIndex = 16;
 			MICpart2TitleControl.style.zIndex = 16;
 			MICpart2ContenttextControl.style.zIndex = 16;
@@ -705,7 +696,6 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart1Control.style.zIndex = 16;
 			MICpart1TitleControl.style.zIndex = 16;
 			MICpart1ContenttextControl.style.zIndex = 16;
-			MICContentControl.style.opacity = 0.99;
 			MICpart2Control.style.zIndex = 19;
 			MICpart2TitleControl.style.zIndex = 19;
 			MICpart2ContenttextControl.style.zIndex = 19;
@@ -742,7 +732,6 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart1Control.style.zIndex = 16;
 			MICpart1TitleControl.style.zIndex = 16;
 			MICpart1ContenttextControl.style.zIndex = 16;
-			MICContentControl.style.opacity = 0.99;
 			MICpart2Control.style.zIndex = 16;
 			MICpart2TitleControl.style.zIndex = 16;
 			MICpart2ContenttextControl.style.zIndex = 16;
@@ -779,7 +768,6 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 			MICpart1Control.style.zIndex = 16;
 			MICpart1TitleControl.style.zIndex = 16;
 			MICpart1ContenttextControl.style.zIndex = 16;
-			MICContentControl.style.opacity = 0.99;
 			MICpart2Control.style.zIndex = 16;
 			MICpart2TitleControl.style.zIndex = 16;
 			MICpart2ContenttextControl.style.zIndex = 16;
@@ -951,9 +939,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCIconContenttextControl.classList.remove('open');
 			
 			FFCBAControl.style.opacity = 1;
-			FFCContentControl.style.zIndex = 19;
-			FFCContentControl.style.opacity = 0.99;
-
 			FFCAmazonContenttextControl.style.zIndex = 19;
 			FFCNAEUJPContenttextControl.style.zIndex = 16;
 			FFCSBLContenttextControl.style.zIndex = 16;
@@ -978,10 +963,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCIconControl.classList.remove('open');
 			FFCIconContenttextControl.classList.remove('open');
 			
-			FFCBAControl.style.opacity = 1;
-			FFCContentControl.style.zIndex = 19;
-			FFCContentControl.style.opacity = 0.99;
-			
+			FFCBAControl.style.opacity = 1;			
 			FFCAmazonContenttextControl.style.zIndex = 16;
 			FFCNAEUJPContenttextControl.style.zIndex = 19;
 			FFCSBLContenttextControl.style.zIndex = 16;
@@ -1007,8 +989,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCIconContenttextControl.classList.remove('open');
 			
 			FFCBAControl.style.opacity = 1;
-			FFCContentControl.style.zIndex = 19;
-			FFCContentControl.style.opacity = 0.99;
 			FFCAmazonContenttextControl.style.zIndex = 16;
 			FFCNAEUJPContenttextControl.style.zIndex = 16;
 			FFCSBLContenttextControl.style.zIndex = 19;
@@ -1034,8 +1014,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCIconContenttextControl.classList.remove('open');
 			
 			FFCBAControl.style.opacity = 1;
-			FFCContentControl.style.zIndex = 19;
-			FFCContentControl.style.opacity = 0.99;
 			FFCAmazonContenttextControl.style.zIndex = 16;
 			FFCNAEUJPContenttextControl.style.zIndex = 16;
 			FFCSBLContenttextControl.style.zIndex = 16;
@@ -1061,8 +1039,6 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAUSContenttextControl.classList.remove('open');
 			
 			FFCBAControl.style.opacity = 1;
-			FFCContentControl.style.zIndex = 19;
-			FFCContentControl.style.opacity = 0.99;
 			FFCAmazonContenttextControl.style.zIndex = 16;
 			FFCNAEUJPContenttextControl.style.zIndex = 16;
 			FFCSBLContenttextControl.style.zIndex = 16;
@@ -1183,8 +1159,6 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCWEUContenttextControl.style.zIndex = 19;
 			
 			HWCBAControl.style.opacity = 1;
-			HWCContentControl.style.zIndex = 19;
-			HWCContentControl.style.opacity = 0.99;
 			
 			HWCENNLControl.classList.remove('open');
 			HWCENNLContenttextControl.classList.remove('open');
@@ -1207,8 +1181,6 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCENNLContenttextControl.style.zIndex = 19;
 			
 			HWCBAControl.style.opacity = 1;
-			HWCContentControl.style.zIndex = 19;
-			HWCContentControl.style.opacity = 0.99;
 			
 			HWCWEUControl.classList.remove('open');
 			HWCWEUContenttextControl.classList.remove('open');
@@ -1232,8 +1204,6 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCSWEContenttextControl.style.zIndex = 19;
 			
 			HWCBAControl.style.opacity = 1;
-			HWCContentControl.style.zIndex = 19;
-			HWCContentControl.style.opacity = 0.99;
 			
 			HWCWEUControl.classList.remove('open');
 			HWCWEUContenttextControl.classList.remove('open');
@@ -1252,8 +1222,6 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCJPContenttextControl.style.zIndex = 19;
 			
 			HWCBAControl.style.opacity = 1;
-			HWCContentControl.style.zIndex = 19;
-			HWCContentControl.style.opacity = 0.99;
 			
 			HWCWEUControl.classList.remove('open');
 			HWCWEUContenttextControl.classList.remove('open');
@@ -1368,6 +1336,29 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 		
 		ECCContenttextControl.classList.add('open');
 		ECCintroductionControl.classList.add('open');
+		
+		document.getElementsByClassName('ECCIcon')[0].onclick =function()
+		{
+			
+			ECCintroductionControl.classList.remove('open');
+			ECCIconControl.classList.add('open');
+			ECCIconContenttextControl.classList.add('open');
+			ECCIconContenttextControl.style.zIndex = 19;
+			
+			ECCBAControl.style.opacity = 1;
+			
+			HWCENNLControl.classList.remove('open');
+			HWCENNLContenttextControl.classList.remove('open');
+			HWCSWEControl.classList.remove('open');
+			HWCSWEContenttextControl.classList.remove('open');
+			HWCJPControl.classList.remove('open');
+			HWCJPContenttextControl.classList.remove('open');
+
+		
+			
+			HWCintroductionControl.classList.remove('open');
+		
+		}; 
 
 		document.getElementsByClassName('ECCpart1')[0].onclick =function()
 		{
@@ -1661,66 +1652,6 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 		}; 	
 
 	} 
-		
-		document.getElementsByClassName('ECCIcon')[0].onclick =function()
-		{
-			
-			ECCALLContentControl.classList.add('close');
-			ECCIconContentControl.classList.add('open');
-			ECCIconControl.classList.add('open');
-			ECCIconContenttextControl.classList.add('open');
-		
-			ECCIconContentControl.classList.remove('close');
-			ECCIconControl.classList.remove('close');
-			ECCIconContenttextControl.classList.remove('close');
-
-			ECCIconContentControl.style.zIndex = 18;
-			ECCIconControl.style.zIndex = 19;
-			ECCIconContentControl.style.opacity = 0.99;
-			ECCIconContenttextControl.style.opacity = 1;
-			ECCpart2Control.style.zIndex = 16;
-			ECCpart3Control.style.zIndex = 16;
-			ECCpart4Control.style.zIndex = 16;
-			ECCpart1Control.style.zIndex = 16;
-			ECCpart5Control.style.zIndex = 16;
-			
-			ECCpart1ContentControl.style.zIndex = 17;
-			ECCpart2ContentControl.style.zIndex = 17;
-			ECCpart3ContentControl.style.zIndex = 17;
-			ECCpart4ContentControl.style.zIndex = 17;
-			ECCpart5ContentControl.style.zIndex = 17;
-			
-			ECCpart1ContentControl.style.opacity = 0;
-			ECCpart2ContentControl.style.opacity = 0;
-			ECCpart3ContentControl.style.opacity = 0;
-			ECCpart4ContentControl.style.opacity = 0;
-			ECCpart5ContentControl.style.opacity = 0;
-			
-			ECCBAControl.style.opacity = 1;
-			
-			ECCpart2ContentControl.classList.remove('open');
-			ECCpart2ContentControl.classList.add('close');
-			ECCpart2Control.classList.remove('open');
-			ECCpart2Control.classList.add('close');
-			ECCpart3ContentControl.classList.remove('open');
-			ECCpart3ContentControl.classList.add('close');
-			ECCpart3Control.classList.remove('open');
-			ECCpart3Control.classList.add('close');
-			ECCpart4ContentControl.classList.remove('open');
-			ECCpart4ContentControl.classList.add('close');
-			ECCpart4Control.classList.remove('open');
-			ECCpart4Control.classList.add('close');
-			ECCpart1ContentControl.classList.remove('open');
-			ECCpart1ContentControl.classList.add('close');
-			ECCpart1Control.classList.remove('open');
-			ECCpart1Control.classList.add('close');
-			ECCALLContentControl.classList.remove('open');
-			ECCpart5ContentControl.classList.remove('open');
-			ECCpart5ContentControl.classList.add('close');
-			ECCpart5Control.classList.remove('open');
-			ECCpart5Control.classList.add('close');
-		
-		}; 
 	  
 		document.getElementsByClassName('ECCBA')[0].onclick =function()
 		{
