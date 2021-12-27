@@ -1246,15 +1246,13 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCintroductionControl.classList.add('open');
 			
 			HWCBAControl.style.opacity = 0;
-			HWCContentControl.style.zIndex = 19;
+			HWCContentControl.style.zIndex = 15;
 
-			HWCWEUContenttextControl.style.zIndex = 17;
-			HWCENNLContenttextControl.style.zIndex = 17;
-			HWCSWEContenttextControl.style.zIndex = 17;		
-			HWCJPContenttextControl.style.zIndex = 17;
-
-			HWCBAControl.style.opacity = 0;
-
+			HWCWEUContenttextControl.style.zIndex = 16;
+			HWCENNLContenttextControl.style.zIndex = 16;
+			HWCSWEContenttextControl.style.zIndex = 16;		
+			HWCJPContenttextControl.style.zIndex = 16;
+			
 		}; 
 		
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
@@ -1281,6 +1279,14 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCJPContenttextControl.classList.remove('open');
 			
 			HWCintroductionControl.classList.add('open');
+			
+			HWCContentControl.style.zIndex = 15;
+			HWCWEUContenttextControl.style.zIndex = 16;
+			HWCENNLContenttextControl.style.zIndex = 16;
+			HWCSWEContenttextControl.style.zIndex = 16;
+			HWCJPContenttextControl.style.zIndex = 16;
+			
+			HWCBAControl.style.opacity = 0;
 			
 		};	
 	} 
@@ -1401,16 +1407,14 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCpart5ContentControl.classList.add('close');
 			ECCpart5Control.classList.remove('open');
 			ECCpart5Control.classList.add('close');
-			ECCALLContentControl.classList.remove('open');
 			ECCIconContentControl.classList.remove('open');
 			ECCIconControl.classList.remove('open');
 			ECCIconControl.classList.add('close');
 
 		}; 
-	  
+		
 		document.getElementsByClassName('ECCpart2')[0].onclick =function()
-		{
-			ECCALLContentControl.classList.add('close');		
+		{	
 			ECCpart2ContentControl.classList.add('open');
 			ECCpart2Control.classList.add('open');
 			ECCpart2ContenttextControl.classList.add('open');
@@ -1642,29 +1646,29 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 		}; 	
 
 	} 
-	  
+	
 		document.getElementsByClassName('ECCBA')[0].onclick =function()
 		{
 			ECCIconControl.classList.remove('open');
 			ECCIconContenttextControl.classList.remove('open');
 			
 			ECCintroductionControl.classList.add('open');
+
+			ECCIconContenttextControl.style.zIndex = 17;
 			
 			ECCBAControl.style.opacity = 0;
-
-			HWCWEUContenttextControl.style.zIndex = 17;
-			HWCENNLContenttextControl.style.zIndex = 17;
-			HWCSWEContenttextControl.style.zIndex = 17;		
-			HWCJPContenttextControl.style.zIndex = 17;
-
-			HWCBAControl.style.opacity = 0;
 		
 		}; 
 
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
+			ECCIconControl.classList.remove('open');
+			ECCIconContenttextControl.classList.remove('open');
+			ECCintroductionControl.classList.add('open');
+			ECCBAControl.style.opacity = 0;
+			
 			document.getElementsByClassName('ExtremeClimate')[0].value = 'close';
-    		textcardECC.classList.remove('open'); 
+			textcardECC.classList.remove('open'); 
 			textcardECC.classList.add('close');
 			MainMenuControl.classList.remove('close');
 			MainMenuControl.classList.add('open');
