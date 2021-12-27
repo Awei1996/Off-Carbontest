@@ -2213,25 +2213,7 @@
 	opacity: 1;
 	visibility: visible;
 }
-.FFCAmazon{
-	position: absolute;
-	z-index: 17;
-	margin-top: 30.6%;
-	margin-left: 58.45%;
-	width: 7.18%;
-	color: #ffffff;
-	opacity: 0;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	
-}
-.FFCAmazon:hover{
-	transition: 1s;
-	opacity: 1;
 
-}
 .HWCWEU{
 	position: absolute;
 	z-index: 17;
