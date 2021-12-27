@@ -1321,8 +1321,8 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 	
 	/*var FFCIconTitleControl = document.getElementsByClassName('FFCIconTitle')[0];*/
-  	var ECCALLContenttextControl = document.getElementsByClassName('ECCALLContenttext')[0];
-	var ECCALLContentControl = document.getElementsByClassName('ECCALLContent')[0];
+	var ECCContenttextControl = document.getElementsByClassName('ECCContenttext')[0];
+  	var ECCALLContenttextControl = document.getElementsByClassName('ECCContenttext')[0];
 	
 	var ECCpart1Control = document.getElementsByClassName('ECCpart1')[0];
   	var ECCpart1ContenttextControl = document.getElementsByClassName('ECCpart1Contenttext')[0];

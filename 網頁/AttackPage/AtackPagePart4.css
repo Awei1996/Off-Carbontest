@@ -2402,15 +2402,6 @@
 	opacity: 0.9;
 	margin-left: 100%;
 }
-.ExtremeClimateContent.close{
-	-webkit-transition: 2s;
-    -moz-transition: 2s;
-    -ms-transition: 2s;
-    -o-transition: 2s;
-    transition: 0.01s,opacity 2s;
-    margin-left: -310%;
-	opacity: 0;
-}
 
 .ECCBG{
 	position: absolute;
@@ -2459,34 +2450,27 @@
 	font-size: 2.2rem;
 	font-weight: normal;
 }
-.ECCALLContent{
+.ECCContenttext{
 	position: absolute;
-	z-index: 18;
-	margin-top:  0%;
-	margin-left: 5.21%;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: 0%;
 	width: 41.67%;
 	padding-bottom: 56%;
 	background-color: transparent;
-	opacity: 1;
-	color: #ffffff;
+	color: transparent;
 	font-size: 2.2rem;
+	opacity: 1;
 	display: flex;
-	align-items: center;
-	justify-content: flex-end;
+	visibility: hidden;	
 	
 }
-.ECCALLContent.close{
-	position: absolute;
-	z-index: -1;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	opacity: 0;
-	display: none;
+.ECCContenttext.open{
+	visibility: visible;	
 }
 
 
-.ECCALLContenttext{
+.ECCintroduction{
 	position: absolute;
 	margin-top: 150%;
 	width: 100%;
@@ -2500,7 +2484,7 @@
 	opacity: 0;
 	 
 }
-.ECCALLContenttext.open{
+.ECCintroduction.open{
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
