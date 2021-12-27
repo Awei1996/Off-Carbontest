@@ -1149,9 +1149,9 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 	var HWCENNLControl = document.getElementsByClassName('HWCENNL')[0];
 	var HWCENNLContenttextControl = document.getElementsByClassName('HWCENNLContenttext')[0];
 	
-	var HWCpart3Control = document.getElementsByClassName('HWCpart3')[0];
-	var HWCpart3ContenttextControl = document.getElementsByClassName('HWCpart3Contenttext')[0];
-	var HWCpart3ContentControl = document.getElementsByClassName('HWCpart3Content')[0];
+	var HWCSWEControl = document.getElementsByClassName('HWCSWE')[0];
+	var HWCSWEContenttextControl = document.getElementsByClassName('HWCSWEContenttext')[0];
+	var HWCSWEContentControl = document.getElementsByClassName('HWCSWEContent')[0];
 	
 	var HWCpart4Control = document.getElementsByClassName('HWCpart4')[0];
 	var HWCpart4ContenttextControl = document.getElementsByClassName('HWCpart4Contenttext')[0];
@@ -1190,15 +1190,11 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			
 			HWCENNLControl.classList.remove('open');
 			HWCENNLContenttextControl.classList.remove('open');
+			HWCSWEControl.classList.remove('open');
+			HWCSWEContenttextControl.classList.remove('open');
 
-			HWCpart3ContentControl.classList.remove('open');
-			HWCpart3Control.classList.add('close');
-			HWCpart3Control.classList.remove('open');
-			HWCpart3Control.classList.add('close');
-			HWCpart4ContentControl.classList.remove('open');
-			HWCpart4Control.classList.add('close');
-			HWCpart4Control.classList.remove('open');
-			HWCpart4Control.classList.add('close');
+		
+			
 			HWCintroductionControl.classList.remove('open');
 			
 		}; 
@@ -1216,11 +1212,10 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			
 			HWCWEUControl.classList.remove('open');
 			HWCWEUContenttextControl.classList.remove('open');
+			HWCSWEControl.classList.remove('open');
+			HWCSWEContenttextControl.classList.remove('open');
 
-			HWCpart3ContentControl.classList.remove('open');
-			HWCpart3Control.classList.add('close');
-			HWCpart3Control.classList.remove('open');
-			HWCpart3Control.classList.add('close');
+			
 			HWCpart4ContentControl.classList.remove('open');
 			HWCpart4Control.classList.add('close');
 			HWCpart4Control.classList.remove('open');
@@ -1229,50 +1224,21 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 
 		}; 
 		
-		document.getElementsByClassName('HWCpart3')[0].onclick =function()
+		document.getElementsByClassName('HWCSWE')[0].onclick =function()
 		{
-			HWCContenttext.classList.add('close');
-			HWCpart3ContentControl.classList.add('open');
-			HWCpart3Control.classList.add('open');
-			HWCpart3ContenttextControl.classList.add('open');
-		
-			HWCpart3ContentControl.classList.remove('close');
-			HWCpart3Control.classList.remove('close');
-			HWCpart3ContenttextControl.classList.remove('close');
-
-			HWCpart3ContentControl.style.zIndex = 18;
-			HWCpart3Control.style.zIndex = 19;
-			HWCpart3ContentControl.style.opacity = 0.99;
-			HWCpart3ContenttextControl.style.opacity = 1;
-			HWCpart1Control.style.zIndex = 16;
-			HWCENNLControl.style.zIndex = 16;
-			HWCpart4Control.style.zIndex = 16;
-			HWCContenttext.style.zIndex = 16;
-			
-			HWCpart1ContentControl.style.zIndex = 17;
-			HWCENNLContentControl.style.zIndex = 17;
-			HWCpart4ContentControl.style.zIndex = 17;
-			HWCContenttext.style.zIndex = 17;
-			
-			HWCpart1ContentControl.style.opacity = 0;
-			HWCENNLContentControl.style.opacity = 0;
-			HWCpart4ContentControl.style.opacity = 0;
+			HWCintroductionControl.classList.remove('open');	
+			HWCSWEControl.classList.add('open');
+			HWCSWEContenttextControl.classList.add('open');
+			HWCSWEContenttextControl.style.zIndex = 19;
 			
 			HWCBAControl.style.opacity = 1;
+			HWCContentControl.style.zIndex = 19;
+			HWCContentControl.style.opacity = 0.99;
 			
-			HWCENNLContentControl.classList.remove('open');
-			HWCENNLControl.classList.add('close');
+			HWCWEUControl.classList.remove('open');
+			HWCWEUContenttextControl.classList.remove('open');
 			HWCENNLControl.classList.remove('open');
-			HWCENNLControl.classList.add('close');
-			HWCpart1ContentControl.classList.remove('open');
-			HWCpart1Control.classList.add('close');
-			HWCpart1Control.classList.remove('open');
-			HWCpart1Control.classList.add('close');
-			HWCpart4ContentControl.classList.remove('open');
-			HWCpart4Control.classList.add('close');
-			HWCpart4Control.classList.remove('open');
-			HWCpart4Control.classList.add('close');
-			HWCContenttext.classList.remove('open');
+			HWCENNLContenttextControl.classList.remove('open');
 		
 		}; 
 		
@@ -1307,8 +1273,6 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			
 			HWCBAControl.style.opacity = 1;
 
-			HWCENNLContentControl.classList.remove('open');
-			HWCENNLContentControl.classList.add('close');
 			HWCENNLControl.classList.remove('open');
 			HWCENNLControl.classList.add('close');
 			HWCpart3ContentControl.classList.remove('open');
@@ -1329,6 +1293,8 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCWEUContenttextControl.classList.remove('open');
 			HWCENNLControl.classList.remove('open');
 			HWCENNLContenttextControl.classList.remove('open');
+			HWCSWEControl.classList.remove('open');
+			HWCSWEContenttextControl.classList.remove('open');
 			
 			HWCintroductionControl.classList.add('open');
 			
@@ -1336,20 +1302,16 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCContentControl.style.zIndex = 19;
 
 			HWCWEUContenttextControl.style.zIndex = 17;
-			HWCWENNLContenttextControl.style.zIndex = 17;	
+			HWCENNLContenttextControl.style.zIndex = 17;
+			HWCSWEContenttextControl.style.zIndex = 17;	
 
 			HWCpart4ContentControl.style.zIndex = 15;
 			HWCpart4Control.style.zIndex = 19;		
 			HWCpart4ContenttextControl.style.opacity = 0;
 			HWCpart1Control.style.zIndex = 19;
-			HWCENNLControl.style.zIndex = 19;
 			HWCpart3Control.style.zIndex = 19;
 			HWCContenttext.style.zIndex = 18;
-			
-			HWCpart1ContentControl.style.zIndex = 17;
-			HWCENNLContentControl.style.zIndex = 17;
-			HWCpart3ContentControl.style.zIndex = 17;
-			HWCpart4ContentControl.style.zIndex = 17;
+		
 			
 			HWCBAControl.style.opacity = 0;
 
@@ -1373,6 +1335,8 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCWEUContenttextControl.classList.remove('open');
 			HWCENNLControl.classList.remove('open');
 			HWCENNLContenttextControl.classList.remove('open');
+			HWCSWEControl.classList.remove('open');
+			HWCSWEContenttextControl.classList.remove('open');
 			
 			HWCintroductionControl.classList.add('open');
 			
