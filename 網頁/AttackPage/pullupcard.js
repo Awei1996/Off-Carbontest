@@ -1172,11 +1172,6 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCSWEContenttextControl.style.zIndex = 16;
 			HWCJPContenttextControl.style.zIndex = 16;
 			
-
-		
-			
-			HWCintroductionControl.classList.remove('open');
-			
 		}; 
 		
 		document.getElementsByClassName('HWCENNL')[0].onclick =function()
@@ -1214,9 +1209,9 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCJPContenttextControl.classList.remove('open');
 			
 			HWCBAControl.style.opacity = 1;
-			HWCWEUContenttextControl.style.zIndex = 19;
+			HWCWEUContenttextControl.style.zIndex = 16;
 			HWCENNLContenttextControl.style.zIndex = 16;
-			HWCSWEContenttextControl.style.zIndex = 16;
+			HWCSWEContenttextControl.style.zIndex = 19;
 			HWCJPContenttextControl.style.zIndex = 16;
 		
 		}; 
@@ -1237,8 +1232,8 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCBAControl.style.opacity = 1;
 			HWCWEUContenttextControl.style.zIndex = 16;
 			HWCENNLContenttextControl.style.zIndex = 16;
-			HWCSWEContenttextControl.style.zIndex = 19;
-			HWCJPContenttextControl.style.zIndex = 16;
+			HWCSWEContenttextControl.style.zIndex = 16;
+			HWCJPContenttextControl.style.zIndex = 19;
 		}; 
 		
 		document.getElementsByClassName('HWCBA')[0].onclick =function()
