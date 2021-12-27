@@ -2488,7 +2488,7 @@
 .ECCintroduction.open{
 	transition: 1s ;
 	opacity: 1;
-	visibility: hidden;
+	visibility: visible;
 }
 
 
