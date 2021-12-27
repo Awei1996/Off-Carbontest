@@ -1293,7 +1293,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		{
 			document.getElementsByClassName('HeatWave')[0].value = 'close';
 			
-    		textcardHWC.classList.remove('open'); 
+			textcardHWC.classList.remove('open'); 
 			textcardHWC.classList.add('close');
 			MainMenuControl.classList.remove('close');
 			MainMenuControl.classList.add('open');
