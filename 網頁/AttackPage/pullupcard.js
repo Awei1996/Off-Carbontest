@@ -1322,41 +1322,41 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 	
 	/*var FFCIconTitleControl = document.getElementsByClassName('FFCIconTitle')[0];*/
 	var ECCContenttextControl = document.getElementsByClassName('ECCContenttext')[0];
-  	var ECCALLContenttextControl = document.getElementsByClassName('ECCContenttext')[0];
+	var ECCintroductionControl = document.getElementsByClassName('ECCintroduction')[0];
 	
 	var ECCpart1Control = document.getElementsByClassName('ECCpart1')[0];
-  	var ECCpart1ContenttextControl = document.getElementsByClassName('ECCpart1Contenttext')[0];
+	var ECCpart1ContenttextControl = document.getElementsByClassName('ECCpart1Contenttext')[0];
 	var ECCpart1ContentControl = document.getElementsByClassName('ECCpart1Content')[0];
 	
 	var ECCpart2Control = document.getElementsByClassName('ECCpart2')[0];
-  	var ECCpart2ContenttextControl = document.getElementsByClassName('ECCpart2Contenttext')[0];
+	var ECCpart2ContenttextControl = document.getElementsByClassName('ECCpart2Contenttext')[0];
 	var ECCpart2ContentControl = document.getElementsByClassName('ECCpart2Content')[0];
 	
 	var ECCpart3Control = document.getElementsByClassName('ECCpart3')[0];
-  	var ECCpart3ContenttextControl = document.getElementsByClassName('ECCpart3Contenttext')[0];
+	var ECCpart3ContenttextControl = document.getElementsByClassName('ECCpart3Contenttext')[0];
 	var ECCpart3ContentControl = document.getElementsByClassName('ECCpart3Content')[0];
 	
 	var ECCpart4Control = document.getElementsByClassName('ECCpart4')[0];
-  	var ECCpart4ContenttextControl = document.getElementsByClassName('ECCpart4Contenttext')[0];
+	var ECCpart4ContenttextControl = document.getElementsByClassName('ECCpart4Contenttext')[0];
 	var ECCpart4ContentControl = document.getElementsByClassName('ECCpart4Content')[0];
 	
 	var ECCpart5Control = document.getElementsByClassName('ECCpart5')[0];
-  	var ECCpart5ContenttextControl = document.getElementsByClassName('ECCpart5Contenttext')[0];
+	var ECCpart5ContenttextControl = document.getElementsByClassName('ECCpart5Contenttext')[0];
 	var ECCpart5ContentControl = document.getElementsByClassName('ECCpart5Content')[0];
 	
 	var ECCIconControl = document.getElementsByClassName('ECCIcon')[0];
 	/*var ECCIconTitleControl = document.getElementsByClassName('ECCIconTitle')[0];*/
-  	var ECCIconContenttextControl = document.getElementsByClassName('ECCIconContenttext')[0];
+	var ECCIconContenttextControl = document.getElementsByClassName('ECCIconContenttext')[0];
 	var ECCIconContentControl = document.getElementsByClassName('ECCIconContent')[0];
 	
 	var ECCBAControl = document.getElementsByClassName('ECCBA')[0];
 	
 
-  	if(this.value === 'close') 
-  	{ 
-    	this.value = 'open';
+	if(this.value === 'close') 
+	{ 
+		this.value = 'open';
 		textcardECC.classList.remove('close'); 
-    	textcardECC.classList.add('open');
+		textcardECC.classList.add('open');
 		MainMenuControl.classList.add('close');
 		MainMenuControl.classList.remove('open');
 		SteamControl.classList.add('open');
@@ -1364,12 +1364,14 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
 		ECCBGControl.classList.add('open');
-  		BbtnControl.classList.add('open');
+		BbtnControl.classList.add('open');
+		
+		ECCContenttextControl.classList.add('open');
+		ECCintroductionControl.classList.add('open');
 
 		document.getElementsByClassName('ECCpart1')[0].onclick =function()
 		{
 			
-			ECCALLContentControl.classList.add('close');
 			ECCpart1ContentControl.classList.add('open');
 			ECCpart1Control.classList.add('open');
 			ECCpart1ContenttextControl.classList.add('open');
