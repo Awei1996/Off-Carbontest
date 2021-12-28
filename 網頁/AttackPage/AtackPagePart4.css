@@ -2184,12 +2184,12 @@
 	visibility: hidden;
 	transition: 1s;
 	 
-}
+}/*
 .HWCintroduction.open{
 	opacity: 1;
 	visibility: visible;
 }
-
+*/
 .HWCWEU{
 	position: absolute;
 	z-index: 17;
@@ -2204,11 +2204,10 @@
 	align-items: center;
 	justify-content: center;
 	transition: 0.5s;
-	visibility: hidden;
+	visibility: visible;
 }
 
 .HWCWEU:hover{
-	
 	visibility: visible;
 }
 /*
