@@ -1283,7 +1283,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			DisasterControl.classList.add('close');
 			DisasterControl.classList.remove('open');
 			BbtnControl.classList.remove('open');
-			HWCContentControl.classList.add('open');
+			HWCContentControl.classList.remove('open');
 
 			HWCWEUControl.classList.remove('open');
 			HWCWEUContenttextControl.classList.remove('open');
