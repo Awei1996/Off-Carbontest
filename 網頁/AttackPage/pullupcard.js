@@ -1145,7 +1145,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		DisasterControl.classList.remove('close');
 		HWCBGControl.classList.add('open');
 		BbtnControl.classList.add('open');
-	/*	
+		
 		HWCContenttextControl.classList.add('open');
 		HWCintroductionControl.classList.add('open');
 		
@@ -1154,10 +1154,10 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		HWCSWEContenttextControl.style.zIndex = 16;
 		HWCJPContenttextControl.style.zIndex = 16;
 		HWCintroductionControl.style.zIndex = 19;
-  */
+  
 		document.getElementsByClassName('HWCWEU')[0].onclick =function()
 		{
-			HWCContenttextControl.classList.add('open');
+							
 			HWCWEUControl.classList.add('open');
 			HWCWEUContenttextControl.classList.add('open');
 
@@ -1181,7 +1181,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		
 		document.getElementsByClassName('HWCENNL')[0].onclick =function()
 		{
-			HWCContenttextControl.classList.add('open');										
+										
 			HWCENNLControl.classList.add('open');
 			HWCENNLContenttextControl.classList.add('open');
 			
@@ -1205,7 +1205,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		
 		document.getElementsByClassName('HWCSWE')[0].onclick =function()
 		{
-			HWCContenttextControl.classList.add('open');							
+										
 			HWCSWEControl.classList.add('open');
 			HWCSWEContenttextControl.classList.add('open');
 			
@@ -1228,7 +1228,6 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		
 		document.getElementsByClassName('HWCJP')[0].onclick =function()
 		{
-			HWCContenttextControl.classList.add('open');
 			HWCJPControl.classList.add('open');
 			HWCJPContenttextControl.classList.add('open');	
 			
@@ -1252,7 +1251,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		document.getElementsByClassName('HWCBA')[0].onclick =function()
 		{
 			
-			HWCContenttextControl.classList.remove('open');
+			
 			HWCWEUControl.classList.remove('open');
 			HWCWEUContenttextControl.classList.remove('open');
 			HWCENNLControl.classList.remove('open');
