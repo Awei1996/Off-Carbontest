@@ -2184,10 +2184,10 @@
 	line-height: 2;
 	opacity: 0;
 	visibility: hidden;
+	transition: 1s;
 	 
 }
 .HWCintroduction.open{
-	transition: 1s;
 	opacity: 1;
 	visibility: visible;
 }
@@ -2205,10 +2205,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: 0.5s;
 }
 
 .HWCWEU:hover{
-	transition: 1s;
+	
 	opacity: 1;
 }
 
@@ -2227,10 +2228,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: 0.5s;
 
 }
 .HWCENNL:hover{
-	transition: 1s;
 	opacity: 1;
 }
 .HWCENNL.open{
@@ -2292,6 +2293,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: 0.5s;
 }
 .HWCSWL{
 	position: absolute;
@@ -2299,7 +2301,7 @@
 	margin-top: 342%;
 }
 .HWCSWE:hover{
-	transition: 1s;
+	
 	opacity: 1;
 }
 .HWCSWE.open{	
@@ -2341,9 +2343,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: 0.5s;
 }
 .HWCJP:hover{
-	transition: 1s;
+	
 	opacity: 1;
 }
 
