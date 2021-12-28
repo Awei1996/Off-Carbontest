@@ -1273,7 +1273,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
-			document.getElementsByClassName('FireForest')[0].value = 'close';
+			document.getElementsByClassName('HeatWave')[0].value = 'close';
 			textcardFFC.classList.remove('open'); 
 			textcardFFC.classList.add('close');
 			MainMenuControl.classList.remove('close');
