@@ -1369,6 +1369,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			
 			ECCIconContenttextControl.style.zIndex = 19;
 			ECCJPContenttextControl.style.zIndex = 16;
+			ECCCNContenttextControl.style.zIndex = 16;
 			
 			ECCBAControl.style.opacity = 1;
 			
@@ -1388,6 +1389,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			
 			ECCIconContenttextControl.style.zIndex = 16;
 			ECCJPContenttextControl.style.zIndex = 19;
+			ECCCNContenttextControl.style.zIndex = 16;
 			
 			ECCBAControl.style.opacity = 1;
 
