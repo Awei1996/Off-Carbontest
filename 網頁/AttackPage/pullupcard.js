@@ -1274,8 +1274,8 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
 			document.getElementsByClassName('HeatWave')[0].value = 'close';
-			textcardFFC.classList.remove('open'); 
-			textcardFFC.classList.add('close');
+			textcardHWC.classList.remove('open'); 
+			textcardHWC.classList.add('close');
 			MainMenuControl.classList.remove('close');
 			MainMenuControl.classList.add('open');
 			SteamControl.classList.remove('open');
