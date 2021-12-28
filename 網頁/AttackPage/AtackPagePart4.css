@@ -2115,7 +2115,6 @@
 	padding-bottom: 13.5%;
 	background-color: #163C4B;
 	opacity: 1;
-	border: 5px solid yellow;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
@@ -2163,7 +2162,6 @@
 	background: none;
 	color: #ffffff;
 	font-size: 2.2rem;
-	border: 2px solid red;
 	opacity: 1;
 	display: flex;
 	visibility: hidden;	
