@@ -2123,7 +2123,10 @@
 	justify-content: flex-end;
 
 }
+.HWCBG:hover{
+	-webkit-filter:brightness(1);
 
+}
 .HWCBG.open{
 	-webkit-transition: 2s;
     -moz-transition: 2s;
