@@ -1366,6 +1366,8 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			
 			ECCJPControl.classList.remove('open');
 			ECCJPContenttextControl.classList.remove('open');
+			ECCCNControl.classList.remove('open');
+			ECCCNContenttextControl.classList.remove('open');
 			
 			ECCIconContenttextControl.style.zIndex = 19;
 			ECCJPContenttextControl.style.zIndex = 16;
@@ -1386,6 +1388,8 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			
 			ECCIconControl.classList.remove('open');
 			ECCIconContenttextControl.classList.remove('open');
+			ECCCNControl.classList.remove('open');
+			ECCCNContenttextControl.classList.remove('open');
 			
 			ECCIconContenttextControl.style.zIndex = 16;
 			ECCJPContenttextControl.style.zIndex = 19;
