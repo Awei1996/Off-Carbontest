@@ -1606,8 +1606,6 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCCNControl.classList.remove('open');
 			ECCCNContenttextControl.classList.remove('open');
 			
-			
-			
 			ECCintroductionControl.classList.add('open');
 
 			ECCIconContenttextControl.style.zIndex = 16;
