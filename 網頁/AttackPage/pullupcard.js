@@ -1111,7 +1111,7 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 	}
 }
 
-document.getElementsByClassName('Heatwave')[0].onclick = function() {
+document.getElementsByClassName('HeatWave')[0].onclick = function() {
 	
 	var HWCContentControl = document.getElementsByClassName('HWCContent')[0];
 	var HWCContenttextControl = document.getElementsByClassName('HWCContenttext')[0];
