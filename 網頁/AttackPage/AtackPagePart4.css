@@ -2095,6 +2095,9 @@
 	width: 309%;
 	padding-bottom: 172.5%;
 }
+.HeatWaveContent:hover{
+	-webkit-filter:brightness(1);
+}
 .HeatWaveContent.open{
 	-webkit-transition: 2s;
     -moz-transition: 2s;
