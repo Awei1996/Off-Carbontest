@@ -1111,10 +1111,205 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 	}
 }
 
+document.getElementsByClassName('Heatwave')[0].onclick = function() {
+	
+	var HWCContentControl = document.getElementsByClassName('HWCContent')[0];
+	var HWCContenttextControl = document.getElementsByClassName('HWCContenttext')[0];
+	var HWCBAControl = document.getElementsByClassName('HWCBA')[0];
+	
+	var HWCWEUControl = document.getElementsByClassName('HWCWEU')[0];
+	var HWCWEUContenttextControl = document.getElementsByClassName('HWCWEUContenttext')[0];
 
+	var HWCENNLControl = document.getElementsByClassName('HWCENNL')[0];
+	var HWCENNLContenttextControl = document.getElementsByClassName('HWCENNLContenttext')[0];
+	
+	var HWCSWEControl = document.getElementsByClassName('HWCSWE')[0];
+	var HWCSWEContenttextControl = document.getElementsByClassName('HWCSWEContenttext')[0];
+	
+	var HWCJPControl = document.getElementsByClassName('HWCJP')[0];
+	var HWCJPContenttextControl = document.getElementsByClassName('HWCJPContenttext')[0];
+	
+	var HWCintroductionControl = document.getElementsByClassName('HWCintroduction')[0];
+	if(this.value === 'close') 
+	{ 
+		this.value = 'open';
+		textcardHWC.classList.remove('close'); 
+		textcardHWC.classList.add('open');
+		
+		HWCContentControl.classList.add('open');
+		MainMenuControl.classList.add('close');
+		MainMenuControl.classList.remove('open');
+		SteamControl.classList.add('open');
+		SteamControl.classList.remove('close');
+		DisasterControl.classList.add('open');
+		DisasterControl.classList.remove('close');
+		HWCBGControl.classList.add('open');
+		BbtnControl.classList.add('open');
+		
+		HWCContenttextControl.classList.add('open');
+		HWCintroductionControl.classList.add('open');
+		
+		HWCWEUContenttextControl.style.zIndex = 16;
+		HWCENNLContenttextControl.style.zIndex = 16;
+		HWCSWEContenttextControl.style.zIndex = 16;
+		HWCJPContenttextControl.style.zIndex = 16;
+		HWCintroductionControl.style.zIndex = 19;
+  
+		document.getElementsByClassName('HWCWEU')[0].onclick =function()
+		{
+							
+			HWCWEUControl.classList.add('open');
+			HWCWEUContenttextControl.classList.add('open');
+
+			HWCENNLControl.classList.remove('open');
+			HWCENNLContenttextControl.classList.remove('open');
+			HWCSWEControl.classList.remove('open');
+			HWCSWEContenttextControl.classList.remove('open');
+			HWCJPControl.classList.remove('open');
+			HWCJPContenttextControl.classList.remove('open');
+			
+			HWCintroductionControl.classList.remove('open');
+			
+			HWCBAControl.style.opacity = 1;
+			HWCWEUContenttextControl.style.zIndex = 19;
+			HWCENNLContenttextControl.style.zIndex = 16;
+			HWCSWEContenttextControl.style.zIndex = 16;
+			HWCJPContenttextControl.style.zIndex = 16;
+			HWCintroductionControl.style.zIndex = 16;
+			
+		}; 
+		
+		document.getElementsByClassName('HWCENNL')[0].onclick =function()
+		{
+										
+			HWCENNLControl.classList.add('open');
+			HWCENNLContenttextControl.classList.add('open');
+			
+			HWCWEUControl.classList.remove('open');
+			HWCWEUContenttextControl.classList.remove('open');
+			HWCSWEControl.classList.remove('open');
+			HWCSWEContenttextControl.classList.remove('open');
+			HWCJPControl.classList.remove('open');
+			HWCJPContenttextControl.classList.remove('open');
+			
+			HWCintroductionControl.classList.remove('open');
+			
+			HWCBAControl.style.opacity = 1;
+			HWCWEUContenttextControl.style.zIndex = 16;
+			HWCENNLContenttextControl.style.zIndex = 19;
+			HWCSWEContenttextControl.style.zIndex = 16;
+			HWCJPContenttextControl.style.zIndex = 16;
+			HWCintroductionControl.style.zIndex = 16;
+			
+		};
+		
+		document.getElementsByClassName('HWCSWE')[0].onclick =function()
+		{
+										
+			HWCSWEControl.classList.add('open');
+			HWCSWEContenttextControl.classList.add('open');
+			
+			HWCWEUControl.classList.remove('open');
+			HWCWEUContenttextControl.classList.remove('open');
+			HWCENNLControl.classList.remove('open');
+			HWCENNLContenttextControl.classList.remove('open');
+			HWCJPControl.classList.remove('open');
+			HWCJPContenttextControl.classList.remove('open');
+			HWCintroductionControl.classList.remove('open');
+			
+			HWCBAControl.style.opacity = 1;
+			HWCWEUContenttextControl.style.zIndex = 16;
+			HWCENNLContenttextControl.style.zIndex = 16;
+			HWCSWEContenttextControl.style.zIndex = 19;
+			HWCJPContenttextControl.style.zIndex = 16;
+			HWCintroductionControl.style.zIndex = 16;
+			
+		};
+		
+		document.getElementsByClassName('HWCJP')[0].onclick =function()
+		{
+			HWCJPControl.classList.add('open');
+			HWCJPContenttextControl.classList.add('open');	
+			
+			HWCWEUControl.classList.remove('open');
+			HWCWEUContenttextControl.classList.remove('open');
+			HWCENNLControl.classList.remove('open');
+			HWCENNLContenttextControl.classList.remove('open');
+			HWCSWEControl.classList.remove('open');
+			HWCSWEContenttextControl.classList.remove('open');
+			HWCintroductionControl.classList.remove('open');
+			
+			HWCBAControl.style.opacity = 1;
+			HWCWEUContenttextControl.style.zIndex = 16;
+			HWCENNLContenttextControl.style.zIndex = 16;
+			HWCSWEContenttextControl.style.zIndex = 16;
+			HWCJPContenttextControl.style.zIndex = 19;
+			HWCintroductionControl.style.zIndex = 16;
+				
+		};
+		
+		document.getElementsByClassName('HWCBA')[0].onclick =function()
+		{
+			
+			
+			HWCWEUControl.classList.remove('open');
+			HWCWEUContenttextControl.classList.remove('open');
+			HWCENNLControl.classList.remove('open');
+			HWCENNLContenttextControl.classList.remove('open');
+			HWCSWEControl.classList.remove('open');
+			HWCSWEContenttextControl.classList.remove('open');
+			HWCJPControl.classList.remove('open');
+			HWCJPContenttextControl.classList.remove('open');
+			
+			HWCintroductionControl.classList.add('open');
+			
+			HWCBAControl.style.opacity = 0;
+			HWCWEUContenttextControl.style.zIndex = 16;
+			HWCENNLContenttextControl.style.zIndex = 16;
+			HWCSWEContenttextControl.style.zIndex = 16;
+			HWCJPContenttextControl.style.zIndex = 16;
+			HWCintroductionControl.style.zIndex = 19;
+		}; 
+		
+		document.getElementsByClassName('Backbutton')[0].onclick =function()
+		{
+			document.getElementsByClassName('FireForest')[0].value = 'close';
+			textcardFFC.classList.remove('open'); 
+			textcardFFC.classList.add('close');
+			MainMenuControl.classList.remove('close');
+			MainMenuControl.classList.add('open');
+			SteamControl.classList.remove('open');
+			SteamControl.classList.add('close');
+			DisasterControl.classList.add('close');
+			DisasterControl.classList.remove('open');
+			BbtnControl.classList.remove('open');
+
+			HWCWEUControl.classList.remove('open');
+			HWCWEUContenttextControl.classList.remove('open');
+			HWCENNLControl.classList.remove('open');
+			HWCENNLContenttextControl.classList.remove('open');
+			HWCSWEControl.classList.remove('open');
+			HWCSWEContenttextControl.classList.remove('open');
+			HWCJPControl.classList.remove('open');
+			HWCJPContenttextControl.classList.remove('open');
+			
+			HWCintroductionControl.classList.remove('open');
+			
+			HWCBAControl.style.opacity = 0;
+			HWCWEUContenttextControl.style.zIndex = 16;
+			HWCENNLContenttextControl.style.zIndex = 16;
+			HWCSWEContenttextControl.style.zIndex = 16;
+			HWCJPContenttextControl.style.zIndex = 16;
+			HWCintroductionControl.style.zIndex = 19;
+			
+		};	
+	}
+}
+
+/*
 document.getElementsByClassName('HeatWave')[0].onclick = function() {
 	
-	/*var FFCIconTitleControl = document.getElementsByClassName('FFCIconTitle')[0];*/
+	
 	var HWCContentControl = document.getElementsByClassName('HeatWaveContent')[0];
 	var HWCContenttextControl = document.getElementsByClassName('HWCContenttext')[0];
 	var HWCintroductionControl = document.getElementsByClassName('HWCintroduction')[0];
@@ -1296,7 +1491,7 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		};	
 	} 
 };
-
+*/
 document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 	
 	/*var FFCIconTitleControl = document.getElementsByClassName('FFCIconTitle')[0];*/
