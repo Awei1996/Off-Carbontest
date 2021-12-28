@@ -2197,23 +2197,24 @@
 	margin-left: 47.3%;
 	width: 7.135%;
 	height: auto;
-	opacity: 0;
+	opacity: 1;
 	background-color: transparent;
 	font-size: 2.2rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	transition: 0.5s;
+	visibility: hidden;
 }
 
 .HWCWEU:hover{
 	
-	opacity: 1;
+	visibility: visible;
 }
-
+/*
 .HWCWEU.open{
 	opacity: 1;	
-}
+}*/
 .HWCENNL{
 	position: absolute;
 	z-index: 18;
@@ -2221,21 +2222,23 @@
 	margin-left: 48.3%;
 	width: 3.34%;
 	height: auto;
-	opacity: 0;
+	opacity: 1;
 	background-color: transparent;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	transition: 0.5s;
+	visibility: hidden;
 
 }
 .HWCENNL:hover{
-	opacity: 1;
+	visibility: visible;
 }
+/*
 .HWCENNL.open{
 	
 	opacity: 1;	
-}
+}*/
 .HWCWEUContenttext{
 	position: absolute;
 	margin-top: 0%;
@@ -2287,11 +2290,12 @@
 	height: auto;
 	background-color: transparent;
 	font-size: 2.2rem;
-	opacity: 0;
+	opacity: 1;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	transition: 0.5s;
+	visibility: hidden;
 }
 .HWCSWL{
 	position: absolute;
@@ -2300,12 +2304,12 @@
 }
 .HWCSWE:hover{
 	
-	opacity: 1;
-}
+	visibility: visible;
+}/*
 .HWCSWE.open{	
 	opacity: 1;	
 }
-
+*/
 .HWCSWEContenttext{
 	position: absolute;
 	margin-top: 0%;
@@ -2337,21 +2341,21 @@
 	height: auto;
 	background-color: transparent;
 	font-size: 2.2rem;
-	opacity: 0;
+	opacity: 1;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	transition: 0.5s;
+	visibility: hidden;
 }
 .HWCJP:hover{
-	
-	opacity: 1;
+	visibility: visible;
 }
-
+/*
 .HWCJP.open{
 	opacity: 1;	
 }
-
+*/
 .HWCJPContenttext{
 	position: absolute;
 	margin-top: 0%;
