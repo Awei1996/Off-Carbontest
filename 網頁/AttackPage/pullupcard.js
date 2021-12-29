@@ -1382,6 +1382,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCTWContenttextControl.style.zIndex = 16;
 			ECCTWContenttextControl.style.zIndex = 16;
 			ECCUSAContenttextControl.style.zIndex = 16;
+			ECCintroductionControl.style.zIndex = 16;
 			
 			ECCBAControl.style.opacity = 1;
 			
@@ -1413,6 +1414,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCAUSContenttextControl.style.zIndex = 16;
 			ECCTWContenttextControl.style.zIndex = 16;
 			ECCUSAContenttextControl.style.zIndex = 16;
+			ECCintroductionControl.style.zIndex = 16;
 			
 			ECCBAControl.style.opacity = 1;
 
@@ -1443,6 +1445,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCAUSContenttextControl.style.zIndex = 16;
 			ECCTWContenttextControl.style.zIndex = 16;
 			ECCUSAContenttextControl.style.zIndex = 16;
+			ECCintroductionControl.style.zIndex = 16;
 			
 			ECCBAControl.style.opacity = 1;
 		
@@ -1472,6 +1475,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCAUSContenttextControl.style.zIndex = 19;
 			ECCTWContenttextControl.style.zIndex = 16;
 			ECCUSAContenttextControl.style.zIndex = 16;
+			ECCintroductionControl.style.zIndex = 16;
 			
 			ECCBAControl.style.opacity = 1;
 		
@@ -1502,6 +1506,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCAUSContenttextControl.style.zIndex = 16;
 			ECCTWContenttextControl.style.zIndex = 19;
 			ECCUSAContenttextControl.style.zIndex = 16;
+			ECCintroductionControl.style.zIndex = 16;
 			
 			ECCBAControl.style.opacity = 1;
 
@@ -1526,13 +1531,13 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCTWControl.classList.remove('open');
 			ECCTWContenttextControl.classList.remove('open');
 			
-			
 			ECCIconContenttextControl.style.zIndex = 16;
 			ECCJPContenttextControl.style.zIndex = 16;
 			ECCCNContenttextControl.style.zIndex = 16;
 			ECCAUSContenttextControl.style.zIndex = 16;
 			ECCTWContenttextControl.style.zIndex = 16;
 			ECCUSAContenttextControl.style.zIndex = 19;
+			ECCintroductionControl.style.zIndex = 16;
 			
 			ECCBAControl.style.opacity = 1;
 			
@@ -1563,6 +1568,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCAUSContenttextControl.style.zIndex = 16;
 			ECCTWContenttextControl.style.zIndex = 16;
 			ECCUSAContenttextControl.style.zIndex = 16;
+			ECCintroductionControl.style.zIndex = 19;
 			
 			ECCBAControl.style.opacity = 0;
 		
@@ -1589,6 +1595,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCAUSContenttextControl.style.zIndex = 16;
 			ECCTWContenttextControl.style.zIndex = 16;
 			ECCUSAContenttextControl.style.zIndex = 16;
+			ECCintroductionControl.style.zIndex = 19;
 			
 			ECCintroductionControl.classList.add('open');
 			ECCBAControl.style.opacity = 0;
