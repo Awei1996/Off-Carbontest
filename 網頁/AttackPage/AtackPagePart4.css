@@ -2709,7 +2709,7 @@
 	visibility: visible;
 }
 
-.ECCpart5{
+.ECCUSA{
 	position: absolute;
 	z-index: 17;
 	margin-top: 24.2%;
@@ -2728,60 +2728,36 @@
 	margin-left: -185%;
 	margin-top: -112%;
 }
-.ECCpart5:hover{
+.ECCUSA:hover{
 	transition: 1s;
 	opacity: 1;
 }
 
-.ECCpart5.open{
+.ECCUSA.open{
 	
 	opacity: 1;	
 }
 
-
-.ECCpart5Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	opacity: 0;
-}
-.ECCpart5Content.open{
+.ECCUSAContenttext{
 	position: absolute;
 	margin-top: 0%;
-	margin-left: 0%;
-	width: 41.67%;
-	padding-bottom: 56%;
-	background-color: transparent;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-	
-}
-
-.ECCpart5Contenttext{
-	position: absolute;
-	margin-top: 25%;
 	margin-left: 12.5%;
 	width: 100%;
-	padding-bottom: 20%;
+	height: 100%;
 	background-color: transparent;
 	font-size: 2.2rem;
-	display: none;
+	display: flex;
 	align-items: center;
-	justify-content: flex-start;
+	color: #ffffff;
 	line-height: 2;
 	opacity: 0;
+	visibility: hidden;
 	 
 }
-.ECCpart5Contenttext.open{
-	display: flex;
-	transition: 1s opacity  0.5s;
+.ECCUSAContenttext.open{
+	transition: 1s ;
 	opacity: 1;
+	visibility: visible;
 }
 .Disease{
 	width: 100%;
