@@ -1327,9 +1327,9 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 	var ECCTWContenttextControl = document.getElementsByClassName('ECCTWContenttext')[0];
 	var ECCTWContentControl = document.getElementsByClassName('ECCTWContent')[0];
 	
-	var ECCpart5Control = document.getElementsByClassName('ECCpart5')[0];
-	var ECCpart5ContenttextControl = document.getElementsByClassName('ECCpart5Contenttext')[0];
-	var ECCpart5ContentControl = document.getElementsByClassName('ECCpart5Content')[0];
+	var ECCUSAControl = document.getElementsByClassName('ECCUSA')[0];
+	var ECCUSAContenttextControl = document.getElementsByClassName('ECCUSAContenttext')[0];
+	var ECCUSAContentControl = document.getElementsByClassName('ECCUSAContent')[0];
 	
 	var ECCIconControl = document.getElementsByClassName('ECCIcon')[0];
 	/*var ECCIconTitleControl = document.getElementsByClassName('ECCIconTitle')[0];*/
@@ -1372,12 +1372,16 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCAUSContenttextControl.classList.remove('open');
 			ECCTWControl.classList.remove('open');
 			ECCTWContenttextControl.classList.remove('open');
+			ECCUSAControl.classList.remove('open');
+			ECCUSAContenttextControl.classList.remove('open');
 			
 			ECCIconContenttextControl.style.zIndex = 19;
 			ECCJPContenttextControl.style.zIndex = 16;
 			ECCCNContenttextControl.style.zIndex = 16;
 			ECCAUSContenttextControl.style.zIndex = 16;
 			ECCTWContenttextControl.style.zIndex = 16;
+			ECCTWContenttextControl.style.zIndex = 16;
+			ECCUSAContenttextControl.style.zIndex = 16;
 			
 			ECCBAControl.style.opacity = 1;
 			
@@ -1400,12 +1404,15 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCAUSContenttextControl.classList.remove('open');
 			ECCTWControl.classList.remove('open');
 			ECCTWContenttextControl.classList.remove('open');
+			ECCUSAControl.classList.remove('open');
+			ECCUSAContenttextControl.classList.remove('open');
 			
 			ECCIconContenttextControl.style.zIndex = 16;
 			ECCJPContenttextControl.style.zIndex = 19;
 			ECCCNContenttextControl.style.zIndex = 16;
 			ECCAUSContenttextControl.style.zIndex = 16;
 			ECCTWContenttextControl.style.zIndex = 16;
+			ECCUSAContenttextControl.style.zIndex = 16;
 			
 			ECCBAControl.style.opacity = 1;
 
@@ -1427,12 +1434,15 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCAUSContenttextControl.classList.remove('open');
 			ECCTWControl.classList.remove('open');
 			ECCTWContenttextControl.classList.remove('open');
+			ECCUSAControl.classList.remove('open');
+			ECCUSAContenttextControl.classList.remove('open');
 			
 			ECCIconContenttextControl.style.zIndex = 16;
 			ECCJPContenttextControl.style.zIndex = 16;
 			ECCCNContenttextControl.style.zIndex = 19;
 			ECCAUSContenttextControl.style.zIndex = 16;
 			ECCTWContenttextControl.style.zIndex = 16;
+			ECCUSAContenttextControl.style.zIndex = 16;
 			
 			ECCBAControl.style.opacity = 1;
 		
@@ -1453,12 +1463,15 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCCNContenttextControl.classList.remove('open');
 			ECCTWControl.classList.remove('open');
 			ECCTWContenttextControl.classList.remove('open');
+			ECCUSAControl.classList.remove('open');
+			ECCUSAContenttextControl.classList.remove('open');
 			
 			ECCIconContenttextControl.style.zIndex = 16;
 			ECCJPContenttextControl.style.zIndex = 16;
 			ECCCNContenttextControl.style.zIndex = 16;
 			ECCAUSContenttextControl.style.zIndex = 19;
 			ECCTWContenttextControl.style.zIndex = 16;
+			ECCUSAContenttextControl.style.zIndex = 16;
 			
 			ECCBAControl.style.opacity = 1;
 		
@@ -1479,6 +1492,8 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCCNContenttextControl.classList.remove('open');
 			ECCAUSControl.classList.remove('open');
 			ECCAUSContenttextControl.classList.remove('open');
+			ECCUSAControl.classList.remove('open');
+			ECCUSAContenttextControl.classList.remove('open');
 			
 			
 			ECCIconContenttextControl.style.zIndex = 16;
@@ -1486,67 +1501,40 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCCNContenttextControl.style.zIndex = 16;
 			ECCAUSContenttextControl.style.zIndex = 16;
 			ECCTWContenttextControl.style.zIndex = 19;
+			ECCUSAContenttextControl.style.zIndex = 16;
 			
 			ECCBAControl.style.opacity = 1;
 
 		};
 		
-		document.getElementsByClassName('ECCpart5')[0].onclick =function()
+		document.getElementsByClassName('ECCUSA')[0].onclick =function()
 		{
 			
-			ECCALLContentControl.classList.add('close');
-			ECCpart5ContentControl.classList.add('open');
-			ECCpart5Control.classList.add('open');
-			ECCpart5ContenttextControl.classList.add('open');
-		
-			ECCpart5ContentControl.classList.remove('close');
-			ECCpart5Control.classList.remove('close');
-			ECCpart5ContenttextControl.classList.remove('close');
-
-			ECCpart5ContentControl.style.zIndex = 18;
-			ECCpart5Control.style.zIndex = 19;
-			ECCpart5ContentControl.style.opacity = 0.99;
-			ECCpart5ContenttextControl.style.opacity = 1;
-			ECCCNControl.style.zIndex = 16;
-			ECCAUSControl.style.zIndex = 16;
-			ECCTWControl.style.zIndex = 16;
-			ECCJPControl.style.zIndex = 16;
-			ECCIconControl.style.zIndex = 16;
+			ECCintroductionControl.classList.remove('open');
 			
-			ECCJPContentControl.style.zIndex = 17;
-			ECCCNContentControl.style.zIndex = 17;
-			ECCAUSContentControl.style.zIndex = 17;
-			ECCTWContentControl.style.zIndex = 17;
-			ECCIconContentControl.style.zIndex = 17;
+			ECCUSAControl.classList.add('open');
+			ECCUSAContenttextControl.classList.add('open');
 			
-			ECCJPContentControl.style.opacity = 0;
-			ECCCNContentControl.style.opacity = 0;
-			ECCAUSContentControl.style.opacity = 0;
-			ECCTWContentControl.style.opacity = 0;
-			ECCIconContentControl.style.opacity = 0;
+			ECCIconControl.classList.remove('open');
+			ECCIconContenttextControl.classList.remove('open');
+			ECCJPControl.classList.remove('open');
+			ECCJPContenttextControl.classList.remove('open');
+			ECCCNControl.classList.remove('open');
+			ECCCNContenttextControl.classList.remove('open');
+			ECCAUSControl.classList.remove('open');
+			ECCAUSContenttextControl.classList.remove('open');
+			ECCTWControl.classList.remove('open');
+			ECCTWContenttextControl.classList.remove('open');
+			
+			
+			ECCIconContenttextControl.style.zIndex = 16;
+			ECCJPContenttextControl.style.zIndex = 16;
+			ECCCNContenttextControl.style.zIndex = 16;
+			ECCAUSContenttextControl.style.zIndex = 16;
+			ECCTWContenttextControl.style.zIndex = 16;
+			ECCUSAContenttextControl.style.zIndex = 19;
 			
 			ECCBAControl.style.opacity = 1;
-			
-			ECCCNContentControl.classList.remove('open');
-			ECCCNContentControl.classList.add('close');
-			ECCCNControl.classList.remove('open');
-			ECCCNControl.classList.add('close');
-			ECCAUSContentControl.classList.remove('open');
-			ECCAUSContentControl.classList.add('close');
-			ECCAUSControl.classList.remove('open');
-			ECCAUSControl.classList.add('close');
-			ECCTWContentControl.classList.remove('open');
-			ECCTWContentControl.classList.add('close');
-			ECCTWControl.classList.remove('open');
-			ECCTWControl.classList.add('close');
-			ECCJPContentControl.classList.remove('open');
-			ECCJPContentControl.classList.add('close');
-			ECCJPControl.classList.remove('open');
-			ECCJPControl.classList.add('close');
-			ECCALLContentControl.classList.remove('open');
-			ECCIconContentControl.classList.remove('open');
-			ECCIconControl.classList.remove('open');
-			ECCIconControl.classList.add('close');
 			
 		}; 	
 
@@ -1564,6 +1552,8 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCAUSContenttextControl.classList.remove('open');
 			ECCTWControl.classList.remove('open');
 			ECCTWContenttextControl.classList.remove('open');
+			ECCUSAControl.classList.remove('open');
+			ECCUSAContenttextControl.classList.remove('open');
 			
 			ECCintroductionControl.classList.add('open');
 
@@ -1572,6 +1562,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCCNContenttextControl.style.zIndex = 16;
 			ECCAUSContenttextControl.style.zIndex = 16;
 			ECCTWContenttextControl.style.zIndex = 16;
+			ECCUSAContenttextControl.style.zIndex = 16;
 			
 			ECCBAControl.style.opacity = 0;
 		
@@ -1589,12 +1580,15 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCAUSContenttextControl.classList.remove('open');
 			ECCTWControl.classList.remove('open');
 			ECCTWContenttextControl.classList.remove('open');
+			ECCUSAControl.classList.remove('open');
+			ECCUSAContenttextControl.classList.remove('open');
 			
 			ECCIconContenttextControl.style.zIndex = 16;
 			ECCJPContenttextControl.style.zIndex = 16;
 			ECCCNContenttextControl.style.zIndex = 16;
 			ECCAUSContenttextControl.style.zIndex = 16;
 			ECCTWContenttextControl.style.zIndex = 16;
+			ECCUSAContenttextControl.style.zIndex = 16;
 			
 			ECCintroductionControl.classList.add('open');
 			ECCBAControl.style.opacity = 0;
