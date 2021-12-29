@@ -2664,7 +2664,7 @@
 	opacity: 1;
 	visibility: visible;
 }
-.ECCpart4{
+.ECCTW{
 	position: absolute;
 	z-index: 17;
 	margin-top: 28.6%;
@@ -2678,59 +2678,35 @@
 	justify-content: center;
 }
 
-.ECCpart4:hover{
+.ECCTW:hover{
 	transition: 1s;
 	opacity: 1;
 }
 
-.ECCpart4.open{
+.ECCTW.open{
 	opacity: 1;	
 }
 
-
-.ECCpart4Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	opacity: 0;
-}
-.ECCpart4Content.open{
+.ECCTWContenttext{
 	position: absolute;
 	margin-top: 0%;
-	margin-left: 0%;
-	width: 41.67%;
-	padding-bottom: 56%;
-	background-color: transparent;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-	
-}
-
-.ECCpart4Contenttext{
-	position: absolute;
-	margin-top: 40%;
 	margin-left: 12.5%;
 	width: 100%;
-	padding-bottom: 20%;
+	height: 100%;
 	background-color: transparent;
 	font-size: 2.2rem;
-	display: none;
+	display: flex;
 	align-items: center;
-	justify-content: flex-start;
+	color: #ffffff;
 	line-height: 2;
 	opacity: 0;
+	visibility: hidden;
 	 
 }
-.ECCpart4Contenttext.open{
-	display: flex;
-	transition: 1s opacity  0.5s;
+.ECCTWContenttext.open{
+	transition: 1s ;
 	opacity: 1;
+	visibility: visible;
 }
 
 .ECCpart5{
