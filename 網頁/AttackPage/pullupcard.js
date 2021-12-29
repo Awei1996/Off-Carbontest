@@ -1321,20 +1321,16 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 	
 	var ECCAUSControl = document.getElementsByClassName('ECCAUS')[0];
 	var ECCAUSContenttextControl = document.getElementsByClassName('ECCAUSContenttext')[0];
-	var ECCAUSContentControl = document.getElementsByClassName('ECCAUSContent')[0];
 	
 	var ECCTWControl = document.getElementsByClassName('ECCTW')[0];
 	var ECCTWContenttextControl = document.getElementsByClassName('ECCTWContenttext')[0];
-	var ECCTWContentControl = document.getElementsByClassName('ECCTWContent')[0];
 	
 	var ECCUSAControl = document.getElementsByClassName('ECCUSA')[0];
 	var ECCUSAContenttextControl = document.getElementsByClassName('ECCUSAContenttext')[0];
-	var ECCUSAContentControl = document.getElementsByClassName('ECCUSAContent')[0];
 	
 	var ECCIconControl = document.getElementsByClassName('ECCIcon')[0];
 	/*var ECCIconTitleControl = document.getElementsByClassName('ECCIconTitle')[0];*/
 	var ECCIconContenttextControl = document.getElementsByClassName('ECCIconContenttext')[0];
-	var ECCIconContentControl = document.getElementsByClassName('ECCIconContent')[0];
 	
 	var ECCBAControl = document.getElementsByClassName('ECCBA')[0];
 	
@@ -1625,21 +1621,21 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 
 	var DSCpart2Control = document.getElementsByClassName('DSCpart2')[0];
 	var DSCpart2TitleControl = document.getElementsByClassName('DSCpart2Title')[0];
-  	var DSCpart2ContenttextControl = document.getElementsByClassName('DSCpart2Contenttext')[0];
+	var DSCpart2ContenttextControl = document.getElementsByClassName('DSCpart2Contenttext')[0];
 	
 	var DSCpart3Control = document.getElementsByClassName('DSCpart3')[0];
 	var DSCpart3TitleControl = document.getElementsByClassName('DSCpart3Title')[0];
-  	var DSCpart3ContenttextControl = document.getElementsByClassName('DSCpart3Contenttext')[0];
+	var DSCpart3ContenttextControl = document.getElementsByClassName('DSCpart3Contenttext')[0];
 	
 	var DSCpart4Control = document.getElementsByClassName('DSCpart4')[0];
 	var DSCpart4TitleControl = document.getElementsByClassName('DSCpart4Title')[0];
-  	var DSCpart4ContenttextControl = document.getElementsByClassName('DSCpart4Contenttext')[0];
+	var DSCpart4ContenttextControl = document.getElementsByClassName('DSCpart4Contenttext')[0];
 
-  	if(this.value === 'close') 
-  	{ 
-    	this.value = 'open';
+	if(this.value === 'close') 
+	{ 
+		this.value = 'open';
 		textcardDSC.classList.remove('close'); 
-    	textcardDSC.classList.add('open');
+		textcardDSC.classList.add('open');
 		MainMenuControl.classList.add('close');
 		MainMenuControl.classList.remove('open');
 		SteamControl.classList.add('open');
@@ -1690,7 +1686,7 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 			DSCpart4ContenttextControl.style.display = 'none';
 	
 		}; 
-	  
+		
 		document.getElementsByClassName('DSCpart2')[0].onclick =function()
 		{
 		
@@ -1727,7 +1723,7 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 			DSCpart4ContenttextControl.style.display = 'none';
 
 		}; 
-	  
+		
 		document.getElementsByClassName('DSCpart3')[0].onclick =function()
 		{
 		
@@ -1764,7 +1760,7 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 			DSCpart4ContenttextControl.style.display = 'none';	
 		
 		}; 
-	  
+		
 		document.getElementsByClassName('DSCpart4')[0].onclick =function()
 		{
 		
@@ -1859,7 +1855,7 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
 			document.getElementsByClassName('Disease')[0].value = 'close';
-    		textcardDSC.classList.remove('open'); 
+			textcardDSC.classList.remove('open'); 
 			textcardDSC.classList.add('close');
 			MainMenuControl.classList.remove('close');
 			MainMenuControl.classList.add('open');
@@ -1896,7 +1892,7 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 			DSCpart4ContenttextControl.style.display = 'flex';
 		};	
 	
-  	}
+	}
   
 };
 document.getElementsByClassName('FoodShortage')[0].onclick = function() {
@@ -1910,21 +1906,21 @@ document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 
 	var FSCpart2Control = document.getElementsByClassName('FSCpart2')[0];
 	var FSCpart2TitleControl = document.getElementsByClassName('FSCpart2Title')[0];
-  	var FSCpart2ContenttextControl = document.getElementsByClassName('FSCpart2Contenttext')[0];
+	var FSCpart2ContenttextControl = document.getElementsByClassName('FSCpart2Contenttext')[0];
 	
 	var FSCpart3Control = document.getElementsByClassName('FSCpart3')[0];
 	var FSCpart3TitleControl = document.getElementsByClassName('FSCpart3Title')[0];
-  	var FSCpart3ContenttextControl = document.getElementsByClassName('FSCpart3Contenttext')[0];
+	var FSCpart3ContenttextControl = document.getElementsByClassName('FSCpart3Contenttext')[0];
 	
 	var FSCpart4Control = document.getElementsByClassName('FSCpart4')[0];
 	var FSCpart4TitleControl = document.getElementsByClassName('FSCpart4Title')[0];
-  	var FSCpart4ContenttextControl = document.getElementsByClassName('FSCpart4Contenttext')[0];
+	var FSCpart4ContenttextControl = document.getElementsByClassName('FSCpart4Contenttext')[0];
 
-  	if(this.value === 'close') 
-  	{ 
-    	this.value = 'open';
+	if(this.value === 'close') 
+	{ 
+		this.value = 'open';
 		textcardFSC.classList.remove('close'); 
-    	textcardFSC.classList.add('open');
+		textcardFSC.classList.add('open');
 		MainMenuControl.classList.add('close');
 		MainMenuControl.classList.remove('open');
 		SteamControl.classList.add('open');
@@ -1975,7 +1971,7 @@ document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 			FSCpart4ContenttextControl.style.display = 'none';
 	
 		}; 
-	  
+		
 		document.getElementsByClassName('FSCpart2')[0].onclick =function()
 		{
 		
@@ -2011,8 +2007,8 @@ document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 			FSCpart3ContenttextControl.style.display = 'none';
 			FSCpart4ContenttextControl.style.display = 'none';
 
-		}; 
-	  
+		};
+		
 		document.getElementsByClassName('FSCpart3')[0].onclick =function()
 		{
 		
@@ -2048,8 +2044,8 @@ document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 			FSCpart3ContenttextControl.style.display = 'flex';
 			FSCpart4ContenttextControl.style.display = 'none';	
 		
-		}; 
-	  
+		};
+		
 		document.getElementsByClassName('FSCpart4')[0].onclick =function()
 		{
 		
@@ -2144,7 +2140,7 @@ document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
 			document.getElementsByClassName('FoodShortage')[0].value = 'close';
-    		textcardFSC.classList.remove('open'); 
+			textcardFSC.classList.remove('open'); 
 			textcardFSC.classList.add('close');
 			MainMenuControl.classList.remove('close');
 			MainMenuControl.classList.add('open');
@@ -2181,7 +2177,7 @@ document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 			FSCpart4ContenttextControl.style.display = 'flex';
 		};	
 	
-  	}
+	}
   
 };
 document.getElementsByClassName('EconomicShock')[0].onclick = function() {
@@ -2195,21 +2191,21 @@ document.getElementsByClassName('EconomicShock')[0].onclick = function() {
 
 	var ESCpart2Control = document.getElementsByClassName('ESCpart2')[0];
 	var ESCpart2TitleControl = document.getElementsByClassName('ESCpart2Title')[0];
-  	var ESCpart2ContenttextControl = document.getElementsByClassName('ESCpart2Contenttext')[0];
+	var ESCpart2ContenttextControl = document.getElementsByClassName('ESCpart2Contenttext')[0];
 	
 	var ESCpart3Control = document.getElementsByClassName('ESCpart3')[0];
 	var ESCpart3TitleControl = document.getElementsByClassName('ESCpart3Title')[0];
-  	var ESCpart3ContenttextControl = document.getElementsByClassName('ESCpart3Contenttext')[0];
+	var ESCpart3ContenttextControl = document.getElementsByClassName('ESCpart3Contenttext')[0];
 	
 	var ESCpart4Control = document.getElementsByClassName('ESCpart4')[0];
 	var ESCpart4TitleControl = document.getElementsByClassName('ESCpart4Title')[0];
-  	var ESCpart4ContenttextControl = document.getElementsByClassName('ESCpart4Contenttext')[0];
+	var ESCpart4ContenttextControl = document.getElementsByClassName('ESCpart4Contenttext')[0];
 
-  	if(this.value === 'close') 
-  	{ 
-    	this.value = 'open';
+	if(this.value === 'close') 
+	{
+		this.value = 'open';
 		textcardESC.classList.remove('close'); 
-    	textcardESC.classList.add('open');
+		textcardESC.classList.add('open');
 		MainMenuControl.classList.add('close');
 		MainMenuControl.classList.remove('open');
 		SteamControl.classList.add('open');
@@ -2260,7 +2256,7 @@ document.getElementsByClassName('EconomicShock')[0].onclick = function() {
 			ESCpart4ContenttextControl.style.display = 'none';
 	
 		}; 
-	  
+		
 		document.getElementsByClassName('ESCpart2')[0].onclick =function()
 		{
 		
@@ -2297,7 +2293,7 @@ document.getElementsByClassName('EconomicShock')[0].onclick = function() {
 			ESCpart4ContenttextControl.style.display = 'none';
 
 		}; 
-	  
+		
 		document.getElementsByClassName('ESCpart3')[0].onclick =function()
 		{
 		
@@ -2334,7 +2330,7 @@ document.getElementsByClassName('EconomicShock')[0].onclick = function() {
 			ESCpart4ContenttextControl.style.display = 'none';	
 		
 		}; 
-	  
+		
 		document.getElementsByClassName('ESCpart4')[0].onclick =function()
 		{
 		
@@ -2429,7 +2425,7 @@ document.getElementsByClassName('EconomicShock')[0].onclick = function() {
 		document.getElementsByClassName('Backbutton')[0].onclick =function()
 		{
 			document.getElementsByClassName('EconomicShock')[0].value = 'close';
-    		textcardESC.classList.remove('open'); 
+			textcardESC.classList.remove('open'); 
 			textcardESC.classList.add('close');
 			MainMenuControl.classList.remove('close');
 			MainMenuControl.classList.add('open');
@@ -2466,6 +2462,6 @@ document.getElementsByClassName('EconomicShock')[0].onclick = function() {
 			ESCpart4ContenttextControl.style.display = 'flex';
 		};	
 	
-  	}
+	}
   
 }; 
