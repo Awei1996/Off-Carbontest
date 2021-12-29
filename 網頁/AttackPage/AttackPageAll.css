@@ -288,12 +288,12 @@ button{
 }
 .l-earth{
 	position: absolute;
-	top: 20%;
+	top: 30%;
 	width: 15%;
 }
 .l-word {
     position: absolute;
-    top: 55%;
+    top: 60%;
     font-size: 28px;
     letter-spacing: 12px;
 	text-align: center;
