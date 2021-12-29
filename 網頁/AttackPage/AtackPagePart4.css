@@ -2485,9 +2485,9 @@
 	line-height: 2;
 	opacity: 0;
 	visibility: hidden;
+	transition: 1s ;
 }
 .ECCintroduction.open{
-	transition: 1s ;
 	opacity: 1;
 	visibility: visible;
 }
