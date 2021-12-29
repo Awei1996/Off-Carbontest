@@ -2400,7 +2400,7 @@
     -ms-transition: 2s;
     -o-transition: 2s;
     transition: 0.01s,opacity 2s;
-	opacity: 0.9;
+	opacity: 0.99;
 	margin-left: 100%;
 }
 
@@ -2423,7 +2423,7 @@
     -moz-transition: 2s;
     -ms-transition: 2s;
     -o-transition: 2s;
-    transition: 0.01s,opacity 2s;
+    transition: 0.01s,opacity 1s;
 	opacity: 0.99;
 	margin-left: 0%;
 }
