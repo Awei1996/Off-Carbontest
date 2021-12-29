@@ -2621,7 +2621,7 @@
 	visibility: visible;
 }
 
-.ECCpart3{
+.ECCAUS{
 	position: absolute;
 	z-index: 17;
 	margin-top: 34.1%;
@@ -2635,58 +2635,34 @@
 	justify-content: center;
 }
 
-.ECCpart3:hover{
+.ECCAUS:hover{
 	transition: 1s;
 	opacity: 1;
 }
-.ECCpart3.open{	
+.ECCAUS.open{	
 	opacity: 1;	
 }
 
-
-.ECCpart3Content{
-	position: absolute;
-	z-index: -1;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 0%;
-	background-color: transparent;
-	color: transparent;
-	font-size: 2.2rem;
-	opacity: 0;
-}
-.ECCpart3Content.open{
+.ECCAUSContenttext{
 	position: absolute;
 	margin-top: 0%;
-	margin-left: 0%;
-	width: 41.67%;
-	padding-bottom: 56%;
-	background-color: transparent;
-	opacity: 0.95;
-	display: flex;
-	color: #ffffff;
-	
-}
-
-.ECCpart3Contenttext{
-	position: absolute;
-	margin-top: 40%;
 	margin-left: 12.5%;
 	width: 100%;
-	padding-bottom: 20%;
+	height: 100%;
 	background-color: transparent;
 	font-size: 2.2rem;
-	display: none;
+	display: flex;
 	align-items: center;
-	justify-content: flex-start;
+	color: #ffffff;
 	line-height: 2;
 	opacity: 0;
+	visibility: hidden;
 	 
 }
-.ECCpart3Contenttext.open{
-	display: flex;
-	transition: 1s opacity  0.5s;
+.ECCAUSContenttext.open{
+	transition: 1s ;
 	opacity: 1;
+	visibility: visible;
 }
 .ECCpart4{
 	position: absolute;
