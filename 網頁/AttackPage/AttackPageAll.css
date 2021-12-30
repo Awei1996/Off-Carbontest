@@ -349,6 +349,9 @@ button{
 	html{
 		font-size: 6px;
 	}
+	.allpg{
+		padding-bottom: 896%;
+	}
 	.myBtn {
   	
   	
@@ -448,6 +451,9 @@ button{
 	
 	html{
 		font-size: 5px;
+	}
+	.allpg{
+		padding-bottom: 896%;
 	}
 	.myBtn {
   	
