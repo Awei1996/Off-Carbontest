@@ -154,7 +154,7 @@ button{
 	padding-bottom: 56%;
 	background-color: transparent;
 	boder: solid 3px orange;
-	
+	display: flex;
 
 }
 
