@@ -12,6 +12,16 @@
 	overflow: hidden;
 
 }
+.bg4-1Mobile{
+	position: absolute;
+	z-index: -1;
+	left: 0%;
+	width: 100%;
+	opacity: 1;
+	margin-top: 224%;
+	padding-bottom: 56%;
+	display: none;
+}
 .SDCBA{
 	position: absolute;
 	margin-left: 93%;
