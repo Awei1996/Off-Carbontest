@@ -302,6 +302,8 @@
 	border-right: 0px;
 	border-radius: 1px;
 	font-weight: normal;
+	line-height: 0;
+
 
 }
 .SDCSub{
@@ -811,7 +813,7 @@
 	border-right: 0px;
 	border-radius: 1px;
 	font-weight: normal;
-
+	line-height: 0;
 }
 .OACSub{
 	position: absolute;
@@ -1321,7 +1323,7 @@
 	border-right: 0px;
 	border-radius: 1px;
 	font-weight: normal;
-
+	line-height: 0;
 }
 .MICSub{
 	position: absolute;
@@ -1841,6 +1843,7 @@
 	border-right: 0px;
 	border-radius: 1px;
 	font-weight: normal;
+	line-height: 0;
 
 }
 .FFCSub{
@@ -2160,7 +2163,7 @@
 	border-right: 0px;
 	border-radius: 1px;
 	font-weight: normal;
-
+	line-height: 0;
 }
 .HWCSub{
 	position: absolute;
@@ -2458,7 +2461,7 @@
 	border-right: 0px;
 	border-radius: 1px;
 	font-weight: normal;
-
+	line-height: 0;
 }
 .ECCSub{
 	position: absolute;
@@ -2856,7 +2859,7 @@
 	border-right: 0px;
 	border-radius: 1px;
 	font-weight: normal;
-
+	line-height: 0;
 }
 .DSCSub{
 	position: absolute;
@@ -3367,7 +3370,7 @@
 	border-right: 0px;
 	border-radius: 1px;
 	font-weight: normal;
-
+	line-height: 0;
 }
 .FSCSub{
 	position: absolute;
@@ -3881,7 +3884,7 @@
 	border-right: 0px;
 	border-radius: 1px;
 	font-weight: normal;
-
+	line-height: 0;
 }
 
 .ESCSub{
