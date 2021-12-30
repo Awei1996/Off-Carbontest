@@ -131,7 +131,8 @@
 	position: absolute;
 	z-index: 17;
 	margin-top: 5%;
-	width: 100%;
+	margin-left: 20%;
+	width: 60%;
 	color: #ffffff;
 	font-size: 5rem;
 	border: solid 5px #FFFFFF;
