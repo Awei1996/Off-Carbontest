@@ -309,39 +309,18 @@ h3,p{
 
 }
 
-
+.l-earth{
+	position: absolute;
+	top: 30%;
+	width: 12.5%;
+}
 .l-word {
     position: absolute;
-    top: 55%;
+    top: 62.5%;
     font-size: 28px;
     letter-spacing: 12px;
 	text-align: center;
    
-}
-
-.circle {
-    width: 1%;
-    left: 45%;
-    top: 45%; 
-    background-color: #999;
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    transform-origin: 50%;
-    animation: circle .5s alternate infinite ease ;
-	animation-delay: 0.5s;		
-}
-
-
-
-.circle:nth-child(2) {
-    left: 50%;
-    animation-delay: .2s
-}
-
-.circle:nth-child(3) {
-    left: 55%;
-    animation-delay: .3s
 }
 
 @keyframes circle {
