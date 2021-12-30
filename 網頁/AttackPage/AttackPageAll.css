@@ -437,6 +437,9 @@ button{
 	.view4{
 		display: none;
 	}
+	.view4-Mobile{
+		display: block;
+	}
 	.view5{
 		display: none;
 	}
@@ -533,6 +536,9 @@ button{
 	}
 	.view4{
 		display: none;
+	}
+	.view4-Mobile{
+		display: block;
 	}
 	.view5{
 		display: none;
