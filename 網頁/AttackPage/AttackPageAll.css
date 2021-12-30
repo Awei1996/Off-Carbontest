@@ -311,6 +311,7 @@ button{
 	text-align: center;
    
 }
+
 .CountTo100{
 	color: #000;
 	width: 500px;
@@ -414,11 +415,30 @@ button{
 	.Ab{
 		font-size: 10rem;
 	}
+	.l-earth{
+		position: absolute;
+		top: 40%;
+		width: 20%;
+		}
+	.l-word {
+		position: absolute;
+		top: 55%;
+		font-size: 28px;
+		letter-spacing: 12px;
+		text-align: center;
+
+	}
 	.view3{
 		display: none;
 	}
 	.view3-Mobile{
 		display: block;
+	}
+	.view4{
+		display: none;
+	}
+	.view5{
+		display: none;
 	}
 }
 
@@ -492,10 +512,29 @@ button{
 	.Ab{
 		font-size: 12rem;
 	}
+	.l-earth{
+		position: absolute;
+		top: 40%;
+		width: 20%;
+	}
+	.l-word {
+		position: absolute;
+		top: 55%;
+		font-size: 28px;
+		letter-spacing: 12px;
+		text-align: center;
+   
+	}
 	.view3{
 		display: none;
 	}
 	.view3-Mobile{
 		display: block;
+	}
+	.view4{
+		display: none;
+	}
+	.view5{
+		display: none;
 	}
 }

@@ -142,9 +142,6 @@
 
 @media (min-device-width: 376px) and (max-device-width: 600px){
 	
-	.view5{
-		display: none;
-	}
 	.bg5{
 		display: none;
 	}
@@ -153,9 +150,6 @@
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
 	
-	.view5{
-		display: none;
-	}
 	.bg5{
 		display: none;
 	}

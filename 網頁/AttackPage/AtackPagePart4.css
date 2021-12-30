@@ -4386,9 +4386,7 @@
 
 @media (min-device-width: 376px) and (max-device-width: 600px){
 	
-	.view4{
-		display: none;
-	}
+	
 	.bg4{
 		display: none;
 	}
@@ -4397,9 +4395,7 @@
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
 	
-	.view4{
-		display: none;
-	}
+	
 	.bg4{
 		display: none;
 	}
