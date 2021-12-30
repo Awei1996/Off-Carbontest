@@ -4344,6 +4344,31 @@
 	margin-left: 43.33%;
 	opacity: 1;
 }
+.Steam-Mobile{
+	position: absolute;
+	z-index: 6;
+	width: 54.69%;
+	margin-top: 19%;
+	margin-left: 43.33%;
+}
+.Steam-Mobile.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s,opacity 2s;
+	margin-left: 45.93%;
+	opacity: 0;
+}
+.Steam-Mobile.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s,opacity 2s;
+	margin-left: 43.33%;
+	opacity: 1;
+}
 
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
 	

@@ -126,3 +126,37 @@
 	margin-top:  130%;
 	font-size: 1.66rem;
 }
+@media (min-device-width: 1280px) and (max-device-width: 1500px){
+	
+	
+}
+
+@media (min-device-width: 960px) and (max-device-width: 1280px){
+	
+	
+}
+@media (min-device-width: 600px) and (max-device-width: 960px){
+	
+		
+}
+
+@media (min-device-width: 376px) and (max-device-width: 600px){
+	
+	.view5{
+		display: none;
+	}
+	.bg5{
+		display: none;
+	}
+	
+}
+
+@media (min-device-width: 100px) and (max-device-width: 375px){
+	
+	.view5{
+		display: none;
+	}
+	.bg5{
+		display: none;
+	}
+}
