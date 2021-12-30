@@ -117,9 +117,7 @@
     transition: 1s,opacity 1s;
 	margin-left: 43.23%;
 	opacity: 0;
-
 }
-
 .Disaster.close{
 	-webkit-transition: 2s;
     -moz-transition: 2s;
@@ -128,6 +126,21 @@
     transition: 1s,opacity 1s;
 	margin-left: 40.63%;
 	opacity: 1;
+}
+.Disaster-Mobile{
+	position: absolute;
+	z-index: 17;
+	margin-top: 5%;
+	width: 100%;
+	color: #ffffff;
+	font-size: 5rem;
+	border: solid 3px #FFFFFF;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 2px;
+	font-weight: bold;
+	text-align: center;
+
 }
 .MainMenu{
 	position: absolute;
