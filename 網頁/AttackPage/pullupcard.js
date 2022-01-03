@@ -25,6 +25,10 @@ var part1TitleControl = document.getElementsByClassName('part1Title')[0];
 var part2TitleControl = document.getElementsByClassName('part2Title')[0];
 var part3TitleControl = document.getElementsByClassName('part3Title')[0];
 var part4TitleControl = document.getElementsByClassName('part4Title')[0];
+var part1ContenttextControl = document.getElementsByClassName('part1Contenttext')[0];
+var part2ContenttextControl = document.getElementsByClassName('part2Contenttext')[0];
+var part3ContenttextControl = document.getElementsByClassName('part3Contenttext')[0];
+var part4ContenttextControl = document.getElementsByClassName('part4Contenttext')[0];
 
 document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 	
@@ -32,28 +36,9 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 	var SDCBAControl = document.getElementsByClassName('SDCBA')[0];
 	
 	var SDCpart1Control = document.getElementsByClassName('SDCpart1')[0];
-	
-	var SDCpart1ContenttextControl = document.getElementsByClassName('SDCpart1Contenttext')[0];
-	
-
-	
 	var SDCpart2Control = document.getElementsByClassName('SDCpart2')[0];
-	
-	var SDCpart2ContenttextControl = document.getElementsByClassName('SDCpart2Contenttext')[0];
-	
-
-	
 	var SDCpart3Control = document.getElementsByClassName('SDCpart3')[0];
-	
-	var SDCpart3ContenttextControl = document.getElementsByClassName('SDCpart3Contenttext')[0];
-	
-
-	
 	var SDCpart4Control = document.getElementsByClassName('SDCpart4')[0];
-	
-	var SDCpart4ContenttextControl = document.getElementsByClassName('SDCpart4Contenttext')[0];
-	
-
 
 	if(this.value === 'close') 
 	{ 
@@ -69,10 +54,10 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 		SDCBGControl.classList.add('open');
 		BbtnControl.classList.add('open');
 		
-		SDCpart1ContenttextControl.style.opacity = 0;
-		SDCpart2ContenttextControl.style.opacity = 0;
-		SDCpart3ContenttextControl.style.opacity = 0;
-		SDCpart4ContenttextControl.style.opacity = 0;
+		part1ContenttextControl.style.opacity = 0;
+		part2ContenttextControl.style.opacity = 0;
+		part3ContenttextControl.style.opacity = 0;
+		part4ContenttextControl.style.opacity = 0;
  
 		document.getElementsByClassName('SDCpart1')[0].onclick =function()
 		{
@@ -80,7 +65,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCContentControl.classList.add('open');
 			SDCpart1Control.classList.add('open');
 			part1TitleControl.classList.add('open');
-			SDCpart1ContenttextControl.classList.add('open');
+			part1ContenttextControl.classList.add('open');
 
 			SDCContentControl.classList.remove('close');
 			SDCpart1Control.classList.remove('close');
@@ -89,24 +74,24 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCContentControl.style.zIndex = 18;
 			SDCpart1Control.style.zIndex = 19;
 			part1TitleControl.style.zIndex = 19;
-			SDCpart1ContenttextControl.style.zIndex = 19;
+			part1ContenttextControl.style.zIndex = 19;
 			SDCpart2Control.style.zIndex = 16;
 			part2TitleControl.style.zIndex = 16;
-			SDCpart2ContenttextControl.style.zIndex = 16;
+			part2ContenttextControl.style.zIndex = 16;
 			SDCpart3Control.style.zIndex = 16;
 			part3TitleControl.style.zIndex = 16;
-			SDCpart3ContenttextControl.style.zIndex = 16;
+			part3ContenttextControl.style.zIndex = 16;
 			SDCpart4Control.style.zIndex = 16;
 			part4TitleControl.style.zIndex = 16;
-			SDCpart4ContenttextControl.style.zIndex = 16;
+			part4ContenttextControl.style.zIndex = 16;
 			SDCBAControl.style.opacity = 1;
 
-			SDCpart1ContenttextControl.style.opacity = 1;
+			part1ContenttextControl.style.opacity = 1;
 			
-			SDCpart1ContenttextControl.style.display = 'flex';
-			SDCpart2ContenttextControl.style.display = 'none';
-			SDCpart3ContenttextControl.style.display = 'none';
-			SDCpart4ContenttextControl.style.display = 'none';
+			part1ContenttextControl.style.display = 'flex';
+			part2ContenttextControl.style.display = 'none';
+			part3ContenttextControl.style.display = 'none';
+			part4ContenttextControl.style.display = 'none';
 
 		
 		}; 
@@ -117,7 +102,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCContentControl.classList.add('open');
 			SDCpart2Control.classList.add('open');
 			part2TitleControl.classList.add('open');
-			SDCpart2ContenttextControl.classList.add('open');
+			part2ContenttextControl.classList.add('open');
 		
 			SDCContentControl.classList.remove('close');
 			SDCpart2Control.classList.remove('close');
@@ -126,24 +111,24 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCContentControl.style.zIndex = 18;
 			SDCpart1Control.style.zIndex = 16;
 			part1TitleControl.style.zIndex = 16;
-			SDCpart1ContenttextControl.style.zIndex = 16;
+			part1ContenttextControl.style.zIndex = 16;
 			SDCpart2Control.style.zIndex = 19;
 			part2TitleControl.style.zIndex = 19;
-			SDCpart2ContenttextControl.style.zIndex = 19;
+			part2ContenttextControl.style.zIndex = 19;
 			SDCpart3Control.style.zIndex = 16;
 			part3TitleControl.style.zIndex = 16;
-			SDCpart3ContenttextControl.style.zIndex = 16;
+			part3ContenttextControl.style.zIndex = 16;
 			SDCpart4Control.style.zIndex = 16;
 			part4TitleControl.style.zIndex = 16;
-			SDCpart4ContenttextControl.style.zIndex = 16;
+			part4ContenttextControl.style.zIndex = 16;
 			SDCBAControl.style.opacity = 1;
 			
-			SDCpart2ContenttextControl.style.opacity = 1;
+			part2ContenttextControl.style.opacity = 1;
 			
-			SDCpart1ContenttextControl.style.display = 'none';
-			SDCpart2ContenttextControl.style.display = 'flex';
-			SDCpart3ContenttextControl.style.display = 'none';
-			SDCpart4ContenttextControl.style.display = 'none';
+			part1ContenttextControl.style.display = 'none';
+			part2ContenttextControl.style.display = 'flex';
+			part3ContenttextControl.style.display = 'none';
+			part4ContenttextControl.style.display = 'none';
 
 		}; 
 		
@@ -153,7 +138,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCContentControl.classList.add('open');
 			SDCpart3Control.classList.add('open');
 			part3TitleControl.classList.add('open');
-			SDCpart3ContenttextControl.classList.add('open');
+			part3ContenttextControl.classList.add('open');
 		
 			SDCContentControl.classList.remove('close');
 			SDCpart3Control.classList.remove('close');
@@ -162,24 +147,24 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCContentControl.style.zIndex = 18;
 			SDCpart1Control.style.zIndex = 16;
 			part1TitleControl.style.zIndex = 16;
-			SDCpart1ContenttextControl.style.zIndex = 16;
+			part1ContenttextControl.style.zIndex = 16;
 			SDCpart2Control.style.zIndex = 16;
 			part2TitleControl.style.zIndex = 16;
-			SDCpart2ContenttextControl.style.zIndex = 16;
+			part2ContenttextControl.style.zIndex = 16;
 			SDCpart3Control.style.zIndex = 19;
 			part3TitleControl.style.zIndex = 19;
-			SDCpart3ContenttextControl.style.zIndex = 19;
+			part3ContenttextControl.style.zIndex = 19;
 			SDCpart4Control.style.zIndex = 16;
 			part4TitleControl.style.zIndex = 16;
-			SDCpart4ContenttextControl.style.zIndex = 16;
+			part4ContenttextControl.style.zIndex = 16;
 			SDCBAControl.style.opacity = 1;
 	
-			SDCpart3ContenttextControl.style.opacity = 1;
+			part3ContenttextControl.style.opacity = 1;
 			
-			SDCpart1ContenttextControl.style.display = 'none';
-			SDCpart2ContenttextControl.style.display = 'none';
-			SDCpart3ContenttextControl.style.display = 'flex';
-			SDCpart4ContenttextControl.style.display = 'none';
+			part1ContenttextControl.style.display = 'none';
+			part2ContenttextControl.style.display = 'none';
+			part3ContenttextControl.style.display = 'flex';
+			part4ContenttextControl.style.display = 'none';
 		
 		}; 
 		
@@ -189,7 +174,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCContentControl.classList.add('open');
 			SDCpart4Control.classList.add('open');
 			part4TitleControl.classList.add('open');
-			SDCpart4ContenttextControl.classList.add('open');
+			part4ContenttextControl.classList.add('open');
 		
 			SDCContentControl.classList.remove('close');
 			SDCpart4Control.classList.remove('close');
@@ -198,24 +183,24 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			SDCContentControl.style.zIndex = 18;
 			SDCpart1Control.style.zIndex = 16;
 			part1TitleControl.style.zIndex = 16;
-			SDCpart1ContenttextControl.style.zIndex = 16;
+			part1ContenttextControl.style.zIndex = 16;
 			SDCpart2Control.style.zIndex = 16;
 			part2TitleControl.style.zIndex = 16;
-			SDCpart2ContenttextControl.style.zIndex = 16;
+			part2ContenttextControl.style.zIndex = 16;
 			SDCpart3Control.style.zIndex = 16;
 			part3TitleControl.style.zIndex = 16;
-			SDCpart3ContenttextControl.style.zIndex = 16;
+			part3ContenttextControl.style.zIndex = 16;
 			SDCpart4Control.style.zIndex = 19;
 			part4TitleControl.style.zIndex = 19;
-			SDCpart4ContenttextControl.style.zIndex = 19;
+			part4ContenttextControl.style.zIndex = 19;
 			SDCBAControl.style.opacity = 1;
 			
-			SDCpart4ContenttextControl.style.opacity = 1;
+			part4ContenttextControl.style.opacity = 1;
 			
-			SDCpart1ContenttextControl.style.display = 'none';
-			SDCpart2ContenttextControl.style.display = 'none';
-			SDCpart3ContenttextControl.style.display = 'none';
-			SDCpart4ContenttextControl.style.display = 'flex';
+			part1ContenttextControl.style.display = 'none';
+			part2ContenttextControl.style.display = 'none';
+			part3ContenttextControl.style.display = 'none';
+			part4ContenttextControl.style.display = 'flex';
 			
 		}; 
 		
@@ -225,16 +210,16 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			
 			SDCpart1Control.classList.remove('open');
 			part1TitleControl.classList.remove('open');
-			SDCpart1ContenttextControl.classList.remove('open');
+			part1ContenttextControl.classList.remove('open');
 			SDCpart2Control.classList.remove('open');
 			part2TitleControl.classList.remove('open');
-			SDCpart2ContenttextControl.classList.remove('open');
+			part2ContenttextControl.classList.remove('open');
 			SDCpart3Control.classList.remove('open');
 			part3TitleControl.classList.remove('open');
-			SDCpart3ContenttextControl.classList.remove('open');
+			part3ContenttextControl.classList.remove('open');
 			SDCpart4Control.classList.remove('open');
 			part4TitleControl.classList.remove('open');
-			SDCpart4ContenttextControl.classList.remove('open');
+			part4ContenttextControl.classList.remove('open');
 			
 			SDCContentControl.classList.add('close');
 			
@@ -261,15 +246,15 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			part4TitleControl.style.zIndex = 19;
 			SDCBAControl.style.opacity = 0;
 			
-			SDCpart1ContenttextControl.style.opacity = 0;
-			SDCpart2ContenttextControl.style.opacity = 0;
-			SDCpart3ContenttextControl.style.opacity = 0;
-			SDCpart4ContenttextControl.style.opacity = 0;
+			part1ContenttextControl.style.opacity = 0;
+			part2ContenttextControl.style.opacity = 0;
+			part3ContenttextControl.style.opacity = 0;
+			part4ContenttextControl.style.opacity = 0;
 			
-			SDCpart1ContenttextControl.style.display = 'flex';
-			SDCpart2ContenttextControl.style.display = 'flex';
-			SDCpart3ContenttextControl.style.display = 'flex';
-			SDCpart4ContenttextControl.style.display = 'flex';
+			part1ContenttextControl.style.display = 'flex';
+			part2ContenttextControl.style.display = 'flex';
+			part3ContenttextControl.style.display = 'flex';
+			part4ContenttextControl.style.display = 'flex';
 			
 			
 		}; 
@@ -309,10 +294,10 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 			part4TitleControl.style.zIndex = 19;
 			SDCBAControl.style.opacity = 0;
 			
-			SDCpart1ContenttextControl.style.display = 'flex';
-			SDCpart2ContenttextControl.style.display = 'flex';
-			SDCpart3ContenttextControl.style.display = 'flex';
-			SDCpart4ContenttextControl.style.display = 'flex';
+			part1ContenttextControl.style.display = 'flex';
+			part2ContenttextControl.style.display = 'flex';
+			part3ContenttextControl.style.display = 'flex';
+			part4ContenttextControl.style.display = 'flex';
 		};	
 	
 	} 
@@ -323,22 +308,11 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 	
 	var OACContentControl = document.getElementsByClassName('OACContent')[0];
 	var OACBAControl = document.getElementsByClassName('OACBA')[0];
-	
 	var OACpart1Control = document.getElementsByClassName('OACpart1')[0];
-	
-	var OACpart1ContenttextControl = document.getElementsByClassName('OACpart1Contenttext')[0];
-	
 	var OACpart2Control = document.getElementsByClassName('OACpart2')[0];
-	
-	var OACpart2ContenttextControl = document.getElementsByClassName('OACpart2Contenttext')[0];
-	
 	var OACpart3Control = document.getElementsByClassName('OACpart3')[0];
-	
-	var OACpart3ContenttextControl = document.getElementsByClassName('OACpart3Contenttext')[0];
-	
 	var OACpart4Control = document.getElementsByClassName('OACpart4')[0];
 	
-	var OACpart4ContenttextControl = document.getElementsByClassName('OACpart4Contenttext')[0];
 
 	if(this.value === 'close') 
 	{ 
