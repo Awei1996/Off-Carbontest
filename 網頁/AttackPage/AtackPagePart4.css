@@ -875,38 +875,7 @@
 	opacity: 1;	
 }
 
-.part1Title{
-	position: absolute;
-	z-index: 19;
-	margin-top: 17.5%;
-	margin-left: 10.42%;
-	font-size: 1.66rem;
-	width: 39.06%;
-	background-color: #1E3239;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
 
-.part1Title.open{
-    transition: 1s;
-	width: 100%;
-	margin-left: 0%;
-	font-size: 2.35rem;
-	margin-top: 4.5%;
-	color: #E98C24;
-	background-color: transparent;
-
-}
-
-.part1Title.close{
-	width: 39.06%;
-    transition: 1s;
-	margin-top: 17.5%;
-	margin-left: 10.42%;
-	background-color: #1E3239;
-}
 
 .OACpart2{
 	position: absolute;
@@ -958,36 +927,6 @@
 	opacity: 1;	
 }
 
-.part2Title{
-	position: absolute;
-	z-index: 19;
-	margin-top: 17.5%;
-	margin-left: 50.89%;
-	font-size: 1.66rem;
-	width: 39.06%;
-	background-color: #1E3239;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.part2Title.open{
-    transition: 1s;
-	width: 100%;
-	margin-left: 0%;
-	font-size: 2.35rem;
-	margin-top: 4.5%;
-	color: #E98C24;
-	background-color: transparent;
-}
-
-.part2Title.close{
-	width: 39.06%;
-    transition: 1s;
-	margin-top: 17.5%;
-	margin-left: 50.89%;
-	background-color: #1E3239;
-}
 
 .OACpart3{
 	position: absolute;
@@ -1036,38 +975,6 @@
 	margin-top: 32.5%;
 	opacity: 1;	
 }
-
-.part3Title{
-	position: absolute;
-	z-index: 19;
-	margin-top: 41.5%;
-	margin-left: 10.42%;
-	font-size: 1.66rem;
-	width: 39.06%;
-	background-color: #1E3239;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.part3Title.open{
-   	transition: 1s;
-	width: 100%;
-	margin-left: 0%;
-	font-size: 2.35rem;
-	margin-top: 4.5%;
-	color: #E98C24;
-	background-color: transparent;
-}
-
-.part3Title.close{
-	width: 39.06%;
-	transition: 1s;
-	margin-top: 41.5%;
-	margin-left: 10.42%;
-	background-color: #1E3239;
-}
-
 
 .OACpart4{
 	position: absolute;
@@ -1142,77 +1049,6 @@
 	display: flex;
 	color: #ffffff;
 	
-}
-
-.OACpart1Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 1.8;
-	opacity: 0;
-}
-.OACpart1Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
-
-.OACpart2Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 2;
-	opacity: 0;
-}
-.OACpart2Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
-
-.OACpart3Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	opacity: 0;
-}
-.OACpart3Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
-}
-
-.OACpart4Contenttext{
-	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
-	background-color: transparent;
-	font-size: 2.2rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	opacity: 0;
-	 
-}
-.OACpart4Contenttext.open{
-	transition: 1s opacity  0.5s;
-	opacity: 1;
 }
 
 .MeltingIce{
