@@ -204,7 +204,6 @@
 }
 .MainMenu-Mobile{
 	position: absolute;
-	z-index: 100;
 	margin-left: -0.1%;
 	width: 100%;
 	margin-top: 0%;
