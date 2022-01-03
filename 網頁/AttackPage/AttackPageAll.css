@@ -141,6 +141,18 @@ button{
 	font-size: 1.33rem;
 	display: none;
 }
+.view4-1Mobile{
+	font-family: Gen Jyuu Gothic ;
+	position: absolute;
+	z-index: 5;
+	margin-top: 308%;
+	left: 0%;
+	width: 100%;
+	padding-bottom: 84%;
+	background-color: transparent;
+	font-size: 1.33rem;
+	display: none;
+}
 .view5{
 	font-family: Gen Jyuu Gothic ;
 	position: absolute;
@@ -442,6 +454,9 @@ button{
 	.view4-Mobile{
 		display: block;
 	}
+	.view4-1Mobile{
+		display: block;
+	}
 	.view5{
 		display: none;
 	}
@@ -543,6 +558,9 @@ button{
 		display: none;
 	}
 	.view4-Mobile{
+		display: block;
+	}
+	.view4-1Mobile{
 		display: block;
 	}
 	.view5{

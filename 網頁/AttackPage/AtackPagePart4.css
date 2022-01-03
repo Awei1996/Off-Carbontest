@@ -21,6 +21,16 @@
 	display: none;
 	border: solid 2px red;
 }
+.bg4-2Mobile{
+	position: absolute;
+	z-index: -1;
+	left: 0%;
+	width: 100%;
+	opacity: 1;
+	margin-top: 308%;
+	display: none;
+	border: solid 2px #00FF00;
+}
 .SDCBA{
 	position: absolute;
 	margin-left: 93%;
@@ -4411,6 +4421,9 @@
 	.bg4-1Mobile{
 		display: block;
 	}
+	.bg4-2Mobile{
+		display: block;
+	}
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
@@ -4420,6 +4433,9 @@
 		display: none;
 	}
 	.bg4-1Mobile{
+		display: block;
+	}
+	.bg4-2Mobile{
 		display: block;
 	}
 }
