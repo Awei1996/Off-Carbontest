@@ -183,7 +183,9 @@
     -ms-transition: 1.5s;
     -o-transition: 1.5s;
 }
-
+#menu{
+	z-index: 8;
+}
 @keyframes t1{
 	
 	100%{margin-left: -32.19%;}
