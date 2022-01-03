@@ -22,7 +22,7 @@
 }
 .bg4-2Mobile{
 	position: absolute;
-	z-index: 7;
+	z-index: 6;
 	left: 0%;
 	width: 100%;
 	opacity: 1;
@@ -209,7 +209,7 @@
 	width: 100%;
 	margin-top: 0%;
 	padding-bottom: 56%;
-	background-color: #ffffff;
+	background-color: #ffff;
 	outline: none;
 
 }
