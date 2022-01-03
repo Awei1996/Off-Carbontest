@@ -19,7 +19,6 @@
 	opacity: 1;
 	margin-top: 224%;
 	display: none;
-	border: solid 2px red;
 }
 .bg4-2Mobile{
 	position: absolute;
@@ -29,7 +28,6 @@
 	opacity: 1;
 	margin-top: 308%;
 	display: none;
-	border: solid 2px #00FF00;
 }
 .SDCBA{
 	position: absolute;
