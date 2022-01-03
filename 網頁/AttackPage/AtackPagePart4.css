@@ -23,7 +23,7 @@
 }
 .bg4-2Mobile{
 	position: absolute;
-	z-index: -1;
+	z-index: 7;
 	left: 0%;
 	width: 100%;
 	opacity: 1;
