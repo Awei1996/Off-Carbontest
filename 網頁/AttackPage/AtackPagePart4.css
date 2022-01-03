@@ -138,11 +138,11 @@
 .Disaster-Mobile{
 	position: absolute;
 	z-index: 17;
-	margin-top: 5%;
-	margin-left: 10%;
-	width: 80%;
+	margin-top: 7.5%;
+	margin-left: 5%;
+	width: 90%;
 	color: #ffffff;
-	font-size: 5.8rem;
+	font-size: 6rem;
 	border: solid 5px #FFFFFF;
 	border-left: 0px;
 	border-right: 0px;
