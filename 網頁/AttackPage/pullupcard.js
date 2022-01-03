@@ -313,6 +313,11 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 	var OACpart3Control = document.getElementsByClassName('OACpart3')[0];
 	var OACpart4Control = document.getElementsByClassName('OACpart4')[0];
 	
+	var part1ContenttextControl = document.getElementsByClassName('part1Contenttext')[0];
+	var part2ContenttextControl = document.getElementsByClassName('part2Contenttext')[0];
+	var part3ContenttextControl = document.getElementsByClassName('part3Contenttext')[0];
+	var part4ContenttextControl = document.getElementsByClassName('part4Contenttext')[0];
+	
 
 	if(this.value === 'close') 
 	{ 
