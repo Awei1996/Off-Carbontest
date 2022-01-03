@@ -232,9 +232,7 @@
     -ms-transition: 1.5s;
     -o-transition: 1.5s;
 }
-#menu{
-	font-size: 3rem;
-}
+
 .Backbutton{
 	position: absolute;
 	z-index: 17;
