@@ -4373,9 +4373,9 @@
 .Steam-Mobile{
 	position: absolute;
 	z-index: 6;
-	width: 82.03%;
-	margin-top: 30%;
-	margin-left: 8.985%;
+	width: 80%;
+	margin-top: 25%;
+	margin-left: 10%;
 }
 .Steam-Mobile.open{
 	-webkit-transition: 2s;
