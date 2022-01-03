@@ -21,7 +21,7 @@
 	display: none;
 	border: solid 2px red;
 }
-.SDCBA{
+.BA{
 	position: absolute;
 	margin-left: 93%;
 	margin-top: 10%;
@@ -270,7 +270,7 @@
     margin-left: -310%;
 	opacity: 0;
 }
-.SDCBG{
+.BG{
 	position: absolute;
 	z-index: 16;
 	margin-top: 0%;
@@ -281,7 +281,7 @@
 	opacity: 1;
 
 }
-.SDCBG.open{
+.BG.open{
 	-webkit-transition: 2s;
     -moz-transition: 2s;
     -ms-transition: 2s;
@@ -290,7 +290,7 @@
 	opacity: 0.9;
 	margin-left: 0%;
 }
-.SDCMain{
+.Main{
 	position: absolute;
 	z-index: 17;
 	margin-left: 4.17%;
@@ -306,7 +306,7 @@
 
 
 }
-.SDCSub{
+.Sub{
 	position: absolute;
 	z-index: 17;
 	margin-left: 32.55%;
@@ -315,7 +315,7 @@
 	font-size: 2.2rem;
 	font-weight: normal;
 }
-.SDCpart1{
+.part1{
 	overflow: visible;
 	position: absolute;
 	z-index: 17;
@@ -333,13 +333,13 @@
 	justify-content: center;
 	-webkit-background-size: contain;
 }
-.SDCpart1:hover{
+.part1:hover{
 	-webkit-filter:brightness(1.2);
 	background-image: url(../../Animation/WorldDamage/紅樹林.gif);
 
 }
 
-.SDCpart1.open{
+.part1.open{
 	-webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
@@ -351,10 +351,10 @@
 	-webkit-background-size: contain;
 
 }
-.SDCpart1.open:hover{
+.part1.open:hover{
 	-webkit-filter:brightness(1);
 }
-.SDCpart1.close{
+.part1.close{
 	-webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
@@ -364,7 +364,7 @@
 	opacity: 1;	
 }
 
-.SDCpart1Title{
+.part1Title{
 	position: absolute;
 	z-index: 19;
 	margin-top: 17.5%;
@@ -378,7 +378,7 @@
 	justify-content: center;
 }
 
-.SDCpart1Title.open{
+.part1Title.open{
     transition: 1s;
 	width: 100%;
 	margin-left: 0%;
@@ -388,7 +388,7 @@
 	background-color: transparent;
 }
 
-.SDCpart1Title.close{
+.part1Title.close{
 	width: 39.06%;
 	margin-top: 17.5%;
 	margin-left: 10.42%;
@@ -396,7 +396,7 @@
 	background-color: #1E3239;
 }
 
-.SDCpart2{
+.part2{
 	position: absolute;
 	z-index: 17;
 	margin-top: 8.5%;
@@ -414,12 +414,12 @@
 	-webkit-background-size: contain;
 
 }
-.SDCpart2:hover{
+.part2:hover{
 	-webkit-filter:brightness(1.2);
 	background-image: url(../../Animation/WorldDamage/大堡礁.gif);
 
 }
-.SDCpart2.open{
+.part2.open{
 	-webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
@@ -432,11 +432,11 @@
 	-webkit-background-size: contain;
 
 }
-.SDCpart2.open:hover{
+.part2.open:hover{
 	-webkit-filter:brightness(1);
 
 }
-.SDCpart2.close{
+.part2.close{
 	-webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
@@ -446,7 +446,7 @@
 	opacity: 1;	
 }
 
-.SDCpart2Title{
+.part2Title{
 	position: absolute;
 	z-index: 19;
 	margin-top: 17.5%;
@@ -459,7 +459,7 @@
 	align-items: center;
 	justify-content: center;
 }
-.SDCpart2Title.open{
+.part2Title.open{
     transition: 1s;
 	width: 100%;
 	margin-left: 0%;
@@ -469,7 +469,7 @@
 	background-color: transparent;
 }
 
-.SDCpart2Title.close{
+.part2Title.close{
 	margin-top: 17.5%;
 	margin-left: 50.89%;
 	width: 39.06%;
@@ -477,7 +477,7 @@
 	background-color: #1E3239;
 }
 
-.SDCpart3{
+.part3{
 	position: absolute;
 	z-index: 17;
 	margin-top: 32.5%;
@@ -494,12 +494,12 @@
 	justify-content: center;
 	-webkit-background-size: contain;
 }
-.SDCpart3:hover{
+.part3:hover{
 	-webkit-filter:brightness(1.2);
 	background-image: url(../../Animation/WorldDamage/鯊魚鮪魚.gif);
 
 }
-.SDCpart3.open{
+.part3.open{
 	-webkit-transition: 2s;
     -moz-transition: 2s;
     -ms-transition: 2s;
@@ -511,12 +511,12 @@
 	-webkit-background-size: contain;
 
 }
-.SDCpart3.open:hover{
+.part3.open:hover{
 	
 	-webkit-filter:brightness(1);
 
 }
-.SDCpart3.close{
+.part3.close{
 	-webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
@@ -526,7 +526,7 @@
 	opacity: 1;	
 }
 
-.SDCpart3Title{
+.part3Title{
 	position: absolute;
 	z-index: 19;
 	margin-top: 41.5%;
@@ -539,7 +539,7 @@
 	align-items: center;
 	justify-content: center;
 }
-.SDCpart3Title.open{
+.part3Title.open{
    	transition: 1s;
 	width: 100%;
 	margin-left: 0%;
@@ -549,7 +549,7 @@
 	background-color: transparent;
 }
 
-.SDCpart3Title.close{
+.part3Title.close{
 	transition: 1s;
 	margin-top: 41.5%;
 	margin-left: 10.42%;
@@ -557,7 +557,7 @@
 	background-color: #1E3239;
 }
 
-.SDCpart4{
+.part4{
 	position: absolute;
 	z-index: 17;
 	margin-top: 32.5%;
@@ -574,13 +574,13 @@
 	justify-content: center;
 	-webkit-background-size: contain;
 }
-.SDCpart4:hover{
+.part4:hover{
 	-webkit-filter:brightness(1.2);
 	background-image: url(../../Animation/WorldDamage/高山物種滅絕.gif);
 
 }
 
-.SDCpart4.open{
+.part4.open{
 	-webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
@@ -593,11 +593,11 @@
 	-webkit-background-size: contain;
 
 }
-.SDCpart4.open:hover{
+.part4.open:hover{
 	-webkit-filter:brightness(1);
 
 }
-.SDCpart4.close{
+.part4.close{
 	-webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
@@ -607,7 +607,7 @@
 	opacity: 1;	
 }
 
-.SDCpart4Title{
+.part4Title{
 	position: absolute;
 	z-index: 19;
 	margin-top: 41.5%;
@@ -620,7 +620,7 @@
 	align-items: center;
 	justify-content: center;
 }
-.SDCpart4Title.open{
+.part4Title.open{
     transition: 1s;
 	width: 100%;
 	margin-left: 0%;
@@ -630,7 +630,7 @@
 	background-color: transparent;
 }
 
-.SDCpart4Title.close{
+.part4Title.close{
 	transition: 1s;
 	margin-top: 41.5%;
 	margin-left: 50.89%;
@@ -638,7 +638,7 @@
 	background-color: #1E3239;
 }
 
-.SDCContent{
+.Content{
 	position: absolute;
 	z-index: -1;
 	margin-top: 0%;
@@ -653,7 +653,7 @@
 	justify-content: flex-end;
 }
 
-.SDCContent.open{
+.Content.open{
 	position: absolute;
 	margin-top: 0%;
 	margin-left: 0%;
@@ -665,7 +665,7 @@
 	color: #ffffff;
 	
 }
-.SDCpart1Contenttext{
+.part1Contenttext{
 	position: absolute;
 	margin-top: 54%;
 	margin-left: 55.21%;
@@ -678,12 +678,12 @@
 	line-height: 1.8;
 	opacity: 0;
 }
-.SDCpart1Contenttext.open{
+.part1Contenttext.open{
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
 
-.SDCpart2Contenttext{
+.part2Contenttext{
 	position: absolute;
 	margin-top: 54%;
 	margin-left: 55.21%;
@@ -697,12 +697,12 @@
 	opacity: 0;
 	
 }
-.SDCpart2Contenttext.open{
+.part2Contenttext.open{
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
 
-.SDCpart3Contenttext{
+.part3Contenttext{
 	position: absolute;
 	margin-top: 54%;
 	margin-left: 55.21%;
@@ -714,12 +714,12 @@
 	justify-content: flex-start;
 	opacity: 0;
 }
-.SDCpart3Contenttext.open{
+.part3Contenttext.open{
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
 
-.SDCpart4Contenttext{
+.part4Contenttext{
 	position: absolute;
 	margin-top: 54%;
 	margin-left: 55.21%;
@@ -732,7 +732,7 @@
 	opacity: 0;
 	 
 }
-.SDCpart4Contenttext.open{
+.part4Contenttext.open{
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
