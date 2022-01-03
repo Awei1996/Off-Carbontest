@@ -138,7 +138,7 @@
 .Disaster-Mobile{
 	position: absolute;
 	z-index: 17;
-	margin-top: 7.5%;
+	margin-top: 10%;
 	margin-left: 5%;
 	width: 90%;
 	color: #ffffff;
@@ -4374,7 +4374,7 @@
 	position: absolute;
 	z-index: 6;
 	width: 80%;
-	margin-top: 25%;
+	margin-top: 27.5%;
 	margin-left: 10%;
 }
 .Steam-Mobile.open{
