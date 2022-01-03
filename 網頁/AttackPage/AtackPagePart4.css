@@ -1117,37 +1117,6 @@
 	opacity: 1;	
 }
 
-.part4Title{
-	position: absolute;
-	z-index: 19;
-	margin-top: 41.5%;
-	margin-left: 50.89%;
-	font-size: 1.66rem;
-	width: 39.06%;
-	background-color: #1E3239;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.part4Title.open{
-    transition: 1s;
-	width: 100%;
-	margin-left: 0%;
-	font-size: 2.35rem;
-	margin-top: 4.5%;
-	color: #E98C24;
-	background-color: transparent;
-}
-
-.part4Title.close{
-	width: 39.06%;
-	transition: 1s;
-	margin-left: 50.89%;
-	margin-top: 41.5%;
-	background-color: #1E3239;
-}
-
 .OACContent{
 	position: absolute;
 	z-index: -1;
