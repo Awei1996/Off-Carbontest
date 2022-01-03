@@ -183,9 +183,7 @@
     -ms-transition: 1.5s;
     -o-transition: 1.5s;
 }
-#menu{
-	z-index: 8;
-}
+
 @keyframes t1{
 	
 	100%{margin-left: -32.19%;}
@@ -203,6 +201,37 @@
 	
 	0%{margin-left: -32.19%;}
 	100%{margin-left: 0%;}
+}
+.MainMenu-Mobile{
+	position: absolute;
+	z-index: 100;
+	margin-left: -0.1%;
+	width: 100%;
+	margin-top: 0%;
+	padding-bottom: 56%;
+	background-color: transparent;
+	outline: none;
+
+}
+
+.MainMenu-Mobile.close{
+	animation: t1;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	-webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+}
+
+.MainMenu-Mobile.open{
+	animation: t2;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	-webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
 }
 
 .Backbutton{
