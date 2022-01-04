@@ -5,6 +5,7 @@ function isMobileDevices(){
     for(var i=0; i<mobileDevice.length; i++){
         if(navigator.userAgent.match(mobileDevice[i])){
             isMobileDevice = 1 ;
+			break;
         }
 	
 	}
