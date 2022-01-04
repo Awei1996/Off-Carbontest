@@ -139,6 +139,7 @@ button{
 	padding-bottom: 84%;
 	background-color: transparent;
 	font-size: 1.33rem;
+	overflow: hidden;
 	display: none;
 }
 .view4-1Mobile{
@@ -151,6 +152,7 @@ button{
 	padding-bottom: 168%;
 	background-color: transparent;
 	font-size: 1.33rem;
+	overflow: hidden;
 	display: none;
 }
 .view5{
