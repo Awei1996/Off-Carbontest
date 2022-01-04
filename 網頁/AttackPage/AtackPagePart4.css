@@ -163,6 +163,15 @@
 	outline: none;
 
 }
+.MainMenu.close{
+	animation: t1;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	-webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+}
 .Menu{
 
 	position: absolute;
@@ -174,16 +183,6 @@
 	opacity: 1;
 	
 }
-.MainMenu.close{
-	animation: t1;
-	animation-duration: 1.5s;
-	animation-fill-mode: forwards;
-	-webkit-transition: 1.5s;
-    -moz-transition: 1.5s;
-    -ms-transition: 1.5s;
-    -o-transition: 1.5s;
-}
-
 @keyframes t1{
 	
 	100%{margin-left: -32.19%;}
@@ -207,7 +206,7 @@
 	margin-left: -0.1%;
 	width: 100%;
 	margin-top: 5%;
-	height: 95%;
+	height: 97.5%;
 	background-color: transparent;
 	outline: none;
 
