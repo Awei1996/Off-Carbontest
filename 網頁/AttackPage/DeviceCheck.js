@@ -3,5 +3,5 @@
      window.location = '../AttackPage/AttackPage.m.html';
  }
 else{
-		window.location = '../AttackPage/AttackPage.m.html';
+		window.location = '../AttackPage/AttackPage.html';
 	}
