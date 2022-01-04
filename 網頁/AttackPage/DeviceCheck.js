@@ -1,13 +1,4 @@
 // JavaScript Document
-function isMobileDevices(){
-    var mobileDevice = ['Android', 'webOS', 'iPhone', 'iPad', 'iPod', 'BlackBerry', 'Windows Phone'];
-    var isMobileDevice = 0 ;
-    for(var i=0; i<mobileDevice.length; i++){
-        if(navigator.userAgent.match(mobileDevice[i])){
-            isMobileDevice = 1 ;
-			break;
-        }
-	
-	}
-    return isMobileDevice ;
-}
+   if(navigator.userAgent.match(/Android|iPhone|iPad/i)) {
+     window.location = '../AttackPage/AttackPage.m.html';
+ }
