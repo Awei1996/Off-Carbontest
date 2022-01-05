@@ -94,39 +94,6 @@
 .Disaster{
 	position: absolute;
 	z-index: 17;
-	margin-left: 40.63%;
-	margin-top: 5%;
-	color: #ffffff;
-	font-size: 4rem;
-	border: solid 3px #FFFFFF;
-	border-left: 0px;
-	border-right: 0px;
-	border-radius: 1px;
-	font-weight: bold;
-	line-height: 0;
-
-}
-.Disaster.open{
-	-webkit-transition: 2s;
-    -moz-transition: 2s;
-    -ms-transition: 2s;
-    -o-transition: 2s;
-    transition: 1s,opacity 1s;
-	margin-left: 43.23%;
-	opacity: 0;
-}
-.Disaster.close{
-	-webkit-transition: 2s;
-    -moz-transition: 2s;
-    -ms-transition: 2s;
-    -o-transition: 2s;
-    transition: 1s,opacity 1s;
-	margin-left: 40.63%;
-	opacity: 1;
-}
-.Disaster-Mobile{
-	position: absolute;
-	z-index: 17;
 	margin-top: 10%;
 	margin-left: 5%;
 	width: 90%;
