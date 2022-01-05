@@ -1,0 +1,4486 @@
+@charset "utf-8";
+
+.bg4{
+	position: absolute;
+	z-index: -1;
+	margin-top: 168%;
+	left: 0%;
+	width: 100vw;
+	background-color: transparent;
+	opacity: 1;
+	overflow: hidden;
+
+}
+.bg4-1Mobile{
+	position: absolute;
+	z-index: -1;
+	left: 0%;
+	width: 100%;
+	opacity: 1;
+	margin-top: 224%;
+	display: none;
+}
+.bg4-2Mobile{
+	position: absolute;
+	z-index: 6;
+	left: 0%;
+	width: 100%;
+	opacity: 1;
+	margin-top: 308%;
+	display: none;
+}
+.SDCBA{
+	position: absolute;
+	margin-left: 93%;
+	margin-top: 10%;
+	width:4.79%;	
+	opacity: 0;
+}
+
+.OACBA{
+	position: absolute;
+	margin-left: 93%;
+	margin-top: 10%;
+	width:4.79%;	
+	opacity: 0;
+}
+
+.MICBA{
+	position: absolute;
+	margin-left: 93%;
+	margin-top: 10%;
+	width:4.79%;	
+	opacity: 0;
+}
+
+.FFCBA{
+	position: absolute;
+	z-index: 20;
+	margin-left: 93%;
+	margin-top: 10%;
+	width:4.79%;	
+	opacity: 0;
+}
+.HWCBA{
+	position: absolute;
+	z-index: 20;;
+	margin-left: 93%;
+	margin-top: 10%;
+	width:4.79%;	
+	opacity: 0;
+}
+
+.ECCBA{
+	position: absolute;
+	z-index: 20;
+	margin-left: 93%;
+	margin-top: 10%;
+	width:4.79%;	
+	opacity: 0;
+}
+.DSCBA{
+	position: absolute;
+	margin-left: 93%;
+	margin-top: 10%;
+	width:4.79%;	
+	opacity: 0;
+}
+
+.FSCBA{
+	position: absolute;
+	margin-left: 93%;
+	margin-top: 10%;
+	width:4.79%;	
+	opacity: 0;
+}
+
+.ESCBA{
+	position: absolute;
+	margin-left: 93%;
+	margin-top: 10%;
+	width:4.79%;	
+	opacity: 0;
+}
+
+.Disaster{
+	position: absolute;
+	z-index: 17;
+	margin-left: 40.63%;
+	margin-top: 5%;
+	color: #ffffff;
+	font-size: 4rem;
+	border: solid 3px #FFFFFF;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+	font-weight: bold;
+	line-height: 0;
+
+}
+.Disaster.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 1s,opacity 1s;
+	margin-left: 43.23%;
+	opacity: 0;
+}
+.Disaster.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 1s,opacity 1s;
+	margin-left: 40.63%;
+	opacity: 1;
+}
+.Disaster-Mobile{
+	position: absolute;
+	z-index: 17;
+	margin-top: 10%;
+	margin-left: 5%;
+	width: 90%;
+	color: #ffffff;
+	font-size: 6rem;
+	border: solid 5px #FFFFFF;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0;
+
+}
+.MainMenu{
+	position: absolute;
+	z-index: 17;
+	margin-left: -0.1%;
+	width: 32.19%;
+	margin-top: 0%;
+	padding-bottom: 56%;
+	background-color: transparent;
+	outline: none;
+
+}
+.MainMenu.close{
+	animation: t1;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	-webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+}
+.Menu{
+
+	position: absolute;
+	margin-left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	outline: none;
+	opacity: 1;
+	
+}
+@keyframes t1{
+	
+	100%{margin-left: -32.19%;}
+}
+.MainMenu.open{
+	animation: t2;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	-webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+}
+@keyframes t2{
+	
+	0%{margin-left: -32.19%;}
+	100%{margin-left: 0%;}
+}
+.MainMenu-Mobile{
+	position: absolute;
+	margin-left: -0.1%;
+	width: 100%;
+	margin-top: 5%;
+	height: 97.5%;
+	background-color: transparent;
+	outline: none;
+
+}
+
+.MainMenu-Mobile.close{
+	animation: t1;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	-webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+}
+
+.MainMenu-Mobile.open{
+	animation: t2;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	-webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+}
+
+.Backbutton{
+	position: absolute;
+	z-index: 17;
+	margin-top: 0%;
+	margin-left: 100%;
+	width: 6.45%;
+	opacity: 0;
+}
+
+.Backbutton:hover{
+	-webkit-filter:brightness(1.6);
+}
+
+.Backbutton.open{
+	transition: 1s;
+	opacity: 0.5;
+}
+.Backbutton-Mobile{
+	position: absolute;
+	z-index: 17;
+	margin-top: 0%;
+	margin-left: 100%;
+	width: 6.06%;
+	height: 100%;
+	opacity: 0.8;
+}
+
+.Backbutton-Mobile:hover{
+	-webkit-filter:brightness(1.2);
+}
+
+.Backbutton-Mobile.open{
+	transition: 1s;
+	opacity: 0.5;
+}
+.ButtonTitle{
+	position: absolute;
+	margin-left: 5%;
+	margin-top: -5%;
+}
+.ButtonSub{
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 7.5%;
+	color: #085439 ;
+	font-size: 1.33rem;
+	font-weight: bold;
+}
+.SpeciesDiversity{
+	width: 100%;
+	background-color: #6B8898 ;
+	height: 11.1%;
+	font-size: 2.2rem;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+	
+}
+
+.SpeciesDiversity:hover{
+	background-color: #B1C3D5;
+	transition: 0.6s;
+
+}
+
+.SpeciesDiversityContent{
+	position: absolute;
+	z-index: -2;
+	margin-top: -18.5%;
+	margin-left: -310%;
+	width: 309%;
+	padding-bottom: 172.5%;
+
+}
+.SpeciesDiversityContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	margin-left: 100%;
+}
+.SpeciesDiversityContent.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 1s;
+    margin-left: -310%;
+	opacity: 0;
+}
+.SDCBG{
+	position: absolute;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: -100%;
+	width: 103%;
+	padding-bottom: 56%;
+	background-color: #163C4B;
+	opacity: 1;
+
+}
+.SDCBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	margin-left: 0%;
+}
+.SDCMain{
+	position: absolute;
+	z-index: 17;
+	margin-left: 4.17%;
+	margin-top: 2.5%;
+	color: #ffffff;
+	font-size: 3rem;
+	border: solid 3px #FFFFFF;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+	font-weight: normal;
+	line-height: 0;
+
+
+}
+.SDCSub{
+	position: absolute;
+	z-index: 17;
+	margin-left: 32.55%;
+	margin-top: 3.13%;
+	color: #E98C24;
+	font-size: 2.2rem;
+	font-weight: normal;
+}
+.SDCpart1{
+	overflow: visible;
+	position: absolute;
+	z-index: 17;
+	margin-top: 8.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url( ../../Animation/WorldDamage/封面/RedForest.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.SDCpart1:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/紅樹林.gif);
+
+}
+
+.SDCpart1.open{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 16%;
+	opacity: 1;	
+	background-image: url(../../Animation/WorldDamage/紅樹林.gif);
+	-webkit-background-size: contain;
+
+}
+.SDCpart1.open:hover{
+	-webkit-filter:brightness(1);
+}
+.SDCpart1.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 8.5%;
+	opacity: 1;	
+}
+
+.SDCpart1Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 17.5%;
+	margin-left: 10.42%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.SDCpart1Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.SDCpart1Title.close{
+	width: 39.06%;
+	margin-top: 17.5%;
+	margin-left: 10.42%;
+    transition: 1s;
+	background-color: #1E3239;
+}
+
+.SDCpart2{
+	position: absolute;
+	z-index: 17;
+	margin-top: 8.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url(../../Animation/WorldDamage/封面/GreatReef.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+
+}
+.SDCpart2:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/大堡礁.gif);
+
+}
+.SDCpart2.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 16%;
+	margin-left: 10.42%;
+	opacity: 1;
+	background-image: url(../../Animation/WorldDamage/大堡礁.gif);
+	-webkit-background-size: contain;
+
+}
+.SDCpart2.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.SDCpart2.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 8.5%;
+	opacity: 1;	
+}
+
+.SDCpart2Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 17.5%;
+	margin-left: 50.89%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SDCpart2Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.SDCpart2Title.close{
+	margin-top: 17.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+    transition: 1s;
+	background-color: #1E3239;
+}
+
+.SDCpart3{
+	position: absolute;
+	z-index: 17;
+	margin-top: 32.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url(../../Animation/WorldDamage/封面/Shark.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.SDCpart3:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/鯊魚鮪魚.gif);
+
+}
+.SDCpart3.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 1s;
+	margin-top: 16%;
+	opacity: 1;
+	background-image: url(../../Animation/WorldDamage/鯊魚鮪魚.gif);
+	-webkit-background-size: contain;
+
+}
+.SDCpart3.open:hover{
+	
+	-webkit-filter:brightness(1);
+
+}
+.SDCpart3.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 32.5%;
+	opacity: 1;	
+}
+
+.SDCpart3Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 41.5%;
+	margin-left: 10.42%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SDCpart3Title.open{
+   	transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.SDCpart3Title.close{
+	transition: 1s;
+	margin-top: 41.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	background-color: #1E3239;
+}
+
+.SDCpart4{
+	position: absolute;
+	z-index: 17;
+	margin-top: 32.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url(../../Animation/WorldDamage/封面/Mountain.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.SDCpart4:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/高山物種滅絕.gif);
+
+}
+
+.SDCpart4.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 16%;
+	margin-left: 10.42%;
+	opacity: 1;	
+	background-image: url(../../Animation/WorldDamage/高山物種滅絕.gif);
+	-webkit-background-size: contain;
+
+}
+.SDCpart4.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.SDCpart4.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 32.5%;
+	opacity: 1;	
+}
+
+.SDCpart4Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 41.5%;
+	margin-left: 50.89%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SDCpart4Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.SDCpart4Title.close{
+	transition: 1s;
+	margin-top: 41.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	background-color: #1E3239;
+}
+.SDCContent.open{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	
+	color: #ffffff;
+	
+}
+.SDCContent{
+	position: absolute;
+	z-index: -1;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 0%;
+	background-color: transparent;
+	color: transparent;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.SDCpart1Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 1.8;
+	opacity: 0;
+}
+.SDCpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.SDCpart2Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+	opacity: 0;
+	
+}
+.SDCpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.SDCpart3Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	opacity: 0;
+}
+.SDCpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.SDCpart4Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	opacity: 0;
+	 
+}
+.SDCpart4Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.OceanAcidification{
+	width: 100%;
+	background-color: #9AA5B0 ;
+	height: 11.1%;
+	font-size: 2.2rem;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+	
+}
+
+.OceanAcidification:hover{
+	background-color: #C4CDD3;
+	transition: 0.6s;
+
+}
+
+.OceanAcidificationContent{
+	position: absolute;
+	z-index: -2;
+	margin-top: -37.5%;
+	margin-left: -310%;
+	width: 309%;
+	padding-bottom: 172.5%;
+
+}
+.OceanAcidificationContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	margin-left: 100%;
+}
+.OceanAcidificationContent.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 1s;
+    margin-left: -310%;
+	opacity: 0;
+}
+
+.OACBG{
+	position: absolute;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: -100%;
+	width: 103%;
+	padding-bottom: 56%;
+	background-color: #163C4B;
+	opacity: 1;
+
+}
+.OACBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	margin-left: 0%;
+}
+.OACMain{
+	position: absolute;
+	z-index: 17;
+	margin-left: 4.17%;
+	margin-top: 2.5%;
+	color: #ffffff;
+	font-size: 3rem;
+	border: solid 3px #FFFFFF;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+	font-weight: normal;
+	line-height: 0;
+}
+.OACSub{
+	position: absolute;
+	z-index: 17;
+	margin-left: 32.55%;
+	margin-top: 3.13%;
+	color: #E98C24;
+	font-size: 2.2rem;
+	font-weight: normal;
+}
+.OACpart1{
+	overflow: visible;
+	position: absolute;
+	z-index: 17;
+	margin-top: 8.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url( "../../Animation/WorldDamage/封面/Formula.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+
+.OACpart1:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url( "../../Animation/WorldDamage/公式.gif");
+
+}
+
+.OACpart1.open{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 16%;
+	opacity: 1;	
+	background-image: url( "../../Animation/WorldDamage/公式.gif");
+	-webkit-background-size: contain;
+
+}
+.OACpart1.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.OACpart1.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 8.5%;
+	opacity: 1;	
+}
+
+.OACpart1Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 17.5%;
+	margin-left: 10.42%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.OACpart1Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+
+}
+
+.OACpart1Title.close{
+	width: 39.06%;
+    transition: 1s;
+	margin-top: 17.5%;
+	margin-left: 10.42%;
+	background-color: #1E3239;
+}
+
+.OACpart2{
+	position: absolute;
+	z-index: 17;
+	margin-top: 8.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/Surge.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+
+}
+.OACpart2:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url("../../Animation/WorldDamage/湧升流.gif");
+
+}
+.OACpart2.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 16%;
+	margin-left: 10.42%;
+	opacity: 1;
+	background-image: url("../../Animation/WorldDamage/湧升流.gif");
+	-webkit-background-size: contain;
+
+}
+.OACpart2.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.OACpart2.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 8.5%;
+	opacity: 1;	
+}
+
+.OACpart2Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 17.5%;
+	margin-left: 50.89%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.OACpart2Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.OACpart2Title.close{
+	width: 39.06%;
+    transition: 1s;
+	margin-top: 17.5%;
+	margin-left: 50.89%;
+	background-color: #1E3239;
+}
+
+.OACpart3{
+	position: absolute;
+	z-index: 17;
+	margin-top: 32.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/Ph7-8.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.OACpart3:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url( "../../Animation/WorldDamage/ph7-8.gif");
+
+}
+.OACpart3.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 1s;
+	margin-top: 16%;
+	opacity: 1;
+	background-image: url( "../../Animation/WorldDamage/ph7-8.gif");
+
+}
+.OACpart3.open:hover{
+	
+	-webkit-filter:brightness(1);
+
+}
+.OACpart3.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 32.5%;
+	opacity: 1;	
+}
+
+.OACpart3Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 41.5%;
+	margin-left: 10.42%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.OACpart3Title.open{
+   	transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.OACpart3Title.close{
+	width: 39.06%;
+	transition: 1s;
+	margin-top: 41.5%;
+	margin-left: 10.42%;
+	background-color: #1E3239;
+}
+
+
+.OACpart4{
+	position: absolute;
+	z-index: 17;
+	margin-top: 32.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/MapFish.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.OACpart4:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url("../../Animation/WorldDamage/地圖魚.gif");
+
+}
+
+.OACpart4.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 16%;
+	margin-left: 10.42%;
+	opacity: 1;	
+	background-image: url("../../Animation/WorldDamage/地圖魚.gif");
+}
+.OACpart4.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.OACpart4.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 32.5%;
+	opacity: 1;	
+}
+
+.OACpart4Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 41.5%;
+	margin-left: 50.89%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.OACpart4Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.OACpart4Title.close{
+	width: 39.06%;
+	transition: 1s;
+	margin-left: 50.89%;
+	margin-top: 41.5%;
+	background-color: #1E3239;
+}
+
+.OACContent{
+	position: absolute;
+	z-index: -1;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 0%;
+	background-color: transparent;
+	color: transparent;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.OACContent.open{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.OACpart1Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 1.8;
+	opacity: 0;
+}
+.OACpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.OACpart2Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+	opacity: 0;
+}
+.OACpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.OACpart3Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	opacity: 0;
+}
+.OACpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.OACpart4Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	opacity: 0;
+	 
+}
+.OACpart4Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.MeltingIce{
+	width: 100%;
+	background-color: #6B8898 ;
+	height: 11.1%;
+	font-size: 2.2rem;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+	
+}
+
+.MeltingIce:hover{
+	background-color: #B1C3D5;
+	transition: 0.6s;
+
+}
+
+.MeltingIceContent{
+	position: absolute;
+	z-index: -2;
+	margin-top: -56.5%;
+	margin-left: -310%;
+	width: 309%;
+	padding-bottom: 172.5%;
+
+}
+.MeltingIceContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	margin-left: 100%;
+}
+.MeltingIceContent.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 1s;
+    margin-left: -310%;
+	opacity: 0;
+}
+.MICBG{
+	position: absolute;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: -100%;
+	width: 103%;
+	padding-bottom: 56%;
+	background-color: #163C4B;
+	opacity: 1;
+
+}
+.MICBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	margin-left: 0%;
+}
+.MICMain{
+	position: absolute;
+	z-index: 17;
+	margin-left: 4.17%;
+	margin-top: 2.5%;
+	color: #ffffff;
+	font-size: 3rem;
+	border: solid 3px #FFFFFF;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+	font-weight: normal;
+	line-height: 0;
+}
+.MICSub{
+	position: absolute;
+	z-index: 17;
+	margin-left: 32.55%;
+	margin-top: 3.13%;
+	color: #E98C24;
+	font-size: 2.2rem;
+	font-weight: normal;
+}
+.MICpart1{
+	overflow: visible;
+	position: absolute;
+	z-index: 17;
+	margin-top: 8.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url( "../../Animation/WorldDamage/封面/Iceberg.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.MICpart1:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url("../../Animation/WorldDamage/冰山融化.gif");
+
+}
+
+.MICpart1.open{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 16%;
+	opacity: 1;	
+	background-image: url("../../Animation/WorldDamage/冰山融化.gif");
+
+}
+.MICpart1.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.MICpart1.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 8.5%;
+	opacity: 1;	
+}
+
+.MICpart1Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 17.5%;
+	margin-left: 10.42%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.MICpart1Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+
+}
+
+.MICpart1Title.close{
+    transition: 1s;
+	margin-top: 17.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	background-color: #1E3239;
+}
+
+
+.MICpart2{
+	position: absolute;
+	z-index: 17;
+	margin-top: 8.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/Age.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+
+}
+.MICpart2:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url("../../Animation/WorldDamage/歲數.gif");
+
+}
+.MICpart2.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 16%;
+	margin-left: 10.42%;
+	opacity: 1;
+	background-image: url("../../Animation/WorldDamage/歲數.gif");
+
+}
+.MICpart2.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.MICpart2.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 8.5%;
+	opacity: 1;	
+}
+
+.MICpart2Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 17.5%;
+	margin-left: 50.89%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.MICpart2Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.MICpart2Title.close{
+    transition: 1s;
+	margin-top: 17.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	background-color: #1E3239;
+}
+
+.MICpart3{
+	position: absolute;
+	z-index: 17;
+	margin-top: 32.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/Glacier.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.MICpart3:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url( "../../Animation/WorldDamage/冰河.gif");
+
+}
+.MICpart3.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 1s;
+	margin-top: 16%;
+	opacity: 1;
+	background-image: url( "../../Animation/WorldDamage/冰河.gif");
+
+}
+.MICpart3.open:hover{
+	
+	-webkit-filter:brightness(1);
+
+}
+.MICpart3.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 32.5%;
+	opacity: 1;	
+}
+
+.MICpart3Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 41.5%;
+	margin-left: 10.42%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.MICpart3Title.open{
+   	transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.MICpart3Title.close{
+	transition: 1s;
+	margin-top: 41.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	background-color: #1E3239;
+}
+
+
+
+
+.MICpart4{
+	position: absolute;
+	z-index: 17;
+	margin-top: 32.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/FrozenSoil.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.MICpart4:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url( "../../Animation/WorldDamage/凍土.gif");
+
+
+}
+
+.MICpart4.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 16%;
+	margin-left: 10.42%;
+	opacity: 1;	
+	background-image: url( "../../Animation/WorldDamage/凍土.gif");
+}
+.MICpart4.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.MICpart4.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 32.5%;
+	opacity: 1;	
+}
+
+.MICpart4Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 41.5%;
+	margin-left: 50.89%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.MICpart4Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.MICpart4Title.close{
+	transition: 1s;
+	margin-top: 41.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	background-color: #1E3239;
+}
+
+
+.MICContent{
+	position: absolute;
+	z-index: -1;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 0%;
+	background-color: transparent;
+	color: transparent;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.MICContent.open{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.MICpart1Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+	opacity: 0;
+}
+.MICpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.MICpart2Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+	opacity: 0;
+}
+.MICpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.MICpart3Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+	opacity: 0;
+}
+.MICpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.MICpart4Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.35rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	opacity: 0;
+	 
+}
+
+.MICpart4Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.FireForest{
+	width: 100%;
+	background-color: #9AA5B0 ;
+	height: 11.1%;
+	font-size: 2.2rem;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+	
+}
+
+.FireForest:hover{
+	background-color: #C4CDD3;
+	transition: 0.6s;
+
+}
+
+.FireForestContent{
+	position: absolute;
+	z-index: -2;
+	margin-top: -75.5%;
+	margin-left: -310%;
+	width: 309%;
+	padding-bottom: 172.5%;
+
+}
+.FireForestContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	margin-left: 100%;
+}
+.FireForestContent.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 1s;
+    margin-left: -310%;
+	opacity: 0;
+}
+
+.FFCBG{
+	position: absolute;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: -100%;
+	width: 100%;
+	padding-bottom: 13.5%;
+	background-color: #163C4B;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+}
+.FFCBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	margin-left: 0%;
+}
+.WorldMap{
+	width: 55.2%;
+	margin-top: 15%;
+}
+.FFCMain{
+	position: absolute;
+	z-index: 17;
+	margin-left: 4.17%;
+	margin-top: 2.5%;
+	color: #ffffff;
+	font-size: 3rem;
+	border: solid 3px #FFFFFF;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+	font-weight: normal;
+	line-height: 0;
+
+}
+.FFCSub{
+	position: absolute;
+	z-index: 17;
+	margin-left: 32.55%;
+	margin-top: 3.13%;
+	color: #E98C24;
+	font-size: 2.2rem;
+	font-weight: normal;
+}
+
+.FFCAmazon{
+	position: absolute;
+	z-index: 17;
+	margin-top: 30.6%;
+	margin-left: 58.45%;
+	width: 7.18%;
+	color: #ffffff;
+	opacity: 0;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.FFCAmazon:hover{
+	transition: 1s;
+	opacity: 1;
+
+}
+.FFCAmazon.open{	
+	opacity: 1;
+}
+
+.FFCNAEUJP{
+	position: absolute;
+	z-index: 17;
+	margin-top: 15%;
+	margin-left: 44.8%;
+	width: 32.92%;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+
+}
+.FFCNAEUJP:hover{
+	transition: 1s ;
+	opacity: 1;
+}
+.FFCNAEUJP.open{	
+	opacity: 1;
+}
+
+.FFCJapan{
+	position: absolute;
+	margin-top: 28%;
+	margin-left: 187%;
+	width: 7.44%;
+}
+
+.FFCSBL{
+	position: absolute;
+	z-index: 17;
+	margin-top: 17.15%;
+	margin-left: 75.05%;
+	width: 24.95%;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.FFCSBL:hover{
+	transition: 1s ;
+	opacity: 1;
+}
+.FFCSBL.open{	
+	opacity: 1;
+}
+
+.FFCAUS{
+	position: absolute;
+	z-index: 17;
+	margin-top: 34.15%;
+	margin-left: 88.25%;
+	width: 6.2%;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.FFCAUS:hover{
+	transition: 1s ;
+	opacity: 1;
+}
+
+.FFCAUS.open{
+	opacity: 1;	
+}
+
+.FFCIcon{
+	position: absolute;
+	z-index: 17;
+	margin-top: 37.5%;
+	margin-left: 65.1%;
+	width: 7.81%;	
+	background-color: #0e262f;
+	border-radius: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: 66.7%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.FFCIcon:hover{
+	-webkit-filter:brightness(1.2);
+}
+
+.FFCIcon.open{
+	-webkit-filter:brightness(1.2);
+}
+
+.FFCContenttext{
+	position: absolute;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 41.67%;
+	padding-bottom: 56%;
+	background-color: transparent;
+	color: transparent;
+	font-size: 2.2rem;
+	opacity: 1;
+	display: flex;
+	visibility: hidden;
+	
+}
+
+.FFCContenttext.open{
+	visibility: visible;	
+}
+
+.FFCAmazonContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	line-height: 2;
+	opacity: 0;
+
+}
+
+.FFCAmazonContenttext.open{
+	transition: 1s;
+	opacity: 1;
+}
+
+.FFCNAEUJPContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	line-height: 2;
+	opacity: 0;
+	 
+}
+.FFCNAEUJPContenttext.open{
+	transition: 1s;
+	opacity: 1;
+}
+
+.FFCSBLContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	line-height: 2;
+	opacity: 0;
+
+}
+.FFCSBLContenttext.open{
+	transition: 1s;
+	opacity: 1;
+}
+
+.FFCAUSContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	line-height: 2;
+	opacity: 0;
+	 
+}
+.FFCAUSContenttext.open{
+	transition: 1s;
+	opacity: 1;
+}
+
+.FFCIconContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	line-height: 2;
+	opacity: 0;
+	 
+}
+.FFCIconContenttext.open{
+	transition: 1s;
+	opacity: 1;
+}
+.HeatWave{
+	width: 100%;
+	background-color: #6B8898 ;
+	height: 11.1%;
+	font-size: 2.2rem;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+
+
+}
+.HeatWave:hover{
+	background-color: #B1C3D5;
+	transition: 0.6s;
+}
+.HeatWaveContent{
+	position: absolute;
+	z-index: -2;
+	margin-top: -94.5%;
+	margin-left: -310%;
+	width: 309%;
+	padding-bottom: 172.5%;
+}
+
+.HeatWaveContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.99;
+	margin-left: 100%;
+}
+
+.HWCBG{
+	position: absolute;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: -100%;
+	width: 100%;
+	padding-bottom: 13.5%;
+	background-color: #163C4B;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+}
+.HWCBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 1s;
+	margin-left: 0%;
+}
+.HWCMain{
+	position: absolute;
+	z-index: 17;
+	margin-left: 4.17%;
+	margin-top: 2.5%;
+	color: #ffffff;
+	font-size: 3rem;
+	border: solid 3px #FFFFFF;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+	font-weight: normal;
+	line-height: 0;
+}
+.HWCSub{
+	position: absolute;
+	z-index: 17;
+	margin-left: 32.55%;
+	margin-top: 3.13%;
+	color: #E98C24;
+	font-size: 2.2rem;
+	font-weight: normal;
+}
+.HWCContenttext{
+	position: absolute;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 41.67%;
+	padding-bottom: 56%;
+	background: none;
+	color: #ffffff;
+	font-size: 2.2rem;
+	opacity: 1;
+	display: flex;
+	visibility: hidden;	
+}
+.HWCContenttext.open{
+	visibility: visible;	
+}
+.HWCintroduction{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	line-height: 2;
+	opacity: 0;
+	visibility: hidden;
+	transition: 1s;
+	 
+}
+.HWCintroduction.open{
+	opacity: 1;
+	visibility: visible;
+}
+
+.HWCWEU{
+	position: absolute;
+	z-index: 17;
+	margin-top: 27.4%;
+	margin-left: 47.35%;
+	width: 7.135%;
+	height: auto;
+	opacity: 0;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s;
+}
+
+.HWCWEU:hover{
+	
+	opacity: 1;
+}
+
+.HWCWEU.open{
+	opacity: 1;	
+}
+.HWCENNL{
+	position: absolute;
+	z-index: 18;
+	margin-top: 26.1%;
+	margin-left: 48.3%;
+	width: 3.34%;
+	height: auto;
+	opacity: 0;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s;
+
+}
+.HWCENNL:hover{
+	opacity: 1;
+}
+.HWCENNL.open{
+	
+	opacity: 1;	
+}
+.HWCWEUContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	line-height: 2;
+	opacity: 0;
+	visibility: hidden;
+	 
+}
+.HWCWEUContenttext.open{
+	transition: 1s ;
+	opacity: 1;
+	visibility: visible;
+}
+
+.HWCENNLContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	line-height: 2;
+	opacity: 0;
+	visibility: hidden;
+	 
+}
+.HWCENNLContenttext.open{
+	transition: 1s ;
+	opacity: 1;
+	visibility: visible;
+}
+
+.HWCSWE{
+	position: absolute;
+	z-index: 19;
+	margin-top: 21.6%;
+	margin-left: 52.8%;
+	width: 3.29%;
+	height: auto;
+	background-color: transparent;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s;
+}
+.HWCSWL{
+	position: absolute;
+	margin-left: -148%;
+	margin-top: 342%;
+}
+.HWCSWE:hover{
+	
+	opacity: 1;
+}
+.HWCSWE.open{	
+	opacity: 1;	
+}
+
+.HWCSWEContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	line-height: 2;
+	opacity: 0;
+	visibility: hidden;
+	 
+}
+.HWCSWEContenttext.open{
+	transition: 1s ;
+	opacity: 1;
+	visibility: visible;
+}
+
+
+.HWCJP{
+	position: absolute;
+	z-index: 17;
+	margin-top: 30.7%;
+	margin-left: 84%;
+	width: 4.29%;
+	height: auto;
+	background-color: transparent;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s;
+}
+.HWCJP:hover{
+	
+	opacity: 1;
+}
+
+.HWCJP.open{
+	opacity: 1;	
+}
+
+.HWCJPContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	line-height: 2;
+	opacity: 0;
+	visibility: hidden;
+}
+.HWCJPContenttext.open{
+	transition: 1s ;
+	opacity: 1;
+	visibility: visible;
+}
+.ExtremeClimate{
+	width: 100%;
+	height: 11.1%;
+	background-color: #9AA5B0;
+	font-size: 2.2rem;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+
+}
+.ExtremeClimate:hover{
+	background-color: #C4CDD3;
+	transition: 0.6s;
+}
+.ExtremeClimateContent{
+	position: absolute;
+	z-index: -2;
+	margin-top: -113.5%;
+	margin-left: -310%;
+	width: 309%;
+	padding-bottom: 172.5%;
+}
+.ExtremeClimateContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.99;
+	margin-left: 100%;
+}
+
+.ECCBG{
+	position: absolute;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: -100%;
+	width: 100%;
+	padding-bottom: 13.5%;
+	background-color: #163C4B;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.ECCBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 1s;
+	opacity: 0.99;
+	margin-left: 0%;
+}
+.ECCMain{
+	position: absolute;
+	z-index: 17;
+	margin-left: 4.17%;
+	margin-top: 2.5%;
+	color: #ffffff;
+	font-size: 3rem;
+	border: solid 3px #FFFFFF;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+	font-weight: normal;
+	line-height: 0;
+}
+.ECCSub{
+	position: absolute;
+	z-index: 17;
+	margin-left: 32.55%;
+	margin-top: 3.13%;
+	color: #E98C24;
+	font-size: 2.2rem;
+	font-weight: normal;
+}
+.ECCContenttext{
+	position: absolute;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 41.67%;
+	padding-bottom: 56%;
+	background-color: transparent;
+	color: transparent;
+	font-size: 2.2rem;
+	opacity: 1;
+	display: flex;
+	visibility: hidden;	
+	
+}
+.ECCContenttext.open{
+	visibility: visible;	
+}
+
+
+.ECCintroduction{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	line-height: 2;
+	opacity: 0;
+	visibility: hidden;
+	transition: 1s ;
+}
+.ECCintroduction.open{
+	opacity: 1;
+	visibility: visible;
+}
+
+
+.ECCIcon{
+	position: absolute;
+	z-index: 17;
+	margin-top: 10%;
+	margin-left: 44.27%;
+	width: 7.81%;
+	background-color: #0e262f;
+	border-radius: 50%;
+	color: #ffffff;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ECCIcon:hover{
+	-webkit-filter:brightness(1.2);
+}
+
+.ECCIconContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	line-height: 2;
+	opacity: 0;
+	visibility: hidden;
+	 
+}
+.ECCIconContenttext.open{
+	transition: 1s ;
+	opacity: 1;
+	visibility: visible;
+}
+.ECCJPContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	line-height: 2;
+	opacity: 0;
+	visibility: hidden;
+	 
+}
+.ECCJPContenttext.open{
+	transition: 1s ;
+	opacity: 1;
+	visibility: visible;
+}
+.ECCJP{
+	position: absolute;
+	z-index: 17;
+	margin-top: 25%;
+	margin-left: 90.7%;
+	width: 2.45%;
+	color: #ffffff;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ECCJP:hover{
+	transition: 1s;
+	opacity: 1;
+}
+
+.ECCJP.open{
+	opacity: 1;	
+}
+
+.ECCCN{
+	position: absolute;
+	z-index: 17;
+	margin-top: 23.4%;
+	margin-left: 82.13%;
+	width: 9.38%;
+	color: #ffffff;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.ECCCN:hover{
+	transition: 1s;
+	opacity: 1;
+}
+.ECCCN.open{
+	opacity: 1;	
+}
+
+.ECCCNContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	line-height: 2;
+	opacity: 0;
+	visibility: hidden;
+	 
+}
+
+.ECCCNContenttext.open{
+	transition: 1s ;
+	opacity: 1;
+	visibility: visible;
+}
+
+.ECCAUS{
+	position: absolute;
+	z-index: 17;
+	margin-top: 34.1%;
+	margin-left: 88.2%;
+	width: 6.2%;
+	color: #ffffff;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ECCAUS:hover{
+	transition: 1s;
+	opacity: 1;
+}
+.ECCAUS.open{	
+	opacity: 1;	
+}
+
+.ECCAUSContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	line-height: 2;
+	opacity: 0;
+	visibility: hidden;
+	 
+}
+.ECCAUSContenttext.open{
+	transition: 1s ;
+	opacity: 1;
+	visibility: visible;
+}
+.ECCTW{
+	position: absolute;
+	z-index: 17;
+	margin-top: 28.6%;
+	margin-left: 89.3%;
+	width: 0.21%;
+	color: #ffffff;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ECCTW:hover{
+	transition: 1s;
+	opacity: 1;
+}
+
+.ECCTW.open{
+	opacity: 1;	
+}
+
+.ECCTWContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	line-height: 2;
+	opacity: 0;
+	visibility: hidden;
+	 
+}
+.ECCTWContenttext.open{
+	transition: 1s ;
+	opacity: 1;
+	visibility: visible;
+}
+
+.ECCUSA{
+	position: absolute;
+	z-index: 17;
+	margin-top: 24.2%;
+	margin-left: 51.7%;
+	width: 8.81%;
+	color: #ffffff;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ECCAlaska{
+	position: absolute;
+	width: 65.01%;
+	margin-left: -185%;
+	margin-top: -112%;
+}
+.ECCUSA:hover{
+	transition: 1s;
+	opacity: 1;
+}
+
+.ECCUSA.open{
+	
+	opacity: 1;	
+}
+
+.ECCUSAContenttext{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 12.5%;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	line-height: 2;
+	opacity: 0;
+	visibility: hidden;
+	 
+}
+.ECCUSAContenttext.open{
+	transition: 1s ;
+	opacity: 1;
+	visibility: visible;
+}
+.Disease{
+	width: 100%;
+	background-color: #6B8898 ;
+	height: 11.1%;
+	font-size: 2.2rem;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+	
+}
+
+.Disease:hover{
+	background-color: #B1C3D5;
+	transition: 0.6s;
+
+}
+
+.DiseaseContent{
+	position: absolute;
+	z-index: -2;
+	margin-top: -132.5%;
+	margin-left: -310%;
+	width: 309%;
+	padding-bottom: 172.5%;
+
+}
+.DiseaseContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	margin-left: 100%;
+}
+.DiseaseContent.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 1s;
+    margin-left: -310%;
+	opacity: 0;
+}
+
+.DSCBG{
+	position: absolute;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: -100%;
+	width: 103%;
+	padding-bottom: 56%;
+	background-color: #163C4B;
+	opacity: 1;
+
+
+}
+.DSCBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	margin-left: 0%;
+}
+.DSCMain{
+	position: absolute;
+	z-index: 17;
+	margin-left: 4.17%;
+	margin-top: 2.5%;
+	color: #ffffff;
+	font-size: 3rem;
+	border: solid 3px #FFFFFF;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+	font-weight: normal;
+	line-height: 0;
+}
+.DSCSub{
+	position: absolute;
+	z-index: 17;
+	margin-left: 32.55%;
+	margin-top: 3.13%;
+	color: #E98C24;
+	font-size: 2.2rem;
+	font-weight: normal;
+}
+.DSCpart1{
+	overflow: visible;
+	position: absolute;
+	z-index: 17;
+	margin-top: 8.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/Mosq1970.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.DSCpart1:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url("../../Animation/WorldDamage/封面/Mosq1970.png");
+	
+
+}
+
+.DSCpart1.open{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 16%;
+	opacity: 1;	
+	background-image: url("../../Animation/WorldDamage/封面/Mosq1970.png");
+
+}
+.DSCpart1.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.DSCpart1.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 8.5%;
+	opacity: 1;	
+}
+
+.DSCpart1Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 17.5%;
+	margin-left: 10.42%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.DSCpart1Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+
+}
+
+.DSCpart1Title.close{
+    transition: 1s;
+	margin-top: 17.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	background-color: #1E3239;
+}
+
+.DSCpart2{
+	position: absolute;
+	z-index: 17;
+	margin-top: 8.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/Mosq.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.DSCpart2:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url("../../Animation/WorldDamage/蚊子.gif");
+	
+
+}
+.DSCpart2.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 16%;
+	margin-left: 10.42%;
+	opacity: 1;
+	background-image: url("../../Animation/WorldDamage/蚊子.gif");
+
+}
+.DSCpart2.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.DSCpart2.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 8.5%;
+	opacity: 1;	
+}
+
+.DSCpart2Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 17.5%;
+	margin-left: 50.89%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.DSCpart2Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.DSCpart2Title.close{
+    transition: 1s;
+	margin-top: 17.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	background-color: #1E3239;
+}
+
+.DSCpart3{
+	position: absolute;
+	z-index: 17;
+	margin-top: 32.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/Emergency.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.DSCpart3:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url("../../Animation/WorldDamage/急診.gif");
+
+}
+.DSCpart3.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 1s;
+	margin-top: 16%;
+	opacity: 1;
+	background-image: url("../../Animation/WorldDamage/急診.gif");
+
+}
+.DSCpart3.open:hover{
+	
+	-webkit-filter:brightness(1);
+
+}
+.DSCpart3.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 32.5%;
+	opacity: 1;	
+}
+
+.DSCpart3Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 41.5%;
+	margin-left: 10.42%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.DSCpart3Title.open{
+   	transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.DSCpart3Title.close{
+	transition: 1s;
+	margin-top: 41.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	background-color: #1E3239;
+}
+
+.DSCpart4{
+	position: absolute;
+	z-index: 17;
+	margin-top: 32.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/Kidney.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.DSCpart4:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url("../../Animation/WorldDamage/腎衰竭.gif");
+
+}
+
+.DSCpart4.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 16%;
+	margin-left: 10.42%;
+	opacity: 1;	
+	background-image: url("../../Animation/WorldDamage/腎衰竭.gif");
+	
+}
+.DSCpart4.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.DSCpart4.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 32.5%;
+	opacity: 1;	
+}
+
+.DSCpart4Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 41.5%;
+	margin-left: 50.89%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.DSCpart4Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.DSCpart4Title.close{
+	transition: 1s;
+	margin-top: 41.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	background-color: #1E3239;
+}
+
+.DSCContent{
+	position: absolute;
+	z-index: -1;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 0%;
+	background-color: transparent;
+	color: transparent;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.DSCContent.open{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+.DSCpart1Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 1.8;
+	opacity: 0;
+}
+.DSCpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.DSCpart2Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+	opacity: 0;
+	
+}
+.DSCpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.DSCpart3Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+	opacity: 0;
+}
+.DSCpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.DSCpart4Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	opacity: 0; 
+}
+.DSCpart4Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.FoodShortage{
+	width: 100%;
+	height: 11.1%;
+	background-color: #9AA5B0 ;
+	font-size: 2.2rem;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+
+
+}
+
+
+.FoodShortage:hover{
+	background-color: #C4CDD3;
+	transition: 0.6s;
+
+}
+
+.FoodShortageContent{
+	position: absolute;
+	z-index: -2;
+	margin-top: -151.5%;
+	margin-left: -310%;
+	width: 309%;
+	padding-bottom: 172.5%;
+
+}
+.FoodShortageContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	margin-left: 100%;
+}
+.FoodShortageContent.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 1s;
+    margin-left: -310%;
+	opacity: 0;
+}
+.FSCBG{
+	position: absolute;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: -100%;
+	width: 103%;
+	padding-bottom: 56%;
+	background-color: #163C4B;
+	opacity: 1;
+
+}
+.FSCBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	margin-left: 0%;
+}
+.FSCMain{
+	position: absolute;
+	z-index: 17;
+	margin-left: 4.17%;
+	margin-top: 2.5%;
+	color: #ffffff;
+	font-size: 3rem;
+	border: solid 3px #FFFFFF;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+	font-weight: normal;
+	line-height: 0;
+}
+.FSCSub{
+	position: absolute;
+	z-index: 17;
+	margin-left: 32.55%;
+	margin-top: 3.13%;
+	color: #E98C24;
+	font-size: 2.2rem;
+	font-weight: normal;
+}
+.FSCpart1{
+	overflow: visible;
+	position: absolute;
+	z-index: 17;
+	margin-top: 8.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/RiceHowmuch.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.FSCpart1:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url("../../Animation/WorldDamage/溫度稻米產量.gif");
+	
+
+}
+
+.FSCpart1.open{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 16%;
+	opacity: 1;	
+	background-image: url("../../Animation/WorldDamage/溫度稻米產量.gif");
+
+}
+.FSCpart1.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.FSCpart1.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 8.5%;
+	opacity: 1;	
+}
+
+.FSCpart1Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 17.5%;
+	margin-left: 10.42%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.FSCpart1Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+
+}
+
+.FSCpart1Title.close{
+    transition: 1s;
+	margin-top: 17.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	background-color: #1E3239;
+}
+
+
+.FSCpart2{
+	position: absolute;
+	z-index: 17;
+	margin-top: 8.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/RicePrice.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.FSCpart2:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url("../../Animation/WorldDamage/稻米產量價格.gif");
+	
+
+}
+.FSCpart2.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 16%;
+	margin-left: 10.42%;
+	opacity: 1;
+	background-image: url("../../Animation/WorldDamage/稻米產量價格.gif");
+
+}
+.FSCpart2.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.FSCpart2.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 8.5%;
+	opacity: 1;	
+}
+
+.FSCpart2Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 17.5%;
+	margin-left: 50.89%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.FSCpart2Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.FSCpart2Title.close{
+    transition: 1s;
+	margin-top: 17.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	background-color: #1E3239;
+}
+
+.FSCpart3{
+	position: absolute;
+	z-index: 17;
+	margin-top: 32.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/CornSoy.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.FSCpart3:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url("../../Animation/WorldDamage/玉米黃豆.gif");
+
+}
+.FSCpart3.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 1s;
+	margin-top: 16%;
+	opacity: 1;
+	background-image: url("../../Animation/WorldDamage/玉米黃豆.gif");
+
+
+}
+.FSCpart3.open:hover{
+	
+	-webkit-filter:brightness(1);
+
+}
+.FSCpart3.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 32.5%;
+	opacity: 1;	
+}
+
+.FSCpart3Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 41.5%;
+	margin-left: 10.42%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.FSCpart3Title.open{
+   	transition: 1s;
+	width: 100%;
+	margin-left: -20%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.FSCpart3Title.close{
+	transition: 1s;
+	margin-top: 41.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	background-color: #1E3239;
+}
+
+.FSCpart4{
+	position: absolute;
+	z-index: 17;
+	margin-top: 32.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/CornCar_.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.FSCpart4:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url("../../Animation/WorldDamage/車子玉米.gif");
+
+
+}
+
+.FSCpart4.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 16%;
+	margin-left: 10.42%;
+	opacity: 1;	
+	background-image: url("../../Animation/WorldDamage/車子玉米.gif");
+	
+}
+.FSCpart4.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.FSCpart4.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 32.5%;
+	opacity: 1;	
+}
+
+.FSCpart4Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 41.5%;
+	margin-left: 50.89%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.FSCpart4Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.FSCpart4Title.close{
+	transition: 1s;
+	margin-top: 41.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	background-color: #1E3239;
+}
+
+.FSCContent{
+	position: absolute;
+	z-index: -1;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 0%;
+	background-color: transparent;
+	color: transparent;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.FSCContent.open{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.FSCpart1Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2.1;
+}
+.FSCpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.FSCpart2Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+	
+}
+.FSCpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.FSCpart3Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.FSCpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.FSCpart4Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	 
+}
+.FSCpart4Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+
+.EconomicShock{
+	width: 100%;
+	height: 11.1%;
+	background-color: #6B8898 ;
+	padding-bottom: 0%;
+	font-size: 2.2rem;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+	
+}
+
+.EconomicShock:hover{
+	background-color: #B1C3D5;
+	transition: 0.6s;
+
+}
+
+.EconomicShockContent{
+	position: absolute;
+	z-index: -2;
+	margin-top: -170.5%;
+	margin-left: -310%;
+	width: 309%;
+	padding-bottom: 172.5%;
+
+}
+
+.EconomicShockContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	margin-left: 100%;
+}
+.EconomicShockContent.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 1s;
+    margin-left: -310%;
+	opacity: 0;
+}
+
+.ESCBG{
+	position: absolute;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: -100%;
+	width: 103%;
+	padding-bottom: 56%;
+	background-color: #163C4B;
+	opacity: 1;
+
+}
+
+.ESCBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	margin-left: 0%;
+}
+
+.ESCMain{
+	position: absolute;
+	z-index: 17;
+	margin-left: 4.17%;
+	margin-top: 2.5%;
+	color: #ffffff;
+	font-size: 3rem;
+	border: solid 3px #FFFFFF;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+	font-weight: normal;
+	line-height: 0;
+}
+
+.ESCSub{
+	position: absolute;
+	z-index: 17;
+	margin-left: 32.55%;
+	margin-top: 3.13%;
+	color: #E98C24;
+	font-size: 2.2rem;
+	font-weight: normal;
+}
+
+.ESCpart1{
+	overflow: visible;
+	position: absolute;
+	z-index: 17;
+	margin-top: 8.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/Degree.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+
+.ESCpart1:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url("../../Animation/WorldDamage/氣溫GDP.gif");
+
+}
+
+.ESCpart1.open{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 16%;
+	opacity: 1;	
+	background-image: url("../../Animation/WorldDamage/氣溫GDP.gif");
+
+}
+.ESCpart1.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.ESCpart1.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 8.5%;
+	opacity: 1;	
+}
+
+.ESCpart1Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 17.5%;
+	margin-left: 10.42%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ESCpart1Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: -20%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+
+}
+
+.ESCpart1Title.close{
+    transition: 1s;
+	margin-top: 17.5%;
+	background-color: #1E3239;
+}
+
+.ESCpart2{
+	position: absolute;
+	z-index: 17;
+	margin-top: 8.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/ManHeart.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.ESCpart2:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url("../../Animation/WorldDamage/男人心臟1.gif");
+	
+}
+
+.ESCpart2.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 16%;
+	margin-left: 10.42%;
+	opacity: 1;
+	background-image: url("../../Animation/WorldDamage/男人心臟1.gif");
+
+}
+
+.ESCpart2.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.ESCpart2.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 8.5%;
+	opacity: 1;	
+}
+
+.ESCpart2Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 17.5%;
+	margin-left: 50.89%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ESCpart2Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: -20%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.ESCpart2Title.close{
+    transition: 1s;
+	margin-top: 17.5%;
+	background-color: #1E3239;
+}
+
+.ESCpart2Content{
+	position: absolute;
+	z-index: -1;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 0%;
+	background-color: transparent;
+	color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+
+.ESCpart2Content.open{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+}
+
+.ESCpart3{
+	position: absolute;
+	z-index: 17;
+	margin-top: 32.5%;
+	margin-left: 10.42%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/HotPress.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+
+.ESCpart3:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url("../../Animation/WorldDamage/熱壓力症穀物價格.gif");
+
+}
+.ESCpart3.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 1s;
+	margin-top: 16%;
+	opacity: 1;
+	background-image: url("../../Animation/WorldDamage/熱壓力症穀物價格.gif");
+
+}
+.ESCpart3.open:hover{
+	
+	-webkit-filter:brightness(1);
+
+}
+.ESCpart3.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 32.5%;
+	opacity: 1;	
+}
+
+.ESCpart3Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 41.5%;
+	margin-left: 10.42%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ESCpart3Title.open{
+   	transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.ESCpart3Title.close{
+	transition: 1s;
+	margin-top: 41.5%;
+	background-color: #1E3239;
+}
+
+.ESCpart4{
+	position: absolute;
+	z-index: 17;
+	margin-top: 32.5%;
+	margin-left: 50.89%;
+	width: 39.06%;
+	padding-bottom: 22.4%;
+	background-color: #0e262f;
+	border-radius: 2.67%;
+	color: #ffffff;
+	font-size: 1.66rem;
+	background-image: url("../../Animation/WorldDamage/封面/ThialandUSA.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-background-size: contain;
+}
+.ESCpart4:hover{
+	
+	-webkit-filter:brightness(1.2);
+	background-image: url("../../Animation/WorldDamage/泰國美國.gif");
+
+}
+
+.ESCpart4.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 16%;
+	margin-left: 10.42%;
+	opacity: 1;	
+	background-image: url("../../Animation/WorldDamage/泰國美國.gif");
+	
+}
+.ESCpart4.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.ESCpart4.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 32.5%;
+	opacity: 1;	
+}
+
+.ESCpart4Title{
+	position: absolute;
+	z-index: 19;
+	margin-top: 41.5%;
+	margin-left: 50.89%;
+	font-size: 1.66rem;
+	width: 39.06%;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ESCpart4Title.open{
+    transition: 1s;
+	width: 100%;
+	margin-left: 0%;
+	font-size: 2.35rem;
+	margin-top: 4.5%;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.ESCpart4Title.close{
+	transition: 1s;
+	margin-top: 41.5%;
+	background-color: #1E3239;
+}
+
+.ESCContent{
+	position: absolute;
+	z-index: -1;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 0%;
+	background-color: transparent;
+	color: transparent;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.ESCContent.open{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.ESCpart1Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2.1;
+}
+.ESCpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.ESCpart2Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+	
+}
+.ESCpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.ESCpart3Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 2;
+}
+.ESCpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.ESCpart4Contenttext{
+	position: absolute;
+	margin-top: 54%;
+	margin-left: 55.21%;
+	width: 44.79%;
+	background-color: transparent;
+	font-size: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	 
+}
+.ESCpart4Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.Steam{
+	position: absolute;
+	z-index: 6;
+	width: 54.69%;
+	margin-top: 19%;
+	margin-left: 43.33%;
+}
+.Steam.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s,opacity 2s;
+	margin-left: 45.93%;
+	opacity: 0;
+}
+.Steam.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s,opacity 2s;
+	margin-left: 43.33%;
+	opacity: 1;
+}
+.Steam-Mobile{
+	position: absolute;
+	z-index: 6;
+	width: 80%;
+	margin-top: 27.5%;
+	margin-left: 10%;
+}
+.Steam-Mobile.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s,opacity 2s;
+	margin-left: 45.93%;
+	opacity: 0;
+}
+.Steam-Mobile.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s,opacity 2s;
+	margin-left: 43.33%;
+	opacity: 1;
+}
+
+@media (min-device-width: 1280px) and (max-device-width: 1500px){
+	
+	
+}
+
+@media (min-device-width: 960px) and (max-device-width: 1280px){
+	
+	
+}
+@media (min-device-width: 600px) and (max-device-width: 960px){
+	
+		
+}
+
+@media (min-device-width: 376px) and (max-device-width: 600px){
+	
+	
+	.bg4{
+		display: none;
+	}
+	.bg4-1Mobile{
+		display: block;
+	}
+	.bg4-2Mobile{
+		display: block;
+	}
+}
+
+@media (min-device-width: 100px) and (max-device-width: 375px){
+	
+	
+	.bg4{
+		display: none;
+	}
+	.bg4-1Mobile{
+		display: block;
+	}
+	.bg4-2Mobile{
+		display: block;
+	}
+}

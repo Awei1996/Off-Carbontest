@@ -1,0 +1,488 @@
+@charset "utf-8";
+.bg2{
+	position: absolute;
+	z-index: -1;
+	left: 0%;
+	width: 100%;
+	opacity: 1;
+	margin-top: 56%;
+}
+.SecondFloor{
+	position: absolute;
+	z-index: 7;
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 0%;	
+}
+.LEDRed{
+	position: absolute;
+	z-index: 7;
+	width: 2.81%;
+	margin-left: 49.40%;
+	margin-top: 7.75%;
+	animation: LS;
+	animation-duration: 15s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	opacity: 0.5;
+}
+.LightRed{
+	position: absolute;
+	z-index: 6;
+	margin-left: 49.43%;
+	margin-top: 6.9%;
+	width: 2.81%;
+	background-color: transparent;
+	border-radius: 25px;
+	box-shadow: 0px 10px 20px #FF9733;
+	opacity: 0.5;
+	animation: LS;
+	animation-duration: 15s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	
+}
+.LightGreen{
+	z-index: 5;
+	margin-left: 52.48%;
+	margin-top: 6.9%;
+	width: 2.81%;
+	background-color: transparent;
+	border-radius: 25px;
+	box-shadow: 0px 10px 20px #B4DF96;
+	opacity: 0.5;
+	animation: LS;
+	animation-duration: 15s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	
+	
+}
+.LEDGreen{
+	position: absolute;
+	z-index: 7;
+	margin-left: 52.45%;
+	margin-top: 7.75%;
+	width: 2.81%;
+	animation: LS;
+	animation-duration: 15s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	opacity: 0.5;
+}
+@keyframes LS{
+	0%{opacity: 0.5;}
+	35%{opacity: 1;}
+	40%{opacity: 1;}
+	75%{opacity: 0.5;}
+	100%{opacity: 0.5;}
+}
+.Conveyor{
+	position: absolute;
+	z-index: 6;
+	margin-left: -40.2%;
+	margin-top: 21.5%;
+	width: 64.375%;
+}
+.CO2{
+	position: absolute;
+	z-index: 7;
+	margin-left: 4.27%;
+	margin-top: 20%;
+	width: 2.8%;
+	background-size: 100%;
+	animation-name: Co21;
+	animation-duration: 28s ;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	overflow: hidden;
+}
+@keyframes Co21{
+	0% {margin-left: -5.2%; margin-top: 20%;}
+	10%{margin-left: 8.59%; } /*4S*/
+	15%{margin-top: 20%;}
+	25%{margin-left: 8.59%; margin-top: 7%; } /*10S*/
+	35%{margin-left: 34.63%; margin-top: 7%; /*background-image: url(../../webpng/Attackpage/logo.png);*/} /*14S*/
+	40%{margin-top: 20%; }/*16S*/
+	45%{margin-left: 34.63%; margin-top: 7%; /*background-image: url(../../webpng/Attackpage/Logo2.png);*/}/*18S*/
+	55%{margin-left: 65.1%; margin-top: 7%;/* background-image: url(../../webpng/Attackpage/Logo2.png);*/} /*22S*/
+	60%{margin-top: 20%; } /*24S*/
+	65%{margin-left: 65.1%; margin-top: 7%;/* background-image: url(../../webpng/Attackpage/Logo3.png);*/} /*26s*/
+	70%{margin-left: 87.5%; margin-top: 7%;} /*28s*/
+	75%{margin-left: 87.5%; margin-top: 20%;} /*30S*/
+	77.5%{margin-left: 87.5%; ; margin-top: 20%;}/*31S*/
+	80%{margin-left: 87.5%;  margin-top: 31.5%; opacity: 1;} /*32S*/
+	90%{margin-left: 97%;  margin-top: 31.5%; opacity: 1;}
+	90.01%{margin-left: 97%;  margin-top: 31.5%; opacity: 0;}
+	91%{margin-left: -5%; ; opacity: 0;}
+	100%{margin-left: -5%; ; opacity: 1; /*background-image: url(../../webpng/Attackpage/Logo3.png);*/}
+}
+.Logo{
+	position: relative;
+	margin-left: 0%;
+	width: 310%;
+	animation-name: Logo1;
+	animation-duration: 28s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	display: block;
+
+}
+@keyframes Logo1{
+	
+	35%{margin-left: 0%; /*background-image: url(../../webpng/Attackpage/logo.png);*/} /*14S*/
+	40%{margin-left: 0%; }/*16S*/
+	42%{margin-left: -107%;}
+	45%{margin-left: -107%;  /*background-image: url(../../webpng/Attackpage/Logo2.png);*/}/*18S*/
+	60%{margin-left: -107%;} /*24S*/
+	62%{margin-left: -214%;}
+	65%{margin-left: -214%;/* background-image: url(../../webpng/Attackpage/Logo3.png);*/} /*26s*/
+	70%{margin-left: -214%;} /*28s*/
+	95%{opacity: 1;}
+	98%{margin-left: -214%; opacity: 0;}
+	100%{margin-left: 0%; opacity: 0; /*background-image: url(../../webpng/Attackpage/Logo3.png);*/}
+}
+.Hand{
+	position: absolute;
+	z-index: 7;
+	margin-left: 7.7%;
+	margin-top: 1%;	
+	width: 4.69%;
+	padding-bottom: 20%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	animation-name: H1; 
+	animation-duration: 28s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;	
+
+}
+@keyframes H1{
+	0% {margin-left: 1%;}
+	10%{margin-left: 7.7%;}
+	25%{margin-left: 7.7%;}
+	35%{margin-left: 33.8%;}
+	45%{margin-left: 33.8%;}
+	55%{margin-left: 64.26%;}
+	65%{margin-left: 64.26%;}
+	70%{margin-left: 86.66%;}
+	75%{margin-left: 86.66%;}
+	85%{margin-left: 86.66%;}
+	87%{margin-left: 86.66%;}
+	98%{margin-left: 1%;}
+	100%{margin-left: 1%;}
+	
+}
+
+
+.HandBase{
+	position: absolute;
+	z-index: 3;
+	margin-left: 0%;
+	margin-top: 50%;
+	opacity: 1;
+	
+
+}
+
+.HandB{
+	position: absolute;
+	z-index: 1;
+	margin-top: 280%;
+	width: 53.33%;
+	opacity: 1;
+	animation-name: HB; 
+	animation-duration: 28s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+
+}
+@keyframes HB{
+	
+	12.5%{margin-top: 280%;}
+	15%{margin-top: 280%;}
+	25%{margin-top: 40%;}
+	35%{margin-top: 40%;} /*14S*/
+	40%{margin-top: 280%;}/*16S*/
+	45%{margin-top: 40%;}/*18S*/
+	55%{margin-top: 40%;} /*22S*/
+	60%{margin-top: 280%;} /*24S*/
+	65%{margin-top: 40%;} /*26s*/
+	70%{margin-top: 40%;} /*28s*/
+	75%{margin-top: 280%;} /*30S*/
+	77.5%{margin-top: 280%;}/*31S*/
+	80%{margin-top: 280%;} /*32S*/
+	90%{margin-top: 40%;}
+	95%{margin-top: 40%;}
+	100%{margin-top: 280%;}
+	
+}
+.HandS{
+	position: absolute;
+	z-index: 0;
+	width: 50%;
+	margin-top: 600%;	
+	opacity: 1;
+	animation-name: HS; 
+	animation-duration: 28s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	
+
+}
+
+@keyframes HS{
+	12.5%{margin-top: 600%;}
+	15%{margin-top: 610%;}
+	25%{margin-top: 100%;}
+	35%{margin-top: 100%;} /*14S*/
+	40%{margin-top: 600%;}/*16S*/
+	45%{margin-top: 100%;}/*18S*/
+	55%{margin-top: 100%;} /*22S*/
+	60%{margin-top: 600%;} /*24S*/
+	65%{margin-top: 100%;} /*26s*/
+	70%{margin-top: 100%;} /*28s*/
+	75%{margin-top: 605%;} /*30S*/
+	77.5%{margin-top: 610%;}/*31S*/
+	80%{margin-top: 605%;} /*32S*/
+	90%{margin-top: 100%;}
+	95%{margin-top: 100%;}
+	100%{margin-top: 600%;}
+}
+.HandL{
+	position: absolute;
+	z-index: -2;
+	margin-left: -15%;
+	margin-top: -25%;
+	width: 66%;
+	opacity: 1;
+	
+	animation-name: HL; 
+	animation-duration: 28s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+
+}
+@keyframes HL{
+	0%{margin-left: -15%; margin-top: -25%; transform: rotate(0deg);}
+	10%{margin-left: -15%; margin-top: -25%; transform: rotate(0deg);}
+	12.5%{margin-left: -25%; margin-top: -45% ;transform: rotate(40deg);} 
+	15%{margin-left: -22.5%; margin-top: -35%; transform: rotate(35deg);} /*14S*/
+	75%{margin-left: -15%; margin-top: -25%; transform: rotate(35deg);}
+	77.5%{margin-left: -22.5%; margin-top: -35% ; transform: rotate(40deg);} 
+	80%{margin-left: -15%; margin-top: -25%; transform: rotate(0deg);}
+
+
+	
+}
+.HandR{
+	position: absolute;
+	z-index: -3;
+	margin-left: 55%;
+	margin-top: -25%;
+	width: 66%;
+	opacity: 1;
+	
+	animation-name: HR; 
+	animation-duration: 28s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+
+}
+@keyframes HR{
+	0%{margin-left: 55%; margin-top: -25%; transform: rotate(0deg);}
+	10%{margin-left: 55%; margin-top: -25%; transform: rotate(0deg);}
+	12.5%{margin-left: 60%; margin-top: -45%;transform: rotate(-40deg);} 
+	15%{margin-left: 57.5%; margin-top: -35%;transform: rotate(-35deg);} /*14S*/
+	75%{margin-left: 50%; margin-top: -25%;transform: rotate(-35deg);}
+	77.5%{margin-left: 57.5%; margin-top: -35%;transform: rotate(-40deg);} 
+	80%{margin-left: 50%; margin-top: -25%; transform: rotate(0deg);}
+	
+}
+.Machine{
+	position: absolute;
+	z-index: 6;
+	width: 54.17%;
+	margin-left: 45.83%;
+	margin-top: 34%;
+}
+.Boxoutside{
+	position: absolute;
+	z-index: 8;
+	background-color: transparent;
+	margin-left: 24.84%;
+	margin-top: 12%;
+	width: 23.23%;
+	border: none;
+	outline: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Outsidetitle{
+	font-family: Gen Jyuu Gothic;
+	position: absolute;
+	z-index: 9;
+	color: #ffffff;
+	line-height: 3.3;
+	font-size: 3.3rem;
+	font-weight: bold;
+	
+}
+.Boxinside{
+	position: absolute;
+	z-index: 8;
+	background-color: transparent;
+	margin-left: 55%;
+	margin-top: 12%;
+	width: 23.23%;
+	border: none;
+	outline: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.Insidetitle{
+	font-family: Gen Jyuu Gothic;
+	position: absolute;
+	z-index: 9;
+	color: #ffffff;
+	line-height: 3.3;
+	font-size: 3.3rem;
+	font-weight: bold;
+	
+	
+}
+
+.Boxoutside-Mobile{
+	position: absolute;
+	z-index: 8;
+	background-color: transparent;
+	margin-left: 24.84%;
+	margin-top: 12%;
+	width: 23.23%;
+	border: none;
+	outline: none;
+	align-items: center;
+	justify-content: center;
+	display: none;
+}
+.Outsidetitle-Mobile{
+	font-family: Gen Jyuu Gothic;
+	position: absolute;
+	z-index: 10;
+	color: #ffffff;
+	line-height: 3.3;
+	font-size: 3.3rem;
+	font-weight: bold;
+	
+}
+.Boxinside-Mobile{
+	position: absolute;
+	z-index: 8;
+	background-color: transparent;
+	margin-left: 55%;
+	margin-top: 12%;
+	width: 23.23%;
+	border: none;
+	outline: none;
+	align-items: center;
+	justify-content: center;
+	display: none;
+	
+}
+
+.Insidetitle-Mobile{
+	font-family: Gen Jyuu Gothic;
+	position: absolute;
+	z-index: 10;
+	color: #ffffff;
+	line-height: 3.3;
+	font-size: 3.3rem;
+	font-weight: bold;
+	
+	
+}
+@media (min-device-width: 376px) and (max-device-width: 600px){
+	
+	.Outsidetitle{
+		font-size: 3.5rem;
+	
+	
+	}
+	.Insidetitle{
+		font-size: 3.5rem;
+	
+	
+	}
+	.boxinside{
+		position: absolute;
+		z-index: 8;
+		background-color: transparent;
+		margin-left: 55%;
+		margin-top: 12%;
+		width: 23.23%;
+		border: none;
+		outline: none;
+		align-items: center;
+		justify-content: center;
+		display: none;
+	
+	}
+	.Boxoutside{
+		
+		display: none;
+	
+	}
+	
+	.Boxinside{
+	
+		display: none;
+	}
+	.Boxoutside-Mobile{
+		
+		display: flex;
+	}
+	.Boxinside-Mobile{
+		display: flex;
+	}
+}
+
+@media (min-device-width: 100px) and (max-device-width: 375px){
+	
+	.Outsidetitle{
+		font-size: 4rem;
+	
+	
+	}
+	.Insidetitle{
+		font-size: 4rem;
+	
+	
+	}
+	.Boxoutside{
+		
+		display: none;
+	
+	}
+
+	.Boxinside{
+	
+		display: none;
+	}
+	.Boxoutside-Mobile{
+		
+		display: flex;
+	}
+	.Boxinside-Mobile{
+		display: flex;
+	}
+}
