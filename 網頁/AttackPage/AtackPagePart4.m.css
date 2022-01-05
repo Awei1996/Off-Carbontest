@@ -284,9 +284,9 @@
 .SDCSub{
 	position: absolute;
 	z-index: 17;
-	margin-top: 15%;
+	margin-top: 12.5%;
 	color: #E98C24;
-	font-size: 4rem;
+	font-size: 3.5rem;
 	font-weight: normal;
 	line-height: 1.5;
 }
