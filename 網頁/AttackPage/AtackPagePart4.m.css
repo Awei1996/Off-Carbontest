@@ -189,13 +189,14 @@
 	position: absolute;
 	margin-left: 5%;
 	margin-top: -5%;
+	font-size: 4rem;
 }
 .ButtonSub{
 	position: absolute;
 	margin-left: 5%;
 	margin-top: 7.5%;
 	color: #085439 ;
-	font-size: 1.33rem;
+	font-size: 2rem;
 	font-weight: bold;
 }
 .SpeciesDiversity{
