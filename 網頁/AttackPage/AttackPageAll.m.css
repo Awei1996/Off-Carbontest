@@ -101,24 +101,13 @@ button{
 	margin-top: 224%;
 	left: 0%;
 	width: 100%;
-	padding-bottom: 56%;
-	background-color: transparent;
-	overflow: hidden;
-
-}
-.view4-Mobile{
-	font-family: Gen Jyuu Gothic ;
-	position: absolute;
-	z-index: 5;
-	margin-top: 224%;
-	left: 0%;
-	width: 100%;
 	padding-bottom: 84%;
 	background-color: transparent;
 	font-size: 1.33rem;
 	overflow: hidden;
-	display: none;
+
 }
+
 .view4-1Mobile{
 	font-family: Gen Jyuu Gothic ;
 	position: absolute;

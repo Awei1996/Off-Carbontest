@@ -3,17 +3,6 @@
 .bg4{
 	position: absolute;
 	z-index: -1;
-	margin-top: 168%;
-	left: 0%;
-	width: 100vw;
-	background-color: transparent;
-	opacity: 1;
-	overflow: hidden;
-
-}
-.bg4-1Mobile{
-	position: absolute;
-	z-index: -1;
 	left: 0%;
 	width: 100%;
 	opacity: 1;
