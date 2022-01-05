@@ -226,7 +226,7 @@
 	height: 100%;
 	border: 2px red solid;
 	display: flex;
-	align-items: center;
+	justify-content: center
 }
 .SpeciesDiversityContent.open{
 	-webkit-transition: 2s;
