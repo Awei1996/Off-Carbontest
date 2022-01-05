@@ -411,12 +411,6 @@ button{
 
 	}
 	
-	.view4{
-		display: none;
-	}
-	.view4-Mobile{
-		display: block;
-	}
 	.view4-1Mobile{
 		display: block;
 	}
@@ -510,13 +504,6 @@ button{
 		letter-spacing: 12px;
 		text-align: center;
    
-	}
-	
-	.view4{
-		display: none;
-	}
-	.view4-Mobile{
-		display: block;
 	}
 	.view4-1Mobile{
 		display: block;
