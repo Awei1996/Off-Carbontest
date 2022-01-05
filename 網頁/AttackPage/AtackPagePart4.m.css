@@ -117,27 +117,16 @@
 }
 
 .Menu{
-
 	position: absolute;
 	margin-left: 0%;
 	width: 100%;
 	height: 100%;
 	background-color: transparent;
 	outline: none;
-	opacity: 1;
-	
-}
-@keyframes t1{
-	
-	100%{margin-left: -32.19%;}
+	opacity: 1;	
 }
 
-@keyframes t2{
-	
-	0%{margin-left: -32.19%;}
-	100%{margin-left: 0%;}
-}
-.MainMenu-Mobile{
+.MainMenu{
 	position: absolute;
 	margin-left: -0.1%;
 	width: 100%;
@@ -148,7 +137,7 @@
 
 }
 
-.MainMenu-Mobile.open{
+.MainMenu.open{
 	animation: t2;
 	animation-duration: 1.5s;
 	animation-fill-mode: forwards;
@@ -157,7 +146,7 @@
     -ms-transition: 1.5s;
     -o-transition: 1.5s;
 }
-.MainMenu-Mobile.close{
+.MainMenu.close{
 	animation: t1;
 	animation-duration: 1.5s;
 	animation-fill-mode: forwards;
@@ -167,24 +156,18 @@
     -o-transition: 1.5s;
 }
 
+@keyframes t1{
+	
+	100%{margin-left: -32.19%;}
+}
+
+@keyframes t2{
+	
+	0%{margin-left: -32.19%;}
+	100%{margin-left: 0%;}
+}
+
 .Backbutton{
-	position: absolute;
-	z-index: 17;
-	margin-top: 0%;
-	margin-left: 100%;
-	width: 6.45%;
-	opacity: 0;
-}
-
-.Backbutton:hover{
-	-webkit-filter:brightness(1.6);
-}
-
-.Backbutton.open{
-	transition: 1s;
-	opacity: 0.5;
-}
-.Backbutton-Mobile{
 	position: absolute;
 	z-index: 17;
 	margin-top: 0%;
@@ -194,11 +177,11 @@
 	opacity: 0.8;
 }
 
-.Backbutton-Mobile:hover{
+.Backbutton:hover{
 	-webkit-filter:brightness(1.2);
 }
 
-.Backbutton-Mobile.open{
+.Backbutton.open{
 	transition: 1s;
 	opacity: 0.5;
 }
