@@ -16,8 +16,336 @@
 	margin-top: 168%;
 	display: none;
 }
-
 .tube{
+	position: absolute;
+	z-index: 11;
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 1%;
+}
+
+.indoor{
+	position: absolute;
+	z-index: 11;
+	margin-left: 28.125%;
+	margin-top: -1.5%;
+	width: 26.04%;
+	color: #ffffff;
+	font-size: 4rem;
+	font-weight: bold;
+	text-align: center;
+}
+.indoorline{
+	z-index: 11;
+	position: absolute;
+	width: 1%;
+	padding-bottom: 20%;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-top: -32.5%;
+	margin-left: 72.5%;
+}
+.indoorpra{
+	position: absolute;
+	font-size: 2rem;
+	width: 100%;
+	margin-left: 75%;
+	margin-top: -35%;
+	text-align: left;
+	font-weight: normal;
+
+}
+.Longtime{
+	position: absolute;
+	z-index: 12;
+	margin-top: 17.5%;
+	margin-left: 62%;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 2.66rem;
+	
+}
+.LongtimeContent{
+	margin-top: -13.5%;
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+.AfterLongtime{
+	margin-left: 15%;
+	margin-top: 10%;
+	line-height: 0;
+}
+.LongtimeShapeRT{
+	position: absolute;
+	z-index: 13;
+	margin-top: 18%;
+	margin-left: 32%;
+	width: 25%;
+	
+	
+}
+
+.Barchart{
+	position: absolute;
+	z-index: 12;
+	margin-top: 20%;
+	margin-left: 0%;
+	width: 100%;
+	padding-bottom: 35%;
+}
+.Bar350{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 0.7%;
+	padding-bottom: 1.5%;
+	background-color: #1C623F;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Bar350:before{
+	position: absolute;
+	content: "";
+	margin-top: 225%;
+	width: 285%;
+	padding-bottom: 220%;
+	background-color: rgba(28,98,63,0.5);
+	
+}
+.Bar350content{
+	position: absolute;
+	z-index: 12;
+	color: #ffffff;
+	margin-left: 2.5%;
+	margin-top: -2%;
+	line-height: 0.8;
+}
+.Bar350value{
+	margin-left: -20%;
+}
+.Bar1000{
+	position: absolute;
+	margin-top: 4.5%;
+	margin-left: 0%;
+	width: 2%;
+	padding-bottom: 1.5%;
+	background: #518551 0% 0% no-repeat padding-box;
+	opacity: 1;
+	
+}
+.Bar1000:before{
+	position: absolute;
+	content: "";
+	width: 200%;
+	padding-bottom: 75%;
+	background-color: rgba(81,136,81,0.2);
+	
+}
+.Bar1000content{
+	position: absolute;
+	z-index: 12;
+	color: #ffffff;
+	margin-left: 4.5%;
+	margin-top: 2.5%;
+	line-height: 0.8;
+}
+.Bar1000value{
+	margin-left: -15%;
+}
+.Bar2000{
+	position: absolute;
+	margin-top: 9%;
+	margin-left: 0%;
+	width: 4%;
+	padding-bottom: 1.5%;
+	background-color: #8AAD64;
+	opacity: 1;
+}
+.Bar2000:before{
+	position: absolute;
+	content: "";
+	width: 250%;
+	padding-bottom: 37.5%;
+	background-color:#8AAD64;
+	opacity: 0.2;
+	
+}
+.Bar2000content{
+	position: absolute;
+	z-index: 12;
+	color: #ffffff;
+	margin-left: 10.5%;
+	margin-top: 7%;
+	line-height: 0.8;
+	
+}
+.Bar2000value{
+	margin-left: -25%;
+}
+.Bar5000{
+	position: absolute;
+	margin-top: 13.5%;
+	margin-left: 0%;
+	width: 10%;
+	padding-bottom: 1.5%;
+	background: #B9CA70 0% 0% no-repeat padding-box;
+	opacity: 1;
+	
+}
+.Bar5000:before{
+	position: absolute;
+	content: "";
+	width: 200%;
+	padding-bottom: 15%;
+	opacity: 0.2;
+	background-color: #B9CA70;
+	
+}
+.Bar5000content{
+	position: absolute;
+	z-index: 12;
+	color: #ffffff;
+	margin-left: 20.5%;
+	margin-top: 11.5%;
+	line-height: 0.8;
+	
+}
+.Bar5000value{
+	margin-left: -135%;
+}
+
+.Bar10000{
+	position: absolute;
+	margin-top: 18%;
+	margin-left: 0%;
+	width: 20%;
+	padding-bottom: 1.5%;
+	background: #C8B557 0% 0% no-repeat padding-box;
+	opacity: 1;
+	
+}
+
+.Bar10000:before{
+	position: absolute;
+	content: "";
+	width: 200%;
+	padding-bottom: 7.5%;
+	opacity: 0.2;
+	background-color: #C8B557;
+	
+}
+.Bar10000content{
+	position: absolute;
+	z-index: 12;
+	color: #ffffff;
+	margin-left: 40.5%;
+	margin-top: 16%;
+	line-height: 0.8;
+	
+}
+.Bar10000value{
+	margin-left: -75%;
+}
+.Bar10000mark{
+	position: absolute;
+	z-index: 13;
+	margin-top: 3%;
+	height: 10%;
+	margin-left: 160%;
+	font-size: 4rem;
+	transform: rotate(90deg);
+	color: #ffffff;
+	
+}
+
+.Bar70000{
+	position: absolute;
+	margin-top: 22.5%;
+	margin-left: 0%;
+	width: 36%;
+	padding-bottom: 1.5%;
+	background: #D7A23F 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.Bar70000:before{
+	position: absolute;
+	content: "";
+	width: 150%;
+	padding-bottom: 4.5%;
+	opacity: 0.3;
+	background-color: #D7A23F;
+	
+}
+.Bar70000content{
+	position: absolute;
+	z-index: 12;
+	color: #ffffff;
+	margin-left: 54.5%;
+	margin-top: 20.5%;
+	line-height: 0.8;
+	
+}
+.Bar70000value{
+	margin-left: -100%;
+}
+.Bar70000mark{
+	position: absolute;
+	z-index: 13;
+	margin-top: 2%;
+	height: 10%;
+	margin-left: 145%;
+	font-size: 4rem;
+	transform: rotate(90deg);
+	color: #ffffff;
+	
+}
+.Bar100000{
+	position: absolute;
+	margin-top: 27%;
+	margin-left: 0%;
+	width: 54%;
+	padding-bottom: 1.5%;
+	background: #E4912B 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.Bar100000:before{
+	position: absolute;
+	content: "";
+	width: 135%;
+	padding-bottom: 2.75%;
+	opacity: 0.3;
+	background-color: #E4912B;
+	
+}
+.Bar100000content{
+	position: absolute;
+	z-index: 12;
+	color: #ffffff;
+	margin-left: 73.5%;
+	margin-top: 24%;
+	line-height: 1.2;
+	
+}
+.Bar100000value{
+	margin-left: -65%;
+}
+.Bar100000mark{
+	position: absolute;
+	z-index: 13;
+	margin-top: 1%;
+	height: 10%;
+	margin-left: 130%;
+	font-size: 4rem;
+	transform: rotate(90deg);
+	color: #ffffff;
+	
+}
+
+.tube-Mobile{
 	position: absolute;
 	z-index: 11;
 	width: 100%;
@@ -25,7 +353,7 @@
 	margin-top: 5%;
 }
 
-.indoor{
+.indoor-Mobile{
 	position: absolute;
 	z-index: 11;
 	margin-left: 28.125%;
@@ -36,7 +364,7 @@
 	font-weight: bold;
 	text-align: center;
 }
-.indoorline{
+.indoorline-Mobile{
 	z-index: 11;
 	position: absolute;
 	width: 1%;
@@ -46,7 +374,7 @@
 	margin-top: -37.5%;
 	margin-left: 72.5%;
 }
-.indoorpra{
+.indoorpra-Mobile{
 	position: absolute;
 	font-size: 3rem;
 	width: 100%;
@@ -56,7 +384,7 @@
 	font-weight: normal;
 
 }
-.Longtime{
+.Longtime-Mobile{
 	position: absolute;
 	z-index: 11;
 	margin-top: 17.5%;
@@ -66,17 +394,17 @@
 	font-size: 4.5rem;
 	
 }
-.LongtimeContent{
+.LongtimeContent-Mobile{
 	margin-top: -13.5%;
 	font-size: 3rem;
 	line-height: 1.5;
 }
-.AfterLongtime{
+.AfterLongtime-Mobile{
 	margin-left: 20%;
 	margin-top: -12.5%;
 	line-height: 0;
 }
-.LongtimeShapeRT{
+.LongtimeShapeRT-Mobile{
 	position: absolute;
 	z-index: 11;
 	margin-top: 18.5%;
@@ -86,7 +414,7 @@
 }
 
 
-.Bar350{
+.Bar350-Mobile{
 	position: absolute;
 	margin-top: 24%;
 	margin-left: 0%;
@@ -98,7 +426,7 @@
 	align-items: center;
 	justify-content: center;
 }
-.Bar350:before{
+.Bar350-Mobile:before{
 	position: absolute;
 	content: "";
 	margin-top: 440%;
@@ -107,7 +435,7 @@
 	background-color: rgba(28,98,63,0.5);
 	
 }
-.Bar350content{
+.Bar350content-Mobile{
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
@@ -117,11 +445,11 @@
 	padding-bottom: 2%;
 	font-size: 3.5rem;
 }
-.Bar350value{
+.Bar350value-Mobile{
 	margin-left: -20%;
 	margin-top: -7.5%;
 }
-.Bar1000{
+.Bar1000-Mobile{
 	position: absolute;
 	margin-top: 35%;
 	margin-left: 0%;
@@ -131,7 +459,7 @@
 	opacity: 1;
 	
 }
-.Bar1000:before{
+.Bar1000-Mobile:before{
 	position: absolute;
 	content: "";
 	width: 200%;
@@ -139,7 +467,7 @@
 	background-color: rgba(81,136,81,0.2);
 	
 }
-.Bar1000content{
+.Bar1000content-Mobile{
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
@@ -149,11 +477,11 @@
 	line-height: 0.8;
 	font-size: 3.5rem;
 }
-.Bar1000value{
+.Bar1000value-Mobile{
 	margin-left: -15%;
 	margin-top: -5%;
 }
-.Bar2000{
+.Bar2000-Mobile{
 	position: absolute;
 	margin-top: 46%;
 	margin-left: 0%;
@@ -162,7 +490,7 @@
 	background-color: #8AAD64;
 	opacity: 1;
 }
-.Bar2000:before{
+.Bar2000-Mobile:before{
 	position: absolute;
 	content: "";
 	width: 250%;
@@ -171,7 +499,7 @@
 	opacity: 0.2;
 	
 }
-.Bar2000content{
+.Bar2000content-Mobile{
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
@@ -181,12 +509,12 @@
 	line-height: 0.8;
 	font-size: 3.5rem;
 }
-.Bar2000value{
+.Bar2000value-Mobile{
 	margin-left: -15%;
 	margin-top: -5%;
 }
 
-.Bar5000{
+.Bar5000-Mobile{
 	position: absolute;
 	margin-top: 1%;
 	margin-left: 0%;
@@ -196,7 +524,7 @@
 	opacity: 1;
 	
 }
-.Bar5000:before{
+.Bar5000-Mobile:before{
 	position: absolute;
 	content: "";
 	width: 200%;
@@ -205,7 +533,7 @@
 	background-color: #B9CA70;
 	
 }
-.Bar5000content{
+.Bar5000content-Mobile{
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
@@ -215,11 +543,11 @@
 	font-size: 3.5rem;
 	
 }
-.Bar5000value{
+.Bar5000value-Mobile{
 	margin-left: -80%;
 }
 
-.Bar10000{
+.Bar10000-Mobile{
 	position: absolute;
 	margin-top: 12%;
 	margin-left: 0%;
@@ -230,7 +558,7 @@
 	
 }
 
-.Bar10000:before{
+.Bar10000-Mobile:before{
 	position: absolute;
 	content: "";
 	width: 200%;
@@ -239,7 +567,7 @@
 	background-color: #C8B557;
 	
 }
-.Bar10000content{
+.Bar10000content-Mobile{
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
@@ -249,10 +577,10 @@
 	font-size: 3.5rem;
 	
 }
-.Bar10000value{
+.Bar10000value-Mobile{
 	margin-left: -70%;
 }
-.Bar10000mark{
+.Bar10000mark-Mobile{
 	position: absolute;
 	z-index: 13;
 	margin-top: 7.5%;
@@ -265,7 +593,7 @@
 	
 }
 
-.Bar70000{
+.Bar70000-Mobile{
 	position: absolute;
 	margin-top: 23%;
 	margin-left: 0%;
@@ -275,7 +603,7 @@
 	opacity: 1;
 }
 
-.Bar70000:before{
+.Bar70000-Mobile:before{
 	position: absolute;
 	content: "";
 	width: 150%;
@@ -284,7 +612,7 @@
 	background-color: #D7A23F;
 	
 }
-.Bar70000content{
+.Bar70000content-Mobile{
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
@@ -294,10 +622,10 @@
 	font-size: 3.5rem;
 	
 }
-.Bar70000value{
+.Bar70000value-Mobile{
 	margin-left: -75%;
 }
-.Bar70000mark{
+.Bar70000mark-Mobile{
 	position: absolute;
 	z-index: 13;
 	margin-top: 4.5%;
@@ -309,7 +637,7 @@
 	font-weight: lighter;
 	
 }
-.Bar100000{
+.Bar100000-Mobile{
 	position: absolute;
 	margin-top: 34%;
 	margin-left: 0%;
@@ -319,7 +647,7 @@
 	opacity: 1;
 }
 
-.Bar100000:before{
+.Bar100000-Mobile:before{
 	position: absolute;
 	content: "";
 	width: 135%;
@@ -328,7 +656,7 @@
 	background-color: #E4912B;
 	
 }
-.Bar100000content{
+.Bar100000content-Mobile{
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
@@ -338,10 +666,10 @@
 	font-size: 3.5rem;
 	
 }
-.Bar100000value{
+.Bar100000value-Mobile{
 	margin-left: -62.5%;
 }
-.Bar100000mark{
+.Bar100000mark-Mobile{
 	position: absolute;
 	z-index: 13;
 	margin-top: 2.5%;
@@ -395,29 +723,29 @@
 		display: block;
 	}
 	
-	.indoor{
+	.indoor-Mobile{
 		margin-top: 0.8%;
 	}
-	.indoorline{
+	.indoorline-Mobile{
 		margin-top: -42.5%;
 		padding-bottom: 27.5%;
 		margin-left: 75%;
 	}
 	
-	.indoorpra{
+	.indoorpra-Mobile{
 		
 		margin-top: -52.5%;
 	
 	}
-	.Longtime{
+	.Longtime-Mobile{
 		margin-top: 15%;
 		
 	}
-	.AfterLongtime{
+	.AfterLongtime-Mobile{
 		margin-top: -15%;
 		margin-left: 22.5%;
 	}
-	.LongtimeContent{
+	.LongtimeContent-Mobile{
 		margin-top: -13.5%;
 		font-size: 2.8rem;
 		line-height: 1.5;
