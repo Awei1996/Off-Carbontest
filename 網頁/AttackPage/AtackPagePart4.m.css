@@ -224,6 +224,7 @@
 	margin-left: -310%;
 	width: 100%;
 	height: 100%;
+	border: 2px red solid;
 }
 .SpeciesDiversityContent.open{
 	-webkit-transition: 2s;
