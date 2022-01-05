@@ -112,29 +112,10 @@
 	position: absolute;
 	z-index: 6;
 	width: 80%;
-	margin-top: 27.5%;
+	margin-top: 27%;
 	margin-left: 10%;
 }
-.MainMenu{
-	position: absolute;
-	z-index: 17;
-	margin-left: -0.1%;
-	width: 32.19%;
-	margin-top: 0%;
-	padding-bottom: 56%;
-	background-color: transparent;
-	outline: none;
 
-}
-.MainMenu.close{
-	animation: t1;
-	animation-duration: 1.5s;
-	animation-fill-mode: forwards;
-	-webkit-transition: 1.5s;
-    -moz-transition: 1.5s;
-    -ms-transition: 1.5s;
-    -o-transition: 1.5s;
-}
 .Menu{
 
 	position: absolute;
@@ -150,15 +131,7 @@
 	
 	100%{margin-left: -32.19%;}
 }
-.MainMenu.open{
-	animation: t2;
-	animation-duration: 1.5s;
-	animation-fill-mode: forwards;
-	-webkit-transition: 1.5s;
-    -moz-transition: 1.5s;
-    -ms-transition: 1.5s;
-    -o-transition: 1.5s;
-}
+
 @keyframes t2{
 	
 	0%{margin-left: -32.19%;}
@@ -168,15 +141,15 @@
 	position: absolute;
 	margin-left: -0.1%;
 	width: 100%;
-	margin-top: 2.5%;
+	margin-top: 0%;
 	height: 97.5%;
 	background-color: transparent;
 	outline: none;
 
 }
 
-.MainMenu-Mobile.close{
-	animation: t1;
+.MainMenu-Mobile.open{
+	animation: t2;
 	animation-duration: 1.5s;
 	animation-fill-mode: forwards;
 	-webkit-transition: 1.5s;
@@ -184,9 +157,8 @@
     -ms-transition: 1.5s;
     -o-transition: 1.5s;
 }
-
-.MainMenu-Mobile.open{
-	animation: t2;
+.MainMenu-Mobile.close{
+	animation: t1;
 	animation-duration: 1.5s;
 	animation-fill-mode: forwards;
 	-webkit-transition: 1.5s;
