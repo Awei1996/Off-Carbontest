@@ -17,7 +17,7 @@
 	display: block;
 }
 
-.tube-Mobile{
+.tube{
 	position: absolute;
 	z-index: 11;
 	width: 100%;
@@ -25,7 +25,7 @@
 	margin-top: 5%;
 }
 
-.indoor-Mobile{
+.indoor{
 	position: absolute;
 	z-index: 11;
 	margin-left: 28.125%;
@@ -36,9 +36,8 @@
 	font-weight: bold;
 	text-align: center;
 	
-	
 }
-.indoorline-Mobile{
+.indoorline{
 	z-index: 11;
 	position: absolute;
 	width: 1%;
@@ -48,7 +47,7 @@
 	margin-top: -37.5%;
 	margin-left: 72.5%;
 }
-.indoorpra-Mobile{
+.indoorpra{
 	position: absolute;
 	font-size: 3rem;
 	width: 100%;
@@ -58,7 +57,7 @@
 	font-weight: normal;
 
 }
-.Longtime-Mobile{
+.Longtime{
 	position: absolute;
 	z-index: 11;
 	margin-top: 17.5%;
@@ -68,17 +67,17 @@
 	font-size: 4.5rem;
 	
 }
-.LongtimeContent-Mobile{
+.LongtimeContent{
 	margin-top: -13.5%;
 	font-size: 3rem;
 	line-height: 1.5;
 }
-.AfterLongtime-Mobile{
+.AfterLongtime{
 	margin-left: 20%;
 	margin-top: -12.5%;
 	line-height: 0;
 }
-.LongtimeShapeRT-Mobile{
+.LongtimeShapeRT{
 	position: absolute;
 	z-index: 11;
 	margin-top: 18.5%;
@@ -88,7 +87,7 @@
 }
 
 
-.Bar350-Mobile{
+.Bar350{
 	position: absolute;
 	margin-top: 24%;
 	margin-left: 0%;
@@ -100,7 +99,7 @@
 	align-items: center;
 	justify-content: center;
 }
-.Bar350-Mobile:before{
+.Bar350:before{
 	position: absolute;
 	content: "";
 	margin-top: 440%;
@@ -109,7 +108,7 @@
 	background-color: rgba(28,98,63,0.5);
 	
 }
-.Bar350content-Mobile{
+.Bar350content{
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
@@ -119,11 +118,13 @@
 	padding-bottom: 2%;
 	font-size: 3.5rem;
 }
-.Bar350value-Mobile{
+
+.Bar350value{
 	margin-left: -20%;
 	margin-top: -7.5%;
 }
-.Bar1000-Mobile{
+
+.Bar1000{
 	position: absolute;
 	margin-top: 35%;
 	margin-left: 0%;
@@ -133,7 +134,7 @@
 	opacity: 1;
 	
 }
-.Bar1000-Mobile:before{
+.Bar1000:before{
 	position: absolute;
 	content: "";
 	width: 200%;
@@ -141,7 +142,7 @@
 	background-color: rgba(81,136,81,0.2);
 	
 }
-.Bar1000content-Mobile{
+.Bar1000content{
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
@@ -151,11 +152,11 @@
 	line-height: 0.8;
 	font-size: 3.5rem;
 }
-.Bar1000value-Mobile{
+.Bar1000value{
 	margin-left: -15%;
 	margin-top: -5%;
 }
-.Bar2000-Mobile{
+.Bar2000{
 	position: absolute;
 	margin-top: 46%;
 	margin-left: 0%;
@@ -164,7 +165,7 @@
 	background-color: #8AAD64;
 	opacity: 1;
 }
-.Bar2000-Mobile:before{
+.Bar2000:before{
 	position: absolute;
 	content: "";
 	width: 250%;
@@ -173,7 +174,7 @@
 	opacity: 0.2;
 	
 }
-.Bar2000content-Mobile{
+.Bar2000content{
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
@@ -183,12 +184,12 @@
 	line-height: 0.8;
 	font-size: 3.5rem;
 }
-.Bar2000value-Mobile{
+.Bar2000value{
 	margin-left: -15%;
 	margin-top: -5%;
 }
 
-.Bar5000-Mobile{
+.Bar5000{
 	position: absolute;
 	margin-top: 57%;
 	margin-left: 0%;
@@ -198,7 +199,7 @@
 	opacity: 1;
 	
 }
-.Bar5000-Mobile:before{
+.Bar5000:before{
 	position: absolute;
 	content: "";
 	width: 200%;
@@ -207,7 +208,7 @@
 	background-color: #B9CA70;
 	
 }
-.Bar5000content-Mobile{
+.Bar5000content{
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
@@ -217,11 +218,11 @@
 	font-size: 3.5rem;
 	
 }
-.Bar5000value-Mobile{
+.Bar5000value{
 	margin-left: -80%;
 }
 
-.Bar10000-Mobile{
+.Bar10000{
 	position: absolute;
 	margin-top: 68%;
 	margin-left: 0%;
@@ -232,7 +233,7 @@
 	
 }
 
-.Bar10000-Mobile:before{
+.Bar10000:before{
 	position: absolute;
 	content: "";
 	width: 200%;
@@ -241,7 +242,7 @@
 	background-color: #C8B557;
 	
 }
-.Bar10000content-Mobile{
+.Bar10000content{
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
@@ -251,10 +252,10 @@
 	font-size: 3.5rem;
 	
 }
-.Bar10000value-Mobile{
+.Bar10000value{
 	margin-left: -70%;
 }
-.Bar10000mark-Mobile{
+.Bar10000mark{
 	position: absolute;
 	z-index: 13;
 	margin-top: 7.5%;
@@ -267,7 +268,7 @@
 	
 }
 
-.Bar70000-Mobile{
+.Bar70000{
 	position: absolute;
 	margin-top: 79%;
 	margin-left: 0%;
@@ -277,7 +278,7 @@
 	opacity: 1;
 }
 
-.Bar70000-Mobile:before{
+.Bar70000:before{
 	position: absolute;
 	content: "";
 	width: 150%;
@@ -286,7 +287,7 @@
 	background-color: #D7A23F;
 	
 }
-.Bar70000content-Mobile{
+.Bar70000content{
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
@@ -296,10 +297,10 @@
 	font-size: 3.5rem;
 	
 }
-.Bar70000value-Mobile{
+.Bar70000value{
 	margin-left: -75%;
 }
-.Bar70000mark-Mobile{
+.Bar70000mark{
 	position: absolute;
 	z-index: 13;
 	margin-top: 4.5%;
@@ -311,7 +312,7 @@
 	font-weight: lighter;
 	
 }
-.Bar100000-Mobile{
+.Bar100000{
 	position: absolute;
 	margin-top: 90%;
 	margin-left: 0%;
@@ -321,7 +322,7 @@
 	opacity: 1;
 }
 
-.Bar100000-Mobile:before{
+.Bar100000:before{
 	position: absolute;
 	content: "";
 	width: 135%;
@@ -330,7 +331,7 @@
 	background-color: #E4912B;
 	
 }
-.Bar100000content-Mobile{
+.Bar100000content{
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
@@ -340,10 +341,10 @@
 	font-size: 3.5rem;
 	
 }
-.Bar100000value-Mobile{
+.Bar100000value{
 	margin-left: -62.5%;
 }
-.Bar100000mark-Mobile{
+.Bar100000mark{
 	position: absolute;
 	z-index: 13;
 	margin-top: 2.5%;
@@ -390,29 +391,29 @@
 
 @media (min-device-width: 376px) and (max-device-width: 600px){
 	
-	.indoor-Mobile{
+	.indoor{
 		margin-top: 0.8%;
 	}
-	.indoorline-Mobile{
+	.indoorline{
 		margin-top: -42.5%;
 		padding-bottom: 27.5%;
 		margin-left: 75%;
 	}
 	
-	.indoorpra-Mobile{
+	.indoorpra{
 		
 		margin-top: -52.5%;
 	
 	}
-	.Longtime-Mobile{
+	.Longtime{
 		margin-top: 15%;
 		
 	}
-	.AfterLongtime-Mobile{
+	.AfterLongtime{
 		margin-top: -15%;
 		margin-left: 22.5%;
 	}
-	.LongtimeContent-Mobile{
+	.LongtimeContent{
 		margin-top: -13.5%;
 		font-size: 2.8rem;
 		line-height: 1.5;
