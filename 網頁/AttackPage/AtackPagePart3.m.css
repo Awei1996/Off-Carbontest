@@ -24,37 +24,6 @@
 	margin-top: 1%;
 }
 
-.indoor{
-	position: absolute;
-	z-index: 11;
-	margin-left: 28.125%;
-	margin-top: -1.5%;
-	width: 26.04%;
-	color: #ffffff;
-	font-size: 4rem;
-	font-weight: bold;
-	text-align: center;
-}
-.indoorline{
-	z-index: 11;
-	position: absolute;
-	width: 1%;
-	padding-bottom: 20%;
-	border-radius: 5px;
-	background-color: #fff;
-	margin-top: -32.5%;
-	margin-left: 72.5%;
-}
-.indoorpra{
-	position: absolute;
-	font-size: 2rem;
-	width: 100%;
-	margin-left: 75%;
-	margin-top: -35%;
-	text-align: left;
-	font-weight: normal;
-
-}
 .Longtime{
 	position: absolute;
 	z-index: 12;
@@ -112,6 +81,8 @@
 	font-size: 4.5rem;
 	font-weight: bold;
 	text-align: center;
+	
+	
 }
 .indoorline-Mobile{
 	z-index: 11;
