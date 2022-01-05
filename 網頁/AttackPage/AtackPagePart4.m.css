@@ -158,12 +158,12 @@
 
 @keyframes t1{
 	
-	100%{margin-left: -32.19%;}
+	100%{margin-left: -100%;}
 }
 
 @keyframes t2{
 	
-	0%{margin-left: -32.19%;}
+	0%{margin-left: -100%;}
 	100%{margin-left: 0%;}
 }
 
