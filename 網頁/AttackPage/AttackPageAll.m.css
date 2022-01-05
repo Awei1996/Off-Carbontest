@@ -108,7 +108,7 @@ button{
 
 }
 
-.view4-1Mobile{
+.view4-1{
 	font-family: Gen Jyuu Gothic ;
 	position: absolute;
 	z-index: 7;
@@ -119,7 +119,7 @@ button{
 	background-color: transparent;
 	font-size: 1.33rem;
 	overflow: hidden;
-	display: none;
+	display: block;
 }
 .view5{
 	font-family: Gen Jyuu Gothic ;
@@ -411,9 +411,7 @@ button{
 
 	}
 	
-	.view4-1Mobile{
-		display: block;
-	}
+	
 	.view5{
 		display: none;
 	}
@@ -505,9 +503,7 @@ button{
 		text-align: center;
    
 	}
-	.view4-1Mobile{
-		display: block;
-	}
+	
 	.view5{
 		display: none;
 	}
