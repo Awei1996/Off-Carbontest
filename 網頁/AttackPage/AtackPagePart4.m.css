@@ -108,6 +108,13 @@
 	line-height: 0;
 
 }
+.Steam{
+	position: absolute;
+	z-index: 6;
+	width: 80%;
+	margin-top: 27.5%;
+	margin-left: 10%;
+}
 .MainMenu{
 	position: absolute;
 	z-index: 17;
@@ -4349,13 +4356,7 @@
 }
 
 
-.Steam{
-	position: absolute;
-	z-index: 6;
-	width: 80%;
-	margin-top: 27.5%;
-	margin-left: 10%;
-}
+
 
 
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
