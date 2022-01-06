@@ -345,7 +345,7 @@
 .SDCpart1Title{
 	position: absolute;
 	z-index: 19;
-	margin-top: 40%;
+	margin-top: 40.5%;
 	font-size: 3rem;
 	width: 58.59%;
 	background-color: #1E3239;
@@ -366,7 +366,7 @@
 }
 
 .SDCpart1Title.close{
-	margin-top: 37.5%;
+	margin-top: 40.5%;
 	width: 58.59%;
     transition: 1s;
 	background-color: #1E3239;
