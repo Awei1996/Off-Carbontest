@@ -320,6 +320,8 @@
     -o-transition: 0.5s;
     transition: 0.5s;
 	margin-top: 16%;
+	width: 78.04%;
+	padding-bottom: 44.8%;
 	opacity: 1;	
 	background-image: url(../../Animation/WorldDamage/紅樹林.gif);
 	-webkit-background-size: contain;
