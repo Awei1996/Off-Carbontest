@@ -319,7 +319,7 @@
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-	margin-top: 16%;
+	margin-top: 15%;
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;	
@@ -374,10 +374,9 @@
 .SDCpart2{
 	position: absolute;
 	z-index: 17;
-	margin-top: 8.5%;
-	margin-left: 50.89%;
-	width: 39.06%;
-	padding-bottom: 22.4%;
+	margin-top: 40%;
+	width: 58.59%;
+	padding-bottom: 33.6%;
 	background-color: #0e262f;
 	border-radius: 2.67%;
 	color: #ffffff;
@@ -400,8 +399,9 @@
     -ms-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
-	margin-top: 16%;
-	margin-left: 10.42%;
+	margin-top: 15%;
+	width: 78.04%;
+	padding-bottom: 44.8%;
 	opacity: 1;
 	background-image: url(../../Animation/WorldDamage/大堡礁.gif);
 	-webkit-background-size: contain;
@@ -417,7 +417,9 @@
     -ms-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
-	margin-top: 8.5%;
+	margin-top: 40%;
+	width: 58.59%;
+	padding-bottom: 33.6%;
 	opacity: 1;	
 }
 
