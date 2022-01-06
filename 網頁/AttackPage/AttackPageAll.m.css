@@ -119,6 +119,7 @@ button{
 	font-size: 1.33rem;
 	overflow: hidden;
 	display: block;
+	border: 2px solid red;
 }
 .view5{
 	font-family: Gen Jyuu Gothic ;
