@@ -52,8 +52,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 	var SDCpart4Control = document.getElementsByClassName('SDCpart4')[0];
 	var SDCpart4TitleControl = document.getElementsByClassName('SDCpart4Title')[0];
 	var SDCpart4ContenttextControl = document.getElementsByClassName('SDCpart4Contenttext')[0];
-	scrollTo(document.getElementById('Menu'));
-	
+	location.href = "#Menu";
 
 
 	if(this.value === 'close') 
