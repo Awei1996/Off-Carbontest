@@ -456,7 +456,7 @@
 .SDCpart3{
 	position: absolute;
 	z-index: 17;
-	margin-top: 92.5%;
+	margin-top: 102.5%;
 	width: 58.59%;
 	padding-bottom: 33.6%;
 	background-color: #0e262f;
@@ -497,14 +497,14 @@
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-	margin-top: 92.5%;
+	margin-top: 102.5%;
 	opacity: 1;	
 }
 
 .SDCpart3Title{
 	position: absolute;
 	z-index: 19;
-	margin-top: 105.5%;
+	margin-top: 115.5%;
 	width: 58.59%;
 	font-size: 3rem;
 	background-color: #1E3239;
@@ -525,7 +525,7 @@
 
 .SDCpart3Title.close{
 	transition: 1s;
-	margin-top: 105.5%;
+	margin-top: 115.5%;
 	width: 58.59%;
 	background-color: #1E3239;
 }
