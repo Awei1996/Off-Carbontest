@@ -612,19 +612,6 @@
 	width: 39.06%;
 	background-color: #1E3239;
 }
-.SDCContent.open{
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	height: 100%;
-	background-color: #1E3239;
-	opacity: 0.99;
-	display: flex;
-	
-	color: #ffffff;
-	
-}
 .SDCContent{
 	position: absolute;
 	z-index: -1;
@@ -638,6 +625,19 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
+}
+.SDCContent.open{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: #1E3239;
+	opacity: 0.99;
+	display: flex;
+	
+	color: #ffffff;
+	
 }
 .SDCpart1Contenttext{
 	position: absolute;
