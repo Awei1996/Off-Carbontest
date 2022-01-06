@@ -284,7 +284,7 @@
 .SDCSub{
 	position: absolute;
 	z-index: 17;
-	margin-top: 14%;
+	margin-top: 15%;
 	color: #E98C24;
 	font-size: 3rem;
 	font-weight: normal;
@@ -355,20 +355,18 @@
     transition: 1s;
 	width: 100%;
 	margin-left: 0%;
-	font-size: 2.35rem;
-	margin-top: 4.5%;
+	font-size: 4rem;
+	margin-top: 5%;
 	color: #E98C24;
 	background-color: transparent;
 }
 
 .SDCpart1Title.close{
-	width: 39.06%;
-	margin-top: 17.5%;
-	margin-left: 10.42%;
+	margin-top: 37.5%;
+	width: 58.59%;
     transition: 1s;
 	background-color: #1E3239;
 }
-
 .SDCpart2{
 	position: absolute;
 	z-index: 17;
