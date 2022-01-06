@@ -374,7 +374,7 @@
 .SDCpart2{
 	position: absolute;
 	z-index: 17;
-	margin-top: 47.5%;
+	margin-top: 60%;
 	width: 58.59%;
 	padding-bottom: 33.6%;
 	background-color: #0e262f;
@@ -417,7 +417,7 @@
     -ms-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
-	margin-top: 47.5%;
+	margin-top: 60%;
 	width: 58.59%;
 	padding-bottom: 33.6%;
 	opacity: 1;	
