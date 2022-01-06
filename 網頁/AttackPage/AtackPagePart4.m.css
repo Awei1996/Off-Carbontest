@@ -426,10 +426,9 @@
 .SDCpart2Title{
 	position: absolute;
 	z-index: 19;
-	margin-top: 17.5%;
-	margin-left: 50.89%;
-	font-size: 1.66rem;
-	width: 39.06%;
+	margin-top: 78.5%;
+	font-size: 3rem;
+	width: 58.59%;
 	background-color: #1E3239;
 	color: #fff;
 	display: flex;
@@ -440,15 +439,15 @@
     transition: 1s;
 	width: 100%;
 	margin-left: 0%;
-	font-size: 2.35rem;
-	margin-top: 4.5%;
+	font-size: 5rem;
+	margin-top: 5%;
 	color: #E98C24;
 	background-color: transparent;
 }
 
 .SDCpart2Title.close{
-	margin-top: 17.5%;
-	margin-left: 50.89%;
+	margin-top: 78.5%;
+	font-size: 3rem;
 	width: 39.06%;
     transition: 1s;
 	background-color: #1E3239;
