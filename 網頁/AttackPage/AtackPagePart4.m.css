@@ -172,7 +172,7 @@
 	z-index: 17;
 	margin-top: 0%;
 	margin-left: 100%;
-	width: 6.45%;
+	width: 6.5%;
 	height: 100%;
 	opacity: 0.8;
 }
@@ -615,7 +615,7 @@
 	width: 0%;
 	background-color: transparent;
 	color: transparent;
-	font-size: 2.2rem;
+	font-size: 3rem;
 	opacity: 0;
 	display: flex;
 	align-items: center;
@@ -636,11 +636,11 @@
 }
 .SDCpart1Contenttext{
 	position: absolute;
-	margin-top: 35%;
+	margin-top: 30%;
 	margin-left: 5%;
 	width: 90%;
 	background-color: transparent;
-	font-size: 3rem;
+	font-size: 4rem;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
