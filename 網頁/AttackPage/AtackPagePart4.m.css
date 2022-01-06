@@ -641,6 +641,7 @@
 	background-color: transparent;
 	font-size: 4rem;
 	display: flex;
+	align-items: flex-start;
 	justify-content: flex-start;
 	line-height: 1.8;
 	opacity: 0;
