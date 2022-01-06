@@ -532,10 +532,9 @@
 .SDCpart4{
 	position: absolute;
 	z-index: 17;
-	margin-top: 32.5%;
-	margin-left: 50.89%;
-	width: 39.06%;
-	padding-bottom: 22.4%;
+	margin-top: 140%;
+	width: 58.59%;
+	padding-bottom: 33.6%;
 	background-color: #0e262f;
 	border-radius: 2.67%;
 	color: #ffffff;
@@ -558,8 +557,7 @@
     -ms-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
-	margin-top: 16%;
-	margin-left: 10.42%;
+	margin-top: 15%;
 	opacity: 1;	
 	background-image: url(../../Animation/WorldDamage/高山物種滅絕.gif);
 	-webkit-background-size: contain;
@@ -575,17 +573,18 @@
     -ms-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
-	margin-top: 32.5%;
+	margin-top: 140%;
+	width: 58.59%;
+	padding-bottom: 33.6%;
 	opacity: 1;	
 }
 
 .SDCpart4Title{
 	position: absolute;
 	z-index: 19;
-	margin-top: 41.5%;
-	margin-left: 50.89%;
-	font-size: 1.66rem;
-	width: 39.06%;
+	margin-top: 153%;
+	font-size: 3rem;
+	width: 58.59%;
 	background-color: #1E3239;
 	color: #fff;
 	display: flex;
@@ -596,16 +595,16 @@
     transition: 1s;
 	width: 100%;
 	margin-left: 0%;
-	font-size: 2.35rem;
-	margin-top: 4.5%;
+	font-size: 5rem;
+	margin-top: 5%;
 	color: #E98C24;
 	background-color: transparent;
 }
 
 .SDCpart4Title.close{
 	transition: 1s;
-	margin-top: 41.5%;
-	margin-left: 50.89%;
+	margin-top: 153%;
+	width: 58.59%;
 	width: 39.06%;
 	background-color: #1E3239;
 }
