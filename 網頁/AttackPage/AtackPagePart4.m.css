@@ -211,7 +211,7 @@
 .SpeciesDiversityContent{
 	position: absolute;
 	z-index: -2;
-	margin-top: -20%;
+	margin-top: -19.75%;
 	margin-left: -100%;
 	width: 100%;
 	height: 100%;
@@ -715,7 +715,7 @@
 .OceanAcidificationContent{
 	position: absolute;
 	z-index: -2;
-	margin-top: -40%;
+	margin-top: -39.75%;
 	margin-left: -100%;
 	width: 100%;
 	height: 100%;
@@ -1084,7 +1084,7 @@
 	position: absolute;
 	z-index: 19;
 	margin-top: 148%;
-	font-size: 3rem;
+	font-size: 2.8rem;
 	width: 58.59%;
 	background-color: #1E3239;
 	color: #fff;
@@ -1096,7 +1096,7 @@
     transition: 1s;
 	width: 100%;
 	margin-left: 0%;
-	font-size: 5rem;
+	font-size: 4.5rem;
 	margin-top: 5%;
 	color: #E98C24;
 	background-color: transparent;
@@ -1222,7 +1222,7 @@
 .MeltingIceContent{
 	position: absolute;
 	z-index: -2;
-	margin-top: -60%;
+	margin-top: -59.75%;
 	margin-left: -100%;
 	width: 100%;
 	height: 100%;
