@@ -1633,6 +1633,8 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 	var DSCpart4Control = document.getElementsByClassName('DSCpart4')[0];
 	var DSCpart4TitleControl = document.getElementsByClassName('DSCpart4Title')[0];
 	var DSCpart4ContenttextControl = document.getElementsByClassName('DSCpart4Contenttext')[0];
+	location.href = "#Menu";
+
 
 	if(this.value === 'close') 
 	{ 
@@ -1647,6 +1649,7 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 		DisasterControl.classList.remove('close');
 		DSCBGControl.classList.add('open');
 		BbtnControl.classList.add('open');
+		
 		
 		DSCpart1ContenttextControl.style.opacity = 0;
 		DSCpart2ContenttextControl.style.opacity = 0;
@@ -1669,7 +1672,6 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 			DSCpart1Control.style.zIndex = 19;
 			DSCpart1TitleControl.style.zIndex = 19;
 			DSCpart1ContenttextControl.style.zIndex = 19;
-			DSCContentControl.style.opacity = 0.99;
 			DSCpart2Control.style.zIndex = 16;
 			DSCpart2TitleControl.style.zIndex = 16;
 			DSCpart2ContenttextControl.style.zIndex = 16;
@@ -1706,7 +1708,6 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 			DSCpart1Control.style.zIndex = 16;
 			DSCpart1TitleControl.style.zIndex = 16;
 			DSCpart1ContenttextControl.style.zIndex = 16;
-			DSCContentControl.style.opacity = 0.99;
 			DSCpart2Control.style.zIndex = 19;
 			DSCpart2TitleControl.style.zIndex = 19;
 			DSCpart2ContenttextControl.style.zIndex = 19;
@@ -1743,7 +1744,6 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 			DSCpart1Control.style.zIndex = 16;
 			DSCpart1TitleControl.style.zIndex = 16;
 			DSCpart1ContenttextControl.style.zIndex = 16;
-			DSCContentControl.style.opacity = 0.99;
 			DSCpart2Control.style.zIndex = 16;
 			DSCpart2TitleControl.style.zIndex = 16;
 			DSCpart2ContenttextControl.style.zIndex = 16;
@@ -1780,7 +1780,6 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 			DSCpart1Control.style.zIndex = 16;
 			DSCpart1TitleControl.style.zIndex = 16;
 			DSCpart1ContenttextControl.style.zIndex = 16;
-			DSCContentControl.style.opacity = 0.99;
 			DSCpart2Control.style.zIndex = 16;
 			DSCpart2TitleControl.style.zIndex = 16;
 			DSCpart2ContenttextControl.style.zIndex = 16;
