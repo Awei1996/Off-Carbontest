@@ -480,6 +480,7 @@
     transition: 1s;
 	margin-top: 17.5%;
 	width: 78.04%;
+	padding-bottom: 44.8%;
 	opacity: 1;
 	background-image: url(../../Animation/WorldDamage/鯊魚鮪魚.gif);
 	-webkit-background-size: contain;
@@ -559,6 +560,7 @@
     transition: 1s;
 	margin-top: 16%;
 	width: 78.04%;
+	padding-bottom: 44.8%;
 	opacity: 1;	
 	background-image: url(../../Animation/WorldDamage/高山物種滅絕.gif);
 	-webkit-background-size: contain;
@@ -635,9 +637,9 @@
 }
 .SDCpart1Contenttext{
 	position: absolute;
-	margin-top: 70%;
+	margin-top: 65%;
 	margin-left: 5%;
-	width: 80%;
+	width: 90%;
 	background-color: transparent;
 	font-size: 4.5rem;
 	display: flex;
@@ -653,11 +655,11 @@
 
 .SDCpart2Contenttext{
 	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
+	margin-top: 65%;
+	margin-left: 5%;
+	width: 90%;
 	background-color: transparent;
-	font-size: 2.2rem;
+	font-size: 4.5rem;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
@@ -672,11 +674,11 @@
 
 .SDCpart3Contenttext{
 	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
+	margin-top: 65%;
+	margin-left: 5%;
+	width: 90%;
 	background-color: transparent;
-	font-size: 2.2rem;
+	font-size: 4.5rem;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
@@ -689,11 +691,11 @@
 
 .SDCpart4Contenttext{
 	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
+	margin-top: 65%;
+	margin-left: 5%;
+	width: 90%;
 	background-color: transparent;
-	font-size: 2.2rem;
+	font-size: 4.5rem;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
