@@ -27,66 +27,58 @@
 
 .OACBA{
 	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
+	margin-top: 150%;
+	width:10%;	
 	opacity: 0;
 }
 
 .MICBA{
 	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
+	margin-top: 150%;
+	width:10%;	
 	opacity: 0;
 }
 
 .FFCBA{
 	position: absolute;
 	z-index: 20;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
+	margin-top: 150%;
+	width:10%;	
 	opacity: 0;
 }
 .HWCBA{
 	position: absolute;
 	z-index: 20;;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
+	margin-top: 150%;
+	width:10%;	
 	opacity: 0;
 }
 
 .ECCBA{
 	position: absolute;
 	z-index: 20;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
+	margin-top: 150%;
+	width:10%;		
 	opacity: 0;
 }
 .DSCBA{
 	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
+	margin-top: 150%;
+	width:10%;		
 	opacity: 0;
 }
 
 .FSCBA{
 	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
+	margin-top: 150%;
+	width:10%;		
 	opacity: 0;
 }
 
 .ESCBA{
 	position: absolute;
-	margin-left: 93%;
-	margin-top: 10%;
-	width:4.79%;	
+	margin-top: 150%;
+	width:10%;		
 	opacity: 0;
 }
 
