@@ -4341,4 +4341,7 @@
 	.bg4-2Mobile{
 		display: block;
 	}
+	.SDCContent{
+		font-size: 5rem;
+	}
 }
