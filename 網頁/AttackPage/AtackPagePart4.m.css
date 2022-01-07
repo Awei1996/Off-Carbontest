@@ -798,7 +798,7 @@
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url( ../../Animation/WorldDamage/封面/RedForest.png);
+	background-image: url( "../../Animation/WorldDamage/封面/Formula.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -806,7 +806,7 @@
 }
 .OACpart1:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url(../../Animation/WorldDamage/紅樹林.gif);
+	background-image: url( "../../Animation/WorldDamage/公式.gif");
 
 }
 
@@ -820,7 +820,7 @@
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;	
-	background-image: url(../../Animation/WorldDamage/紅樹林.gif);
+	background-image: url( "../../Animation/WorldDamage/公式.gif");
 	-webkit-background-size: contain;
 
 }
@@ -878,7 +878,7 @@
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url(../../Animation/WorldDamage/封面/GreatReef.png);
+	background-image: url("../../Animation/WorldDamage/封面/Surge.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -887,7 +887,7 @@
 }
 .OACpart2:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url(../../Animation/WorldDamage/大堡礁.gif);
+	background-image: url("../../Animation/WorldDamage/湧升流.gif");
 
 }
 .OACpart2.open{
@@ -900,7 +900,7 @@
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;
-	background-image: url(../../Animation/WorldDamage/大堡礁.gif);
+	background-image: url("../../Animation/WorldDamage/湧升流.gif");
 	-webkit-background-size: contain;
 
 }
@@ -960,7 +960,7 @@
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url(../../Animation/WorldDamage/封面/Shark.png);
+	background-image: url("../../Animation/WorldDamage/封面/Ph7-8.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -968,8 +968,7 @@
 }
 .OACpart3:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url(../../Animation/WorldDamage/鯊魚鮪魚.gif);
-
+	background-image: url( "../../Animation/WorldDamage/ph7-8.gif");
 }
 .OACpart3.open{
 	-webkit-transition: 2s;
@@ -981,7 +980,7 @@
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;
-	background-image: url(../../Animation/WorldDamage/鯊魚鮪魚.gif);
+	background-image: url( "../../Animation/WorldDamage/ph7-8.gif");
 	-webkit-background-size: contain;
 
 }
@@ -1039,7 +1038,7 @@
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url(../../Animation/WorldDamage/封面/Mountain.png);
+	background-image: url("../../Animation/WorldDamage/封面/MapFish.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1047,7 +1046,7 @@
 }
 .OACpart4:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url(../../Animation/WorldDamage/高山物種滅絕.gif);
+	background-image: url("../../Animation/WorldDamage/地圖魚.gif");
 
 }
 
@@ -1061,7 +1060,7 @@
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;	
-	background-image: url(../../Animation/WorldDamage/高山物種滅絕.gif);
+	background-image: url("../../Animation/WorldDamage/地圖魚.gif");
 	-webkit-background-size: contain;
 
 }
