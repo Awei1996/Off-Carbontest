@@ -339,6 +339,7 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 	var OACpart4Control = document.getElementsByClassName('OACpart4')[0];
 	var OACpart4TitleControl = document.getElementsByClassName('OACpart4Title')[0];
 	var OACpart4ContenttextControl = document.getElementsByClassName('OACpart4Contenttext')[0];
+	location.href = "#Menu";
 
 	if(this.value === 'close') 
 	{ 
