@@ -177,7 +177,7 @@
 }
 
 .Backbutton:hover{
-	-webkit-filter:brightness(1.2);
+	-webkit-filter:brightness(1.4);
 }
 
 .Backbutton.open{
