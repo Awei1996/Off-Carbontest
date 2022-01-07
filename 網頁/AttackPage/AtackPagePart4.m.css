@@ -217,7 +217,7 @@
 	height: 100%;
 	display: flex;
 	justify-content: center;
-	border: 2px solid red;
+	border: 20px solid red;
 }
 .SpeciesDiversityContent.open{
 	-webkit-transition: 2s;
