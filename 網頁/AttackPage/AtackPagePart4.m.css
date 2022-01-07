@@ -292,7 +292,7 @@
 	overflow: visible;
 	position: absolute;
 	z-index: 17;
-	margin-top: 25%;
+	margin-top: 22.5%;
 	width: 58.59%;
 	padding-bottom: 33.6%;
 	background-color: #0e262f;
@@ -334,7 +334,7 @@
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-	margin-top: 25%;
+	margin-top: 22.5%;
 	width: 58.59%;
 	padding-bottom: 33.6%;
 	opacity: 1;	
@@ -343,7 +343,7 @@
 .SDCpart1Title{
 	position: absolute;
 	z-index: 19;
-	margin-top: 40.5%;
+	margin-top: 35.5%;
 	font-size: 3rem;
 	width: 58.59%;
 	background-color: #1E3239;
@@ -364,7 +364,7 @@
 }
 
 .SDCpart1Title.close{
-	margin-top: 40.5%;
+	margin-top: 35.5%;
 	width: 58.59%;
     transition: 1s;
 	background-color: #1E3239;
@@ -372,7 +372,7 @@
 .SDCpart2{
 	position: absolute;
 	z-index: 17;
-	margin-top: 65%;
+	margin-top: 60%;
 	width: 58.59%;
 	padding-bottom: 33.6%;
 	background-color: #0e262f;
@@ -415,7 +415,7 @@
     -ms-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
-	margin-top: 65%;
+	margin-top: 60%;
 	width: 58.59%;
 	padding-bottom: 33.6%;
 	opacity: 1;	
@@ -424,7 +424,7 @@
 .SDCpart2Title{
 	position: absolute;
 	z-index: 19;
-	margin-top: 78.5%;
+	margin-top: 73.5%;
 	font-size: 3rem;
 	width: 58.59%;
 	background-color: #1E3239;
@@ -444,7 +444,7 @@
 }
 
 .SDCpart2Title.close{
-	margin-top: 78.5%;
+	margin-top: 73.5%;
 	font-size: 3rem;
 	width: 58.59%;
     transition: 1s;
@@ -454,7 +454,7 @@
 .SDCpart3{
 	position: absolute;
 	z-index: 17;
-	margin-top: 102.5%;
+	margin-top: 97.5%;
 	width: 58.59%;
 	padding-bottom: 33.6%;
 	background-color: #0e262f;
@@ -495,14 +495,14 @@
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-	margin-top: 102.5%;
+	margin-top: 97.5%;
 	opacity: 1;	
 }
 
 .SDCpart3Title{
 	position: absolute;
 	z-index: 19;
-	margin-top: 115.5%;
+	margin-top: 110.5%;
 	width: 58.59%;
 	font-size: 3rem;
 	background-color: #1E3239;
@@ -523,7 +523,7 @@
 
 .SDCpart3Title.close{
 	transition: 1s;
-	margin-top: 115.5%;
+	margin-top: 110.5%;
 	width: 58.59%;
 	background-color: #1E3239;
 }
@@ -531,7 +531,7 @@
 .SDCpart4{
 	position: absolute;
 	z-index: 17;
-	margin-top: 140%;
+	margin-top: 135%;
 	width: 58.59%;
 	padding-bottom: 33.6%;
 	background-color: #0e262f;
@@ -572,7 +572,7 @@
     -ms-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
-	margin-top: 140%;
+	margin-top: 135%;
 	width: 58.59%;
 	padding-bottom: 33.6%;
 	opacity: 1;	
@@ -581,7 +581,7 @@
 .SDCpart4Title{
 	position: absolute;
 	z-index: 19;
-	margin-top: 153%;
+	margin-top: 148%;
 	font-size: 3rem;
 	width: 58.59%;
 	background-color: #1E3239;
@@ -602,7 +602,7 @@
 
 .SDCpart4Title.close{
 	transition: 1s;
-	margin-top: 153%;
+	margin-top: 148%;
 	width: 58.59%;
 	background-color: #1E3239;
 }
