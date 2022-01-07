@@ -267,7 +267,7 @@
 .SDCMain{
 	position: absolute;
 	z-index: 17;
-	margin-top: 5%;
+	margin-top: 4%;
 	color: #ffffff;
 	font-size: 6rem;
 	border: solid 3px #FFFFFF;
@@ -282,7 +282,7 @@
 .SDCSub{
 	position: absolute;
 	z-index: 17;
-	margin-top: 15%;
+	margin-top: 14%;
 	color: #E98C24;
 	font-size: 3rem;
 	font-weight: normal;
@@ -292,7 +292,7 @@
 	overflow: visible;
 	position: absolute;
 	z-index: 17;
-	margin-top: 27.5%;
+	margin-top: 25%;
 	width: 58.59%;
 	padding-bottom: 33.6%;
 	background-color: #0e262f;
@@ -334,7 +334,7 @@
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-	margin-top: 27.5%;
+	margin-top: 25%;
 	width: 58.59%;
 	padding-bottom: 33.6%;
 	opacity: 1;	
