@@ -624,6 +624,8 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 	var MICpart4Control = document.getElementsByClassName('MICpart4')[0];
 	var MICpart4TitleControl = document.getElementsByClassName('MICpart4Title')[0];
 	var MICpart4ContenttextControl = document.getElementsByClassName('MICpart4Contenttext')[0];
+	location.href = "#Menu";
+
 
 	if(this.value === 'close') 
 	{ 
