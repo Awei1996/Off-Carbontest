@@ -479,6 +479,7 @@
     -o-transition: 2s;
     transition: 1s;
 	margin-top: 17.5%;
+	width: 78.04%;
 	opacity: 1;
 	background-image: url(../../Animation/WorldDamage/鯊魚鮪魚.gif);
 	-webkit-background-size: contain;
@@ -557,6 +558,7 @@
     -o-transition: 1s;
     transition: 1s;
 	margin-top: 16%;
+	width: 78.04%;
 	opacity: 1;	
 	background-image: url(../../Animation/WorldDamage/高山物種滅絕.gif);
 	-webkit-background-size: contain;
