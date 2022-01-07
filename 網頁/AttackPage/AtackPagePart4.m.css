@@ -1304,7 +1304,7 @@
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url( "../../Animation/WorldDamage/封面/Formula.png");
+	background-image: url( "../../Animation/WorldDamage/封面/Iceberg.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1312,7 +1312,7 @@
 }
 .MICpart1:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url( "../../Animation/WorldDamage/公式.gif");
+	background-image: url("../../Animation/WorldDamage/冰山融化.gif");
 
 }
 
@@ -1326,7 +1326,7 @@
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;	
-	background-image: url( "../../Animation/WorldDamage/公式.gif");
+	background-image: url("../../Animation/WorldDamage/冰山融化.gif");
 	-webkit-background-size: contain;
 
 }
@@ -1384,7 +1384,7 @@
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url("../../Animation/WorldDamage/封面/Surge.png");
+	background-image: url("../../Animation/WorldDamage/封面/Age.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1393,7 +1393,7 @@
 }
 .MICpart2:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url("../../Animation/WorldDamage/湧升流.gif");
+	background-image: url("../../Animation/WorldDamage/歲數.gif");
 
 }
 .MICpart2.open{
@@ -1406,7 +1406,7 @@
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;
-	background-image: url("../../Animation/WorldDamage/湧升流.gif");
+	background-image: url("../../Animation/WorldDamage/歲數.gif");
 	-webkit-background-size: contain;
 
 }
@@ -1466,7 +1466,7 @@
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url("../../Animation/WorldDamage/封面/Ph7-8.png");
+	background-image: url("../../Animation/WorldDamage/封面/Glacier.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1474,7 +1474,7 @@
 }
 .MICpart3:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url( "../../Animation/WorldDamage/ph7-8.gif");
+	background-image: url( "../../Animation/WorldDamage/冰河.gif");
 }
 .MICpart3.open{
 	-webkit-transition: 2s;
@@ -1486,7 +1486,7 @@
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;
-	background-image: url( "../../Animation/WorldDamage/ph7-8.gif");
+	background-image: url( "../../Animation/WorldDamage/冰河.gif");
 	-webkit-background-size: contain;
 
 }
@@ -1544,7 +1544,7 @@
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url("../../Animation/WorldDamage/封面/MapFish.png");
+	background-image: url("../../Animation/WorldDamage/封面/FrozenSoil.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1552,7 +1552,7 @@
 }
 .MICpart4:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url("../../Animation/WorldDamage/地圖魚.gif");
+	background-image: url( "../../Animation/WorldDamage/凍土.gif");
 
 }
 
@@ -1566,7 +1566,7 @@
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;	
-	background-image: url("../../Animation/WorldDamage/地圖魚.gif");
+	background-image: url( "../../Animation/WorldDamage/凍土.gif");
 	-webkit-background-size: contain;
 
 }
