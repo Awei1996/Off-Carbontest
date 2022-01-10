@@ -3851,7 +3851,7 @@
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url("../../Animation/WorldDamage/封面/RiceHowmuch.png");
+	background-image: url("../../Animation/WorldDamage/封面/Degree.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -3860,7 +3860,7 @@
 }
 .ESCpart1:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url("../../Animation/WorldDamage/溫度稻米產量.gif");
+	background-image: url("../../Animation/WorldDamage/氣溫GDP.gif");
 
 }
 
@@ -3874,7 +3874,7 @@
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;	
-	background-image: url("../../Animation/WorldDamage/溫度稻米產量.gif");
+	background-image: url("../../Animation/WorldDamage/氣溫GDP.gif");
 	-webkit-background-size: contain;
 
 }
@@ -3932,7 +3932,7 @@
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url("../../Animation/WorldDamage/封面/RicePrice.png");
+	background-image: url("../../Animation/WorldDamage/封面/ManHeart.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -3941,7 +3941,7 @@
 }
 .ESCpart2:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url("../../Animation/WorldDamage/稻米產量價格.gif");
+	background-image: url("../../Animation/WorldDamage/男人心臟1.gif");
 
 }
 .ESCpart2.open{
@@ -3954,7 +3954,7 @@
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;
-	background-image: url("../../Animation/WorldDamage/稻米產量價格.gif");
+	background-image: url("../../Animation/WorldDamage/男人心臟1.gif");
 	-webkit-background-size: contain;
 
 }
@@ -4015,7 +4015,7 @@
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url("../../Animation/WorldDamage/封面/CornSoy.png");
+	background-image: url("../../Animation/WorldDamage/封面/HotPress.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -4023,7 +4023,7 @@
 }
 .ESCpart3:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url("../../Animation/WorldDamage/玉米黃豆.gif");
+	background-image: url("../../Animation/WorldDamage/熱壓力症穀物價格.gif");
 }
 .ESCpart3.open{
 	-webkit-transition: 2s;
@@ -4035,7 +4035,7 @@
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;
-	background-image: url("../../Animation/WorldDamage/玉米黃豆.gif");
+	background-image: url("../../Animation/WorldDamage/熱壓力症穀物價格.gif");
 	-webkit-background-size: contain;
 
 }
@@ -4093,7 +4093,7 @@
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url("../../Animation/WorldDamage/封面/CornCar_.png");
+	background-image: url("../../Animation/WorldDamage/封面/ThialandUSA.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -4101,7 +4101,7 @@
 }
 .ESCpart4:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url("../../Animation/WorldDamage/車子玉米.gif");
+	background-image: url("../../Animation/WorldDamage/泰國美國.gif");
 
 }
 
@@ -4115,7 +4115,7 @@
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;	
-	background-image: url("../../Animation/WorldDamage/車子玉米.gif");
+	background-image: url("../../Animation/WorldDamage/泰國美國.gif");
 	-webkit-background-size: contain;
 
 }
