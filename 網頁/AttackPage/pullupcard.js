@@ -1917,6 +1917,8 @@ document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 	var FSCpart4Control = document.getElementsByClassName('FSCpart4')[0];
 	var FSCpart4TitleControl = document.getElementsByClassName('FSCpart4Title')[0];
 	var FSCpart4ContenttextControl = document.getElementsByClassName('FSCpart4Contenttext')[0];
+	location.href = "#Menu";
+
 
 	if(this.value === 'close') 
 	{ 
@@ -2202,6 +2204,8 @@ document.getElementsByClassName('EconomicShock')[0].onclick = function() {
 	var ESCpart4Control = document.getElementsByClassName('ESCpart4')[0];
 	var ESCpart4TitleControl = document.getElementsByClassName('ESCpart4Title')[0];
 	var ESCpart4ContenttextControl = document.getElementsByClassName('ESCpart4Contenttext')[0];
+	location.href = "#Menu";
+
 
 	if(this.value === 'close') 
 	{
