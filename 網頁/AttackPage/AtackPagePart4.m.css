@@ -653,7 +653,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	line-height: 2;
+	line-height: 1.8;
 	opacity: 0;
 	
 }
@@ -671,6 +671,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 }
 .SDCpart3Contenttext.open{
@@ -687,6 +688,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 	 
 }
@@ -1159,7 +1161,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	line-height: 2;
+	line-height: 1.8;
 	opacity: 0;
 	
 }
@@ -1177,6 +1179,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 }
 .OACpart3Contenttext.open{
@@ -1193,6 +1196,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 	 
 }
@@ -1665,7 +1669,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	line-height: 2;
+	line-height: 1.8;
 	opacity: 0;
 	
 }
@@ -1683,6 +1687,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 }
 .MICpart3Contenttext.open{
@@ -1699,6 +1704,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 	 
 }
@@ -1935,6 +1941,7 @@
 	opacity: 1;
 	display: flex;
 	visibility: hidden;
+	
 	
 }
 
@@ -3193,7 +3200,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	line-height: 2;
+	line-height: 1.8;
 	opacity: 0;
 	
 }
@@ -3211,6 +3218,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 }
 .DSCpart3Contenttext.open{
@@ -3227,6 +3235,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 	 
 }
@@ -3703,7 +3712,7 @@
 	align-items: center;
 
 	justify-content: flex-start;
-	line-height: 2;
+	line-height: 1.8;
 	opacity: 0;
 	
 }
@@ -3721,6 +3730,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 }
 .FSCpart3Contenttext.open{
@@ -3737,6 +3747,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 	 
 }
@@ -4213,9 +4224,8 @@
 	background-color: transparent;
 	display: flex;
 	align-items: center;
-
 	justify-content: flex-start;
-	line-height: 2;
+	line-height: 1.8;
 	opacity: 0;
 	
 }
@@ -4233,6 +4243,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 }
 .ESCpart3Contenttext.open{
@@ -4249,6 +4260,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 	 
 }
