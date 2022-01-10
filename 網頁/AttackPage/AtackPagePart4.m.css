@@ -3259,9 +3259,9 @@
 	position: absolute;
 	z-index: -2;
 	margin-top: -151.5%;
-	margin-left: -310%;
-	width: 309%;
-	padding-bottom: 172.5%;
+	margin-left: -100%;
+	width: 100%;
+	height: 100%;
 
 }
 .FoodShortageContent.open{
@@ -3279,7 +3279,7 @@
     -ms-transition: 2s;
     -o-transition: 2s;
     transition: 0.01s,opacity 1s;
-    margin-left: -310%;
+    margin-left: -100%;
 	opacity: 0;
 }
 .FSCBG{
@@ -3287,8 +3287,8 @@
 	z-index: 16;
 	margin-top: 0%;
 	margin-left: -100%;
-	width: 103%;
-	padding-bottom: 56%;
+	width: 100%;
+	height: 100%;
 	background-color: #163C4B;
 	opacity: 1;
 
@@ -3302,51 +3302,52 @@
 	opacity: 0.9;
 	margin-left: 0%;
 }
+
 .FSCMain{
 	position: absolute;
 	z-index: 17;
-	margin-left: 4.17%;
-	margin-top: 2.5%;
+	margin-top: 4%;
 	color: #ffffff;
-	font-size: 3rem;
+	font-size: 6rem;
 	border: solid 3px #FFFFFF;
 	border-left: 0px;
 	border-right: 0px;
 	border-radius: 1px;
 	font-weight: normal;
 	line-height: 0;
+
+
 }
 .FSCSub{
 	position: absolute;
 	z-index: 17;
-	margin-left: 32.55%;
-	margin-top: 3.13%;
+	margin-top: 14%;
 	color: #E98C24;
-	font-size: 2.2rem;
+	font-size: 3rem;
 	font-weight: normal;
+	line-height: 1.5;
 }
 .FSCpart1{
 	overflow: visible;
 	position: absolute;
 	z-index: 17;
-	margin-top: 8.5%;
-	margin-left: 10.42%;
-	width: 39.06%;
-	padding-bottom: 22.4%;
+	margin-top: 22.5%;
+	width: 58.59%;
+	padding-bottom: 33.6%;
 	background-color: #0e262f;
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url("../../Animation/WorldDamage/封面/RiceHowmuch.png");
+	background-image: url("../../Animation/WorldDamage/封面/Mosq1970.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	-webkit-background-size: contain;
+	
 }
 .FSCpart1:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url("../../Animation/WorldDamage/溫度稻米產量.gif");
-	
+	background-image: url("../../Animation/WorldDamage/封面/Mosq1970.png");
 
 }
 
@@ -3356,14 +3357,16 @@
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-	margin-top: 16%;
+	margin-top: 17.5%;
+	width: 78.04%;
+	padding-bottom: 44.8%;
 	opacity: 1;	
-	background-image: url("../../Animation/WorldDamage/溫度稻米產量.gif");
+	background-image: url("../../Animation/WorldDamage/封面/Mosq1970.png");
+	-webkit-background-size: contain;
 
 }
 .FSCpart1.open:hover{
 	-webkit-filter:brightness(1);
-
 }
 .FSCpart1.close{
 	-webkit-transition: 0.5s;
@@ -3371,17 +3374,18 @@
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-	margin-top: 8.5%;
+	margin-top: 22.5%;
+	width: 58.59%;
+	padding-bottom: 33.6%;
 	opacity: 1;	
 }
 
 .FSCpart1Title{
 	position: absolute;
 	z-index: 19;
-	margin-top: 17.5%;
-	margin-left: 10.42%;
-	font-size: 1.66rem;
-	width: 39.06%;
+	margin-top: 35.5%;
+	font-size: 3rem;
+	width: 58.59%;
 	background-color: #1E3239;
 	color: #fff;
 	display: flex;
@@ -3393,43 +3397,38 @@
     transition: 1s;
 	width: 100%;
 	margin-left: 0%;
-	font-size: 2.35rem;
-	margin-top: 4.5%;
+	font-size: 5rem;
+	margin-top: 5%;
 	color: #E98C24;
 	background-color: transparent;
-
 }
 
 .FSCpart1Title.close{
+	margin-top: 35.5%;
+	width: 58.59%;
     transition: 1s;
-	margin-top: 17.5%;
-	margin-left: 10.42%;
-	width: 39.06%;
 	background-color: #1E3239;
 }
-
-
 .FSCpart2{
 	position: absolute;
 	z-index: 17;
-	margin-top: 8.5%;
-	margin-left: 50.89%;
-	width: 39.06%;
-	padding-bottom: 22.4%;
+	margin-top: 60%;
+	width: 58.59%;
+	padding-bottom: 33.6%;
 	background-color: #0e262f;
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url("../../Animation/WorldDamage/封面/RicePrice.png");
+	background-image: url("../../Animation/WorldDamage/封面/Mosq.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	-webkit-background-size: contain;
+
 }
 .FSCpart2:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url("../../Animation/WorldDamage/稻米產量價格.gif");
-	
+	background-image: url("../../Animation/WorldDamage/蚊子.gif");
 
 }
 .FSCpart2.open{
@@ -3438,10 +3437,12 @@
     -ms-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
-	margin-top: 16%;
-	margin-left: 10.42%;
+	margin-top: 17.5%;
+	width: 78.04%;
+	padding-bottom: 44.8%;
 	opacity: 1;
-	background-image: url("../../Animation/WorldDamage/稻米產量價格.gif");
+	background-image: url("../../Animation/WorldDamage/蚊子.gif");
+	-webkit-background-size: contain;
 
 }
 .FSCpart2.open:hover{
@@ -3454,17 +3455,18 @@
     -ms-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
-	margin-top: 8.5%;
+	margin-top: 60%;
+	width: 58.59%;
+	padding-bottom: 33.6%;
 	opacity: 1;	
 }
 
 .FSCpart2Title{
 	position: absolute;
 	z-index: 19;
-	margin-top: 17.5%;
-	margin-left: 50.89%;
-	font-size: 1.66rem;
-	width: 39.06%;
+	margin-top: 73.5%;
+	font-size: 3rem;
+	width: 58.59%;
 	background-color: #1E3239;
 	color: #fff;
 	display: flex;
@@ -3475,32 +3477,31 @@
     transition: 1s;
 	width: 100%;
 	margin-left: 0%;
-	font-size: 2.35rem;
-	margin-top: 4.5%;
+	font-size: 5rem;
+	margin-top: 5%;
 	color: #E98C24;
 	background-color: transparent;
 }
 
 .FSCpart2Title.close{
+	margin-top: 73.5%;
+	font-size: 3rem;
+	width: 58.59%;
     transition: 1s;
-	margin-top: 17.5%;
-	margin-left: 50.89%;
-	width: 39.06%;
 	background-color: #1E3239;
 }
 
 .FSCpart3{
 	position: absolute;
 	z-index: 17;
-	margin-top: 32.5%;
-	margin-left: 10.42%;
-	width: 39.06%;
-	padding-bottom: 22.4%;
+	margin-top: 97.5%;
+	width: 58.59%;
+	padding-bottom: 33.6%;
 	background-color: #0e262f;
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url("../../Animation/WorldDamage/封面/CornSoy.png");
+	background-image: url("../../Animation/WorldDamage/封面/Emergency.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -3508,8 +3509,7 @@
 }
 .FSCpart3:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url("../../Animation/WorldDamage/玉米黃豆.gif");
-
+	background-image: url("../../Animation/WorldDamage/急診.gif");
 }
 .FSCpart3.open{
 	-webkit-transition: 2s;
@@ -3517,10 +3517,12 @@
     -ms-transition: 2s;
     -o-transition: 2s;
     transition: 1s;
-	margin-top: 16%;
+	margin-top: 17.5%;
+	width: 78.04%;
+	padding-bottom: 44.8%;
 	opacity: 1;
-	background-image: url("../../Animation/WorldDamage/玉米黃豆.gif");
-
+	background-image: url("../../Animation/WorldDamage/急診.gif");
+	-webkit-background-size: contain;
 
 }
 .FSCpart3.open:hover{
@@ -3534,17 +3536,16 @@
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-	margin-top: 32.5%;
+	margin-top: 97.5%;
 	opacity: 1;	
 }
 
 .FSCpart3Title{
 	position: absolute;
 	z-index: 19;
-	margin-top: 41.5%;
-	margin-left: 10.42%;
-	font-size: 1.66rem;
-	width: 39.06%;
+	margin-top: 110.5%;
+	width: 58.59%;
+	font-size: 3rem;
 	background-color: #1E3239;
 	color: #fff;
 	display: flex;
@@ -3554,33 +3555,31 @@
 .FSCpart3Title.open{
    	transition: 1s;
 	width: 100%;
-	margin-left: -20%;
-	font-size: 2.35rem;
-	margin-top: 4.5%;
+	margin-left: 0%;
+	font-size: 4.8rem;
+	margin-top: 5%;
 	color: #E98C24;
 	background-color: transparent;
 }
 
 .FSCpart3Title.close{
 	transition: 1s;
-	margin-top: 41.5%;
-	margin-left: 10.42%;
-	width: 39.06%;
+	margin-top: 110.5%;
+	width: 58.59%;
 	background-color: #1E3239;
 }
 
 .FSCpart4{
 	position: absolute;
 	z-index: 17;
-	margin-top: 32.5%;
-	margin-left: 50.89%;
-	width: 39.06%;
-	padding-bottom: 22.4%;
+	margin-top: 135%;
+	width: 58.59%;
+	padding-bottom: 33.6%;
 	background-color: #0e262f;
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url("../../Animation/WorldDamage/封面/CornCar_.png");
+	background-image: url("../../Animation/WorldDamage/封面/Kidney.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -3588,8 +3587,7 @@
 }
 .FSCpart4:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url("../../Animation/WorldDamage/車子玉米.gif");
-
+	background-image: url("../../Animation/WorldDamage/腎衰竭.gif");
 
 }
 
@@ -3600,10 +3598,12 @@
     -o-transition: 1s;
     transition: 1s;
 	margin-top: 16%;
-	margin-left: 10.42%;
+	width: 78.04%;
+	padding-bottom: 44.8%;
 	opacity: 1;	
-	background-image: url("../../Animation/WorldDamage/車子玉米.gif");
-	
+	background-image: url("../../Animation/WorldDamage/腎衰竭.gif");
+	-webkit-background-size: contain;
+
 }
 .FSCpart4.open:hover{
 	-webkit-filter:brightness(1);
@@ -3615,17 +3615,18 @@
     -ms-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
-	margin-top: 32.5%;
+	margin-top: 135%;
+	width: 58.59%;
+	padding-bottom: 33.6%;
 	opacity: 1;	
 }
 
 .FSCpart4Title{
 	position: absolute;
 	z-index: 19;
-	margin-top: 41.5%;
-	margin-left: 50.89%;
-	font-size: 1.66rem;
-	width: 39.06%;
+	margin-top: 148%;
+	font-size: 3rem;
+	width: 58.59%;
 	background-color: #1E3239;
 	color: #fff;
 	display: flex;
@@ -3636,20 +3637,18 @@
     transition: 1s;
 	width: 100%;
 	margin-left: 0%;
-	font-size: 2.35rem;
-	margin-top: 4.5%;
+	font-size: 5rem;
+	margin-top: 5%;
 	color: #E98C24;
 	background-color: transparent;
 }
 
 .FSCpart4Title.close{
 	transition: 1s;
-	margin-top: 41.5%;
-	margin-left: 50.89%;
-	width: 39.06%;
+	margin-top: 148%;
+	width: 58.59%;
 	background-color: #1E3239;
 }
-
 .FSCContent{
 	position: absolute;
 	z-index: -1;
@@ -3658,36 +3657,34 @@
 	width: 0%;
 	background-color: transparent;
 	color: transparent;
-	font-size: 2.2rem;
+	font-size: 4.5rem;
 	opacity: 0;
 	display: flex;
-	align-items: center;
-	justify-content: flex-end;
+	align-items: flex-start;
+	justify-content: center;
 }
 .FSCContent.open{
 	position: absolute;
 	margin-top: 0%;
 	margin-left: 0%;
 	width: 100%;
-	padding-bottom: 56%;
+	height: 100%;
 	background-color: #1E3239;
-	opacity: 0.95;
-	display: flex;
+	opacity: 0.99;
 	color: #ffffff;
 	
 }
-
 .FSCpart1Contenttext{
 	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
+	margin-top: 65%;
+	margin-left: 7.5%;
+	width: 85%;
 	background-color: transparent;
-	font-size: 2rem;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: flex-start;
-	line-height: 2.1;
+	line-height: 1.8;
+	opacity: 0;
 }
 .FSCpart1Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -3696,15 +3693,16 @@
 
 .FSCpart2Contenttext{
 	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
+	margin-top: 65%;
+	margin-left: 7.5%;
+	width: 85%;
 	background-color: transparent;
-	font-size: 2rem;
 	display: flex;
 	align-items: center;
+
 	justify-content: flex-start;
 	line-height: 2;
+	opacity: 0;
 	
 }
 .FSCpart2Contenttext.open{
@@ -3714,14 +3712,14 @@
 
 .FSCpart3Contenttext{
 	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
+	margin-top: 65%;
+	margin-left: 7.5%;
+	width: 85%;
 	background-color: transparent;
-	font-size: 2rem;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	opacity: 0;
 }
 .FSCpart3Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -3730,21 +3728,20 @@
 
 .FSCpart4Contenttext{
 	position: absolute;
-	margin-top: 54%;
-	margin-left: 55.21%;
-	width: 44.79%;
+	margin-top: 65%;
+	margin-left: 7.5%;
+	width: 85%;
 	background-color: transparent;
-	font-size: 2.2rem;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	opacity: 0;
 	 
 }
 .FSCpart4Contenttext.open{
 	transition: 1s opacity  0.5s;
 	opacity: 1;
 }
-
 
 .EconomicShock{
 	width: 100%;
