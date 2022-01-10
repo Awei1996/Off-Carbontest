@@ -1803,11 +1803,11 @@
 .FFCSub{
 	position: absolute;
 	z-index: 17;
-	margin-left: 32.55%;
-	margin-top: 3.13%;
+	margin-top: 14%;
 	color: #E98C24;
-	font-size: 2.2rem;
+	font-size: 3rem;
 	font-weight: normal;
+	line-height: 1.5;
 }
 
 .FFCAmazon{
