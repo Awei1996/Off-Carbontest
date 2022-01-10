@@ -20,21 +20,21 @@
 }
 .SDCBA{
 	position: absolute;
-	margin-top: 150%;
+	margin-top: 160%;
 	width:10%;	
 	opacity: 0;
 }
 
 .OACBA{
 	position: absolute;
-	margin-top: 150%;
+	margin-top: 160%;
 	width:10%;	
 	opacity: 0;
 }
 
 .MICBA{
 	position: absolute;
-	margin-top: 150%;
+	margin-top: 160%;
 	width:10%;	
 	opacity: 0;
 }
@@ -42,14 +42,14 @@
 .FFCBA{
 	position: absolute;
 	z-index: 20;
-	margin-top: 150%;
+	margin-top: 160%;
 	width:10%;	
 	opacity: 0;
 }
 .HWCBA{
 	position: absolute;
 	z-index: 20;;
-	margin-top: 150%;
+	margin-top: 160%;
 	width:10%;	
 	opacity: 0;
 }
@@ -57,27 +57,27 @@
 .ECCBA{
 	position: absolute;
 	z-index: 20;
-	margin-top: 150%;
+	margin-top: 160%;
 	width:10%;		
 	opacity: 0;
 }
 .DSCBA{
 	position: absolute;
-	margin-top: 150%;
+	margin-top: 160%;
 	width:10%;		
 	opacity: 0;
 }
 
 .FSCBA{
 	position: absolute;
-	margin-top: 150%;
+	margin-top: 160%;
 	width:10%;		
 	opacity: 0;
 }
 
 .ESCBA{
 	position: absolute;
-	margin-top: 150%;
+	margin-top: 160%;
 	width:10%;		
 	opacity: 0;
 }
