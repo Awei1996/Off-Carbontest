@@ -1817,7 +1817,7 @@
 	margin-left: -34.22%;
 	width: 11.72%;
 	color: #ffffff;
-	opacity: 1;
+	opacity: 0;
 	font-size: 2.2rem;
 	display: flex;
 	align-items: center;
@@ -1840,7 +1840,7 @@
 	margin-left: -36.7%;
 	width: 53.7%;
 	font-size: 2.2rem;
-	opacity: 1;
+	opacity: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1857,8 +1857,8 @@
 
 .FFCJapan{
 	position: absolute;
-	margin-top: 28%;
-	margin-left: 187%;
+	margin-top: 27.75%;
+	margin-left: 185%;
 	width: 12.135%;
 }
 
@@ -1869,7 +1869,7 @@
 	margin-left: 48.8%;
 	width: 40.7%;
 	font-size: 2.2rem;
-	opacity: 1;
+	opacity: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
