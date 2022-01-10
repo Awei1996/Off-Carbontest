@@ -3340,7 +3340,7 @@
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url("../../Animation/WorldDamage/封面/Mosq1970.png");
+	background-image: url("../../Animation/WorldDamage/封面/RiceHowmuch.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -3349,7 +3349,7 @@
 }
 .FSCpart1:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url("../../Animation/WorldDamage/封面/Mosq1970.png");
+	background-image: url("../../Animation/WorldDamage/溫度稻米產量.gif");
 
 }
 
@@ -3363,7 +3363,7 @@
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;	
-	background-image: url("../../Animation/WorldDamage/封面/Mosq1970.png");
+	background-image: url("../../Animation/WorldDamage/溫度稻米產量.gif");
 	-webkit-background-size: contain;
 
 }
@@ -3421,7 +3421,7 @@
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url("../../Animation/WorldDamage/封面/Mosq.png");
+	background-image: url("../../Animation/WorldDamage/封面/RicePrice.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -3430,7 +3430,7 @@
 }
 .FSCpart2:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url("../../Animation/WorldDamage/蚊子.gif");
+	background-image: url("../../Animation/WorldDamage/稻米產量價格.gif");
 
 }
 .FSCpart2.open{
@@ -3443,7 +3443,7 @@
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;
-	background-image: url("../../Animation/WorldDamage/蚊子.gif");
+	background-image: url("../../Animation/WorldDamage/稻米產量價格.gif");
 	-webkit-background-size: contain;
 
 }
@@ -3503,7 +3503,7 @@
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url("../../Animation/WorldDamage/封面/Emergency.png");
+	background-image: url("../../Animation/WorldDamage/封面/CornSoy.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -3511,7 +3511,7 @@
 }
 .FSCpart3:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url("../../Animation/WorldDamage/急診.gif");
+	background-image: url("../../Animation/WorldDamage/玉米黃豆.gif");
 }
 .FSCpart3.open{
 	-webkit-transition: 2s;
@@ -3523,7 +3523,7 @@
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;
-	background-image: url("../../Animation/WorldDamage/急診.gif");
+	background-image: url("../../Animation/WorldDamage/玉米黃豆.gif");
 	-webkit-background-size: contain;
 
 }
@@ -3581,7 +3581,7 @@
 	border-radius: 2.67%;
 	color: #ffffff;
 	font-size: 1.66rem;
-	background-image: url("../../Animation/WorldDamage/封面/Kidney.png");
+	background-image: url("../../Animation/WorldDamage/封面/CornCar_.png");
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -3589,7 +3589,7 @@
 }
 .FSCpart4:hover{
 	-webkit-filter:brightness(1.2);
-	background-image: url("../../Animation/WorldDamage/腎衰竭.gif");
+	background-image: url("../../Animation/WorldDamage/車子玉米.gif");
 
 }
 
@@ -3603,7 +3603,7 @@
 	width: 78.04%;
 	padding-bottom: 44.8%;
 	opacity: 1;	
-	background-image: url("../../Animation/WorldDamage/腎衰竭.gif");
+	background-image: url("../../Animation/WorldDamage/車子玉米.gif");
 	-webkit-background-size: contain;
 
 }
