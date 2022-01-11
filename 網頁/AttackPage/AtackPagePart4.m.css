@@ -2200,7 +2200,7 @@
 .HWCJP{
 	position: absolute;
 	z-index: 17;
-	margin-top: 48.1%;
+	margin-top: 48%;
 	margin-left: 44.6%;
 	width: 7%;
 	height: auto;
@@ -2415,47 +2415,6 @@
 	font-weight: normal;
 	line-height: 1.5;
 }
-.ECCContenttext{
-	position: absolute;
-	z-index: 16;
-	margin-top: 0%;
-	margin-left: 0%;
-	width:100%;
-	height: 100%;
-	background-color: transparent;
-	color: #ffffff;
-	font-size: 4.5rem;
-	opacity: 1;
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
-	visibility: hidden;
-	
-}
-.ECCContenttext.open{
-	visibility: visible;	
-}
-
-
-.ECCintroduction{
-	position: absolute;
-	margin-top: 80%;
-	margin-left: 7.5%;
-	width: 85%;
-	background-color: transparent;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 1.8;
-	opacity: 0;
-	visibility: hidden;
-	transition: 1s;
-}
-.ECCintroduction.open{
-	opacity: 1;
-	visibility: visible;
-}
-
 
 .ECCIcon{
 	position: absolute;
@@ -2475,44 +2434,7 @@
 	-webkit-filter:brightness(1.2);
 }
 
-.ECCIconContenttext{
-	position: absolute;
-	margin-top: 80%;
-	margin-left: 7.5%;
-	width: 85%;
-	background-color: transparent;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 1.8;
-	opacity: 0;
-	visibility: hidden;
-	 
-}
-.ECCIconContenttext.open{
-	transition: 1s ;
-	opacity: 1;
-	visibility: visible;
-}
-.ECCJPContenttext{
-	position: absolute;
-	margin-top: 80%;
-	margin-left: 7.5%;
-	width: 85%;
-	background-color: transparent;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 1.8;
-	opacity: 0;
-	visibility: hidden;
-	 
-}
-.ECCJPContenttext.open{
-	transition: 1s ;
-	opacity: 1;
-	visibility: visible;
-}
+
 .ECCJP{
 	position: absolute;
 	z-index: 17;
@@ -2558,27 +2480,6 @@
 	opacity: 1;	
 }
 
-.ECCCNContenttext{
-	position: absolute;
-	margin-top: 80%;
-	margin-left: 7.5%;
-	width: 85%;
-	background-color: transparent;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 1.8;
-	opacity: 0;
-	visibility: hidden;
-	 
-}
-
-.ECCCNContenttext.open{
-	transition: 1s ;
-	opacity: 1;
-	visibility: visible;
-}
-
 .ECCAUS{
 	position: absolute;
 	z-index: 17;
@@ -2601,25 +2502,6 @@
 	opacity: 1;	
 }
 
-.ECCAUSContenttext{
-	position: absolute;
-	margin-top: 80%;
-	margin-left: 7.5%;
-	width: 85%;
-	background-color: transparent;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 1.8;
-	opacity: 0;
-	visibility: hidden;
-	 
-}
-.ECCAUSContenttext.open{
-	transition: 1s ;
-	opacity: 1;
-	visibility: visible;
-}
 .ECCTW{
 	position: absolute;
 	z-index: 17;
@@ -2641,26 +2523,6 @@
 
 .ECCTW.open{
 	opacity: 1;	
-}
-
-.ECCTWContenttext{
-	position: absolute;
-	margin-top: 80%;
-	margin-left: 7.5%;
-	width: 85%;
-	background-color: transparent;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	line-height: 1.8;
-	opacity: 0;
-	visibility: hidden;
-	 
-}
-.ECCTWContenttext.open{
-	transition: 1s ;
-	opacity: 1;
-	visibility: visible;
 }
 
 .ECCUSA{
@@ -2690,6 +2552,148 @@
 .ECCUSA.open{
 	
 	opacity: 1;	
+}
+
+.ECCContenttext{
+	position: absolute;
+	z-index: 16;
+	margin-top: 0%;
+	margin-left: 0%;
+	width:100%;
+	height: 100%;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 4.5rem;
+	opacity: 1;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	visibility: hidden;
+	
+}
+.ECCContenttext.open{
+	visibility: visible;	
+}
+
+
+.ECCintroduction{
+	position: absolute;
+	margin-top: 80%;
+	margin-left: 7.5%;
+	width: 85%;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 1.8;
+	opacity: 0;
+	visibility: hidden;
+	transition: 1s;
+}
+.ECCintroduction.open{
+	opacity: 1;
+	visibility: visible;
+}
+
+.ECCIconContenttext{
+	position: absolute;
+	margin-top: 80%;
+	margin-left: 7.5%;
+	width: 85%;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 1.8;
+	opacity: 0;
+	visibility: hidden;
+	 
+}
+.ECCIconContenttext.open{
+	transition: 1s ;
+	opacity: 1;
+	visibility: visible;
+}
+
+.ECCJPContenttext{
+	position: absolute;
+	margin-top: 80%;
+	margin-left: 7.5%;
+	width: 85%;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 1.8;
+	opacity: 0;
+	visibility: hidden;
+	 
+}
+.ECCJPContenttext.open{
+	transition: 1s ;
+	opacity: 1;
+	visibility: visible;
+}
+
+.ECCCNContenttext{
+	position: absolute;
+	margin-top: 80%;
+	margin-left: 7.5%;
+	width: 85%;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 1.8;
+	opacity: 0;
+	visibility: hidden;
+	 
+}
+
+.ECCCNContenttext.open{
+	transition: 1s ;
+	opacity: 1;
+	visibility: visible;
+}
+
+.ECCAUSContenttext{
+	position: absolute;
+	margin-top: 80%;
+	margin-left: 7.5%;
+	width: 85%;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 1.8;
+	opacity: 0;
+	visibility: hidden;
+	 
+}
+.ECCAUSContenttext.open{
+	transition: 1s ;
+	opacity: 1;
+	visibility: visible;
+}
+
+.ECCTWContenttext{
+	position: absolute;
+	margin-top: 80%;
+	margin-left: 7.5%;
+	width: 85%;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 1.8;
+	opacity: 0;
+	visibility: hidden;
+	 
+}
+.ECCTWContenttext.open{
+	transition: 1s ;
+	opacity: 1;
+	visibility: visible;
 }
 
 .ECCUSAContenttext{
