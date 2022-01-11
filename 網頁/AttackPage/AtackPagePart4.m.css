@@ -2419,9 +2419,9 @@
 .ECCIcon{
 	position: absolute;
 	z-index: 17;
-	margin-top: 10%;
-	margin-left: 44.27%;
-	width: 7.81%;
+	margin-top: 20%;
+	margin-left: -44.27%;
+	width: 12.74%;
 	background-color: #0e262f;
 	border-radius: 50%;
 	color: #ffffff;
@@ -2439,8 +2439,8 @@
 	position: absolute;
 	z-index: 17;
 	margin-top: 25%;
-	margin-left: 90.7%;
-	width: 2.45%;
+	margin-left: 80.7%;
+	width: 4%;
 	color: #ffffff;
 	font-size: 2.2rem;
 	opacity: 1;
@@ -2462,7 +2462,7 @@
 	z-index: 17;
 	margin-top: 23.4%;
 	margin-left: 82.13%;
-	width: 9.38%;
+	width: 15.3%;
 	color: #ffffff;
 	font-size: 2.2rem;
 	opacity: 1;
@@ -2485,7 +2485,7 @@
 	z-index: 17;
 	margin-top: 34.1%;
 	margin-left: 88.2%;
-	width: 6.2%;
+	width: 10.12%;
 	color: #ffffff;
 	font-size: 2.2rem;
 	opacity: 1;
@@ -2507,7 +2507,7 @@
 	z-index: 17;
 	margin-top: 28.6%;
 	margin-left: 89.3%;
-	width: 0.21%;
+	width: 0.35%;
 	color: #ffffff;
 	font-size: 2.2rem;
 	opacity: 1;
@@ -2530,7 +2530,7 @@
 	z-index: 17;
 	margin-top: 24.2%;
 	margin-left: 51.7%;
-	width: 8.81%;
+	width: 14.37%;
 	color: #ffffff;
 	font-size: 2.2rem;
 	opacity: 1;
