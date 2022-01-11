@@ -909,6 +909,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 	
 	var FFCIconControl = document.getElementsByClassName('FFCIcon')[0];
 	var FFCIconContenttextControl = document.getElementsByClassName('FFCIconContenttext')[0];
+	location.href = "#Menu";
+	
 	if(this.value === 'close') 
 	{ 
 		this.value = 'open';
@@ -1133,6 +1135,8 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 	var HWCJPContenttextControl = document.getElementsByClassName('HWCJPContenttext')[0];
 	
 	var HWCintroductionControl = document.getElementsByClassName('HWCintroduction')[0];
+	location.href = "#Menu";
+	
 	if(this.value === 'close') 
 	{ 
 		this.value = 'open';
@@ -1336,6 +1340,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 	var ECCIconContenttextControl = document.getElementsByClassName('ECCIconContenttext')[0];
 	
 	var ECCBAControl = document.getElementsByClassName('ECCBA')[0];
+	location.href = "#Menu";
 	
 
 	if(this.value === 'close') 
