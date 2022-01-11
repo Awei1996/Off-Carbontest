@@ -1931,7 +1931,6 @@
 .FFCContenttext{
 	position: absolute;
 	z-index: 16;
-	
 	margin-top: 0%;
 	margin-left: 0%;
 	width:100%;
@@ -2100,52 +2099,59 @@
 .HWCMain{
 	position: absolute;
 	z-index: 17;
+	margin-top: 4%;
+	color: #ffffff;
+	font-size: 6rem;
+	border: solid 3px #FFFFFF;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+	font-weight: normal;
+	line-height: 0;
+
+}
+.HWCSub{
+	position: absolute;
+	z-index: 17;
 	margin-top: 14%;
 	color: #E98C24;
 	font-size: 3rem;
 	font-weight: normal;
 	line-height: 1.5;
 }
-.HWCSub{
-	position: absolute;
-	z-index: 17;
-	margin-left: 32.55%;
-	margin-top: 3.13%;
-	color: #E98C24;
-	font-size: 2.2rem;
-	font-weight: normal;
-}
 .HWCContenttext{
 	position: absolute;
 	z-index: 16;
 	margin-top: 0%;
 	margin-left: 0%;
-	width: 41.67%;
-	padding-bottom: 56%;
-	background: none;
+	width:100%;
+	height: 100%;
+	background-color: transparent;
 	color: #ffffff;
-	font-size: 2.2rem;
+	font-size: 4.5rem;
 	opacity: 1;
 	display: flex;
-	visibility: hidden;	
+	align-items: flex-start;
+	justify-content: center;
+	visibility: hidden;
 }
 .HWCContenttext.open{
 	visibility: visible;	
 }
 .HWCintroduction{
 	position: absolute;
-	margin-top: 0%;
-	margin-left: 12.5%;
-	width: 100%;
-	height: 100%;
+	margin-top: 70%;
+	margin-left: 7.5%;
+	width: 85%;
 	background-color: transparent;
-	font-size: 2.2rem;
 	display: flex;
 	align-items: center;
-	line-height: 2;
+	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 	visibility: hidden;
 	transition: 1s;
+	
 	 
 }
 .HWCintroduction.open{
@@ -2201,15 +2207,14 @@
 }
 .HWCWEUContenttext{
 	position: absolute;
-	margin-top: 0%;
-	margin-left: 12.5%;
-	width: 100%;
-	height: 100%;
+	margin-top: 70%;
+	margin-left: 7.5%;
+	width: 85%;
 	background-color: transparent;
-	font-size: 2.2rem;
 	display: flex;
 	align-items: center;
-	line-height: 2;
+	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 	visibility: hidden;
 	 
@@ -2222,15 +2227,14 @@
 
 .HWCENNLContenttext{
 	position: absolute;
-	margin-top: 0%;
-	margin-left: 12.5%;
-	width: 100%;
-	height: 100%;
+	margin-top: 70%;
+	margin-left: 7.5%;
+	width: 85%;
 	background-color: transparent;
-	font-size: 2.2rem;
 	display: flex;
 	align-items: center;
-	line-height: 2;
+	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 	visibility: hidden;
 	 
@@ -2271,15 +2275,14 @@
 
 .HWCSWEContenttext{
 	position: absolute;
-	margin-top: 0%;
-	margin-left: 12.5%;
-	width: 100%;
-	height: 100%;
+	margin-top: 70%;
+	margin-left: 7.5%;
+	width: 85%;
 	background-color: transparent;
-	font-size: 2.2rem;
 	display: flex;
 	align-items: center;
-	line-height: 2;
+	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 	visibility: hidden;
 	 
@@ -2317,15 +2320,14 @@
 
 .HWCJPContenttext{
 	position: absolute;
-	margin-top: 0%;
-	margin-left: 12.5%;
-	width: 100%;
-	height: 100%;
+	margin-top: 70%;
+	margin-left: 7.5%;
+	width: 85%;
 	background-color: transparent;
-	font-size: 2.2rem;
 	display: flex;
 	align-items: center;
-	line-height: 2;
+	justify-content: flex-start;
+	line-height: 1.8;
 	opacity: 0;
 	visibility: hidden;
 }
