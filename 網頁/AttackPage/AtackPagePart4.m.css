@@ -2063,6 +2063,8 @@
 	margin-left: -100%;
 	width: 100%;
 	height: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 .HeatWaveContent.open{
@@ -2152,7 +2154,6 @@
 	visibility: hidden;
 	transition: 1s;
 	
-	 
 }
 .HWCintroduction.open{
 	opacity: 1;
@@ -2166,7 +2167,7 @@
 	margin-left: 47.35%;
 	width: 7.135%;
 	height: auto;
-	opacity: 0;
+	opacity: 1;
 	background-color: transparent;
 	font-size: 2.2rem;
 	display: flex;
@@ -2190,7 +2191,7 @@
 	margin-left: 48.3%;
 	width: 3.34%;
 	height: auto;
-	opacity: 0;
+	opacity: 1;
 	background-color: transparent;
 	display: flex;
 	align-items: center;
@@ -2205,6 +2206,59 @@
 	
 	opacity: 1;	
 }
+
+.HWCSWE{
+	position: absolute;
+	z-index: 19;
+	margin-top: 21.6%;
+	margin-left: 52.8%;
+	width: 3.29%;
+	height: auto;
+	background-color: transparent;
+	font-size: 2.2rem;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s;
+}
+.HWCSWL{
+	position: absolute;
+	margin-left: -148%;
+	margin-top: 342%;
+}
+.HWCSWE:hover{
+	
+	opacity: 1;
+}
+.HWCSWE.open{	
+	opacity: 1;	
+}
+
+.HWCJP{
+	position: absolute;
+	z-index: 17;
+	margin-top: 30.7%;
+	margin-left: 84%;
+	width: 4.29%;
+	height: auto;
+	background-color: transparent;
+	font-size: 2.2rem;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s;
+}
+.HWCJP:hover{
+	
+	opacity: 1;
+}
+
+.HWCJP.open{
+	opacity: 1;	
+}
+
 .HWCWEUContenttext{
 	position: absolute;
 	margin-top: 70%;
@@ -2245,34 +2299,6 @@
 	visibility: visible;
 }
 
-.HWCSWE{
-	position: absolute;
-	z-index: 19;
-	margin-top: 21.6%;
-	margin-left: 52.8%;
-	width: 3.29%;
-	height: auto;
-	background-color: transparent;
-	font-size: 2.2rem;
-	opacity: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	transition: 0.5s;
-}
-.HWCSWL{
-	position: absolute;
-	margin-left: -148%;
-	margin-top: 342%;
-}
-.HWCSWE:hover{
-	
-	opacity: 1;
-}
-.HWCSWE.open{	
-	opacity: 1;	
-}
-
 .HWCSWEContenttext{
 	position: absolute;
 	margin-top: 70%;
@@ -2291,31 +2317,6 @@
 	transition: 1s ;
 	opacity: 1;
 	visibility: visible;
-}
-
-
-.HWCJP{
-	position: absolute;
-	z-index: 17;
-	margin-top: 30.7%;
-	margin-left: 84%;
-	width: 4.29%;
-	height: auto;
-	background-color: transparent;
-	font-size: 2.2rem;
-	opacity: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	transition: 0.5s;
-}
-.HWCJP:hover{
-	
-	opacity: 1;
-}
-
-.HWCJP.open{
-	opacity: 1;	
 }
 
 .HWCJPContenttext{
