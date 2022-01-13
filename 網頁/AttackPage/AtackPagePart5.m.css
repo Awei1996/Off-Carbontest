@@ -33,6 +33,9 @@
 	border: 1px solid #D1D9E4;
 	opacity: 1;
 }
+.view5>a{
+	font-size: 2rem;
+}
 .Part1{
 	position: absolute;
 	margin-left: 0%;
