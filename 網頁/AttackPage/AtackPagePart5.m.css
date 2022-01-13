@@ -4,7 +4,7 @@
 	z-index: 9;
 	left: 0%;
 	width: 100%;
-	margin-top: 224%;
+	margin-top: 488%;
 	padding-bottom: 0%;
 	display: flex;
 }
@@ -141,15 +141,11 @@
 
 @media (min-device-width: 376px) and (max-device-width: 600px){
 	
-	.bg5{
-		display: none;
-	}
+	
 	
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
 	
-	.bg5{
-		display: none;
-	}
+	
 }
