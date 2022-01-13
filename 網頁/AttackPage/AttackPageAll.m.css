@@ -29,7 +29,7 @@ body{
 	margin-top:  0%;
 	width: 100%;
 	height: 100%;
-	padding-bottom: 504%;
+	padding-bottom: 544%;
 	overflow: hidden;
 
 
@@ -328,9 +328,7 @@ button{
 	html{
 		font-size: 6px;
 	}
-	.allpg{
-		padding-bottom: 840%;
-	}
+	
 	.myBtn {
   	
   	
@@ -416,9 +414,6 @@ button{
 	
 	html{
 		font-size: 5px;
-	}
-	.allpg{
-		padding-bottom: 840%;
 	}
 	.myBtn {
   	
