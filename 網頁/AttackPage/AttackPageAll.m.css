@@ -410,10 +410,6 @@ button{
 
 	}
 	
-	
-	.view5{
-		display: none;
-	}
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
@@ -503,7 +499,4 @@ button{
    
 	}
 	
-	.view5{
-		display: none;
-	}
 }
