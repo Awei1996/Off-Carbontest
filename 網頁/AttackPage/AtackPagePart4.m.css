@@ -16,7 +16,7 @@
 	width: 100%;
 	opacity: 1;
 	margin-top: 308%;
-	display: none;
+	display: block;
 }
 .SDCBA{
 	position: absolute;
@@ -4267,30 +4267,11 @@
 
 @media (min-device-width: 376px) and (max-device-width: 600px){
 	
-	.bg4-1Mobile{
-		display: block;
-	}
-	.bg4-2Mobile{
-		display: block;
-	}
+	
+	
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
 	
 	
-	.bg4-1Mobile{
-		display: block;
-	}
-	.bg4-2Mobile{
-		display: block;
-	}
-	.SDCContent{
-		font-size: 5rem;
-	}
-	.OACContent{
-		font-size: 5rem;
-	}
-	.MICContent{
-		font-size: 5rem;
-	}
 }
