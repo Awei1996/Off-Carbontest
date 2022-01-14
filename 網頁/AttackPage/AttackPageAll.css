@@ -351,7 +351,7 @@ button{
 	
 	
 	html{
-		font-size: 7px;
+		font-size: 6px;
 	}
 	
 	
@@ -361,11 +361,9 @@ button{
 	
 	
 	html{
-		font-size: 6px;
+		font-size: 5px;
 	}
-	.allpg{
-		padding-bottom: 840%;
-	}
+	
 	.myBtn {
   	
   	
@@ -444,34 +442,15 @@ button{
 		text-align: center;
 
 	}
-	.view3{
-		display: none;
-	}
-	.view3-Mobile{
-		display: block;
-	}
-	.view4{
-		display: none;
-	}
-	.view4-Mobile{
-		display: block;
-	}
-	.view4-1Mobile{
-		display: block;
-	}
-	.view5{
-		display: none;
-	}
+	
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
 	
 	html{
-		font-size: 5px;
+		font-size: 4px;
 	}
-	.allpg{
-		padding-bottom: 840%;
-	}
+	
 	.myBtn {
   	
   	
@@ -550,22 +529,5 @@ button{
 		text-align: center;
    
 	}
-	.view3{
-		display: none;
-	}
-	.view3-Mobile{
-		display: block;
-	}
-	.view4{
-		display: none;
-	}
-	.view4-Mobile{
-		display: block;
-	}
-	.view4-1Mobile{
-		display: block;
-	}
-	.view5{
-		display: none;
-	}
+	
 }
