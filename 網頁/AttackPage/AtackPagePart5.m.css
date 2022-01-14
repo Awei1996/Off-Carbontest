@@ -50,23 +50,23 @@
 .CO2temp{
 	position: absolute;
 	margin-top:  20%;
-	font-size: 2.66rem;
+	font-size: 2.8rem;
 
 }
 .IceMelting{
 	position: absolute;
 	margin-top: 60%;
-	font-size: 2.66rem;
+	font-size: 2.8rem;
 }
 .HeatWaveinfor{
 	position: absolute;
 	margin-top: 100%;
-	font-size: 2.66rem;
+	font-size: 2.8rem;
 }
 .FireForestinfor{
 	position: absolute;
 	margin-top: 140%;
-	font-size: 2.66rem;
+	font-size: 2.8rem;
 }
 .Part2{
 	position: absolute;
@@ -82,23 +82,23 @@
 .Extinction{
 	position: absolute;
 	margin-top:  20%;
-	font-size: 2.66rem;
+	font-size: 2.8rem;
 
 }
 .SeaSour{
 	position: absolute;
 	margin-top:  60%;
-	font-size: 2.66rem;
+	font-size: 2.8rem;
 }
 .ExtremeWeather{
 	position: absolute;
 	margin-top:  100%;
-	font-size: 2.66rem;
+	font-size: 2.8rem;
 }
 .DiseaseRage{
 	position: absolute;
 	margin-top: 140%;
-	font-size: 2.66rem;
+	font-size: 2.8rem;
 }
 .Part3{
 	position: absolute;
@@ -115,39 +115,34 @@
 .FoodLess{
 	position: absolute;
 	margin-top:  20%;
-	font-size: 2.66rem;
+	font-size: 2.8rem;
 }
 .EconomicAffect{
 	position: absolute;
 	margin-top:  60%;
-	font-size: 2.66rem;
+	font-size: 2.8rem;
 }
 .Other{
 	position: absolute;
 	margin-top:  100%;
-	font-size: 2.66rem;
+	font-size: 2.8rem;
 }
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
-	
 	
 }
 
 @media (min-device-width: 960px) and (max-device-width: 1280px){
 	
-	
 }
 @media (min-device-width: 600px) and (max-device-width: 960px){
-	
 		
 }
 
 @media (min-device-width: 376px) and (max-device-width: 600px){
 	
 	
-	
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
-	
 	
 }
