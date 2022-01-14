@@ -315,6 +315,14 @@ button{
 	z-index: -1;
 	
 }
+.absolute-bg {
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 100%;
+	z-index: 0;
+	overflow: hidden;
+}
 
 .fog-container {
   	position: absolute;
