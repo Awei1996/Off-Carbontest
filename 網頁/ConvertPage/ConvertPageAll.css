@@ -334,7 +334,7 @@ button{
 	height: 100%;
 	overflow: hidden;
   	z-index: 3;
-	opacity: 0;
+	opacity: 0.8;
 
 }
 
