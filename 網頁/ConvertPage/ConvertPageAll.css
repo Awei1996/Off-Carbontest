@@ -336,7 +336,7 @@ button{
 .fog-img {
   	position: absolute;
   	height: 300vh;
-  	width: 100vw;
+  	width: 100%;
   	z-index: 3;
 }
 
@@ -373,7 +373,6 @@ button{
 	margin-top: 10.5%;
 	width: 96.93%;
 	z-index: 1;
-	opacity: 0;
 }
 .Mask{
 	position: absolute;
