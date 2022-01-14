@@ -346,7 +346,7 @@ button{
   	background-repeat: repeat-y;
   	background-size: contain;
   	background-position: center;
-  	animation: marquee 60s linear infinite;
+  	animation: marquee 30s linear infinite;
 }
 
 .fog-img-second {
@@ -355,6 +355,7 @@ button{
   	background-size: contain;
   	background-position: center;
   	animation: marquee 30s linear infinite;
+	animation-delay: 30s;
 }
 
 @keyframes marquee {
