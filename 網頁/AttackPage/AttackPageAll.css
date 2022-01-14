@@ -349,11 +349,9 @@ button{
 		font-size: 6px;
 	}
 	
-	
 }
 
 @media (min-device-width: 376px) and (max-device-width: 600px){
-	
 	
 	html{
 		font-size: 6px;
@@ -380,8 +378,6 @@ button{
 		width: 4%;
 		padding-bottom: 0.5%;
 	
-		
-
 	}
 	.Cross1.open{
 		margin-top: 3.8%;
