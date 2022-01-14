@@ -447,13 +447,7 @@
 	
 		display: none;
 	}
-	.Boxoutside-Mobile{
-		
-		display: flex;
-	}
-	.Boxinside-Mobile{
-		display: flex;
-	}
+	
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
@@ -478,11 +472,5 @@
 	
 		display: none;
 	}
-	.Boxoutside-Mobile{
-		
-		display: flex;
-	}
-	.Boxinside-Mobile{
-		display: flex;
-	}
+	
 }
