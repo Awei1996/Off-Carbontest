@@ -321,7 +321,7 @@ button{
 	margin-left: 0%;
 	width: 100%;
 	z-index: 4;
-	background-image: url("../../webpng/ConvertPage/P1BG.png");
+	background: url("../../webpng/ConvertPage/P1BG.png");
 	background-position: 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
