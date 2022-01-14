@@ -262,6 +262,7 @@ button{
   	height: 300vh;
   	width: 100%;
   	z-index: 3;
+	opacity: 0.8;
 }
 
 .fog-img-first {
