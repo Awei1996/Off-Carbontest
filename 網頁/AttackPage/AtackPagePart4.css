@@ -11,24 +11,7 @@
 	overflow: hidden;
 
 }
-.bg4-1Mobile{
-	position: absolute;
-	z-index: -1;
-	left: 0%;
-	width: 100%;
-	opacity: 1;
-	margin-top: 224%;
-	display: none;
-}
-.bg4-2Mobile{
-	position: absolute;
-	z-index: 6;
-	left: 0%;
-	width: 100%;
-	opacity: 1;
-	margin-top: 308%;
-	display: none;
-}
+
 .SDCBA{
 	position: absolute;
 	margin-left: 93%;
@@ -135,23 +118,7 @@
 	margin-left: 40.63%;
 	opacity: 1;
 }
-.Disaster-Mobile{
-	position: absolute;
-	z-index: 17;
-	margin-top: 10%;
-	margin-left: 5%;
-	width: 90%;
-	color: #ffffff;
-	font-size: 6rem;
-	border: solid 5px #FFFFFF;
-	border-left: 0px;
-	border-right: 0px;
-	border-radius: 1px;
-	font-weight: bold;
-	text-align: center;
-	line-height: 0;
 
-}
 .MainMenu{
 	position: absolute;
 	z-index: 17;
@@ -201,36 +168,6 @@
 	0%{margin-left: -32.19%;}
 	100%{margin-left: 0%;}
 }
-.MainMenu-Mobile{
-	position: absolute;
-	margin-left: -0.1%;
-	width: 100%;
-	margin-top: 5%;
-	height: 97.5%;
-	background-color: transparent;
-	outline: none;
-
-}
-
-.MainMenu-Mobile.close{
-	animation: t1;
-	animation-duration: 1.5s;
-	animation-fill-mode: forwards;
-	-webkit-transition: 1.5s;
-    -moz-transition: 1.5s;
-    -ms-transition: 1.5s;
-    -o-transition: 1.5s;
-}
-
-.MainMenu-Mobile.open{
-	animation: t2;
-	animation-duration: 1.5s;
-	animation-fill-mode: forwards;
-	-webkit-transition: 1.5s;
-    -moz-transition: 1.5s;
-    -ms-transition: 1.5s;
-    -o-transition: 1.5s;
-}
 
 .Backbutton{
 	position: absolute;
@@ -249,24 +186,7 @@
 	transition: 1s;
 	opacity: 0.5;
 }
-.Backbutton-Mobile{
-	position: absolute;
-	z-index: 17;
-	margin-top: 0%;
-	margin-left: 100%;
-	width: 6.06%;
-	height: 100%;
-	opacity: 0.8;
-}
 
-.Backbutton-Mobile:hover{
-	-webkit-filter:brightness(1.2);
-}
-
-.Backbutton-Mobile.open{
-	transition: 1s;
-	opacity: 0.5;
-}
 .ButtonTitle{
 	position: absolute;
 	margin-left: 5%;
@@ -4417,31 +4337,6 @@
 	margin-left: 43.33%;
 	opacity: 1;
 }
-.Steam-Mobile{
-	position: absolute;
-	z-index: 6;
-	width: 80%;
-	margin-top: 27.5%;
-	margin-left: 10%;
-}
-.Steam-Mobile.open{
-	-webkit-transition: 2s;
-    -moz-transition: 2s;
-    -ms-transition: 2s;
-    -o-transition: 2s;
-    transition: 2s,opacity 2s;
-	margin-left: 45.93%;
-	opacity: 0;
-}
-.Steam-Mobile.close{
-	-webkit-transition: 2s;
-    -moz-transition: 2s;
-    -ms-transition: 2s;
-    -o-transition: 2s;
-    transition: 2s,opacity 2s;
-	margin-left: 43.33%;
-	opacity: 1;
-}
 
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
 	
@@ -4460,27 +4355,9 @@
 @media (min-device-width: 376px) and (max-device-width: 600px){
 	
 	
-	.bg4{
-		display: none;
-	}
-	.bg4-1Mobile{
-		display: block;
-	}
-	.bg4-2Mobile{
-		display: block;
-	}
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
 	
 	
-	.bg4{
-		display: none;
-	}
-	.bg4-1Mobile{
-		display: block;
-	}
-	.bg4-2Mobile{
-		display: block;
-	}
 }
