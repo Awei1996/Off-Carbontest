@@ -39,10 +39,10 @@ select{
   	
   	position: fixed; /* Fixed/sticky position */
   	margin-top: 2%; /* Place the button at the bottom of the page */
-  	margin-left: 92.5%; /* Place the button 30px from the right */
+  	margin-left: 95%; /* Place the button 30px from the right */
   	z-index: 30; /* Make sure it does not overlap */
-	width: 5%;
-	padding-bottom: 5%;
+	width: 3%;
+	padding-bottom: 3%;
 	border-radius: 50%;
   	border: none; /* Remove borders */
   	outline: none; /* Remove outline */
@@ -50,7 +50,6 @@ select{
 	opacity: 0;
   
 	transition: background-color 200ms,transform 1s; 
-	
 	
 }
 
@@ -66,25 +65,24 @@ select{
 .MenuContent{
 	z-index: 0;
 	position: fixed;
-	margin-left: 45%;
-	margin-top: 5%;
+	margin-left: 47%;
+	margin-top: 3%;
 	width: 40%;
 	padding-bottom: 30%;
-	opacity: 0;
 	text-align: right;
 	transition: 1s;
+	display: none
 }
 .MenuContent.open{
 	
-	opacity: 1;
+	display: block;
 }
 .MenuBtn{
 	
-	font-size: 7.5rem;
+	font-size: 7.2rem;
 	font-weight: bolder;
 	color: #CE7E24;
 	-webkit-text-size-adjust:none;
-	
 	
 }
 .MenuBtn:hover{
@@ -98,21 +96,20 @@ select{
 .AllCross{
 	position: fixed;
 	z-index: 35;
-	width: 5%;
-	padding-bottom: 5%;
-	margin-left: 92.5%;
+	width: 3%;
+	padding-bottom: 3%;
+	margin-left: 95%;
 	margin-top: 2%;
 	border-radius: 50%;
 	opacity: 0;
-	
 	
 }
 .Cross1{
 	position: fixed;
 	z-index: 40;
-	margin-top: 1.7%;
-	margin-left: 1.125%;
-	width: 2.6%;
+	margin-top: 0.9%;
+	margin-left: 0.5%;
+	width: 2%;
 	padding-bottom: 0.25%;
 	border-radius: 3px 3px 3px 3px;
 	background-color: #296177;
@@ -121,14 +118,14 @@ select{
 
 }
 .Cross1.open{
-	margin-top: 2.3%;
+	margin-top: 1.4%;
 	transform: rotate(45deg);
 }
 .Cross2{
 	position: fixed;	
-	margin-top: 2.3%;
-	margin-left: 1.125%;
-	width: 2.6%;
+	margin-top: 1.4%;
+	margin-left: 0.5%;
+	width: 2%;
 	padding-bottom: 0.25%;
 	border-radius: 3px 3px 3px 3px;
 	background-color: #296177;
@@ -140,9 +137,9 @@ select{
 }
 .Cross3{
 	position: fixed;	
-	margin-top: 2.9%;
-	margin-left: 1.125%;
-	width: 2.6%;
+	margin-top: 1.9%;
+	margin-left: 0.5%;
+	width: 2%;
 	padding-bottom: 0.25%;
 	border-radius: 3px 3px 3px 3px;
 	background-color: #296177;
@@ -150,7 +147,7 @@ select{
 	transition: 0.5s; 
 }
 .Cross3.open{
-	margin-top: 2.3%;
+	margin-top: 1.4%;
 	transform: rotate(-45deg);
 }
 
