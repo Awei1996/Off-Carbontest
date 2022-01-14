@@ -315,18 +315,6 @@ button{
 	z-index: -1;
 	
 }
-.absolute-bg {
-	position: absolute;
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-	z-index: 4;
-	background: url("../../webpng/ConvertPage/P1BG.png");
-	background-position: 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	overflow: hidden;
-}
 
 .fog-container {
   	position: absolute;
