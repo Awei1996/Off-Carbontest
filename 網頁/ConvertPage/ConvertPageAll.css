@@ -48,7 +48,6 @@ select{
   	outline: none; /* Remove outline */
   	background-color: #fff; /* Set a background color */
 	opacity: 0;
-  
 	transition: background-color 200ms,transform 1s; 
 	
 }
@@ -256,6 +255,7 @@ button{
 
 .fog-img {
   	position: absolute;
+	margin-top: 28%;
   	height: 300vh;
   	width: 100%;
   	z-index: 3;
