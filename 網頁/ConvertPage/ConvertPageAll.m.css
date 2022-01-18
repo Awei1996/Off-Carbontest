@@ -267,7 +267,7 @@ button{
   	background-repeat: repeat-y;
   	background-size: contain;
   	background-position: center;
-  	animation: marquee 30s linear infinite;
+  	animation: marquee 20s linear infinite;
 }
 
 .fog-img-second {
@@ -275,7 +275,7 @@ button{
   	background-repeat: repeat-y;
   	background-size: contain;
   	background-position: center;
-  	animation: marquee 30s linear infinite;
+  	animation: marquee 20s linear infinite;
 }
 
 @keyframes marquee {
@@ -319,12 +319,12 @@ button{
 	margin-top:  56%;
 	margin-left: 0%;
 	width: 100%;
-	padding-bottom: 56%;
+	padding-bottom: 112%;
 	background-color: transparent;
 }
 .bg2{
 	position: absolute;
-	z-index: 4;
+	z-index: -1;
 	width: 100%;
 	margin-left: 0%;
 	margin-top: 56%;
@@ -335,19 +335,20 @@ button{
 	z-index: 6;
 	position: absolute;
 	margin-top: 5%;
-	margin-left: 6.25%;
-	width: 31.25%;
-	padding-bottom: 46.66%;
+	margin-left: 12.5%;
+	width: 70%;
+	height: 65%;
 	background-color: transparent;
 	border-radius: 1.67%;
+	border: 2px solid red;
 
 }
 .Btn{
 	position: absolute;
-	margin-top: 15%;
+	margin-top: 3.75%;
 	margin-left: 0%;
 	width: 100%;
-	padding-bottom: 15%;
+	padding-bottom: 7.5%;
 	color: #fff;
 	font-size: 2.67rem;
 	border-radius: 1.67%;
@@ -368,8 +369,8 @@ button{
 	justify-content: center;
 }
 .Food.open{
-	margin-top: -15%;
-	height: 200%;
+	margin-top: -3.75%;
+	height: 150%;
 	font-size: 4rem;
 
 	
@@ -396,8 +397,8 @@ button{
 
 }
 .Housing.open{
-	margin-top: -15%;
-	height: 200%;
+	margin-top: -3.75%;
+	height: 150%;
 	font-size: 4rem;
 
 	
@@ -426,8 +427,8 @@ button{
 }
 
 .Transportation.open{
-	margin-top: -15%;
-	height: 200%;
+	margin-top: -3.75%;
+	height: 150%;
 	font-size: 4rem;
 
 	
@@ -443,10 +444,11 @@ button{
 	position: absolute;
 	z-index: 1;
 	margin-left: 0%;
-	margin-top: 30%;
+	margin-top: 10%;
 	width: 100%;
-	height: 80%;
+	height: 90%;
 	background-color: #fff;
+	border-radius: 0 0 2.5% 2.5%;
 
 }
 .TextTitle{
@@ -878,7 +880,7 @@ button{
 	position: absolute;
 	z-index: 2;
 	margin-left: 33.33%;
-	margin-top: 140%;
+	margin-top: 96.25%;
 	width: 33.33%;
 	height: 5.56%;
 	font-size: 1.66rem;
@@ -889,12 +891,12 @@ button{
 .Cart{
 	position: absolute;
 	z-index: 6;
-	margin-left: 43.75%;
-	margin-top: 5%;
-	width: 48.96%;
-	height: 37.04%;
+	margin-left: 10%;
+	margin-top: 80%;
+	width: 80%;
+	height: 25%;
 	background-color: #fff;
-	border-radius: 10px;
+	border-radius: 2.5%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -905,10 +907,8 @@ table{
 	width: 100%;
 	height: 100%;
 	border: 2px solid black;
-	border-radius: 10px;
+	border-radius: 2.5%;
 	background-color: #fff;
-	
-	
 	
 	
 }
@@ -1293,7 +1293,7 @@ td{
 .view3{
 	position: absolute;
 	z-index: 15;
-	margin-top:  112%;
+	margin-top:  168%;
 	margin-left:  0%;
 	width: 100%;
 	padding-bottom: 56%;
@@ -1303,7 +1303,7 @@ td{
 
 .bg3{
 	position: absolute;
-	z-index: 10;
+	z-index: -1;
 	width: 100%;
 	margin-left: 0%;
 	margin-top: 112%;
