@@ -1505,7 +1505,15 @@ td{
 	font-family: Gen Jyuu Gothic ;
 
 }
+.bg5{
+	position: absolute;
+	z-index: 15;
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 224%;
+	font-family: Gen Jyuu Gothic ;
 
+}
 .references{
 	position: absolute;
 	z-index: 1;
