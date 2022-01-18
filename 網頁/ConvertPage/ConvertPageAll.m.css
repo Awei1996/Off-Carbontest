@@ -1,0 +1,1628 @@
+@charset "utf-8";
+@font-face {
+	font-family: Gen Jyuu Gothic ;
+    src: url(../../font/GenJyuuGothic-Normal.ttf);
+
+}
+html{
+	font-family: Gen Jyuu Gothic ;
+	scroll-behavior: smooth;
+	font-size: 12px;
+	overflow-x: hidden;
+}
+
+body{
+	font-family: Gen Jyuu Gothic ;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    width: 100%;
+    height: 400%;
+	overflow-x: hidden;
+}
+select{
+	font-family: Gen Jyuu Gothic ;
+	font-weight: normal;
+}
+.allpg{
+	font-family: Gen Jyuu Gothic ;
+	position: relative;
+	margin-left: 0%;
+	margin-top:  0%;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 224%;
+	overflow: hidden;
+}
+.myBtn {
+  	
+  	position: fixed; /* Fixed/sticky position */
+  	margin-top: 2%; /* Place the button at the bottom of the page */
+  	margin-left: 95%; /* Place the button 30px from the right */
+  	z-index: 30; /* Make sure it does not overlap */
+	width: 3%;
+	padding-bottom: 3%;
+	border-radius: 50%;
+  	border: none; /* Remove borders */
+  	outline: none; /* Remove outline */
+  	background-color: #fff; /* Set a background color */
+	opacity: 0;
+  
+	transition: background-color 200ms,transform 1s; 
+	
+}
+
+.myBtn.open{
+	background-color: #f0a550;
+	transform: scale(120);
+	user-select: none;	
+	
+}
+
+
+
+.MenuContent{
+	z-index: 0;
+	position: fixed;
+	margin-left: 47%;
+	margin-top: 3%;
+	width: 40%;
+	padding-bottom: 30%;
+	text-align: right;
+	transition: 1s;
+	display: none
+}
+.MenuContent.open{
+	
+	display: block;
+}
+.MenuBtn{
+	
+	font-size: 7.2rem;
+	font-weight: bolder;
+	color: #CE7E24;
+	-webkit-text-size-adjust:none;
+	
+}
+.MenuBtn:hover{
+	color: #184557;
+	
+}
+
+.Ab{
+	font-size: 6rem;
+}
+.AllCross{
+	position: fixed;
+	z-index: 35;
+	width: 3%;
+	padding-bottom: 3%;
+	margin-left: 95%;
+	margin-top: 2%;
+	border-radius: 50%;
+	opacity: 0;
+	
+}
+.Cross1{
+	position: fixed;
+	z-index: 40;
+	margin-top: 0.9%;
+	margin-left: 0.5%;
+	width: 2%;
+	padding-bottom: 0.25%;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #296177;
+	box-shadow: 0px 3px 6px #00000029;
+	transition: 0.5s; 
+
+}
+.Cross1.open{
+	margin-top: 1.4%;
+	transform: rotate(45deg);
+}
+.Cross2{
+	position: fixed;	
+	margin-top: 1.4%;
+	margin-left: 0.5%;
+	width: 2%;
+	padding-bottom: 0.25%;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #296177;
+	box-shadow: 0px 3px 6px #00000029;
+	transition: 0.5s; 
+}
+.Cross2.open{
+	opacity: 0;
+}
+.Cross3{
+	position: fixed;	
+	margin-top: 1.9%;
+	margin-left: 0.5%;
+	width: 2%;
+	padding-bottom: 0.25%;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #296177;
+	box-shadow: 0px 3px 6px #00000029;
+	transition: 0.5s; 
+}
+.Cross3.open{
+	margin-top: 1.4%;
+	transform: rotate(-45deg);
+}
+
+.LoadingAnimate{
+	position: fixed;
+	z-index: 999;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: #fff;
+	
+}
+
+.loadingwrap {
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.l-earth{
+	position: absolute;
+	top: 30%;
+	width: 12.5%;
+}
+.l-word {
+    position: absolute;
+    top: 62.5%;
+    font-size: 28px;
+    letter-spacing: 12px;
+	text-align: center;
+   
+}
+
+.CountTo100{
+	color: #000;
+	width: 500px;
+	height: 100px;
+	font-size: 32px;
+}
+
+.bar{
+	position: absolute;
+	z-index: 2;
+	font-size: 2.33rem;
+	margin-left: 27.86%;
+	margin-top: 2%;
+	font-weight: normal;
+	-webkit-text-size-adjust:none;
+	
+}
+
+
+.act:hover{
+	border-bottom: solid 5px transparent;
+	border-image: linear-gradient(90deg, rgba(255, 255, 255, 1)10%, rgba(255, 255, 255, 0)95%);
+	border-image-slice: 1;
+	
+}
+
+button{
+	font-family: Gen Jyuu Gothic ;
+	
+	
+}
+
+
+.view1{
+	position: absolute;
+	z-index: 1;
+	margin-top:  0%;
+	margin-left:  0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: transparent;
+}
+
+.bg1{
+	position: absolute;
+	width: 100%;
+	margin-top:  0%;
+	margin-left:  0%;
+	z-index: -1;
+	
+}
+.absolute-bg {
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 100%;
+	z-index: 0;
+	overflow: hidden;
+}
+
+.fog-container {
+  	position: absolute;
+  	width: 100%;
+	padding-bottom: 56%;
+	overflow: hidden;
+  	z-index: 3;
+
+}
+
+.fog-img {
+  	position: absolute;
+  	height: 300vh;
+  	width: 100%;
+  	z-index: 3;
+	opacity: 0.8;
+}
+
+.fog-img-first {
+  	background: url("../../webpng/ConvertPage/fog-1.png");
+  	background-repeat: repeat-y;
+  	background-size: contain;
+  	background-position: center;
+  	animation: marquee 30s linear infinite;
+}
+
+.fog-img-second {
+  	background: url("../../webpng/ConvertPage/fog-2.png");
+  	background-repeat: repeat-y;
+  	background-size: contain;
+  	background-position: center;
+  	animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+  	0% {
+  	  transform: translate3d(0, 0, 0);
+ 	}
+
+  	100% {
+  	  transform: translate3d(0, -200vh, 0);
+  	}
+}
+
+.Bottle{
+	position: absolute;
+	margin-left: 3.02%;
+	margin-top: 10.3%;
+	width: 96.93%;
+	z-index: 1;
+}
+.Mask{
+	position: absolute;
+	margin-left: 0%;
+	margin-top: 0%;
+	width: 100%;
+	z-index: 4;
+}
+
+.P1Title{
+	position: absolute;
+	z-index: 5;
+	margin-left: 8.33%;
+	margin-top: 7.5%;
+	color: #ffffff;
+	font-size: 13.5rem;
+	font-weight: bold;
+
+}
+.view2{
+	position: absolute;
+	z-index: 5;
+	margin-top:  56%;
+	margin-left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: transparent;
+}
+.bg2{
+	position: absolute;
+	z-index: 4;
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 56%;
+
+}
+
+.Selector{
+	z-index: 6;
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 6.25%;
+	width: 31.25%;
+	padding-bottom: 46.66%;
+	background-color: transparent;
+	border-radius: 1.67%;
+
+}
+.Btn{
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 0%;
+	width: 100%;
+	padding-bottom: 15%;
+	color: #fff;
+	font-size: 2.67rem;
+	border-radius: 1.67%;
+	
+}
+.Food{
+	margin-top: 0%;
+	margin-left: 0%;
+	position: absolute;
+	width: 33.33%;
+	height: 100%;
+	background-color: #EE9933;
+	color: #fff;
+	border-radius: 10px 0 0 0 ;
+	transition: 0.5s; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Food.open{
+	margin-top: -15%;
+	height: 200%;
+	font-size: 4rem;
+
+	
+}
+.Food.close{
+	margin-top: 0%;
+	height: 100%;
+	font-size: 2.67rem;
+
+	
+}
+.Housing{
+	margin-top: 0%;
+	margin-left: 33.33%;
+	position: absolute;
+	width: 33.34%;
+	height: 100%;
+	background-color: #DD8822;
+	color: #fff;
+	transition: 0.5s; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.Housing.open{
+	margin-top: -15%;
+	height: 200%;
+	font-size: 4rem;
+
+	
+}
+.Housing.close{
+	margin-top: 0%;
+	height: 100%;
+	font-size: 2.67rem;
+
+	
+}
+.Transportation{
+	margin-top: 0%;
+	margin-left: 66.67%;
+	position: absolute;
+	width: 33.33%;
+	height: 100%;
+	background-color: #EEAA66;
+	color: #fff;
+	border-radius: 0 10px 0 0 ;
+	transition: 0.5s; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.Transportation.open{
+	margin-top: -15%;
+	height: 200%;
+	font-size: 4rem;
+
+	
+}
+.Transportation.close{
+	margin-top: 0%;
+	height: 100%;
+	font-size: 2.67rem;
+
+	
+}
+.Content{
+	position: absolute;
+	z-index: 1;
+	margin-left: 0%;
+	margin-top: 30%;
+	width: 100%;
+	height: 80%;
+	background-color: #fff;
+
+}
+.TextTitle{
+	position: absolute;
+	margin-left: 3.33%;
+	font-size: 2.5rem;
+}
+.explain{
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	color: #000;
+	font-size: 2.2rem;
+	line-height: 2;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.FoodContent{
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	color: #000;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+}
+.FoodContent.open{
+	opacity: 1;
+}
+.FoodContent.close{
+	opacity: 0;
+}
+
+.Breakfast{
+	width: 100%;
+	height: 25%;
+	border: solid 1px #000;
+	display: flex;
+	align-items: center;
+	
+}
+.Egg{
+	position: absolute;
+	margin-left: 20%;
+	width: 20%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 8.33%;
+	outline: none;
+
+}
+
+.Otameal{
+	position: absolute;
+	margin-left: 47.5%;
+	width: 20%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 8.33%;
+	outline: none;
+
+}
+.Bread{
+	position: absolute;
+	margin-left: 75%;
+	width: 20%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 8.33%;
+	outline: none;
+
+}
+.Lunch{
+	width: 100%;
+	height: 45%;
+	border: solid 1px #000;
+	display: flex;
+	align-items: center;
+
+}
+
+.LBeef{
+	position: absolute;
+	margin-left: 20%;
+	margin-top: -12.5%;
+	width: 15%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 8.33%;
+	outline: none;
+
+}
+.LChicken{
+	position: absolute;
+	margin-left: 40%;
+	margin-top: -12.5%;
+	width: 15%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 8.33%;
+	outline: none;
+
+}
+.LPork{
+	position: absolute;
+	margin-left: 60%;
+	margin-top: -12.5%;
+	width: 15%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 8.33%;
+	outline: none;
+
+}
+.LFish{
+	position: absolute;
+	margin-left: 80%;
+	margin-top: -12.5%;
+	width: 15%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 8.33%;
+	outline: none;
+
+}
+
+.LRice{
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 12.5%;
+	width: 12%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 16.66%;
+	outline: none;
+
+}
+.LPasta{
+	position: absolute;
+	margin-left: 34%;
+	margin-top: 12.5%;
+	width: 20%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 8.33%;
+	outline: none;
+
+}
+.LLamb{
+	position: absolute;
+	margin-left: 56%;
+	margin-top: 12.5%;
+	width: 12%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 16.66%;
+	outline: none;
+
+}
+.LTofu{
+	position: absolute;
+	margin-left: 70%;
+	margin-top: 12.5%;
+	width: 12%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 16.66%;
+	outline: none;
+
+}
+.LPea{
+	position: absolute;
+	margin-left: 84%;
+	margin-top: 12.5%;
+	width: 12%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 16.66%;
+	outline: none;
+
+}
+.Dinner{
+	width: 100%;
+	height: 45%;
+	border: solid 1px #000;
+	display: flex;
+	align-items: center;
+
+}
+
+.DBeef{
+	position: absolute;
+	margin-left: 20%;
+	margin-top: -12.5%;
+	width: 15%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 8.33%;
+	outline: none;
+
+}
+.DChicken{
+	position: absolute;
+	margin-left: 40%;
+	margin-top: -12.5%;
+	width: 15%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 8.33%;
+	outline: none;
+
+}
+.DPork{
+	position: absolute;
+	margin-left: 60%;
+	margin-top: -12.5%;
+	width: 15%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 8.33%;
+	outline: none;
+
+}
+.DFish{
+	position: absolute;
+	margin-left: 80%;
+	margin-top: -12.5%;
+	width: 15%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 8.33%;
+	outline: none;
+
+}
+
+.DRice{
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 12.5%;
+	width: 12%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 16.66%;
+	outline: none;
+
+}
+.DPasta{
+	position: absolute;
+	margin-left: 34%;
+	margin-top: 12.5%;
+	width: 20%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 16.66%;
+	outline: none;
+
+}
+.DLamb{
+	position: absolute;
+	margin-left: 56%;
+	margin-top: 12.5%;
+	width: 12%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 16.66%;
+	outline: none;
+
+}
+.DTofu{
+	position: absolute;
+	margin-left: 70%;
+	margin-top: 12.5%;
+	width: 12%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 16.66%;
+	outline: none;
+
+}
+.DPea{
+	position: absolute;
+	margin-left: 84%;
+	margin-top: 12.5%;
+	width: 12%;
+	height: 10%;
+	font-size: 1.66rem;
+	border-radius: 16.66%;
+	outline: none;
+
+}
+.Dessert{
+	width: 100%;
+	height: 25%;
+	border: solid 1px #000;
+	display: flex;
+	align-items: center;
+
+}
+.WantToEat{
+	position: absolute;
+	margin-left: 20%;
+	width: 75%;
+	height: 10%;
+	border-radius: 10px;
+	font-size: 1.66rem;
+	display: flex;
+	align-items: center;
+}
+.Drink{
+	width: 100%;
+	height: 25%;
+	border: solid 1px #000;
+	display: flex;
+	align-items: center;
+
+}
+.WantToDrink{
+	position: absolute;
+	margin-left: 20%;
+	width: 75%;
+	height: 10%;
+	border-radius: 10px;
+	font-size: 1.66rem;
+	display: flex;
+	align-items: center;
+}
+.HousingContent{
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	color: #000;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+	
+}
+.HousingContent.open{
+	opacity: 1;
+}
+.HousingContent.close{
+	opacity: 0;
+}
+
+.AirCon{
+	width: 100%;
+	height: 30%;
+	border: solid 1px #000;
+	display: flex;
+	align-items: center;
+
+}
+.WantToUse{
+	position: absolute;
+	margin-left: 20%;
+	width: 75%;
+	height: 10%;
+	border-radius: 10px;
+	font-size: 1.66rem;
+	display: flex;
+	align-items: center;
+}
+.Light{
+	width: 100%;
+	height: 30%;
+	border: solid 1px #000;
+	display: flex;
+	align-items: center;
+
+}
+.WantToTurn{
+	position: absolute;
+	margin-left: 20%;
+	width: 75%;
+	height: 10%;
+	border-radius: 10px;
+	font-size: 1.66rem;
+	display: flex;
+	align-items: center;
+}
+.TransportationContent{
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	color: #000;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.TransportationContent.open{
+	opacity: 1;
+}
+.TransportationContent.close{
+	opacity: 0;
+}
+.TransWay{
+	width: 100%;
+	height: 30%;
+	border: solid 1px #000;
+	display: flex;
+	align-items: center;
+
+}
+
+.WantToGo{
+	position: absolute;
+	margin-left: 30%;
+	width: 60%;
+	height: 10%;
+	border-radius: 10px;
+	font-size: 1.66rem;
+	display: flex;
+	align-items: center;
+}
+.SendOut{
+	position: absolute;
+	z-index: 2;
+	margin-left: 33.33%;
+	margin-top: 140%;
+	width: 33.33%;
+	height: 5.56%;
+	font-size: 1.66rem;
+	outline: none;
+	border-radius: 10px;
+	
+}
+.Cart{
+	position: absolute;
+	z-index: 6;
+	margin-left: 43.75%;
+	margin-top: 5%;
+	width: 48.96%;
+	height: 37.04%;
+	background-color: #fff;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	
+}
+table{
+	width: 100%;
+	height: 100%;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #fff;
+	
+	
+	
+	
+}
+tr{
+	height: 20%;
+}
+td{
+	width: 16.6%;
+}
+.Img{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 90%;	
+}
+.CEgg{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.COtameal{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+.CBread{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+.BeefL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+.ChickenL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+.PorkL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+.FishL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.RiceL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.PastaL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+.LambL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+.TofuL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+.PeaL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+
+.BeefD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.ChickenD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.PorkD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.FishD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.RiceD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.PastaD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.LambD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.TofuD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.PeaD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.CDessert{
+	background-position: center center;
+	opacity: 0.3;
+	display: flex;
+	background-image: url(../../webpng/ConvertPage/Cheese.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+.CDessert.Cheese{
+
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Cheese.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+.CDessert.Banana{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Banana.png);
+	background-size: 50%;	
+	background-repeat: no-repeat;
+}
+.CDessert.Tomato{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Tomato.png);
+	background-size: 40%;
+	background-repeat: no-repeat;
+}
+.CDessert.Choco{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Choco.png);
+	background-size: 30%;
+	background-repeat: no-repeat;
+}
+
+.CDrink{
+	opacity: 0.3;
+	background-image: url(../../webpng/ConvertPage/SoyaMilk.png);
+	background-size: 25%;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+.CDrink.Soya{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/SoyaMilk.png);
+	background-size:  25%;
+	background-repeat: no-repeat;
+}
+.CDrink.Coffee{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Coffee.png);
+	background-size: 40%;
+	background-repeat: no-repeat;
+}
+.CDrink.Beer{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Beer.png);
+	background-size: 25%;
+	background-repeat: no-repeat;
+}
+.CDrink.Tea{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Tea.png);
+	background-size: 40%;
+	background-repeat: no-repeat;
+}
+.CDrink.Milk{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Milk.png);
+	background-size: 25%;
+	background-repeat: no-repeat;
+}
+.CAirCon{
+	opacity: 0.3;
+	background-image: url(../../webpng/ConvertPage/OldAircon.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.CAirCon.Old3{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/OldAircon.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+.CAirCon.Old8{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/OldAircon.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+.CAirCon.New8{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/NewAlrcon.png);
+	background-size: 60%;
+	background-repeat: no-repeat;
+}
+.CLight{
+	opacity: 0.3;
+	background-image: url(../../webpng/ConvertPage/OldLight.png);
+	background-size: 25%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.CLight.OldLight{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/OldLight.png);
+	background-size: 25%;
+	background-repeat: no-repeat;
+}
+.CLight.LowLight{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/LowLight.png);
+	background-size: 20%;
+	background-repeat: no-repeat;
+}
+.CLight.LEDLight{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/LEDLight.png);
+	background-size: 25%;
+	background-repeat: no-repeat;
+}
+.CTrans{
+	opacity: 0.3;
+	background-image: url(../../webpng/ConvertPage/Car.png);
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.CTrans.Car{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Car.png);
+	background-size: 70%;
+	background-repeat: no-repeat;
+}
+.CTrans.Moto{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Moto.png);
+	background-size: 55%;
+	background-repeat: no-repeat;
+}
+.CTrans.Plane{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Plane.png);
+	background-size: 70%;
+	background-repeat: no-repeat;
+}
+.CTrans.Bus{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Bus.png);
+	background-size: 70%;
+	background-repeat: no-repeat;
+}
+.CalResult{
+	position: absolute;
+	z-index: 6;
+	margin-left: 43.75%;
+	margin-top: 30.5%;
+	width: 48.96%;
+	height: 37.04%;
+	background-color: #fff;
+	border-radius: 10px;
+	color: #000;
+	font-size: 3.33rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 3.5;
+
+}
+.Team{
+	position: absolute;
+	left: 33.33%;
+	top: 80%;
+	z-index: 2;
+	width: 66.66%;
+	height: 20%;
+	font-size: 3rem;
+	color: #000;
+	text-align: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.CalResultText{
+	position: absolute;
+	margin-left: -45%;
+	
+	
+
+}
+.ArrowDown{
+	position: absolute;
+	z-index: 9;
+	margin-top: 52.5%;
+	margin-left: 93.75%;
+	width: 4.5%;
+	opacity: 0;
+	
+}
+.ArrowDown.open{
+	opacity: 1;
+	animation: a1 1s infinite ease-in;
+}
+@keyframes a1{
+	0%{margin-top: 52.5%;}
+	100%{margin-top: 53.5%;}
+}
+.view3{
+	position: absolute;
+	z-index: 15;
+	margin-top:  112%;
+	margin-left:  0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: transparent;
+
+}
+
+.bg3{
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 112%;
+}
+.Ranking{
+	position: absolute;
+	z-index: 16;
+	margin-top: 5%;
+	margin-left: 5.21%;
+	width: 89.58%;
+	padding-bottom: 45%;
+	border-radius: 20px;
+	overflow: hidden;
+	background-color: rgba(255,255,255,0.8);
+}
+.Co2Evil{
+	position: absolute;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	overflow: hidden;
+}
+.MedalsEvil{
+	position: absolute;
+	margin-left: -50%;
+	margin-top: -10%;
+	width: 50%;
+	height: 80%;
+	font-size: 2.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.EvilText{
+	position: absolute;
+	width: 50%;
+	height: 10%;
+	margin-top: 80%;
+	font-size: 6rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SuggestEvil{
+	position: absolute;
+	margin-left: 60%;
+	margin-top: 0%;
+	width: 50%;
+	height: 100%;
+	font-size: 3.33rem;
+	line-height: 2;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.MidlineEvil{
+	position: absolute;
+	left: 50%;
+	margin-top: 0%;
+	width: 0%;
+	height: 90%;
+	border-right: solid 6px #000;
+	border-radius: 3px ;
+	opacity: 0.8;
+}
+.Co2Normal{
+	position: absolute;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	overflow: hidden;
+}
+.MedalsNormal{
+	position: absolute;
+	margin-left: -50%;
+	margin-top: -10%;
+	width: 50%;
+	height: 80%;
+	font-size: 2.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.NormalText{
+	position: absolute;
+	width: 50%;
+	height: 10%;
+	margin-top: 80%;
+	font-size: 6rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SuggestNormal{
+	position: absolute;
+	margin-left: 60%;
+	margin-top: 0%;
+	width: 50%;
+	height: 100%;
+	font-size: 3.33rem;
+	line-height: 2;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.MidlineNormal{
+	position: absolute;
+	left: 50%;
+	margin-top: 0%;
+	width: 0%;
+	height: 90%;
+	border-right: solid 6px #000;
+	border-radius: 3px ;
+	opacity: 0.8;
+}
+.Co2Angel{
+	position: absolute;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	overflow: hidden;
+}
+.MedalsAngel{
+	position: absolute;
+	margin-left: -50%;
+	margin-top: -10%;
+	width: 50%;
+	height: 80%;
+	font-size: 2.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+		
+}
+.AngelText{
+	position: absolute;
+	width: 50%;
+	height: 10%;
+	margin-top: 80%;
+	font-size: 6rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SuggestAngel{
+	position: absolute;
+	margin-left: 60%;
+	margin-top: 0%;
+	width: 50%;
+	height: 100%;
+	font-size: 3.33rem;
+	line-height: 2;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.MidlineAngel{
+	position: absolute;
+	left: 50%;
+	margin-top: 0%;
+	width: 0%;
+	height: 90%;
+	border-right: solid 6px #000;
+	border-radius: 3px ;
+	opacity: 0.8;
+}
+.view4{
+	position: absolute;
+	z-index: 20;
+	margin-top:  168%;
+	margin-left:  0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: transparent;
+}
+.bg4{
+	position: absolute;
+	z-index: 15;
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 168%;
+	font-family: Gen Jyuu Gothic ;
+
+}
+
+.references{
+	position: absolute;
+	z-index: 1;
+	font-size: 5rem;
+	margin-top: 8%;
+	margin-left: 0%;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	text-shadow: 2px 3px 6px #FFFFFF22;
+	opacity: 1;
+}
+.rectangle{
+	position: absolute;
+	background-color: transparent;
+	z-index: 1;
+	margin-top: 15%;
+	margin-left: 8.44%;
+	width: 83%;
+	height: 62%;
+	border: 1px solid #D1D9E4;
+	opacity: 1;
+}
+.Part1{
+	position: absolute;
+	margin-left: 0%;
+	width: 33.3%;
+	padding-bottom: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #ACD3D2;
+}
+.BBCtable{
+	position: absolute;
+	margin-top: 30%;
+	font-size: 2rem;
+
+}
+
+
+
+.Part2{
+	position: absolute;
+	margin-left: 33.3%;
+	width: 33.3%;
+	padding-bottom: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #ACD3D2;
+}
+.TzuChi{
+	position: absolute;
+	margin-top: 30%;
+	font-size: 2rem;
+}
+
+.Part3{
+	position: absolute;
+	margin-left: 66.6%;
+	width: 33.3%;
+	padding-bottom: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #ACD3D2;
+
+}
+.EPA{
+	position: absolute;
+	margin-top: 30%;
+	font-size: 2rem;
+}
+
+@media (min-width: 1280px) and (max-width: 1500px){
+	
+	html{
+		font-size: 8px;
+	}
+	
+}
+
+@media (min-width: 960px) and (max-width: 1280px){
+	
+	html{
+		font-size: 6px;
+	}
+	
+}
+@media (min-width: 600px) and (max-width: 960px){
+	
+	
+	html{
+		font-size: 4px;
+	}
+	
+	
+}
+
+@media (min-width: 376px) and (max-width: 600px){
+	
+	
+	html{
+		font-size: 2px;
+	}
+	
+}
+
+@media (min-width: 100px) and (max-width: 375px){
+	
+	html{
+		font-size: 1px;
+	}
+		
+}
