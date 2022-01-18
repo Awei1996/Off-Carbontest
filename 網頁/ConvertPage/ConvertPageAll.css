@@ -261,7 +261,6 @@ button{
   	width: 100%;
   	z-index: 3;
 	opacity: 0.8;
-	border: 5px solid green;
 }
 
 .fog-img-first {
@@ -269,7 +268,6 @@ button{
   	background-repeat: repeat-y;
   	background-size: contain;
   	background-position: center;
-	border: 2px solid yellow;
   	animation: marquee 30s linear infinite;
 }
 
@@ -278,9 +276,7 @@ button{
   	background-repeat: repeat-y;
   	background-size: contain;
   	background-position: center;
-	border: 2px solid red;
   	animation: marquee 30s linear infinite;
-	animation-delay: 30s;
 }
 
 @keyframes marquee {
@@ -306,7 +302,6 @@ button{
 	margin-top: 0%;
 	width: 100%;
 	z-index: 4;
-	opacity: 0;
 }
 
 .P1Title{
