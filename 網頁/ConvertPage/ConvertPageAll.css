@@ -255,27 +255,25 @@ button{
 
 .fog-img {
   	position: absolute;
-  	height: 200vh;
+  	height: 300vh;
   	width: 100%;
   	z-index: 3;
 	opacity: 0.8;
 }
 
 .fog-img-first {
-  	/*background: url("../../webpng/ConvertPage/fog-1.png");
+  	background: url("../../webpng/ConvertPage/fog-1.png");
   	background-repeat: repeat-y;
   	background-size: contain;
-  	background-position: center;*/
-	background-color: red;
+  	background-position: center;
   	animation: marquee 30s linear infinite;
 }
 
 .fog-img-second {
-  	/*background: url("../../webpng/ConvertPage/fog-2.png");
+  	background: url("../../webpng/ConvertPage/fog-2.png");
   	background-repeat: repeat-y;
   	background-size: contain;
-  	background-position: center;*/
-	background-color: yellow;
+  	background-position: center;
   	animation: marquee 30s linear infinite;
 }
 
