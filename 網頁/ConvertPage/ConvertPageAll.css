@@ -256,10 +256,12 @@ button{
 
 .fog-img {
   	position: absolute;
+	margin-top: 28%;
   	height: 300vh;
   	width: 100%;
   	z-index: 3;
 	opacity: 0.8;
+	border: 5px solid green;
 }
 
 .fog-img-first {
