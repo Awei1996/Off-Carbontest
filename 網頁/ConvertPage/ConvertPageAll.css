@@ -267,6 +267,7 @@ button{
   	background-repeat: repeat-y;
   	background-size: contain;
   	background-position: center;
+	border: 2px solid yellow;
   	animation: marquee 30s linear infinite;
 }
 
@@ -275,6 +276,7 @@ button{
   	background-repeat: repeat-y;
   	background-size: contain;
   	background-position: center;
+	border: 2px solid red;
   	animation: marquee 30s linear infinite;
 	animation-delay: 30s;
 }
@@ -285,7 +287,7 @@ button{
  	}
 
   	100% {
-  	  transform: translate3d(0, -100vh, 0);
+  	  transform: translate3d(0, -200vh, 0);
   	}
 }
 
