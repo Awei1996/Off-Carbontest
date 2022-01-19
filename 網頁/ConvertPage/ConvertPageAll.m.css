@@ -322,15 +322,6 @@ button{
 	padding-bottom: 112%;
 	background-color: transparent;
 }
-.bg2{
-	position: absolute;
-	z-index: -1;
-	width: 100%;
-	margin-left: 0%;
-	margin-top: 56%;
-
-}
-
 .Selector{
 	z-index: 6;
 	position: absolute;
@@ -1301,13 +1292,6 @@ td{
 
 }
 
-.bg3{
-	position: absolute;
-	z-index: -1;
-	width: 100%;
-	margin-left: 0%;
-	margin-top: 112%;
-}
 .Ranking{
 	position: absolute;
 	z-index: 16;
@@ -1496,15 +1480,7 @@ td{
 	padding-bottom: 56%;
 	background-color: transparent;
 }
-.bg4{
-	position: absolute;
-	z-index: -1;
-	width: 100%;
-	margin-left: 0%;
-	margin-top: 168%;
-	font-family: Gen Jyuu Gothic ;
 
-}
 .bg5{
 	position: absolute;
 	z-index: -1;
