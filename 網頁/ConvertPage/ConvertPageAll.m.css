@@ -1284,6 +1284,29 @@ td{
 	overflow: hidden;
 	background-color: rgba(255,255,255,0.8);
 }
+.CalResult{
+	position: absolute;
+	z-index: 6;
+	margin-left: 0%;
+	margin-top: 0%;
+	width: 33.33%;
+	height: 100%;
+	background-color: #fff;
+	border-radius: 10px;
+	color: #000;
+	font-size: 3.33rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 3.5;
+
+}
+.CalResultText{
+	position: absolute;
+	
+	
+
+}
 .Co2Evil{
 	position: absolute;
 	z-index: 9;
