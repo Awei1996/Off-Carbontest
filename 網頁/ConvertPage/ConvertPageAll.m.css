@@ -1239,29 +1239,7 @@ td{
 	align-items: center;
 	justify-content: center;
 }
-.CalResult{
-	position: absolute;
-	z-index: 6;
-	margin-left: 43.75%;
-	margin-top: 30.5%;
-	width: 48.96%;
-	height: 37.04%;
-	background-color: #fff;
-	border-radius: 10px;
-	color: #000;
-	font-size: 3.33rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	line-height: 3.5;
 
-}
-
-.CalResultText{
-	position: absolute;
-	margin-left: -40%;
-
-}
 .ArrowDown{
 	position: absolute;
 	z-index: 9;
