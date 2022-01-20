@@ -1323,15 +1323,15 @@ td{
 }
 .Co2Evil{
 	position: absolute;
+	margin-left: 25%;
 	z-index: 9;
-	width: 100%;
+	width: 75%;
 	height: 100%;
 	border-radius: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	opacity: 0;
-	overflow: hidden;
 }
 .MedalsEvil{
 	position: absolute;
@@ -1370,15 +1370,15 @@ td{
 
 .Co2Normal{
 	position: absolute;
+	margin-left: 25%;
 	z-index: 9;
-	width: 100%;
+	width: 75%;
 	height: 100%;
 	border-radius: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	opacity: 0;
-	overflow: hidden;
 }
 .MedalsNormal{
 	position: absolute;
