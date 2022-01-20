@@ -858,7 +858,7 @@ document.getElementsByClassName('SendOut')[0].onclick = function()
 
 	TotalValue = TotalValue + DessertCreate + WaterCreate + AirConCreate + LightCreate + TransCreate;
 	var MonthTotal = TotalValue*30;
-	document.getElementById("result").innerHTML = '每天製造了 ' +'<br/>'+ TotalValue.toFixed(2) + 'Kg CO2'+'<br/>'+'每月製造了 '+'<br/>'+ MonthTotal.toFixed(2) + 'Kg CO2' ;
+	document.getElementById("result").innerHTML = '您每天製造了 ' +'<br/>'+ TotalValue.toFixed(2) + 'Kg CO2'+'<br/>'+'您每月製造了 '+'<br/>'+ MonthTotal.toFixed(2) + 'Kg CO2' ;
 	
 	
 
