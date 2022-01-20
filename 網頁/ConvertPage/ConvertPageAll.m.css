@@ -1313,7 +1313,7 @@ td{
 }
 .rightline{
 	position: absolute;
-	margin-left: -75%;
+	margin-left: -100%;
 	margin-top: 0%;
 	width: 0%;
 	height: 90%;
