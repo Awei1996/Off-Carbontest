@@ -1398,8 +1398,9 @@ td{
 }
 .Co2Angel{
 	position: absolute;
+	margin-left: 33.33%;
 	z-index: 9;
-	width: 66%;
+	width: 66.66%;
 	height: 100%;
 	border-radius: 20px;
 	display: flex;
