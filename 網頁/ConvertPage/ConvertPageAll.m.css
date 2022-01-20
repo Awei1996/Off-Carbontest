@@ -1225,23 +1225,6 @@ td{
 	background-size: 70%;
 	background-repeat: no-repeat;
 }
-.CalResult{
-	position: absolute;
-	z-index: 6;
-	margin-left: 70%;
-	margin-top: 80%;
-	width: 25%;
-	height: 25%;
-	background-color: #fff;
-	border-radius: 10px;
-	color: #000;
-	font-size: 3.33rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	line-height: 3.5;
-
-}
 .Team{
 	position: absolute;
 	left: 25%;
