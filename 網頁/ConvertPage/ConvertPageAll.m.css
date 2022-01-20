@@ -1399,7 +1399,7 @@ td{
 .Co2Angel{
 	position: absolute;
 	z-index: 9;
-	width: 100%;
+	width: 66%;
 	height: 100%;
 	border-radius: 20px;
 	display: flex;
@@ -1407,6 +1407,7 @@ td{
 	justify-content: center;
 	opacity: 0;
 	overflow: hidden;
+	border: 2px solid red;
 }
 .MedalsAngel{
 	position: absolute;
