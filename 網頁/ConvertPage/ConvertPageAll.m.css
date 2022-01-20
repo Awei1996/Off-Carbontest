@@ -1300,6 +1300,27 @@ td{
 	position: absolute;
 	text-align: center;
 }
+
+.Midline{
+	position: absolute;
+	left: 50%;
+	margin-top: 0%;
+	width: 0%;
+	height: 90%;
+	border-right: solid 5px #000;
+	border-radius: 2.5px ;
+	opacity: 0.8;
+}
+.rightline{
+	position: absolute;
+	margin-left: -50%;
+	margin-top: 0%;
+	width: 0%;
+	height: 90%;
+	border-right: solid 5px #000;
+	border-radius: 2.5px ;
+	opacity: 0.8;
+}
 .Co2Evil{
 	position: absolute;
 	z-index: 9;
@@ -1346,16 +1367,7 @@ td{
 	align-items: center;
 	justify-content: flex-start;
 }
-.MidlineEvil{
-	position: absolute;
-	left: 50%;
-	margin-top: 0%;
-	width: 0%;
-	height: 90%;
-	border-right: solid 6px #000;
-	border-radius: 3px ;
-	opacity: 0.8;
-}
+
 .Co2Normal{
 	position: absolute;
 	z-index: 9;
@@ -1402,16 +1414,7 @@ td{
 	align-items: center;
 	justify-content: flex-start;
 }
-.MidlineNormal{
-	position: absolute;
-	left: 50%;
-	margin-top: 0%;
-	width: 0%;
-	height: 90%;
-	border-right: solid 6px #000;
-	border-radius: 3px ;
-	opacity: 0.8;
-}
+
 .Co2Angel{
 	position: absolute;
 	margin-left: 25%;
@@ -1459,16 +1462,7 @@ td{
 	align-items: center;
 	justify-content: flex-start;
 }
-.MidlineAngel{
-	position: absolute;
-	left: 50%;
-	margin-top: 0%;
-	width: 0%;
-	height: 90%;
-	border-right: solid 4px #000;
-	border-radius: 2px ;
-	opacity: 0.8;
-}
+
 .view4{
 	position: absolute;
 	z-index: 20;
