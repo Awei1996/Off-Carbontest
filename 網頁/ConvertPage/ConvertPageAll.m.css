@@ -909,6 +909,8 @@ tr{
 td{
 	width: 12.5%;
 	background-color: #fff;
+	text-align: center;
+	font-size: 4.5rem;
 }
 .Img{
 	margin-left: auto;
@@ -1225,21 +1227,6 @@ td{
 	background-image: url(../../webpng/ConvertPage/Bus.png);
 	background-size: 70%;
 	background-repeat: no-repeat;
-}
-.Team{
-	position: absolute;
-	left: 25.125%;
-	top: 75.25%;
-	z-index: 2;
-	width: 74.625%;
-	height: 24.125%;
-	font-size: 4.5rem;
-	background: #fff;
-	color: #000;
-	text-align: left;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .ArrowDown{
