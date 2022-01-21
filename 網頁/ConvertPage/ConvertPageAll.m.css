@@ -1307,7 +1307,7 @@ td{
 	margin-top: 0%;
 	width: 0%;
 	height: 90%;
-	border-right: solid 5px #000;
+	border-right: solid 5px #222;
 	border-radius: 2.5px ;
 	opacity: 0.8;
 }
@@ -1317,7 +1317,7 @@ td{
 	margin-top: 0%;
 	width: 0%;
 	height: 90%;
-	border-right: solid 5px #000;
+	border-right: solid 5px #222;
 	border-radius: 2.5px ;
 	opacity: 0.8;
 }
@@ -1337,8 +1337,7 @@ td{
 	position: absolute;
 	margin-left: -50%;
 	margin-top: -10%;
-	width: 50%;
-	height: 80%;
+	width: 55%;
 	font-size: 2.5rem;
 	display: flex;
 	align-items: center;
@@ -1384,8 +1383,7 @@ td{
 	position: absolute;
 	margin-left: -50%;
 	margin-top: -10%;
-	width: 50%;
-	height: 80%;
+	width: 55%;
 	font-size: 2.5rem;
 	display: flex;
 	align-items: center;
@@ -1431,7 +1429,7 @@ td{
 	position: absolute;
 	margin-left: -50%;
 	margin-top: -10%;
-	width: 60%;
+	width: 55%;
 	font-size: 2.5rem;
 	display: flex;
 	align-items: center;
