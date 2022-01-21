@@ -1227,11 +1227,11 @@ td{
 .Team{
 	position: absolute;
 	left: 25%;
-	top: 80%;
+	top: 77.5%;
 	z-index: 2;
 	width: 75%;
 	height: 20%;
-	font-size: 4rem;
+	font-size: 4.5rem;
 	color: #000;
 	text-align: left;
 	display: flex;
