@@ -1475,6 +1475,9 @@ td{
 	font-family: Gen Jyuu Gothic ;
 
 }
+.view4 a{
+	font-size: 3rem;
+}
 .references{
 	position: absolute;
 	z-index: 1;
@@ -1512,7 +1515,7 @@ td{
 }
 .BBCtable{
 	position: absolute;
-	margin-top: 30%;
+	margin-top: 40%;
 	font-size: 4rem;
 
 }
@@ -1532,7 +1535,7 @@ td{
 }
 .TzuChi{
 	position: absolute;
-	margin-top: 30%;
+	margin-top: 40%;
 	font-size: 4rem;
 }
 
@@ -1550,7 +1553,7 @@ td{
 }
 .EPA{
 	position: absolute;
-	margin-top: 30%;
+	margin-top: 40%;
 	font-size: 4rem;
 }
 
