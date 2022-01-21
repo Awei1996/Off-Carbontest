@@ -352,7 +352,7 @@ button{
 	height: 100%;
 	background-color: #EE9933;
 	color: #fff;
-	border-radius: 5px 0 0 0 ;
+	border-radius: 10px 0 0 0 ;
 	transition: 0.5s; 
 	display: flex;
 	align-items: center;
@@ -408,7 +408,7 @@ button{
 	height: 100%;
 	background-color: #EEAA66;
 	color: #fff;
-	border-radius: 0 5px 0 0 ;
+	border-radius: 0 10px 0 0 ;
 	transition: 0.5s; 
 	display: flex;
 	align-items: center;
