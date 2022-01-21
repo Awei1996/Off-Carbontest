@@ -483,7 +483,7 @@ button{
 .Breakfast{
 	width: 100%;
 	height: 25%;
-	border: solid 1px #000;
+	border-bottom: solid 1px #000;
 	display: flex;
 	align-items: center;
 	
@@ -522,7 +522,7 @@ button{
 .Lunch{
 	width: 100%;
 	height: 45%;
-	border: solid 1px #000;
+	border-bottom: solid 1px #000;
 	display: flex;
 	align-items: center;
 
@@ -631,7 +631,7 @@ button{
 .Dinner{
 	width: 100%;
 	height: 45%;
-	border: solid 1px #000;
+	border-bottom: solid 1px #000;
 	display: flex;
 	align-items: center;
 
@@ -740,7 +740,7 @@ button{
 .Dessert{
 	width: 100%;
 	height: 25%;
-	border: solid 1px #000;
+	border-bottom: solid 1px #000;
 	display: flex;
 	align-items: center;
 
@@ -758,7 +758,7 @@ button{
 .Drink{
 	width: 100%;
 	height: 25%;
-	border: solid 1px #000;
+	border-bottom: solid 1px #000;
 	display: flex;
 	align-items: center;
 
@@ -796,7 +796,7 @@ button{
 .AirCon{
 	width: 100%;
 	height: 30%;
-	border: solid 1px #000;
+	border-bottom: solid 1px #000;
 	display: flex;
 	align-items: center;
 
@@ -814,7 +814,7 @@ button{
 .Light{
 	width: 100%;
 	height: 30%;
-	border: solid 1px #000;
+	border-bottom: solid 1px #000;
 	display: flex;
 	align-items: center;
 
@@ -850,7 +850,7 @@ button{
 .TransWay{
 	width: 100%;
 	height: 30%;
-	border: solid 1px #000;
+	border-bottom: solid 1px #000;
 	display: flex;
 	align-items: center;
 
