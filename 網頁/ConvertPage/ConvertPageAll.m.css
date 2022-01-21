@@ -1480,7 +1480,7 @@ td{
 .references{
 	position: absolute;
 	z-index: 1;
-	font-size: 5rem;
+	font-size: 6rem;
 	margin-top: 8%;
 	margin-left: 0%;
 	width: 100%;
@@ -1515,7 +1515,7 @@ td{
 .BBCtable{
 	position: absolute;
 	margin-top: 30%;
-	font-size: 2rem;
+	font-size: 4rem;
 
 }
 
@@ -1535,7 +1535,7 @@ td{
 .TzuChi{
 	position: absolute;
 	margin-top: 30%;
-	font-size: 2rem;
+	font-size: 4rem;
 }
 
 .Part3{
@@ -1553,7 +1553,7 @@ td{
 .EPA{
 	position: absolute;
 	margin-top: 30%;
-	font-size: 2rem;
+	font-size: 4rem;
 }
 
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
