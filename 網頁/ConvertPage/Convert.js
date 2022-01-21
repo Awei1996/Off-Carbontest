@@ -742,6 +742,7 @@ document.getElementsByClassName('WantToGo')[0].onclick = function() {
 
 document.getElementsByClassName('SendOut')[0].onclick = function() 
 {	
+	location.href = "#view2";
 	var DessertChoosen = document.getElementById("Sweet").value;
 
 	var DessertCreate = 0;
