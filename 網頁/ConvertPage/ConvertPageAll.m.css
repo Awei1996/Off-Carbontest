@@ -910,13 +910,13 @@ td{
 	width: 12.5%;
 	background-color: #fff;
 	text-align: center;
-	font-size: 4.5rem;
+	font-size: 3.5rem;
 }
 .Img{
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
-	height: 90%;	
+	height: 90%;
 }
 .CEgg{
 	display: flex;
