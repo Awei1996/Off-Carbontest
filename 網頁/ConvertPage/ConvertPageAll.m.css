@@ -890,7 +890,6 @@ button{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	
 }
 table{
@@ -899,8 +898,7 @@ table{
 	border: 2px solid black;
 	border-radius: 2.5%;
 	background-color: #fff;
-	
-	
+		
 }
 tr{
 	height: 25%;
