@@ -91,20 +91,15 @@
 	position: absolute;
 	margin-top: 5%;
 	font-size: 2.33rem;
-	margin-left: 12%;
-	width: 16%;
-	height: 5%;
-	text-align: left;
-	letter-spacing: 0px;
 	color: #ACD3D2;
 	opacity: 1;
+	
 }
 .inforfrom{
 	position: absolute;
 	z-index: 5;
 	font-size: 1.66rem;
 	magin-top: 25%;
-	margin-left: 2%;
 	text-align: center;
 }
 .Part2{
@@ -122,11 +117,6 @@
 	position: absolute;
 	margin-top: 20%;
 	font-size: 2.33rem;
-	margin-left: 12%;
-	width: 16%;
-	height: 5%;
-	text-align: left;
-	letter-spacing: 0px;
 	color: #ACD3D2;
 	opacity: 1;
 }
@@ -148,10 +138,6 @@
 	position: absolute;
 	margin-top: 5%;
 	font-size: 2.33rem;
-	margin-left: 60%;
-	width: 30%;
-	height: 5%;
-	text-align: left;
 	letter-spacing: 0px;
 	color: #ACD3D2;
 	opacity: 1;
@@ -162,10 +148,6 @@
 	margin-top: 5%;
 	font-size: 4.5rem;
 	margin-left: 12%;
-	width: 16%;
-	height: 5%;
-	text-align: left;
-	letter-spacing: 0px;
 	color: #ACD3D2;
 	opacity: 1;
 }
