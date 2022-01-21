@@ -858,9 +858,14 @@ document.getElementsByClassName('SendOut')[0].onclick = function()
 
 	TotalValue = TotalValue + DessertCreate + WaterCreate + AirConCreate + LightCreate + TransCreate;
 	var MonthTotal = TotalValue*30;
-	document.getElementById("result").innerHTML = '您每天製造了 ' +'<br/>'+ TotalValue.toFixed(2) + 'Kg CO2'+'<br/>'+'您每月製造了 '+'<br/>'+ MonthTotal.toFixed(2) + 'Kg CO2' ;
 	
-	
+	if(navigator.userAgent.match(/Android|iPhone/i)) {
+		document.getElementById("result").innerHTML = '您每天製造了 ' +'<br/>'+ TotalValue.toFixed(2) + 'Kg CO2'+'<br/>'+'您每月製造了 '+'<br/>'+ MonthTotal.toFixed(2) + 'Kg CO2' ;
+    
+	}
+	else{
+		document.getElementById("result").innerHTML = '您每天製造了 ' + TotalValue.toFixed(2) + 'Kg CO2'+'<br/>'+'您每月製造了 '+ MonthTotal.toFixed(2) + 'Kg CO2' ;
+	}
 
 	EggValue = 0;
 	EggControl.style.backgroundColor = "#EEEEEE";
