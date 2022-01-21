@@ -76,6 +76,17 @@
 	border: 1px solid #D1D9E4;
 	opacity: 1;
 }
+.Part1{
+	position: absolute;
+	margin-left: 0%;
+	width: 50%;
+	padding-bottom: 40%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	text-align: center;
+	color: #ACD3D2;
+}
 .CO2pro{
 	position: absolute;
 	margin-top: 5%;
@@ -95,6 +106,17 @@
 	magin-top: 25%;
 	margin-left: 2%;
 	text-align: center;
+}
+.Part1{
+	position: absolute;
+	margin-left: 50%;
+	width: 50%;
+	padding-bottom: 40%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	text-align: center;
+	color: #ACD3D2;
 }
 .CO2cause{
 	position: absolute;
