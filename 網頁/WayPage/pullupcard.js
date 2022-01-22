@@ -38,7 +38,7 @@ document.getElementsByClassName('FoodAnimation')[0].onclick = function()
 	HappyAnimationControl.style.zIndex = 5;
 	BackControl.style.opacity = 1;
 
-	location.href = "#view2";
+	location.href = "#view1";
 
 
 	
