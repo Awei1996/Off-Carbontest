@@ -582,16 +582,16 @@ button{
 	position: absolute;
 	z-index: 1;
 	margin-left: 0%;
-	margin-top: 56%;
+	margin-top: 55.95%;
 	background-color: #fff;
 }
 .FoodAnimation{
 	position: absolute;
 	z-index: 7;
-	margin-left: 23.23%;
+	margin-left: 29.93%;
 	margin-top: 10%;
-	width: 53.54%;
-	height: 36.11%;
+	width: 40.15%;
+	height: 27.09%;
 	border-radius: 5%;
 	color: transparent;
 	font-size: 8.33rem;
@@ -707,10 +707,10 @@ button{
 .LifeAnimation{
 	position: absolute;
 	z-index: 7;
-	margin-left: 36.77%;
-	margin-top: 15%;
-	width: 26.77%;
-	height: 18.06%;
+	margin-left: 29.93%;
+	margin-top: 35%;
+	width: 40.15%;
+	height: 27.09%;
 	border-radius: 5%;
 	color: transparent;
 	background-color: #F78700;
@@ -814,10 +814,10 @@ button{
 .HappyAnimation{
 	position: absolute;
 	z-index: 7;
-	margin-left: 67.34%;
-	margin-top: 15%;
-	width: 26.77%;
-	height: 18.06%;
+	margin-left: 29.93%;
+	margin-top: 60%;
+	width: 40.15%;
+	height: 27.09%;
 	border-radius: 5%;
 	color: transparent;
 	background-color: #B2CE65;
