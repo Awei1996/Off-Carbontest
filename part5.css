@@ -145,26 +145,15 @@
 }
 .CO2pro-Mobile{
 	position: absolute;
-	margin-top: 5%;
+	margin-top: 10%;
 	font-size: 6rem;
 	margin-left: 12%;
 	color: #ACD3D2;
 	opacity: 1;
 }
-
-.CO2cause-Mobile{
-	position: absolute;
-	margin-top: 30%;
-	font-size: 6rem;
-	text-align: center;
-	letter-spacing: 0px;
-	color: #ACD3D2;
-	opacity: 1;
-}
-	
 .CO2role-Mobile{
 	position: absolute;
-	margin-top: 5%;
+	margin-top: 10%;
 	font-size: 6rem;
 	text-align: center;
 	letter-spacing: 0px;
@@ -172,6 +161,16 @@
 	opacity: 1;
 	
 }
+.CO2cause-Mobile{
+	position: absolute;
+	margin-top: 40%;
+	font-size: 6rem;
+	text-align: center;
+	letter-spacing: 0px;
+	color: #ACD3D2;
+	opacity: 1;
+}
+	
 @media screen and (min-device-width: 375px) and (max-device-width: 600px){
 	
 	.view5{
