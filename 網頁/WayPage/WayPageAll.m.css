@@ -593,12 +593,11 @@ button{
 	width: 0%;
 	height: 0%;
 	align-items: center;
-
 	
 }
 .FAVideo.open{
 	
-	margin-top: 0%;
+	margin-top: -50%;
 	width: 83.33%;
 	height: 20.84%;
 	border-radius: 5%;
