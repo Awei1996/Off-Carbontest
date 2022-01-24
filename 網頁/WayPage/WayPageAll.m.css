@@ -597,13 +597,12 @@ button{
 	
 }
 .FAVideo.open{
-	margin-left: -45%;
+	
 	margin-top: 0%;
 	width: 83.33%;
 	height: 20.84%;
 	border-radius: 5%;
 	
-
 }
 .FAText{
 	position: absolute;
