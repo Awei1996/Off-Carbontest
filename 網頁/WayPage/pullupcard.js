@@ -1,7 +1,6 @@
 var FoodAnimationControl = document.getElementsByClassName('FoodAnimation')[0];
 var LifeAnimationControl = document.getElementsByClassName('LifeAnimation')[0];
 var HappyAnimationControl = document.getElementsByClassName('HappyAnimation')[0];
-var VideoTitleControl = document.getElementsByClassName('VideoTitle')[0];
 var BackControl = document.getElementsByClassName('Back')[0];
 
 
@@ -30,7 +29,6 @@ document.getElementsByClassName('FoodAnimation')[0].onclick = function()
 	FATitleControl.classList.add('open'); 	 
 	FAVideoControl.classList.add('open');
 	FATextControl.classList.add('open');
-	VideoTitleControl.classList.add('open');
 	FoodVideoTitleControl.classList.add('open');
 	view2Control.classList.add('open');
 
@@ -50,7 +48,6 @@ document.getElementsByClassName('Back')[0].onclick = function() {
 		FATitleControl.classList.remove('open'); 	 
 		FAVideoControl.classList.remove('open');
 		FATextControl.classList.remove('open');
-		VideoTitleControl.classList.add('open');
 		FoodVideoTitleControl.classList.remove('open');
 	
 		LifeAnimationControl.classList.remove('open');
@@ -63,7 +60,6 @@ document.getElementsByClassName('Back')[0].onclick = function() {
 		HATitleControl.classList.remove('open'); 	 
 		HAVideoControl.classList.remove('open');
 		HATextControl.classList.remove('open');
-		VideoTitleControl.classList.remove('open');
 		HappyVideoTitleControl.classList.remove('open');
 	
 		view2Control.classList.remove('open');
@@ -89,7 +85,6 @@ document.getElementsByClassName('LifeAnimation')[0].onclick = function()
 	LifeAnimationControl.classList.add('open');
 	LATitleControl.classList.add('open'); 	 
 	LAVideoControl.classList.add('open');
-	VideoTitleControl.classList.add('open');
 	LATextControl.classList.add('open');
 	LifeVideoTitleControl.classList.add('open');
 
