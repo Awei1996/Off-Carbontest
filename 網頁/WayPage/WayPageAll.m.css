@@ -1077,22 +1077,4 @@ button{
 	html{
 		font-size: 1px;
 	}
-	.FoodAnimation.open{
-		position: fixed;
-		margin-left: 0%;
-		margin-top: -56%;
-		width: 100%;
-		height: 100%;
-		background-color: rgba(12,97,123,0);
-
-	}
-	.FAVideo.open{
-		margin-left: -45%;
-		margin-top: 0%;
-		width: 41.67%;
-		height: 13.89%;
-		border-radius: 5%;
-		border: solid 2px red;
-
-	}
 }
