@@ -522,13 +522,13 @@ button{
 	background-color: #0C617B;
 	display: flex;
 	align-items: center;
-	justify-content: center;	
-	transition: 1s;
-
+	justify-content: center;
 
 }
 .FoodAnimation:hover{
-box-shadow: 2px 2px #fff;
+	box-shadow: 5px 5px rgba(200,200,200,0.6);
+	margin-left: 5.8%;
+	margin-top: 14.8%;
 
 
 }
