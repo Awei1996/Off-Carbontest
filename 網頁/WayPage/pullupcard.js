@@ -112,7 +112,5 @@ document.getElementsByClassName('HATitle')[0].onclick = function()
 	location.href = "#AnimationBasic";
 
 
-
-  
 };
 
