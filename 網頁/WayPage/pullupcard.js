@@ -36,7 +36,7 @@ document.getElementsByClassName('FATitle')[0].onclick = function()
 	HappyAnimationControl.style.zIndex = 5;
 	BackControl.style.opacity = 1;
 
-	location.href = "#view1";
+	location.href = "#AnimationBasic";
 
 
 	
@@ -93,7 +93,7 @@ document.getElementsByClassName('LifeTitle')[0].onclick = function()
 	HappyAnimationControl.style.zIndex = 5;
 	BackControl.style.opacity = 1;
 
-
+	location.href = "#AnimationBasic";
 
 
 
@@ -121,7 +121,7 @@ document.getElementsByClassName('HappyTitle')[0].onclick = function()
 	FoodAnimationControl.style.zIndex = 5;
 	BackControl.style.opacity = 1;
 
-
+	location.href = "#AnimationBasic";
 
 
 
