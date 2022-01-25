@@ -78,16 +78,11 @@ document.getElementsByClassName('Back')[0].onclick = function() {
 document.getElementsByClassName('LATitle')[0].onclick = function() 
 {	
 	
-
-
-
-
 	LifeAnimationControl.classList.add('open');
 	LATitleControl.classList.add('open'); 	 
 	LAVideoControl.classList.add('open');
 	LATextControl.classList.add('open');
 	LifeVideoTitleControl.classList.add('open');
-
 
 	FoodAnimationControl.style.zIndex = 5;
 	HappyAnimationControl.style.zIndex = 5;
@@ -95,9 +90,6 @@ document.getElementsByClassName('LATitle')[0].onclick = function()
 
 	location.href = "#AnimationBasic";
 
-
-
-  
 };
 
 document.getElementsByClassName('HATitle')[0].onclick = function() 
@@ -107,15 +99,11 @@ document.getElementsByClassName('HATitle')[0].onclick = function()
 	var HATitleControl = document.getElementsByClassName('HATitle')[0];
 	var HappyVideoTitleControl = document.getElementsByClassName('Happy')[0];
 
-
-
-
 	HappyAnimationControl.classList.add('open');
 	HATitleControl.classList.add('open'); 	 
 	HAVideoControl.classList.add('open');
 	HATextControl.classList.add('open');
 	HappyVideoTitleControl.classList.add('open');
-
 
 	LifeAnimationControl.style.zIndex = 5;
 	FoodAnimationControl.style.zIndex = 5;
