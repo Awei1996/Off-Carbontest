@@ -22,7 +22,7 @@ var view2Control = document.getElementsByClassName('view2')[0];
 
 
 
-document.getElementsByClassName('FoodAnimation')[0].onclick = function() 
+document.getElementsByClassName('FATitle')[0].onclick = function() 
 {	
 	
 	FoodAnimationControl.classList.add('open');
