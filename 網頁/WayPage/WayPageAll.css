@@ -782,7 +782,6 @@ button{
 	justify-content: center;
 	transition: 1s;
 
-
 }
 .HATitle.open{
 	width: 100%;
@@ -820,7 +819,6 @@ button{
 	height: 0%;
 	align-items: center;
 
-	
 }
 .HAVideo.open{
 	margin-left: -45%;
@@ -840,7 +838,9 @@ button{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
 }
+
 .HAText.open{
 	margin-left: 50%;
 	margin-top: 0%;
@@ -850,6 +850,7 @@ button{
 	color: #ffffff;
 	line-height: 2;
 }
+
 .view3{
 	position: absolute;
 	z-index: 6;
@@ -859,12 +860,14 @@ button{
 	padding-bottom: 56%;
 	overflow: hidden;
 }
+
 .bg3{
 	position: absolute;
 	z-index: 5;
 	margin-left: 0%;
 	margin-top: 112%;
 }
+
 .references{
 	position: absolute;
 	z-index: 1;
@@ -878,6 +881,7 @@ button{
 	text-shadow: 2px 3px 6px #FFFFFF22;
 	opacity: 1;
 }
+
 .rectangle{
 	position: absolute;
 	background-color: transparent;
