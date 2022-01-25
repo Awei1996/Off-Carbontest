@@ -75,7 +75,7 @@ document.getElementsByClassName('Back')[0].onclick = function() {
 
 
 
-document.getElementsByClassName('LifeTitle')[0].onclick = function() 
+document.getElementsByClassName('LATitle')[0].onclick = function() 
 {	
 	
 
@@ -100,7 +100,7 @@ document.getElementsByClassName('LifeTitle')[0].onclick = function()
   
 };
 
-document.getElementsByClassName('HappyTitle')[0].onclick = function() 
+document.getElementsByClassName('HATitle')[0].onclick = function() 
 {	
 	var HAVideoControl = document.getElementsByClassName('HAVideo')[0];
 	var HATextControl = document.getElementsByClassName('HAText')[0];
