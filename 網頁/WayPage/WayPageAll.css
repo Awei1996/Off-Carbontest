@@ -216,32 +216,11 @@ iframe{
 	justify-content: center;
 }
 
-/*
-.Torch {
-	position: absolute;
-	z-index: 1;
-	left: 1560px;
-	top: 273px;
-	opacity: 0.25;
-  	width: 0px;
-  	height: 15px;
-  	border-radius: 15px 0 0 15px;
-	border-right: 800px solid #FFDE6D;
-	border-top: 20px solid transparent;
-	border-image: linear-gradient(90deg, #FFDE6D 10%, transparent 95%);
-
-  	transform-origin: left;
-  	animation: rotate 12s infinite linear;
-  	display: flex;
-  	justify-content: flex-end;
-}
-*/
-
 .Torch {
 	position: absolute;
 	z-index: 1;
 	margin-left: 81.25%;
-	margin-top: 12.5%;
+	margin-top: 11.6%;
 	opacity: 0.25;
   	width: 41.67%;
   	height: 2.5%;
@@ -253,25 +232,7 @@ iframe{
   	display: flex;
   	justify-content: flex-end;
 }
-/*.Torch  origin{
-	position: absolute;
-	z-index: 1;
-	left: 1560px;
-	top: 160px;
-	opacity: 0.25;
-  	width: 0px;
-  	height: 15px;
-  	border-radius: 15px 0 0 15px;
-	border-right: 1920px solid #FFDE6D;
-	border-top: 115px solid transparent;
-	border-bottom: 115px solid transparent;
 
-  	transform-origin: left;
-  	animation: rotate 12s infinite linear;
-  	display: flex;
-  	justify-content: flex-end;
-}
-*/
 @keyframes rotate {
   	0% {
    		transform: perspective(800px) rotateY(-360deg);
@@ -298,31 +259,11 @@ iframe{
   	}
 }
 
-/*.Torch2 {
-	position: absolute;
-	z-index: 1;
-	left: 1560px;
-	top: 160px;
-	opacity: 0.25;
-  	width: 0px;
-  	height: 15px;
-  	border-radius: 15px 0 0 15px;
-	border-right: 1920px solid #FFDE6D;
-	border-top: 115px solid transparent;
-	border-bottom: 115px solid transparent;
-
-  	transform-origin: left;
-  	animation: rotate2 12s infinite linear;
-  	display: flex;
-  	justify-content: flex-end;
-}
-*/
-
 .Torch2 {
 	position: absolute;
 	z-index: 1;
 	margin-left: 81.25%;
-	margin-top: 12.5%;
+	margin-top: 11.6%;
 	opacity: 0.25;
   	width: 41.67%;
   	height: 2.5%;
