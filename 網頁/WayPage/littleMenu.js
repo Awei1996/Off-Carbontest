@@ -26,7 +26,7 @@ function MenuShow(){
 	}
 	else{
 		
-		
+	
 			mybutton.style.display = "none";
 			AllCrossControl.style.display = "none";
 			BtnControl.classList.remove('open');
