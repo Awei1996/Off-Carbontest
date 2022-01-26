@@ -60,6 +60,7 @@ iframe{
   
 	transition: background-color 200ms,transform 1s; 
 	
+	
 }
 
 .myBtn.open{
@@ -93,6 +94,7 @@ iframe{
 	color: #CE7E24;
 	-webkit-text-size-adjust:none;
 	
+	
 }
 .MenuBtn:hover{
 	color: #184557;
@@ -111,6 +113,7 @@ iframe{
 	margin-top: 2%;
 	border-radius: 50%;
 	opacity: 0;
+	
 	
 }
 .Cross1{
