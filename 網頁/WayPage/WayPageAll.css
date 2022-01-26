@@ -1112,6 +1112,7 @@ button{
 	}
 	.myBtn {
   	
+  	
 		margin-top: 4%; /* Place the button at the bottom of the page */
 		margin-left: 90%; /* Place the button 30px from the right */
 		width: 8%;
@@ -1169,16 +1170,16 @@ button{
 		
 	}
 	.MenuBtn{
-		font-size: 14rem;
+		font-size: 26rem;
 	}
 	.Ab{
-		font-size: 12rem;
+		font-size: 24rem;
 	}
 	.l-earth{
 		position: absolute;
 		top: 40%;
 		width: 20%;
-		}
+	}
 	.l-word {
 		position: absolute;
 		top: 55%;
