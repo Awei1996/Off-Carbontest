@@ -518,7 +518,6 @@ button{
 	height: 36.11%;
 	border-radius: 5%;
 	color: transparent;
-	box-shadow: 5px 5px rgba(200,200,200,0);
 	font-size: 8.33rem;
 	background-color: #0C617B;
 	display: flex;
@@ -650,6 +649,13 @@ button{
 
 
 }
+.LifeAnimation:hover{
+	box-shadow: 5px 5px rgba(200,200,200,0.3);
+	margin-left: 36.74%;
+	margin-top: 14.8%;
+
+
+}
 .LifeAnimation.open{
 	margin-left: 0%;
 	margin-top: 0%;
@@ -757,7 +763,13 @@ button{
 
 
 }
+.HappyAnimation:hover{
+	box-shadow: 5px 5px rgba(200,200,200,0.3);
+	margin-left: 67.31%;
+	margin-top: 14.8%;
 
+
+}
 .HappyAnimation.open{
 	margin-left: 0%;
 	margin-top: 0%;
