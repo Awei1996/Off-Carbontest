@@ -780,6 +780,9 @@ button{
 	padding-bottom: 56%;
 	overflow: hidden;
 }
+.view3 a{
+	font-size: 3.5rem;
+}
 .bg3{
 	position: absolute;
 	z-index: 5;
@@ -789,7 +792,7 @@ button{
 .references{
 	position: absolute;
 	z-index: 1;
-	font-size: 5rem;
+	font-size: 6rem;
 	margin-top: 8%;
 	margin-left: 0%;
 	width: 100%;
@@ -823,8 +826,8 @@ button{
 }
 .UnderSky{
 	position: absolute;
-	margin-top: 35%;
-	font-size: 2rem;
+	margin-top: 50%;
+	font-size: 4rem;
 
 }
 
@@ -841,8 +844,8 @@ button{
 }
 .FutureLab{
 	position: absolute;
-	margin-top: 40%;
-	font-size: 2rem;
+	margin-top: 50%;
+	font-size: 4rem;
 }
 
 .Part3{
@@ -859,8 +862,8 @@ button{
 }
 .HEHO{
 	position: absolute;
-	margin-top: 40%;
-	font-size: 2rem;
+	margin-top: 50%;
+	font-size: 4rem;
 }
 
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
