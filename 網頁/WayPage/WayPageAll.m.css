@@ -781,7 +781,7 @@ button{
 	overflow: hidden;
 }
 .view3 a{
-	font-size: 2.8rem;
+	font-size: 2rem;
 }
 .bg3{
 	position: absolute;
@@ -827,7 +827,7 @@ button{
 .UnderSky{
 	position: absolute;
 	margin-top: 10%;
-	font-size: 3.5rem;
+	font-size: 3.2rem;
 
 }
 
@@ -845,7 +845,7 @@ button{
 .FutureLab{
 	position: absolute;
 	margin-top: 10%;
-	font-size: 3.5rem;
+	font-size: 3.2rem;
 }
 
 .Part3{
@@ -863,7 +863,7 @@ button{
 .HEHO{
 	position: absolute;
 	margin-top: 10%;
-	font-size: 3.5rem;
+	font-size: 3.2rem;
 }
 
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
