@@ -819,7 +819,7 @@ button{
 	width: 33.3%;
 	padding-bottom: 40%;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	text-align: center;
 	color: #ACD3D2;
@@ -837,7 +837,7 @@ button{
 	width: 33.3%;
 	padding-bottom: 40%;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	text-align: center;
 	color: #ACD3D2;
@@ -854,7 +854,7 @@ button{
 	width: 33.3%;
 	padding-bottom: 40%;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	text-align: center;
 	color: #ACD3D2;
