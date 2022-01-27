@@ -827,7 +827,7 @@ button{
 .UnderSky{
 	position: absolute;
 	margin-top: 50%;
-	font-size: 4rem;
+	font-size: 3.5rem;
 
 }
 
@@ -845,7 +845,7 @@ button{
 .FutureLab{
 	position: absolute;
 	margin-top: 50%;
-	font-size: 4rem;
+	font-size: 3.5rem;
 }
 
 .Part3{
@@ -863,7 +863,7 @@ button{
 .HEHO{
 	position: absolute;
 	margin-top: 50%;
-	font-size: 4rem;
+	font-size: 3.5rem;
 }
 
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
