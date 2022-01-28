@@ -18,9 +18,18 @@ body{
     padding: 0;
     display: block;
     width: 100%;
-    height: 200%;
+    height: 100%;
 
 
+}
+.allpg{
+	position: absolute;
+	z-index: 1;
+	font-family: Gen Jyuu Gothic ;
+	font-weight: normal;
+	width: 100%;
+	padding-bottom: 224%;
+	overflow: hidden;
 }
 .myBtn {
   	
