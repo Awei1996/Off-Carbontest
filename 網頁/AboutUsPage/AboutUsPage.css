@@ -541,6 +541,9 @@ button{
 	html{
 		font-size: 6px;
 	}
+	.allpg{
+		padding-bottom: 224%;
+	}
 	.myBtn {
   	
 		margin-top: 4%; /* Place the button at the bottom of the page */
@@ -623,6 +626,9 @@ button{
 	
 	html{
 		font-size: 5px;
+	}
+	.allpg{
+		padding-bottom: 224%;
 	}
 	
 	.myBtn {
