@@ -9,28 +9,6 @@
 	<link href="MonitorPage.css" rel="stylesheet" type="text/css">
 	
 	<script src="jquery-1.8.3.min.js"></script>
-	
-	<script>
-		AOS.init({
-			easing:'ease-in-out-sine'
-		});
-	
-	</script>
-
-	<script>
-		$(function(){
-			$('#dowebok').fullpage({
-				afterLoad(_, index) {
-					if (index === 1) {
-					  return
-					}
-
-					const $section = $('.section').eq(index - 1)
-					$section.find('[data-aos]').addClass('aos-animate')
-			  	},
-			});
-		});
-	</script>
 
 </head>
 
