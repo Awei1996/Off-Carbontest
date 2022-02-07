@@ -619,6 +619,9 @@ button{
 		text-align: center;
 
 	}
+	.P1Content{
+		font-size: 3rem;
+	}
 	
 }
 
@@ -707,5 +710,8 @@ button{
 		letter-spacing: 12px;
 		text-align: center;
 
+	}
+	.P1Content{
+		font-size: 3rem;
 	}
 }
