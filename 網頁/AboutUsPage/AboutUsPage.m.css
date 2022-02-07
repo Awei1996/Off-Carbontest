@@ -619,23 +619,7 @@ button{
 		text-align: center;
 
 	}
-	.P1Title{
-		margin-left: 20.04%;
-		margin-top: 27.5%;
-	}
-	.P1MidLine{
-		margin-left: 37.75%;
-		margin-top: 35.75%;
-	}
-	.P1Content{
-		margin-left: 40.35%;
-		margin-top: 34%;
-		width: 42.25%;
-		height: 55.56%;
-		font-size: 2.8rem;
-		color: #001820;	
-		line-height: 1.2;
-	}
+	
 	
 }
 
@@ -725,21 +709,5 @@ button{
 		text-align: center;
 
 	}
-	.P1Title{
-		margin-left: 20.04%;
-		margin-top: 27.5%;
-	}
-	.P1MidLine{
-		margin-left: 37.75%;
-		margin-top: 35.75%;
-	}
-	.P1Content{
-		margin-left: 40.35%;
-		margin-top: 34%;
-		width: 42.25%;
-		height: 55.56%;
-		font-size: 2.6rem;
-		color: #001820;	
-		line-height: 1.2;
-	}
+	
 }
