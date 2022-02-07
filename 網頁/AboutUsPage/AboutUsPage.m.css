@@ -289,7 +289,7 @@ button{
 .TMLine{
 	position: absolute;
 	z-index: 5;
-	margin-top: 10.5%;
+	margin-top: 20.5%;
 	height: 2.5%;
 	width: 20.83%;
 	background-color: #005934;
@@ -299,7 +299,7 @@ button{
 	position: absolute;
 	z-index: 1;
 	margin-left: 35%;
-	margin-top: 15%;
+	margin-top: 25%;
 	width: 26.04%;
 	height: 30%;
 	display: flex;
@@ -345,7 +345,7 @@ button{
 	position: absolute;
 	z-index: 1;
 	margin-left: 13.54%;
-	margin-top: 33%;
+	margin-top: 43;
 	width: 13.03%;
 	height: 40.3%;
 	display: flex;
@@ -387,7 +387,7 @@ button{
 	position: absolute;
 	z-index: 1;
 	margin-left: 33.33%;
-	margin-top: 33%;
+	margin-top: 43%;
 	width: 13.03%;
 	height: 40.3%;
 	display: flex;
@@ -428,7 +428,7 @@ button{
 	position: absolute;
 	z-index: 1;
 	margin-left: 53.13%;
-	margin-top: 33%;
+	margin-top: 43%;
 	width: 13.03%;
 	height: 40.3%;
 	display: flex;
@@ -470,7 +470,7 @@ button{
 	position: absolute;
 	z-index: 1;
 	margin-left: 72.92%;
-	margin-top: 33%;
+	margin-top: 43%;
 	width: 13.03%;
 	height: 40.3%;
 	display: flex;
