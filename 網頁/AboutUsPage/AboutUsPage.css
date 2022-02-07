@@ -539,7 +539,7 @@ button{
 	
 	
 	html{
-		font-size: 6px;
+		font-size: 7px;
 	}
 	.allpg{
 		padding-bottom: 224%;
@@ -625,7 +625,7 @@ button{
 @media (min-device-width: 100px) and (max-device-width: 375px){
 	
 	html{
-		font-size: 5px;
+		font-size: 6px;
 	}
 	.allpg{
 		padding-bottom: 224%;
