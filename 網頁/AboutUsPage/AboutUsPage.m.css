@@ -239,9 +239,9 @@ button{
 .P1MidLine{
 	position: absolute;
 	margin-left: 40.75%;
-	margin-top: 32.5%;
+	margin-top: 33%;
 	width: 0.6%;
-	height: 51.85%;
+	height: 56.85%;
 	background-color: #004A5F;
 	border-radius: 5px;
 }
@@ -343,7 +343,7 @@ button{
 .Wei{
 	position: absolute;
 	z-index: 1;
-	margin-left: 12.04%;
+	margin-left: 13.54%;
 	margin-top: 48%;
 	width: 13.03%;
 	height: 40.3%;
@@ -385,7 +385,7 @@ button{
 .Guan{
 	position: absolute;
 	z-index: 1;
-	margin-left: 32.83%;
+	margin-left: 33.33%;
 	margin-top: 48%;
 	width: 13.03%;
 	height: 40.3%;
@@ -426,7 +426,7 @@ button{
 .Chang{
 	position: absolute;
 	z-index: 1;
-	margin-left: 53.63%;
+	margin-left: 53.13%;
 	margin-top: 48%;
 	width: 13.03%;
 	height: 40.3%;
@@ -468,7 +468,7 @@ button{
 .Tseng{
 	position: absolute;
 	z-index: 1;
-	margin-left: 74.42%;
+	margin-left: 72.92%;
 	margin-top: 48%;
 	width: 13.03%;
 	height: 40.3%;
