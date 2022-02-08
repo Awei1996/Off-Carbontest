@@ -378,7 +378,7 @@ button{
 	margin-top: 125%;
 	font-size: 3.2rem;
 	color: #00627E;
-	font-weight: 500;
+	font-weight: normal;
 }
 
 .Guan{
@@ -421,7 +421,7 @@ button{
 	margin-top: 125%;
 	font-size: 3.2rem;
 	color: #00627E;
-	font-weight: 500;
+	font-weight: normal;
 }
 .Chang{
 	position: absolute;
@@ -464,7 +464,7 @@ button{
 	font-size: 3.2rem;
 	color: #00627E;
 	text-align: center;
-	font-weight: 500;
+	font-weight: normal;
 }
 .Tseng{
 	position: absolute;
@@ -507,7 +507,7 @@ button{
 	font-size: 3.2rem;
 	color: #00627E;
 	text-align: center;
-	font-weight: 500;
+	font-weight: normal;
 }
 
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
