@@ -709,8 +709,12 @@ button{
 		text-align: center;
 
 	}
+	.P1Title{
+		font-size: 12rem;
+	}
 	.P1Content{
 		margin-top: 32.5%;
+		font-size: 3.5rem;
 	}
 	
 }
