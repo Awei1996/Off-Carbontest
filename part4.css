@@ -338,18 +338,17 @@
 	height: 100%;
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
+	backface-visibility: hidden;
   	cursor: pointer;
 	
 }
-#gascardPC {
-	
-	
-}
+
 #gascardMobile {
 	width: 100%;
 	height: 100%;
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
+	backface-visibility: hidden;
   	cursor: pointer;
 	
 }
@@ -495,15 +494,13 @@
 .textcardsun-Mobile:hover{
 	-webkit-filter:brightness(1.2);
 }
-#suncardPC {
-	
-	
-}
+
 #suncardMobile {
 	width: 100%;
 	height: 100%;
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
+	backface-visibility: hidden;
   	cursor: pointer;
 	
 }
@@ -651,15 +648,13 @@
 	-webkit-filter:brightness(1.2);
 }
 
-#oilcardPC {
-	
-	
-}
+
 #oilcardMobile {
 	width: 100%;
 	height: 100%;
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
+	backface-visibility: hidden;
   	cursor: pointer;
 	
 }
@@ -816,14 +811,13 @@
 	-webkit-filter:brightness(1.2);
 }
 
-#lifecardPC{
-	
-}
+
 #lifecardMobile{
 	width: 100%;
 	height: 100%;
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
+	backface-visibility: hidden;
   	cursor: pointer;
 }
 .lifefront, .lifeback {
