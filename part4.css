@@ -257,7 +257,7 @@
 	font-family: Gen Jyuu Gothic;
 	font-weight: bold;
 	z-index: 5;
-	font-size: 9rem;
+	font-size: 9.66rem;
 	background-color: transparent;
 	outline: none;
 	margin-left: 0%;
@@ -338,7 +338,6 @@
 	height: 100%;
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
-	
   	cursor: pointer;
 	
 }
@@ -348,7 +347,6 @@
 	height: 100%;
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
-	
   	cursor: pointer;
 	
 }
@@ -363,7 +361,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
+	backface-visibility: hidden;
   	background-color: rgba(172,211,210,0.95);
 	overflow: hidden;
 	
@@ -381,7 +379,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
+	backface-visibility: hidden;
   	background-color: rgba(172,211,210,0.95);
 	overflow: hidden;
 	
@@ -433,7 +431,7 @@
 	font-family: Gen Jyuu Gothic;
 	font-weight: bold;
 	z-index: 5;
-	font-size: 9rem;
+	font-size: 9.66rem;
 	background-color: transparent;
 	outline: none;
 	margin-left: 25%;
@@ -494,13 +492,15 @@
 .textcardsun-Mobile:hover{
 	-webkit-filter:brightness(1.2);
 }
-
+#suncardPC {
+	
+	
+}
 #suncardMobile {
 	width: 100%;
 	height: 100%;
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
-	
   	cursor: pointer;
 	
 }
@@ -515,7 +515,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
+	backface-visibility: hidden;
   	background-color: rgba(172,211,210,0.95);
 	overflow: hidden;
 
@@ -530,7 +530,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
+	backface-visibility: hidden;
   	background-color: rgba(172,211,210,0.95);
 	overflow: hidden;
 
@@ -586,7 +586,7 @@
 	font-family: Gen Jyuu Gothic;
 	font-weight: bold;
 	z-index: 5;
-	font-size: 9rem;
+	font-size: 9.66rem;
 	background-color: transparent;
 	outline: none;
 	margin-left: 50%;
@@ -648,13 +648,15 @@
 	-webkit-filter:brightness(1.2);
 }
 
-
+#oilcardPC {
+	
+	
+}
 #oilcardMobile {
 	width: 100%;
 	height: 100%;
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
-	
   	cursor: pointer;
 	
 }
@@ -668,7 +670,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
+	backface-visibility: hidden;
   	background-color: rgba(172,211,210,0.95);
 	overflow: hidden;
 
@@ -683,7 +685,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
+	backface-visibility: hidden;
   	background-color: rgba(172,211,210,0.95);
 	overflow: hidden;
 
@@ -749,7 +751,7 @@
 	font-family: Gen Jyuu Gothic;
 	font-weight: bold;
 	z-index: 5;
-	font-size: 9rem;
+	font-size: 9.66rem;
 	background-color: transparent;
 	outline: none;
 	margin-left: 75%;
@@ -811,13 +813,14 @@
 	-webkit-filter:brightness(1.2);
 }
 
-
+#lifecardPC{
+	
+}
 #lifecardMobile{
 	width: 100%;
 	height: 100%;
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
-	
   	cursor: pointer;
 }
 .lifefront, .lifeback {
@@ -830,7 +833,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
+	backface-visibility: hidden;
   	background-color: rgba(172,211,210,0.95);
 	overflow: hidden;
 
@@ -845,7 +848,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
+	backface-visibility: hidden;
   	background-color: rgba(172,211,210,0.95);
 	overflow: hidden;
 
