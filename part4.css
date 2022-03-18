@@ -339,6 +339,7 @@
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
   	cursor: pointer;
+	opacity: 1;
 	
 }
 
@@ -348,6 +349,7 @@
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
   	cursor: pointer;
+	opacity: 1;
 	
 }
 
@@ -502,6 +504,7 @@
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
   	cursor: pointer;
+	opacity: 1;
 	
 }
 
@@ -658,6 +661,7 @@
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
   	cursor: pointer;
+	opacity: 1;
 	
 }
 .oilfront, .oilback {
@@ -822,6 +826,7 @@
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
   	cursor: pointer;
+	opacity: 1;
 }
 .lifefront, .lifeback {
 	position: absolute;
